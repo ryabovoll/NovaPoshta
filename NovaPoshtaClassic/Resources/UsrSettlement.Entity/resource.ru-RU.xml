@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Resources Culture="ru-RU">
+	<Group Type="String">
+		<Items>
+			<Item Name="Caption" Value="Населений пункт" />
+			<Item Name="Columns.UsrArea.Caption" Value="Area" />
+			<Item Name="Columns.UsrAreaDescription.Caption" Value="AreaDescription" />
+			<Item Name="Columns.UsrAreaDescriptionRu.Caption" Value="AreaDescriptionRu" />
+			<Item Name="Columns.UsrAreaDescriptionTranslit.Caption" Value="AreaDescriptionTranslit" />
+			<Item Name="Columns.UsrDelivery1.Caption" Value="Delivery1" />
+			<Item Name="Columns.UsrDelivery2.Caption" Value="Delivery2" />
+			<Item Name="Columns.UsrDelivery3.Caption" Value="Delivery3" />
+			<Item Name="Columns.UsrDelivery4.Caption" Value="Delivery4" />
+			<Item Name="Columns.UsrDelivery5.Caption" Value="Delivery5" />
+			<Item Name="Columns.UsrDelivery6.Caption" Value="Delivery6" />
+			<Item Name="Columns.UsrDelivery7.Caption" Value="Delivery7" />
+			<Item Name="Columns.UsrDescription.Caption" Value="Description" />
+			<Item Name="Columns.UsrDescriptionRu.Caption" Value="DescriptionRu" />
+			<Item Name="Columns.UsrDescriptionTranslit.Caption" Value="DescriptionTranslit" />
+			<Item Name="Columns.UsrIndex1.Caption" Value="Index1" />
+			<Item Name="Columns.UsrIndex2.Caption" Value="Index2" />
+			<Item Name="Columns.UsrIndexCOATSU1.Caption" Value="IndexCOATSU1" />
+			<Item Name="Columns.UsrLatitude.Caption" Value="Latitude" />
+			<Item Name="Columns.UsrLongitude.Caption" Value="Longitude" />
+			<Item Name="Columns.UsrRef.Caption" Value="Ref" />
+			<Item Name="Columns.UsrRegion.Caption" Value="Region" />
+			<Item Name="Columns.UsrRegionsDescription.Caption" Value="RegionsDescription" />
+			<Item Name="Columns.UsrRegionsDescriptionRu.Caption" Value="RegionsDescriptionRu" />
+			<Item Name="Columns.UsrRegionsDescriptionTranslit.Caption" Value="RegionsDescriptionTranslit" />
+			<Item Name="Columns.UsrSettlementType.Caption" Value="SettlementType" />
+			<Item Name="Columns.UsrSettlementTypeDescription.Caption" Value="SettlementTypeDescription" />
+			<Item Name="Columns.UsrSettlementTypeDescriptionRu.Caption" Value="SettlementTypeDescriptionRu" />
+			<Item Name="Columns.UsrSettlementTypeDescriptionTranslit.Caption" Value="SettlementTypeDescriptionTranslit" />
+			<Item Name="Columns.UsrSpecialCashCheck.Caption" Value="SpecialCashCheck" />
+			<Item Name="Columns.UsrWarehouse.Caption" Value="Warehouse" />
+		</Items>
+	</Group>
+</Resources>

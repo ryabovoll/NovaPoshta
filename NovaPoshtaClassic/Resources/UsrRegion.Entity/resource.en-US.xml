@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Resources Culture="en-US">
+	<Group Type="String">
+		<Items>
+			<Item Name="Caption" Value="Область Новой Почты" />
+			<Item Name="Columns.UsrAreasCenter.Caption" Value="AreasCenter" />
+			<Item Name="Columns.UsrDescription.Caption" Value="Description" />
+			<Item Name="Columns.UsrRef.Caption" Value="Ref" />
+			<Item Name="Columns.UsrRegionType.Caption" Value="RegionType" />
+		</Items>
+	</Group>
+</Resources>

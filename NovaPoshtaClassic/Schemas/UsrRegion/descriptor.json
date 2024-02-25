@@ -1,0 +1,14 @@
+﻿{
+  "Descriptor": {
+    "UId": "b392c971-2e1b-45f3-8131-310e3a76f0cf",
+    "Name": "UsrRegion",
+    "ModifiedOnUtc": "\/Date(1708805040000)\/",
+    "Parent": {
+      "UId": "11ab4bcb-9b23-4b6d-9c86-520fae925d75",
+      "Name": "BaseLookup"
+    },
+    "ManagerName": "EntitySchemaManager",
+    "Caption": "Область Новой Почты",
+    "DependsOn": []
+  }
+}

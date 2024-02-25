@@ -1,0 +1,10 @@
+﻿{
+  "Descriptor": {
+    "UId": "9ea1b50e-c476-4e5d-8480-cd66d4ea6dce",
+    "Name": "UsrProcess_4406fd2",
+    "ModifiedOnUtc": "\/Date(1708881876000)\/",
+    "ManagerName": "ProcessSchemaManager",
+    "Caption": "Наполнить справочник \"Відділення\" Новой Почты",
+    "DependsOn": []
+  }
+}

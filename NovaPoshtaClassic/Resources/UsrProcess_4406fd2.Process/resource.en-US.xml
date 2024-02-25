@@ -1,0 +1,121 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Resources Culture="en-US">
+	<Group Type="String">
+		<Items>
+			<Item Name="BaseElements.AddDataUserTask1.Caption" Value="Добавляем отделение " />
+			<Item Name="BaseElements.AddDataUserTask1.Parameters.ConsiderTimeInFilter.Caption" Value="Consider time in the filter" />
+			<Item Name="BaseElements.AddDataUserTask1.Parameters.ConsiderTimeInFilter.DisplayValue" Value="true" />
+			<Item Name="BaseElements.AddDataUserTask1.Parameters.DataSourceFilters.Caption" Value="Data source filters" />
+			<Item Name="BaseElements.AddDataUserTask1.Parameters.EntitySchemaId.Caption" Value="Object" />
+			<Item Name="BaseElements.AddDataUserTask1.Parameters.FilterEntitySchemaId.Caption" Value="Object" />
+			<Item Name="BaseElements.AddDataUserTask1.Parameters.RecordAddMode.Caption" Value="Record adding mode" />
+			<Item Name="BaseElements.AddDataUserTask1.Parameters.RecordDefValues.Caption" Value="Set column values" />
+			<Item Name="BaseElements.AddDataUserTask1.Parameters.RecordId.Caption" Value="Created record Id" />
+			<Item Name="BaseElements.ConditionalSequenceFlow3.Caption" Value="не поштомат" />
+			<Item Name="BaseElements.FormulaTask2.Caption" Value="Ddepartment" />
+			<Item Name="BaseElements.ReadDataUserTask1.Parameters.AggregationColumnName.Caption" Value="Name of aggregate function column" />
+			<Item Name="BaseElements.ReadDataUserTask1.Parameters.CanReadUncommitedData.Caption" Value="Read uncommitted data" />
+			<Item Name="BaseElements.ReadDataUserTask1.Parameters.ConsiderTimeInFilter.Caption" Value="Consider time in the filter" />
+			<Item Name="BaseElements.ReadDataUserTask1.Parameters.ConsiderTimeInFilter.DisplayValue" Value="true" />
+			<Item Name="BaseElements.ReadDataUserTask1.Parameters.DataSourceFilters.Caption" Value="Data source of filters" />
+			<Item Name="BaseElements.ReadDataUserTask1.Parameters.EntityColumnMetaPathes.Caption" Value="Columns to read" />
+			<Item Name="BaseElements.ReadDataUserTask1.Parameters.FunctionType.Caption" Value="Aggregate function type" />
+			<Item Name="BaseElements.ReadDataUserTask1.Parameters.IgnoreDisplayValues.Caption" Value="Do not read displayed values of lookup columns" />
+			<Item Name="BaseElements.ReadDataUserTask1.Parameters.NumberOfRecords.Caption" Value="Number of records to read" />
+			<Item Name="BaseElements.ReadDataUserTask1.Parameters.OrderInfo.Caption" Value="Columns order" />
+			<Item Name="BaseElements.ReadDataUserTask1.Parameters.ReadSomeTopRecords.Caption" Value="Read first" />
+			<Item Name="BaseElements.ReadDataUserTask1.Parameters.ResultCompositeObjectList.Caption" Value="Collection of records" />
+			<Item Name="BaseElements.ReadDataUserTask1.Parameters.ResultCount.Caption" Value="Number of records" />
+			<Item Name="BaseElements.ReadDataUserTask1.Parameters.ResultDateTimeFunction.Caption" Value="Function result (Date/Time)" />
+			<Item Name="BaseElements.ReadDataUserTask1.Parameters.ResultEntity.Caption" Value="First item of resulting collection" />
+			<Item Name="BaseElements.ReadDataUserTask1.Parameters.ResultEntityCollection.Caption" Value="Resulting collection" />
+			<Item Name="BaseElements.ReadDataUserTask1.Parameters.ResultFloatFunction.Caption" Value="Function result (Decimal)" />
+			<Item Name="BaseElements.ReadDataUserTask1.Parameters.ResultIntegerFunction.Caption" Value="Function result (Integer)" />
+			<Item Name="BaseElements.ReadDataUserTask1.Parameters.ResultRowsCount.Caption" Value="Number of records read" />
+			<Item Name="BaseElements.ReadDataUserTask1.Parameters.ResultType.Caption" Value="Type of result" />
+			<Item Name="Caption" Value="Наполнить справочник &quot;Відділення&quot; Новой Почты" />
+			<Item Name="LaneSets.LaneSet1.Caption" Value="LaneSet 1" />
+			<Item Name="LaneSets.LaneSet1.Lanes.Lane1.Caption" Value="Lane 1" />
+			<Item Name="NotificationCaption.Caption" Value="Заголовок экземпляра процесса" />
+			<Item Name="NotificationCaption.DisplayValue" Value="[#Название процесса#]" />
+			<Item Name="Parameters.ProcessSchemaParameter1.Caption" Value="Ddepartment" />
+			<Item Name="Parameters.ProcessSchemaParameter10.Caption" Value="Ref" />
+			<Item Name="Parameters.ProcessSchemaParameter11.Caption" Value="Number" />
+			<Item Name="Parameters.ProcessSchemaParameter12.Caption" Value="CityRef" />
+			<Item Name="Parameters.ProcessSchemaParameter13.Caption" Value="CityDescription" />
+			<Item Name="Parameters.ProcessSchemaParameter14.Caption" Value="CityDescriptionRu" />
+			<Item Name="Parameters.ProcessSchemaParameter15.Caption" Value="SettlementRef" />
+			<Item Name="Parameters.ProcessSchemaParameter16.Caption" Value="SettlementDescription" />
+			<Item Name="Parameters.ProcessSchemaParameter17.Caption" Value="SettlementAreaDescription" />
+			<Item Name="Parameters.ProcessSchemaParameter18.Caption" Value="SettlementRegionsDescription" />
+			<Item Name="Parameters.ProcessSchemaParameter19.Caption" Value="SettlementTypeDescription" />
+			<Item Name="Parameters.ProcessSchemaParameter2.Caption" Value="Postomat" />
+			<Item Name="Parameters.ProcessSchemaParameter20.Caption" Value="SettlementTypeDescriptionRu" />
+			<Item Name="Parameters.ProcessSchemaParameter21.Caption" Value="Longitude" />
+			<Item Name="Parameters.ProcessSchemaParameter22.Caption" Value="Latitude" />
+			<Item Name="Parameters.ProcessSchemaParameter23.Caption" Value="PostFinance" />
+			<Item Name="Parameters.ProcessSchemaParameter24.Caption" Value="BicycleParking" />
+			<Item Name="Parameters.ProcessSchemaParameter25.Caption" Value="PaymentAccess" />
+			<Item Name="Parameters.ProcessSchemaParameter26.Caption" Value="POSTerminal" />
+			<Item Name="Parameters.ProcessSchemaParameter27.Caption" Value="InternationalShipping" />
+			<Item Name="Parameters.ProcessSchemaParameter28.Caption" Value="SelfServiceWorkplacesCount" />
+			<Item Name="Parameters.ProcessSchemaParameter29.Caption" Value="TotalMaxWeightAllowed" />
+			<Item Name="Parameters.ProcessSchemaParameter3.Caption" Value="SiteKey" />
+			<Item Name="Parameters.ProcessSchemaParameter30.Caption" Value="PlaceMaxWeightAllowed" />
+			<Item Name="Parameters.ProcessSchemaParameter31.Caption" Value="SendingLimitationsOnDimensions Width" />
+			<Item Name="Parameters.ProcessSchemaParameter32.Caption" Value="SendingLimitationsOnDimensions Height" />
+			<Item Name="Parameters.ProcessSchemaParameter33.Caption" Value="SendingLimitationsOnDimensions Length" />
+			<Item Name="Parameters.ProcessSchemaParameter34.Caption" Value="ReceivingLimitationsOnDimensions Width" />
+			<Item Name="Parameters.ProcessSchemaParameter35.Caption" Value="ReceivingLimitationsOnDimensions Height" />
+			<Item Name="Parameters.ProcessSchemaParameter36.Caption" Value="ReceivingLimitationsOnDimensions Length" />
+			<Item Name="Parameters.ProcessSchemaParameter37.Caption" Value="Reception Monday" />
+			<Item Name="Parameters.ProcessSchemaParameter38.Caption" Value="Reception Tuesday" />
+			<Item Name="Parameters.ProcessSchemaParameter39.Caption" Value="Reception Wednesday" />
+			<Item Name="Parameters.ProcessSchemaParameter4.Caption" Value="Description" />
+			<Item Name="Parameters.ProcessSchemaParameter40.Caption" Value="Reception Thursday" />
+			<Item Name="Parameters.ProcessSchemaParameter41.Caption" Value="Reception Friday" />
+			<Item Name="Parameters.ProcessSchemaParameter42.Caption" Value="Reception Saturday" />
+			<Item Name="Parameters.ProcessSchemaParameter43.Caption" Value="Reception Sunday" />
+			<Item Name="Parameters.ProcessSchemaParameter44.Caption" Value="Delivery Monday" />
+			<Item Name="Parameters.ProcessSchemaParameter45.Caption" Value="Delivery Tuesday" />
+			<Item Name="Parameters.ProcessSchemaParameter46.Caption" Value="Delivery Wednesday" />
+			<Item Name="Parameters.ProcessSchemaParameter47.Caption" Value="Delivery Thursday" />
+			<Item Name="Parameters.ProcessSchemaParameter48.Caption" Value="Delivery Friday" />
+			<Item Name="Parameters.ProcessSchemaParameter49.Caption" Value="Delivery Saturday" />
+			<Item Name="Parameters.ProcessSchemaParameter5.Caption" Value="DescriptionRu" />
+			<Item Name="Parameters.ProcessSchemaParameter50.Caption" Value="Delivery Sunday" />
+			<Item Name="Parameters.ProcessSchemaParameter51.Caption" Value="Schedule Monday" />
+			<Item Name="Parameters.ProcessSchemaParameter52.Caption" Value="Schedule Tuesday" />
+			<Item Name="Parameters.ProcessSchemaParameter53.Caption" Value="Schedule Wednesday" />
+			<Item Name="Parameters.ProcessSchemaParameter54.Caption" Value="Schedule Thursday" />
+			<Item Name="Parameters.ProcessSchemaParameter55.Caption" Value="Schedule Friday" />
+			<Item Name="Parameters.ProcessSchemaParameter56.Caption" Value="Schedule Saturday" />
+			<Item Name="Parameters.ProcessSchemaParameter57.Caption" Value="Schedule Sunday" />
+			<Item Name="Parameters.ProcessSchemaParameter58.Caption" Value="DistrictCode" />
+			<Item Name="Parameters.ProcessSchemaParameter59.Caption" Value="WarehouseStatus" />
+			<Item Name="Parameters.ProcessSchemaParameter6.Caption" Value="ShortAddress" />
+			<Item Name="Parameters.ProcessSchemaParameter60.Caption" Value="WarehouseStatusDate" />
+			<Item Name="Parameters.ProcessSchemaParameter61.Caption" Value="WarehouseIllusha" />
+			<Item Name="Parameters.ProcessSchemaParameter62.Caption" Value="CategoryOfWarehouse" />
+			<Item Name="Parameters.ProcessSchemaParameter63.Caption" Value="Direct" />
+			<Item Name="Parameters.ProcessSchemaParameter64.Caption" Value="RegionCity" />
+			<Item Name="Parameters.ProcessSchemaParameter65.Caption" Value="WarehouseForAgent" />
+			<Item Name="Parameters.ProcessSchemaParameter66.Caption" Value="GeneratorEnabled" />
+			<Item Name="Parameters.ProcessSchemaParameter67.Caption" Value="MaxDeclaredCost" />
+			<Item Name="Parameters.ProcessSchemaParameter68.Caption" Value="WorkInMobileAwis" />
+			<Item Name="Parameters.ProcessSchemaParameter69.Caption" Value="DenyToSelect" />
+			<Item Name="Parameters.ProcessSchemaParameter7.Caption" Value="ShortAddressRu" />
+			<Item Name="Parameters.ProcessSchemaParameter70.Caption" Value="CanGetMoneyTransfer" />
+			<Item Name="Parameters.ProcessSchemaParameter71.Caption" Value="HasMirror" />
+			<Item Name="Parameters.ProcessSchemaParameter72.Caption" Value="HasFittingRoom" />
+			<Item Name="Parameters.ProcessSchemaParameter73.Caption" Value="OnlyReceivingParcel" />
+			<Item Name="Parameters.ProcessSchemaParameter74.Caption" Value="PostMachineType" />
+			<Item Name="Parameters.ProcessSchemaParameter75.Caption" Value="PostalCodeUA" />
+			<Item Name="Parameters.ProcessSchemaParameter76.Caption" Value="WarehouseIndex" />
+			<Item Name="Parameters.ProcessSchemaParameter77.Caption" Value="BeaconCode" />
+			<Item Name="Parameters.ProcessSchemaParameter78.Caption" Value="PostomatFor" />
+			<Item Name="Parameters.ProcessSchemaParameter8.Caption" Value="Phone" />
+			<Item Name="Parameters.ProcessSchemaParameter9.Caption" Value="TypeOfWarehouse" />
+		</Items>
+	</Group>
+</Resources>

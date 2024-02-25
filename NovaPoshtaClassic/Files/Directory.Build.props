@@ -1,3 +1,13 @@
 <Project>
-	<ItemGroup Label="Entity Files" Condition="'$(PkgPath)' != ''"></ItemGroup>
+	<ItemGroup Label="Entity Files" Condition="'$(PkgPath)' != ''">
+		<Compile Include="$(PkgPath)/NovaPoshtaClassic/Schemas/UsrNovaPoshtaDepartureInTag/UsrNovaPoshtaDepartureInTag.cs" Condition="Exists('$(PkgPath)/NovaPoshtaClassic/Schemas/UsrNovaPoshtaDepartureInTag/UsrNovaPoshtaDepartureInTag.cs')" />
+		<Compile Include="$(PkgPath)/NovaPoshtaClassic/Schemas/UsrNovaPoshtaDepartureFile/UsrNovaPoshtaDepartureFile.cs" Condition="Exists('$(PkgPath)/NovaPoshtaClassic/Schemas/UsrNovaPoshtaDepartureFile/UsrNovaPoshtaDepartureFile.cs')" />
+		<Compile Include="$(PkgPath)/NovaPoshtaClassic/Schemas/UsrDepartment/UsrDepartment.cs" Condition="Exists('$(PkgPath)/NovaPoshtaClassic/Schemas/UsrDepartment/UsrDepartment.cs')" />
+		<Compile Include="$(PkgPath)/NovaPoshtaClassic/Schemas/UsrNovaPoshtaDepartureTag/UsrNovaPoshtaDepartureTag.cs" Condition="Exists('$(PkgPath)/NovaPoshtaClassic/Schemas/UsrNovaPoshtaDepartureTag/UsrNovaPoshtaDepartureTag.cs')" />
+		<Compile Include="$(PkgPath)/NovaPoshtaClassic/Schemas/UsrNovaPoshtaDepartureFolder/UsrNovaPoshtaDepartureFolder.cs" Condition="Exists('$(PkgPath)/NovaPoshtaClassic/Schemas/UsrNovaPoshtaDepartureFolder/UsrNovaPoshtaDepartureFolder.cs')" />
+		<Compile Include="$(PkgPath)/NovaPoshtaClassic/Schemas/UsrNovaPoshtaDepartureInFolder/UsrNovaPoshtaDepartureInFolder.cs" Condition="Exists('$(PkgPath)/NovaPoshtaClassic/Schemas/UsrNovaPoshtaDepartureInFolder/UsrNovaPoshtaDepartureInFolder.cs')" />
+		<Compile Include="$(PkgPath)/NovaPoshtaClassic/Schemas/UsrSettlement/UsrSettlement.cs" Condition="Exists('$(PkgPath)/NovaPoshtaClassic/Schemas/UsrSettlement/UsrSettlement.cs')" />
+		<Compile Include="$(PkgPath)/NovaPoshtaClassic/Schemas/UsrRegion/UsrRegion.cs" Condition="Exists('$(PkgPath)/NovaPoshtaClassic/Schemas/UsrRegion/UsrRegion.cs')" />
+		<Compile Include="$(PkgPath)/NovaPoshtaClassic/Schemas/UsrNovaPoshtaDeparture/UsrNovaPoshtaDeparture.cs" Condition="Exists('$(PkgPath)/NovaPoshtaClassic/Schemas/UsrNovaPoshtaDeparture/UsrNovaPoshtaDeparture.cs')" />
+	</ItemGroup>
 </Project>

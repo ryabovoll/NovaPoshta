@@ -1,0 +1,161 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Resources Culture="ru-RU">
+	<Group Type="String">
+		<Items>
+			<Item Name="Caption" Value="https://api.novaposhta.ua" />
+			<Item Name="ServiceMethods.UsrGetSettlementAreas.Caption" Value="Список областей України" />
+			<Item Name="ServiceMethods.UsrGetSettlementAreas.Request.Parameters.UsrAKey.Caption" Value="ApiKey" />
+			<Item Name="ServiceMethods.UsrGetSettlementAreas.Request.Parameters.UsrCMethod.Caption" Value="CalledMethod" />
+			<Item Name="ServiceMethods.UsrGetSettlementAreas.Request.Parameters.UsrMName.Caption" Value="ModelName" />
+			<Item Name="ServiceMethods.UsrGetSettlementAreas.Response.Parameters.UsrData.Caption" Value="Data" />
+			<Item Name="ServiceMethods.UsrGetSettlementAreas.Response.Parameters.UsrData.ItemProperties.UsrDACenter.Caption" Value="AreasCenter" />
+			<Item Name="ServiceMethods.UsrGetSettlementAreas.Response.Parameters.UsrData.ItemProperties.UsrDDescription.Caption" Value="Description" />
+			<Item Name="ServiceMethods.UsrGetSettlementAreas.Response.Parameters.UsrData.ItemProperties.UsrDRef.Caption" Value="Ref" />
+			<Item Name="ServiceMethods.UsrGetSettlementAreas.Response.Parameters.UsrData.ItemProperties.UsrDRType.Caption" Value="RegionType" />
+			<Item Name="ServiceMethods.UsrGetSettlementAreas.Response.Parameters.UsrECodes.Caption" Value="ErrorCodes" />
+			<Item Name="ServiceMethods.UsrGetSettlementAreas.Response.Parameters.UsrErrors.Caption" Value="Errors" />
+			<Item Name="ServiceMethods.UsrGetSettlementAreas.Response.Parameters.UsrICodes.Caption" Value="InfoCodes" />
+			<Item Name="ServiceMethods.UsrGetSettlementAreas.Response.Parameters.UsrInfo.Caption" Value="Info" />
+			<Item Name="ServiceMethods.UsrGetSettlementAreas.Response.Parameters.UsrMCodes.Caption" Value="MessageCodes" />
+			<Item Name="ServiceMethods.UsrGetSettlementAreas.Response.Parameters.UsrSuccess.Caption" Value="Success" />
+			<Item Name="ServiceMethods.UsrGetSettlementAreas.Response.Parameters.UsrWarnings.Caption" Value="Warnings" />
+			<Item Name="ServiceMethods.UsrGetSettlementAreas.Response.Parameters.UsrWCodes.Caption" Value="WarningCodes" />
+			<Item Name="ServiceMethods.UsrGetSettlements.Caption" Value="Список населенных пунктов по областям с отделениями НП" />
+			<Item Name="ServiceMethods.UsrGetSettlements.Request.Parameters.UsrAKey.Caption" Value="ApiKey" />
+			<Item Name="ServiceMethods.UsrGetSettlements.Request.Parameters.UsrCMethod.Caption" Value="CalledMethod" />
+			<Item Name="ServiceMethods.UsrGetSettlements.Request.Parameters.UsrMName.Caption" Value="ModelName" />
+			<Item Name="ServiceMethods.UsrGetSettlements.Request.Parameters.UsrMPARef.Caption" Value="MethodProperties AreaRef" />
+			<Item Name="ServiceMethods.UsrGetSettlements.Request.Parameters.UsrMPPage.Caption" Value="MethodProperties Page" />
+			<Item Name="ServiceMethods.UsrGetSettlements.Request.Parameters.UsrMPWarehouse.Caption" Value="MethodProperties Warehouse" />
+			<Item Name="ServiceMethods.UsrGetSettlements.Response.Parameters.UsrData.Caption" Value="Data" />
+			<Item Name="ServiceMethods.UsrGetSettlements.Response.Parameters.UsrData.ItemProperties.UsrDADescription.Caption" Value="AreaDescription" />
+			<Item Name="ServiceMethods.UsrGetSettlements.Response.Parameters.UsrData.ItemProperties.UsrDADRu.Caption" Value="AreaDescriptionRu" />
+			<Item Name="ServiceMethods.UsrGetSettlements.Response.Parameters.UsrData.ItemProperties.UsrDADTranslit.Caption" Value="AreaDescriptionTranslit" />
+			<Item Name="ServiceMethods.UsrGetSettlements.Response.Parameters.UsrData.ItemProperties.UsrDArea.Caption" Value="Area" />
+			<Item Name="ServiceMethods.UsrGetSettlements.Response.Parameters.UsrData.ItemProperties.UsrDDelivery.Caption" Value="Delivery1" />
+			<Item Name="ServiceMethods.UsrGetSettlements.Response.Parameters.UsrData.ItemProperties.UsrDDelivery1.Caption" Value="Delivery2" />
+			<Item Name="ServiceMethods.UsrGetSettlements.Response.Parameters.UsrData.ItemProperties.UsrDDelivery2.Caption" Value="Delivery3" />
+			<Item Name="ServiceMethods.UsrGetSettlements.Response.Parameters.UsrData.ItemProperties.UsrDDelivery3.Caption" Value="Delivery4" />
+			<Item Name="ServiceMethods.UsrGetSettlements.Response.Parameters.UsrData.ItemProperties.UsrDDelivery4.Caption" Value="Delivery5" />
+			<Item Name="ServiceMethods.UsrGetSettlements.Response.Parameters.UsrData.ItemProperties.UsrDDelivery5.Caption" Value="Delivery6" />
+			<Item Name="ServiceMethods.UsrGetSettlements.Response.Parameters.UsrData.ItemProperties.UsrDDelivery6.Caption" Value="Delivery7" />
+			<Item Name="ServiceMethods.UsrGetSettlements.Response.Parameters.UsrData.ItemProperties.UsrDDescription.Caption" Value="Description" />
+			<Item Name="ServiceMethods.UsrGetSettlements.Response.Parameters.UsrData.ItemProperties.UsrDDRu.Caption" Value="DescriptionRu" />
+			<Item Name="ServiceMethods.UsrGetSettlements.Response.Parameters.UsrData.ItemProperties.UsrDDTranslit.Caption" Value="DescriptionTranslit" />
+			<Item Name="ServiceMethods.UsrGetSettlements.Response.Parameters.UsrData.ItemProperties.UsrDIndex.Caption" Value="Index1" />
+			<Item Name="ServiceMethods.UsrGetSettlements.Response.Parameters.UsrData.ItemProperties.UsrDIndex1.Caption" Value="Index2" />
+			<Item Name="ServiceMethods.UsrGetSettlements.Response.Parameters.UsrData.ItemProperties.UsrDIndex2.Caption" Value="IndexCOATSU1" />
+			<Item Name="ServiceMethods.UsrGetSettlements.Response.Parameters.UsrData.ItemProperties.UsrDLatitude.Caption" Value="Latitude" />
+			<Item Name="ServiceMethods.UsrGetSettlements.Response.Parameters.UsrData.ItemProperties.UsrDLongitude.Caption" Value="Longitude" />
+			<Item Name="ServiceMethods.UsrGetSettlements.Response.Parameters.UsrData.ItemProperties.UsrDRDescription.Caption" Value="RegionsDescription" />
+			<Item Name="ServiceMethods.UsrGetSettlements.Response.Parameters.UsrData.ItemProperties.UsrDRDRu.Caption" Value="RegionsDescriptionRu" />
+			<Item Name="ServiceMethods.UsrGetSettlements.Response.Parameters.UsrData.ItemProperties.UsrDRDTranslit.Caption" Value="RegionsDescriptionTranslit" />
+			<Item Name="ServiceMethods.UsrGetSettlements.Response.Parameters.UsrData.ItemProperties.UsrDRef.Caption" Value="Ref" />
+			<Item Name="ServiceMethods.UsrGetSettlements.Response.Parameters.UsrData.ItemProperties.UsrDRegion.Caption" Value="Region" />
+			<Item Name="ServiceMethods.UsrGetSettlements.Response.Parameters.UsrData.ItemProperties.UsrDSCCheck.Caption" Value="SpecialCashCheck" />
+			<Item Name="ServiceMethods.UsrGetSettlements.Response.Parameters.UsrData.ItemProperties.UsrDSTDescription.Caption" Value="SettlementTypeDescription" />
+			<Item Name="ServiceMethods.UsrGetSettlements.Response.Parameters.UsrData.ItemProperties.UsrDSTDRu.Caption" Value="SettlementTypeDescriptionRu" />
+			<Item Name="ServiceMethods.UsrGetSettlements.Response.Parameters.UsrData.ItemProperties.UsrDSTDTranslit.Caption" Value="SettlementTypeDescriptionTranslit" />
+			<Item Name="ServiceMethods.UsrGetSettlements.Response.Parameters.UsrData.ItemProperties.UsrDSType.Caption" Value="SettlementType" />
+			<Item Name="ServiceMethods.UsrGetSettlements.Response.Parameters.UsrData.ItemProperties.UsrDWarehouse.Caption" Value="Warehouse" />
+			<Item Name="ServiceMethods.UsrGetSettlements.Response.Parameters.UsrECodes.Caption" Value="ErrorCodes" />
+			<Item Name="ServiceMethods.UsrGetSettlements.Response.Parameters.UsrErrors.Caption" Value="Errors" />
+			<Item Name="ServiceMethods.UsrGetSettlements.Response.Parameters.UsrICodes.Caption" Value="InfoCodes" />
+			<Item Name="ServiceMethods.UsrGetSettlements.Response.Parameters.UsrITCount.Caption" Value="Info TotalCount" />
+			<Item Name="ServiceMethods.UsrGetSettlements.Response.Parameters.UsrMCodes.Caption" Value="MessageCodes" />
+			<Item Name="ServiceMethods.UsrGetSettlements.Response.Parameters.UsrSuccess.Caption" Value="Success" />
+			<Item Name="ServiceMethods.UsrGetSettlements.Response.Parameters.UsrWarnings.Caption" Value="Warnings" />
+			<Item Name="ServiceMethods.UsrGetSettlements.Response.Parameters.UsrWCodes.Caption" Value="WarningCodes" />
+			<Item Name="ServiceMethods.UsrGetWarehouses.Caption" Value="Список отделений" />
+			<Item Name="ServiceMethods.UsrGetWarehouses.Request.Parameters.UsrAKey.Caption" Value="ApiKey" />
+			<Item Name="ServiceMethods.UsrGetWarehouses.Request.Parameters.UsrCMethod.Caption" Value="CalledMethod" />
+			<Item Name="ServiceMethods.UsrGetWarehouses.Request.Parameters.UsrMName.Caption" Value="ModelName" />
+			<Item Name="ServiceMethods.UsrGetWarehouses.Request.Parameters.UsrMPSRef.Caption" Value="MethodProperties SettlementRef" />
+			<Item Name="ServiceMethods.UsrGetWarehouses.Response.Parameters.UsrData.Caption" Value="Data" />
+			<Item Name="ServiceMethods.UsrGetWarehouses.Response.Parameters.UsrData.ItemProperties.UsrDBCode.Caption" Value="BeaconCode" />
+			<Item Name="ServiceMethods.UsrGetWarehouses.Response.Parameters.UsrData.ItemProperties.UsrDBParking.Caption" Value="BicycleParking" />
+			<Item Name="ServiceMethods.UsrGetWarehouses.Response.Parameters.UsrData.ItemProperties.UsrDCDescription.Caption" Value="CityDescription" />
+			<Item Name="ServiceMethods.UsrGetWarehouses.Response.Parameters.UsrData.ItemProperties.UsrDCDRu.Caption" Value="CityDescriptionRu" />
+			<Item Name="ServiceMethods.UsrGetWarehouses.Response.Parameters.UsrData.ItemProperties.UsrDCGMTransfer.Caption" Value="CanGetMoneyTransfer" />
+			<Item Name="ServiceMethods.UsrGetWarehouses.Response.Parameters.UsrData.ItemProperties.UsrDCOWarehouse.Caption" Value="CategoryOfWarehouse" />
+			<Item Name="ServiceMethods.UsrGetWarehouses.Response.Parameters.UsrData.ItemProperties.UsrDCRef.Caption" Value="CityRef" />
+			<Item Name="ServiceMethods.UsrGetWarehouses.Response.Parameters.UsrData.ItemProperties.UsrDDCode.Caption" Value="DistrictCode" />
+			<Item Name="ServiceMethods.UsrGetWarehouses.Response.Parameters.UsrData.ItemProperties.UsrDDescription.Caption" Value="Description" />
+			<Item Name="ServiceMethods.UsrGetWarehouses.Response.Parameters.UsrData.ItemProperties.UsrDDirect.Caption" Value="Direct" />
+			<Item Name="ServiceMethods.UsrGetWarehouses.Response.Parameters.UsrData.ItemProperties.UsrDDRu.Caption" Value="DescriptionRu" />
+			<Item Name="ServiceMethods.UsrGetWarehouses.Response.Parameters.UsrData.ItemProperties.UsrDDTSelect.Caption" Value="DenyToSelect" />
+			<Item Name="ServiceMethods.UsrGetWarehouses.Response.Parameters.UsrData.ItemProperties.UsrDFriday.Caption" Value="Delivery Friday" />
+			<Item Name="ServiceMethods.UsrGetWarehouses.Response.Parameters.UsrData.ItemProperties.UsrDGEnabled.Caption" Value="GeneratorEnabled" />
+			<Item Name="ServiceMethods.UsrGetWarehouses.Response.Parameters.UsrData.ItemProperties.UsrDHFRoom.Caption" Value="HasFittingRoom" />
+			<Item Name="ServiceMethods.UsrGetWarehouses.Response.Parameters.UsrData.ItemProperties.UsrDHMirror.Caption" Value="HasMirror" />
+			<Item Name="ServiceMethods.UsrGetWarehouses.Response.Parameters.UsrData.ItemProperties.UsrDIShipping.Caption" Value="InternationalShipping" />
+			<Item Name="ServiceMethods.UsrGetWarehouses.Response.Parameters.UsrData.ItemProperties.UsrDLatitude.Caption" Value="Latitude" />
+			<Item Name="ServiceMethods.UsrGetWarehouses.Response.Parameters.UsrData.ItemProperties.UsrDLongitude.Caption" Value="Longitude" />
+			<Item Name="ServiceMethods.UsrGetWarehouses.Response.Parameters.UsrData.ItemProperties.UsrDMDCost.Caption" Value="MaxDeclaredCost" />
+			<Item Name="ServiceMethods.UsrGetWarehouses.Response.Parameters.UsrData.ItemProperties.UsrDMonday.Caption" Value="Delivery Monday" />
+			<Item Name="ServiceMethods.UsrGetWarehouses.Response.Parameters.UsrData.ItemProperties.UsrDNumber.Caption" Value="Number" />
+			<Item Name="ServiceMethods.UsrGetWarehouses.Response.Parameters.UsrData.ItemProperties.UsrDORParcel.Caption" Value="OnlyReceivingParcel" />
+			<Item Name="ServiceMethods.UsrGetWarehouses.Response.Parameters.UsrData.ItemProperties.UsrDPAccess.Caption" Value="PaymentAccess" />
+			<Item Name="ServiceMethods.UsrGetWarehouses.Response.Parameters.UsrData.ItemProperties.UsrDPCode.Caption" Value="PostalCodeUA" />
+			<Item Name="ServiceMethods.UsrGetWarehouses.Response.Parameters.UsrData.ItemProperties.UsrDPFinance.Caption" Value="PostFinance" />
+			<Item Name="ServiceMethods.UsrGetWarehouses.Response.Parameters.UsrData.ItemProperties.UsrDPFor.Caption" Value="PostomatFor" />
+			<Item Name="ServiceMethods.UsrGetWarehouses.Response.Parameters.UsrData.ItemProperties.UsrDPhone.Caption" Value="Phone" />
+			<Item Name="ServiceMethods.UsrGetWarehouses.Response.Parameters.UsrData.ItemProperties.UsrDPMType.Caption" Value="PostMachineType" />
+			<Item Name="ServiceMethods.UsrGetWarehouses.Response.Parameters.UsrData.ItemProperties.UsrDPMWAllowed.Caption" Value="PlaceMaxWeightAllowed" />
+			<Item Name="ServiceMethods.UsrGetWarehouses.Response.Parameters.UsrData.ItemProperties.UsrDRCity.Caption" Value="RegionCity" />
+			<Item Name="ServiceMethods.UsrGetWarehouses.Response.Parameters.UsrData.ItemProperties.UsrDRef.Caption" Value="Ref" />
+			<Item Name="ServiceMethods.UsrGetWarehouses.Response.Parameters.UsrData.ItemProperties.UsrDSAddress.Caption" Value="ShortAddress" />
+			<Item Name="ServiceMethods.UsrGetWarehouses.Response.Parameters.UsrData.ItemProperties.UsrDSADescription.Caption" Value="SettlementAreaDescription" />
+			<Item Name="ServiceMethods.UsrGetWarehouses.Response.Parameters.UsrData.ItemProperties.UsrDSARu.Caption" Value="ShortAddressRu" />
+			<Item Name="ServiceMethods.UsrGetWarehouses.Response.Parameters.UsrData.ItemProperties.UsrDSaturday.Caption" Value="Delivery Saturday" />
+			<Item Name="ServiceMethods.UsrGetWarehouses.Response.Parameters.UsrData.ItemProperties.UsrDSDescription.Caption" Value="SettlementDescription" />
+			<Item Name="ServiceMethods.UsrGetWarehouses.Response.Parameters.UsrData.ItemProperties.UsrDSKey.Caption" Value="SiteKey" />
+			<Item Name="ServiceMethods.UsrGetWarehouses.Response.Parameters.UsrData.ItemProperties.UsrDSRDescription.Caption" Value="SettlementRegionsDescription" />
+			<Item Name="ServiceMethods.UsrGetWarehouses.Response.Parameters.UsrData.ItemProperties.UsrDSRef.Caption" Value="SettlementRef" />
+			<Item Name="ServiceMethods.UsrGetWarehouses.Response.Parameters.UsrData.ItemProperties.UsrDSSWCount.Caption" Value="SelfServiceWorkplacesCount" />
+			<Item Name="ServiceMethods.UsrGetWarehouses.Response.Parameters.UsrData.ItemProperties.UsrDSTDescription.Caption" Value="SettlementTypeDescription" />
+			<Item Name="ServiceMethods.UsrGetWarehouses.Response.Parameters.UsrData.ItemProperties.UsrDSTDRu.Caption" Value="SettlementTypeDescriptionRu" />
+			<Item Name="ServiceMethods.UsrGetWarehouses.Response.Parameters.UsrData.ItemProperties.UsrDSunday.Caption" Value="Delivery Sunday" />
+			<Item Name="ServiceMethods.UsrGetWarehouses.Response.Parameters.UsrData.ItemProperties.UsrDTerminal.Caption" Value="POSTerminal" />
+			<Item Name="ServiceMethods.UsrGetWarehouses.Response.Parameters.UsrData.ItemProperties.UsrDThursday.Caption" Value="Delivery Thursday" />
+			<Item Name="ServiceMethods.UsrGetWarehouses.Response.Parameters.UsrData.ItemProperties.UsrDTMWAllowed.Caption" Value="TotalMaxWeightAllowed" />
+			<Item Name="ServiceMethods.UsrGetWarehouses.Response.Parameters.UsrData.ItemProperties.UsrDTOWarehouse.Caption" Value="TypeOfWarehouse" />
+			<Item Name="ServiceMethods.UsrGetWarehouses.Response.Parameters.UsrData.ItemProperties.UsrDTuesday.Caption" Value="Delivery Tuesday" />
+			<Item Name="ServiceMethods.UsrGetWarehouses.Response.Parameters.UsrData.ItemProperties.UsrDWednesday.Caption" Value="Delivery Wednesday" />
+			<Item Name="ServiceMethods.UsrGetWarehouses.Response.Parameters.UsrData.ItemProperties.UsrDWFAgent.Caption" Value="WarehouseForAgent" />
+			<Item Name="ServiceMethods.UsrGetWarehouses.Response.Parameters.UsrData.ItemProperties.UsrDWIllusha.Caption" Value="WarehouseIllusha" />
+			<Item Name="ServiceMethods.UsrGetWarehouses.Response.Parameters.UsrData.ItemProperties.UsrDWIMAwis.Caption" Value="WorkInMobileAwis" />
+			<Item Name="ServiceMethods.UsrGetWarehouses.Response.Parameters.UsrData.ItemProperties.UsrDWIndex.Caption" Value="WarehouseIndex" />
+			<Item Name="ServiceMethods.UsrGetWarehouses.Response.Parameters.UsrData.ItemProperties.UsrDWSDate.Caption" Value="WarehouseStatusDate" />
+			<Item Name="ServiceMethods.UsrGetWarehouses.Response.Parameters.UsrData.ItemProperties.UsrDWStatus.Caption" Value="WarehouseStatus" />
+			<Item Name="ServiceMethods.UsrGetWarehouses.Response.Parameters.UsrData.ItemProperties.UsrRFriday.Caption" Value="Reception Friday" />
+			<Item Name="ServiceMethods.UsrGetWarehouses.Response.Parameters.UsrData.ItemProperties.UsrRLODHeight.Caption" Value="ReceivingLimitationsOnDimensions Height" />
+			<Item Name="ServiceMethods.UsrGetWarehouses.Response.Parameters.UsrData.ItemProperties.UsrRLODLength.Caption" Value="ReceivingLimitationsOnDimensions Length" />
+			<Item Name="ServiceMethods.UsrGetWarehouses.Response.Parameters.UsrData.ItemProperties.UsrRLODWidth.Caption" Value="ReceivingLimitationsOnDimensions Width" />
+			<Item Name="ServiceMethods.UsrGetWarehouses.Response.Parameters.UsrData.ItemProperties.UsrRMonday.Caption" Value="Reception Monday" />
+			<Item Name="ServiceMethods.UsrGetWarehouses.Response.Parameters.UsrData.ItemProperties.UsrRSaturday.Caption" Value="Reception Saturday" />
+			<Item Name="ServiceMethods.UsrGetWarehouses.Response.Parameters.UsrData.ItemProperties.UsrRSunday.Caption" Value="Reception Sunday" />
+			<Item Name="ServiceMethods.UsrGetWarehouses.Response.Parameters.UsrData.ItemProperties.UsrRThursday.Caption" Value="Reception Thursday" />
+			<Item Name="ServiceMethods.UsrGetWarehouses.Response.Parameters.UsrData.ItemProperties.UsrRTuesday.Caption" Value="Reception Tuesday" />
+			<Item Name="ServiceMethods.UsrGetWarehouses.Response.Parameters.UsrData.ItemProperties.UsrRWednesday.Caption" Value="Reception Wednesday" />
+			<Item Name="ServiceMethods.UsrGetWarehouses.Response.Parameters.UsrData.ItemProperties.UsrSFriday.Caption" Value="Schedule Friday" />
+			<Item Name="ServiceMethods.UsrGetWarehouses.Response.Parameters.UsrData.ItemProperties.UsrSLODHeight.Caption" Value="SendingLimitationsOnDimensions Height" />
+			<Item Name="ServiceMethods.UsrGetWarehouses.Response.Parameters.UsrData.ItemProperties.UsrSLODLength.Caption" Value="SendingLimitationsOnDimensions Length" />
+			<Item Name="ServiceMethods.UsrGetWarehouses.Response.Parameters.UsrData.ItemProperties.UsrSLODWidth.Caption" Value="SendingLimitationsOnDimensions Width" />
+			<Item Name="ServiceMethods.UsrGetWarehouses.Response.Parameters.UsrData.ItemProperties.UsrSMonday.Caption" Value="Schedule Monday" />
+			<Item Name="ServiceMethods.UsrGetWarehouses.Response.Parameters.UsrData.ItemProperties.UsrSSaturday.Caption" Value="Schedule Saturday" />
+			<Item Name="ServiceMethods.UsrGetWarehouses.Response.Parameters.UsrData.ItemProperties.UsrSSunday.Caption" Value="Schedule Sunday" />
+			<Item Name="ServiceMethods.UsrGetWarehouses.Response.Parameters.UsrData.ItemProperties.UsrSThursday.Caption" Value="Schedule Thursday" />
+			<Item Name="ServiceMethods.UsrGetWarehouses.Response.Parameters.UsrData.ItemProperties.UsrSTuesday.Caption" Value="Schedule Tuesday" />
+			<Item Name="ServiceMethods.UsrGetWarehouses.Response.Parameters.UsrData.ItemProperties.UsrSWednesday.Caption" Value="Schedule Wednesday" />
+			<Item Name="ServiceMethods.UsrGetWarehouses.Response.Parameters.UsrECodes.Caption" Value="ErrorCodes" />
+			<Item Name="ServiceMethods.UsrGetWarehouses.Response.Parameters.UsrErrors.Caption" Value="Errors" />
+			<Item Name="ServiceMethods.UsrGetWarehouses.Response.Parameters.UsrICodes.Caption" Value="InfoCodes" />
+			<Item Name="ServiceMethods.UsrGetWarehouses.Response.Parameters.UsrITCount.Caption" Value="Info TotalCount" />
+			<Item Name="ServiceMethods.UsrGetWarehouses.Response.Parameters.UsrMCodes.Caption" Value="MessageCodes" />
+			<Item Name="ServiceMethods.UsrGetWarehouses.Response.Parameters.UsrSuccess.Caption" Value="Success" />
+			<Item Name="ServiceMethods.UsrGetWarehouses.Response.Parameters.UsrWarnings.Caption" Value="Warnings" />
+			<Item Name="ServiceMethods.UsrGetWarehouses.Response.Parameters.UsrWCodes.Caption" Value="WarningCodes" />
+		</Items>
+	</Group>
+</Resources>

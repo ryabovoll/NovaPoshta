@@ -548,7 +548,17 @@
 		</Reference>
 	</ItemGroup>
 	<ItemGroup Label="Standalone package external assembly references" />
-	<ItemGroup Label="Entity Files" />
+	<ItemGroup Label="Entity Files">
+		<Compile Remove="$(RelativePkgFolderPath)/NovaPoshtaClassic/Schemas/UsrNovaPoshtaDepartureInTag/UsrNovaPoshtaDepartureInTag.cs" Condition="Exists('$(RelativePkgFolderPath)/NovaPoshtaClassic/Schemas/UsrNovaPoshtaDepartureInTag/UsrNovaPoshtaDepartureInTag.cs')" />
+		<Compile Remove="$(RelativePkgFolderPath)/NovaPoshtaClassic/Schemas/UsrNovaPoshtaDepartureFile/UsrNovaPoshtaDepartureFile.cs" Condition="Exists('$(RelativePkgFolderPath)/NovaPoshtaClassic/Schemas/UsrNovaPoshtaDepartureFile/UsrNovaPoshtaDepartureFile.cs')" />
+		<Compile Remove="$(RelativePkgFolderPath)/NovaPoshtaClassic/Schemas/UsrDepartment/UsrDepartment.cs" Condition="Exists('$(RelativePkgFolderPath)/NovaPoshtaClassic/Schemas/UsrDepartment/UsrDepartment.cs')" />
+		<Compile Remove="$(RelativePkgFolderPath)/NovaPoshtaClassic/Schemas/UsrNovaPoshtaDepartureTag/UsrNovaPoshtaDepartureTag.cs" Condition="Exists('$(RelativePkgFolderPath)/NovaPoshtaClassic/Schemas/UsrNovaPoshtaDepartureTag/UsrNovaPoshtaDepartureTag.cs')" />
+		<Compile Remove="$(RelativePkgFolderPath)/NovaPoshtaClassic/Schemas/UsrNovaPoshtaDepartureFolder/UsrNovaPoshtaDepartureFolder.cs" Condition="Exists('$(RelativePkgFolderPath)/NovaPoshtaClassic/Schemas/UsrNovaPoshtaDepartureFolder/UsrNovaPoshtaDepartureFolder.cs')" />
+		<Compile Remove="$(RelativePkgFolderPath)/NovaPoshtaClassic/Schemas/UsrNovaPoshtaDepartureInFolder/UsrNovaPoshtaDepartureInFolder.cs" Condition="Exists('$(RelativePkgFolderPath)/NovaPoshtaClassic/Schemas/UsrNovaPoshtaDepartureInFolder/UsrNovaPoshtaDepartureInFolder.cs')" />
+		<Compile Remove="$(RelativePkgFolderPath)/NovaPoshtaClassic/Schemas/UsrSettlement/UsrSettlement.cs" Condition="Exists('$(RelativePkgFolderPath)/NovaPoshtaClassic/Schemas/UsrSettlement/UsrSettlement.cs')" />
+		<Compile Remove="$(RelativePkgFolderPath)/NovaPoshtaClassic/Schemas/UsrRegion/UsrRegion.cs" Condition="Exists('$(RelativePkgFolderPath)/NovaPoshtaClassic/Schemas/UsrRegion/UsrRegion.cs')" />
+		<Compile Remove="$(RelativePkgFolderPath)/NovaPoshtaClassic/Schemas/UsrNovaPoshtaDeparture/UsrNovaPoshtaDeparture.cs" Condition="Exists('$(RelativePkgFolderPath)/NovaPoshtaClassic/Schemas/UsrNovaPoshtaDeparture/UsrNovaPoshtaDeparture.cs')" />
+	</ItemGroup>
 	<ItemGroup Label="3rd Party References"></ItemGroup>
 	<Target Name="Paths" BeforeTargets="BeforeCompile">
 		<Message Importance="High" Text="*********** Project [$(MSBuildProjectFile)] TargetFramework [$(TargetFramework)] CoreTargetFramework [$(CoreTargetFramework)]" />

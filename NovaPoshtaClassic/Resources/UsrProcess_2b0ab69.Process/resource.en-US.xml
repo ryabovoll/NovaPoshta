@@ -2,6 +2,56 @@
 <Resources Culture="en-US">
 	<Group Type="String">
 		<Items>
+			<Item Name="BaseElements.SubProcess1.Parameters.CompletedIterationsCount.Caption" Value="Число выполненных экземпляров" />
+			<Item Name="BaseElements.SubProcess1.Parameters.InputRecordCollection.Caption" Value="Входящая коллекция записей" />
+			<Item Name="BaseElements.SubProcess1.Parameters.InputRecordCollection.DisplayValue" Value="[#https://api.novaposhta.ua 1.Data#]" />
+			<Item Name="BaseElements.SubProcess1.Parameters.InputRecordCollection.ProcessSchemaParameter1.Caption" Value="Название" />
+			<Item Name="BaseElements.SubProcess1.Parameters.InputRecordCollection.ProcessSchemaParameter1.DisplayValue" Value="[#https://api.novaposhta.ua 1.Data:Description#]" />
+			<Item Name="BaseElements.SubProcess1.Parameters.InputRecordCollection.ProcessSchemaParameter2.Caption" Value="AreasCenter" />
+			<Item Name="BaseElements.SubProcess1.Parameters.InputRecordCollection.ProcessSchemaParameter2.DisplayValue" Value="[#https://api.novaposhta.ua 1.Data:AreasCenter#]" />
+			<Item Name="BaseElements.SubProcess1.Parameters.InputRecordCollection.ProcessSchemaParameter3.Caption" Value="Info TotalCount" />
+			<Item Name="BaseElements.SubProcess1.Parameters.InputRecordCollection.ProcessSchemaParameter4.Caption" Value="Page" />
+			<Item Name="BaseElements.SubProcess1.Parameters.InputRecordCollection.ProcessSchemaParameter5.Caption" Value="Ref" />
+			<Item Name="BaseElements.SubProcess1.Parameters.InputRecordCollection.ProcessSchemaParameter5.DisplayValue" Value="[#https://api.novaposhta.ua 1.Data:Ref#]" />
+			<Item Name="BaseElements.SubProcess1.Parameters.InputRecordCollection.ProcessSchemaParameter6.Caption" Value="RegionType" />
+			<Item Name="BaseElements.SubProcess1.Parameters.InputRecordCollection.ProcessSchemaParameter6.DisplayValue" Value="[#https://api.novaposhta.ua 1.Data:RegionType#]" />
+			<Item Name="BaseElements.SubProcess1.Parameters.OutputRecordCollection.Caption" Value="Исходящая коллекция записей" />
+			<Item Name="BaseElements.SubProcess1.Parameters.OutputRecordCollection.ProcessSchemaParameter1.Caption" Value="Название" />
+			<Item Name="BaseElements.SubProcess1.Parameters.OutputRecordCollection.ProcessSchemaParameter2.Caption" Value="AreasCenter" />
+			<Item Name="BaseElements.SubProcess1.Parameters.OutputRecordCollection.ProcessSchemaParameter3.Caption" Value="Info TotalCount" />
+			<Item Name="BaseElements.SubProcess1.Parameters.OutputRecordCollection.ProcessSchemaParameter4.Caption" Value="Page" />
+			<Item Name="BaseElements.SubProcess1.Parameters.OutputRecordCollection.ProcessSchemaParameter5.Caption" Value="Ref" />
+			<Item Name="BaseElements.SubProcess1.Parameters.OutputRecordCollection.ProcessSchemaParameter6.Caption" Value="RegionType" />
+			<Item Name="BaseElements.SubProcess1.Parameters.TerminatedIterationsCount.Caption" Value="Число прерванных экземпляров" />
+			<Item Name="BaseElements.SubProcess1.Parameters.TotalIterationsCount.Caption" Value="Общее число экземпляров" />
+			<Item Name="BaseElements.WebService1.Caption" Value="https://api.novaposhta.ua 1" />
+			<Item Name="BaseElements.WebService1.Parameters.RequestBody.Caption" Value="Тело запроса сервиса" />
+			<Item Name="BaseElements.WebService1.Parameters.Response.Caption" Value="Тело ответа сервиса" />
+			<Item Name="BaseElements.WebService1.Parameters.StatusCode.Caption" Value="Http код состояния" />
+			<Item Name="BaseElements.WebService1.Parameters.Success.Caption" Value="Успешно выполнен" />
+			<Item Name="BaseElements.WebService1.Parameters.UsrAKey_In.Caption" Value="ApiKey" />
+			<Item Name="BaseElements.WebService1.Parameters.UsrCMethod_In.Caption" Value="CalledMethod" />
+			<Item Name="BaseElements.WebService1.Parameters.UsrData_Out.Caption" Value="Data" />
+			<Item Name="BaseElements.WebService1.Parameters.UsrData_Out.UsrDACenter_Out.Caption" Value="AreasCenter" />
+			<Item Name="BaseElements.WebService1.Parameters.UsrData_Out.UsrDDescription_Out.Caption" Value="Description" />
+			<Item Name="BaseElements.WebService1.Parameters.UsrData_Out.UsrDRef_Out.Caption" Value="Ref" />
+			<Item Name="BaseElements.WebService1.Parameters.UsrData_Out.UsrDRType_Out.Caption" Value="RegionType" />
+			<Item Name="BaseElements.WebService1.Parameters.UsrECodes_Out.Caption" Value="ErrorCodes" />
+			<Item Name="BaseElements.WebService1.Parameters.UsrECodes_Out.UsrECodesItemValue_Out.Caption" Value="Значение элемента" />
+			<Item Name="BaseElements.WebService1.Parameters.UsrErrors_Out.Caption" Value="Errors" />
+			<Item Name="BaseElements.WebService1.Parameters.UsrErrors_Out.UsrErrorsItemValue_Out.Caption" Value="Значение элемента" />
+			<Item Name="BaseElements.WebService1.Parameters.UsrICodes_Out.Caption" Value="InfoCodes" />
+			<Item Name="BaseElements.WebService1.Parameters.UsrICodes_Out.UsrICodesItemValue_Out.Caption" Value="Значение элемента" />
+			<Item Name="BaseElements.WebService1.Parameters.UsrInfo_Out.Caption" Value="Info" />
+			<Item Name="BaseElements.WebService1.Parameters.UsrInfo_Out.UsrInfoItemValue_Out.Caption" Value="Значение элемента" />
+			<Item Name="BaseElements.WebService1.Parameters.UsrMCodes_Out.Caption" Value="MessageCodes" />
+			<Item Name="BaseElements.WebService1.Parameters.UsrMCodes_Out.UsrMCodesItemValue_Out.Caption" Value="Значение элемента" />
+			<Item Name="BaseElements.WebService1.Parameters.UsrMName_In.Caption" Value="ModelName" />
+			<Item Name="BaseElements.WebService1.Parameters.UsrSuccess_Out.Caption" Value="Success" />
+			<Item Name="BaseElements.WebService1.Parameters.UsrWarnings_Out.Caption" Value="Warnings" />
+			<Item Name="BaseElements.WebService1.Parameters.UsrWarnings_Out.UsrWarningsItemValue_Out.Caption" Value="Значение элемента" />
+			<Item Name="BaseElements.WebService1.Parameters.UsrWCodes_Out.Caption" Value="WarningCodes" />
+			<Item Name="BaseElements.WebService1.Parameters.UsrWCodes_Out.UsrWCodesItemValue_Out.Caption" Value="Значение элемента" />
 			<Item Name="Caption" Value="Бизнес-процесс 1" />
 			<Item Name="LaneSets.LaneSet1.Caption" Value="LaneSet 1" />
 			<Item Name="LaneSets.LaneSet1.Lanes.Lane1.Caption" Value="Lane 1" />

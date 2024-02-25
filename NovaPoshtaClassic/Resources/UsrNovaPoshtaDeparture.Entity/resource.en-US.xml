@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Resources Culture="en-US">
+	<Group Type="String">
+		<Items>
+			<Item Name="Caption" Value="Відправлення" />
+			<Item Name="Columns.UsrBranch.Caption" Value="Відділення" />
+			<Item Name="Columns.UsrDepartment.Caption" Value="Відділення" />
+			<Item Name="Columns.UsrForTheRule.Caption" Value=" For the rule - ALL &quot;False&quot;" />
+			<Item Name="Columns.UsrName.Caption" Value="Name" />
+			<Item Name="Columns.UsrNotes.Caption" Value="Notes" />
+			<Item Name="Columns.UsrPostomat.Caption" Value="Поштомат" />
+			<Item Name="Columns.UsrRegion.Caption" Value="Область" />
+			<Item Name="Columns.UsrSettlement.Caption" Value="Населённый пункт" />
+		</Items>
+	</Group>
+</Resources>

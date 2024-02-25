@@ -1,0 +1,10 @@
+﻿{
+  "Descriptor": {
+    "UId": "bb947df0-b618-4d92-93c3-a34be0c34f64",
+    "Name": "UsrProcess_1efef9b",
+    "ModifiedOnUtc": "\/Date(1708883150000)\/",
+    "ManagerName": "ProcessSchemaManager",
+    "Caption": "Наполнить справочник Населенных пунктов Новой Почты",
+    "DependsOn": []
+  }
+}
