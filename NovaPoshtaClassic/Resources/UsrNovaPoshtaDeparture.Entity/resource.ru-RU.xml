@@ -4,13 +4,37 @@
 		<Items>
 			<Item Name="Caption" Value="Відправлення" />
 			<Item Name="Columns.UsrBranch.Caption" Value="Відділення" />
+			<Item Name="Columns.UsrCargoType.Caption" Value="CargoType" />
+			<Item Name="Columns.UsrCargoTypeList.Caption" Value="CargoTypeList" />
+			<Item Name="Columns.UsrDateTime.Caption" Value="DateTime" />
 			<Item Name="Columns.UsrDepartment.Caption" Value="Відділення" />
+			<Item Name="Columns.UsrDescription.Caption" Value="Description" />
+			<Item Name="Columns.UsrEDRPOU.Caption" Value="EDRPOU" />
 			<Item Name="Columns.UsrForTheRule.Caption" Value=" For the rule - ALL &quot;False&quot;" />
+			<Item Name="Columns.UsrInteger1.Caption" Value="Cost Преобразовать в строку" />
 			<Item Name="Columns.UsrName.Caption" Value="Название" />
 			<Item Name="Columns.UsrNotes.Caption" Value="Заметки" />
+			<Item Name="Columns.UsrPayerType.Caption" Value="PayerType" />
+			<Item Name="Columns.UsrPayerTypeList.Caption" Value="PayerTypeList" />
+			<Item Name="Columns.UsrPaymentMethod.Caption" Value="PaymentMethod" />
+			<Item Name="Columns.UsrPaymentMethodList.Caption" Value="PaymentMethodList" />
 			<Item Name="Columns.UsrPostomat.Caption" Value="Поштомат" />
+			<Item Name="Columns.UsrRecipientAddressName.Caption" Value="RecipientAddressName" />
+			<Item Name="Columns.UsrRecipientArea.Caption" Value="RecipientArea" />
+			<Item Name="Columns.UsrRecipientCityName.Caption" Value="RecipientCityName" />
+			<Item Name="Columns.UsrRecipientFlat.Caption" Value="RecipientFlat" />
+			<Item Name="Columns.UsrRecipientHouse.Caption" Value="RecipientHouse" />
+			<Item Name="Columns.UsrRecipientName.Caption" Value="RecipientName" />
+			<Item Name="Columns.UsrRecipientsPhone.Caption" Value="RecipientsPhone" />
+			<Item Name="Columns.UsrRecipientType.Caption" Value="RecipientType" />
 			<Item Name="Columns.UsrRegion.Caption" Value="Область" />
+			<Item Name="Columns.UsrSeatsAmount.Caption" Value="SeatsAmount" />
+			<Item Name="Columns.UsrSeatsAmountList.Caption" Value="SeatsAmountList" />
+			<Item Name="Columns.UsrServiceType.Caption" Value="ServiceType" />
 			<Item Name="Columns.UsrSettlement.Caption" Value="Населённый пункт" />
+			<Item Name="Columns.UsrSettlementType.Caption" Value="SettlementType" />
+			<Item Name="Columns.UsrWeight.Caption" Value="Weight" />
+			<Item Name="Columns.UsrWeightList.Caption" Value="WeightList" />
 		</Items>
 	</Group>
 </Resources>

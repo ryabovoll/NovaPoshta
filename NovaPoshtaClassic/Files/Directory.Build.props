@@ -7,7 +7,12 @@
 		<Compile Include="$(PkgPath)/NovaPoshtaClassic/Schemas/UsrNovaPoshtaDepartureFolder/UsrNovaPoshtaDepartureFolder.cs" Condition="Exists('$(PkgPath)/NovaPoshtaClassic/Schemas/UsrNovaPoshtaDepartureFolder/UsrNovaPoshtaDepartureFolder.cs')" />
 		<Compile Include="$(PkgPath)/NovaPoshtaClassic/Schemas/UsrNovaPoshtaDepartureInFolder/UsrNovaPoshtaDepartureInFolder.cs" Condition="Exists('$(PkgPath)/NovaPoshtaClassic/Schemas/UsrNovaPoshtaDepartureInFolder/UsrNovaPoshtaDepartureInFolder.cs')" />
 		<Compile Include="$(PkgPath)/NovaPoshtaClassic/Schemas/UsrSettlement/UsrSettlement.cs" Condition="Exists('$(PkgPath)/NovaPoshtaClassic/Schemas/UsrSettlement/UsrSettlement.cs')" />
+		<Compile Include="$(PkgPath)/NovaPoshtaClassic/Schemas/UsrPayerTypeList/UsrPayerTypeList.cs" Condition="Exists('$(PkgPath)/NovaPoshtaClassic/Schemas/UsrPayerTypeList/UsrPayerTypeList.cs')" />
 		<Compile Include="$(PkgPath)/NovaPoshtaClassic/Schemas/UsrRegion/UsrRegion.cs" Condition="Exists('$(PkgPath)/NovaPoshtaClassic/Schemas/UsrRegion/UsrRegion.cs')" />
+		<Compile Include="$(PkgPath)/NovaPoshtaClassic/Schemas/UsrCargoTypeList/UsrCargoTypeList.cs" Condition="Exists('$(PkgPath)/NovaPoshtaClassic/Schemas/UsrCargoTypeList/UsrCargoTypeList.cs')" />
+		<Compile Include="$(PkgPath)/NovaPoshtaClassic/Schemas/UsrWeightList/UsrWeightList.cs" Condition="Exists('$(PkgPath)/NovaPoshtaClassic/Schemas/UsrWeightList/UsrWeightList.cs')" />
+		<Compile Include="$(PkgPath)/NovaPoshtaClassic/Schemas/UsrSeatsAmountList/UsrSeatsAmountList.cs" Condition="Exists('$(PkgPath)/NovaPoshtaClassic/Schemas/UsrSeatsAmountList/UsrSeatsAmountList.cs')" />
+		<Compile Include="$(PkgPath)/NovaPoshtaClassic/Schemas/UsrPaymentMethodList/UsrPaymentMethodList.cs" Condition="Exists('$(PkgPath)/NovaPoshtaClassic/Schemas/UsrPaymentMethodList/UsrPaymentMethodList.cs')" />
 		<Compile Include="$(PkgPath)/NovaPoshtaClassic/Schemas/UsrNovaPoshtaDeparture/UsrNovaPoshtaDeparture.cs" Condition="Exists('$(PkgPath)/NovaPoshtaClassic/Schemas/UsrNovaPoshtaDeparture/UsrNovaPoshtaDeparture.cs')" />
 	</ItemGroup>
 </Project>
