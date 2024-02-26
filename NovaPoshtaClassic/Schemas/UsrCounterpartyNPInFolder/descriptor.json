@@ -1,0 +1,14 @@
+﻿{
+  "Descriptor": {
+    "UId": "13b159e7-cf67-46c3-9f96-4029a022c0d7",
+    "Name": "UsrCounterpartyNPInFolder",
+    "ModifiedOnUtc": "\/Date(1708939417000)\/",
+    "Parent": {
+      "UId": "4f63bafb-e9e7-4082-b92e-66b97c14017c",
+      "Name": "BaseItemInFolder"
+    },
+    "ManagerName": "EntitySchemaManager",
+    "Caption": "Контрогент Нова Пошта в группе",
+    "DependsOn": []
+  }
+}

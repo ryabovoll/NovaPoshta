@@ -1,0 +1,13 @@
+﻿{
+  "Descriptor": {
+    "UId": "ba7aad59-c0cd-434c-9662-e5cef3695d90",
+    "Name": "UsrCounterpartyNP1Page",
+    "ModifiedOnUtc": "\/Date(1708973285000)\/",
+    "Parent": {
+      "UId": "d62293c0-7f14-44b1-b547-735fb40499cd",
+      "Name": "BaseModulePageV2"
+    },
+    "ManagerName": "ClientUnitSchemaManager",
+    "Caption": "Страница редактирования: \"Контрагент Нова Пошта\""
+  }
+}

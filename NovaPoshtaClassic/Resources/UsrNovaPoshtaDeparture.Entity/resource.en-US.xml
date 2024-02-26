@@ -6,15 +6,17 @@
 			<Item Name="Columns.UsrBranch.Caption" Value="Відділення" />
 			<Item Name="Columns.UsrCargoType.Caption" Value="CargoType" />
 			<Item Name="Columns.UsrCargoTypeList.Caption" Value="CargoTypeList" />
+			<Item Name="Columns.UsrCost.Caption" Value="Cost Преобразовать в строку" />
 			<Item Name="Columns.UsrDateTime.Caption" Value="DateTime" />
+			<Item Name="Columns.UsrDefault.Caption" Value="DefaultLics" />
 			<Item Name="Columns.UsrDepartment.Caption" Value="Відділення" />
 			<Item Name="Columns.UsrDescription.Caption" Value="Description" />
 			<Item Name="Columns.UsrEDRPOU.Caption" Value="EDRPOU" />
 			<Item Name="Columns.UsrForTheRule.Caption" Value=" For the rule - ALL &quot;False&quot;" />
-			<Item Name="Columns.UsrInteger1.Caption" Value="Cost Преобразовать в строку" />
 			<Item Name="Columns.UsrName.Caption" Value="Name" />
 			<Item Name="Columns.UsrNotes.Caption" Value="Notes" />
 			<Item Name="Columns.UsrPayerType.Caption" Value="PayerType" />
+			<Item Name="Columns.UsrPayerTypedefault.Caption" Value="PayerTypedefault" />
 			<Item Name="Columns.UsrPayerTypeList.Caption" Value="PayerTypeList" />
 			<Item Name="Columns.UsrPaymentMethod.Caption" Value="PaymentMethod" />
 			<Item Name="Columns.UsrPaymentMethodList.Caption" Value="PaymentMethodList" />

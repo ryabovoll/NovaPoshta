@@ -1,0 +1,10 @@
+﻿{
+  "Descriptor": {
+    "UId": "f67a939c-0924-4dea-8afb-0b4b3342aa40",
+    "Name": "UsrProcess_101cd68",
+    "ModifiedOnUtc": "\/Date(1708969722000)\/",
+    "ManagerName": "ProcessSchemaManager",
+    "Caption": "Заполнить REF по контрагенту ПОДПРОЦЕСС",
+    "DependsOn": []
+  }
+}

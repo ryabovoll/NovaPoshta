@@ -1,0 +1,13 @@
+﻿{
+  "Descriptor": {
+    "UId": "1028f98b-5be8-4989-87c5-ca601ffacbd6",
+    "Name": "UsrSchemaf8e82c8eDetail",
+    "ModifiedOnUtc": "\/Date(1708945486000)\/",
+    "Parent": {
+      "UId": "01eb38ee-668a-42f0-999d-c2534f979089",
+      "Name": "BaseGridDetailV2"
+    },
+    "ManagerName": "ClientUnitSchemaManager",
+    "Caption": "Схема детали: \"Адреса відділення контрагента\""
+  }
+}

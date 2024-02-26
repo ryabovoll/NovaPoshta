@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Resources Culture="th-TH">
+	<Group Type="String">
+		<Items>
+			<Item Name="BaseElements.ChangeDataUserTask1.Parameters.ConsiderTimeInFilter.Caption" Value="พิจารณาเวลาที่ใช้ในการกรอง" />
+			<Item Name="BaseElements.ChangeDataUserTask1.Parameters.DataSourceFilters.Caption" Value="ตัวกรองแหล่งข้อมูล" />
+			<Item Name="BaseElements.ChangeDataUserTask1.Parameters.EntitySchemaUId.Caption" Value="ออบเจ็กต์" />
+			<Item Name="BaseElements.ChangeDataUserTask1.Parameters.IsMatchConditions.Caption" Value="ถ้าออบเจ็กต์ตรงกับเงื่อนไขต่อไปนี้" />
+			<Item Name="BaseElements.ChangeDataUserTask1.Parameters.RecordColumnValues.Caption" Value="สร้างค่าของคอลัมน์" />
+			<Item Name="Caption" Value="Заполнить REF по контрагенту и контакту ПОДПРОЦЕСС" />
+		</Items>
+	</Group>
+</Resources>

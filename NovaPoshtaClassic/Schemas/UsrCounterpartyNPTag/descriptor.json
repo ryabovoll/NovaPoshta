@@ -1,0 +1,14 @@
+﻿{
+  "Descriptor": {
+    "UId": "fb358ced-31ce-4140-ab90-980415c073f5",
+    "Name": "UsrCounterpartyNPTag",
+    "ModifiedOnUtc": "\/Date(1708939425000)\/",
+    "Parent": {
+      "UId": "9e3f203c-e905-4de5-9468-335b193f2439",
+      "Name": "BaseTag"
+    },
+    "ManagerName": "EntitySchemaManager",
+    "Caption": "Тег раздела Контрогент Нова Пошта",
+    "DependsOn": []
+  }
+}

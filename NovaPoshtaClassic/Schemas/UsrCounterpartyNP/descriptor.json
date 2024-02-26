@@ -1,0 +1,14 @@
+﻿{
+  "Descriptor": {
+    "UId": "49b47d87-5fa2-4915-9b52-cc2b460d167e",
+    "Name": "UsrCounterpartyNP",
+    "ModifiedOnUtc": "\/Date(1708970452000)\/",
+    "Parent": {
+      "UId": "1bab9dcf-17d5-49f8-9536-8e0064f1dce0",
+      "Name": "BaseEntity"
+    },
+    "ManagerName": "EntitySchemaManager",
+    "Caption": "Контрагент Нова Пошта",
+    "DependsOn": []
+  }
+}

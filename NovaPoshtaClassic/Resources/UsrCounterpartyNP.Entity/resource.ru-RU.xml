@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Resources Culture="ru-RU">
+	<Group Type="String">
+		<Items>
+			<Item Name="Caption" Value="Контрагент Нова Пошта" />
+			<Item Name="Columns.UsrApiKey.Caption" Value="apiKey" />
+			<Item Name="Columns.UsrContactSenderRef.Caption" Value="ContactSenderRef" />
+			<Item Name="Columns.UsrCounterparty.Caption" Value="Контрагент" />
+			<Item Name="Columns.UsrName.Caption" Value="Название" />
+			<Item Name="Columns.UsrNotes.Caption" Value="Заметки" />
+			<Item Name="Columns.UsrSenderRef.Caption" Value="SenderRef" />
+			<Item Name="Columns.UsrSendersPhone.Caption" Value="SendersPhone" />
+		</Items>
+	</Group>
+</Resources>

@@ -1,0 +1,14 @@
+﻿{
+  "Descriptor": {
+    "UId": "b5d67bab-0564-4417-a278-d7e5b7cda703",
+    "Name": "UsrCounterpartyNPFolder",
+    "ModifiedOnUtc": "\/Date(1708939405000)\/",
+    "Parent": {
+      "UId": "d602bf96-d029-4b07-9755-63c8f5cb5ed5",
+      "Name": "BaseFolder"
+    },
+    "ManagerName": "EntitySchemaManager",
+    "Caption": "Группа Контрогент Нова Пошта",
+    "DependsOn": []
+  }
+}
