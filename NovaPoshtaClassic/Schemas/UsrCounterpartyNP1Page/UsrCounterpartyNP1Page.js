@@ -65,6 +65,31 @@ define("UsrCounterpartyNP1Page", ['ProcessModuleUtilities'], function(ProcessMod
 						}
 					]
 				}
+			},
+			"UsrName": {
+				"8040d205-8e87-4d7e-ad65-6cabee7d51cf": {
+					"uId": "8040d205-8e87-4d7e-ad65-6cabee7d51cf",
+					"enabled": true,
+					"removed": false,
+					"ruleType": 3,
+					"populatingAttributeSource": {
+						"expression": {
+							"type": 1,
+							"attribute": "UsrCounterparty",
+							"attributePath": "Name"
+						}
+					},
+					"logical": 0,
+					"conditions": [
+						{
+							"comparisonType": 2,
+							"leftExpression": {
+								"type": 1,
+								"attribute": "UsrCounterparty"
+							}
+						}
+					]
+				}
 			}
 		}/**SCHEMA_BUSINESS_RULES*/,
 		methods: {
@@ -165,24 +190,6 @@ define("UsrCounterpartyNP1Page", ['ProcessModuleUtilities'], function(ProcessMod
 			},
 			{
 				"operation": "insert",
-				"name": "STRING0a430b5a-a555-4389-b4a4-98943ff2462c",
-				"values": {
-					"layout": {
-						"colSpan": 12,
-						"rowSpan": 1,
-						"column": 0,
-						"row": 1,
-						"layoutName": "Header"
-					},
-					"bindTo": "UsrSenderRef",
-					"enabled": false
-				},
-				"parentName": "Header",
-				"propertyName": "items",
-				"index": 1
-			},
-			{
-				"operation": "insert",
 				"name": "MyButton",
 				"values": {
 					"itemType": 5,
@@ -203,11 +210,29 @@ define("UsrCounterpartyNP1Page", ['ProcessModuleUtilities'], function(ProcessMod
 						"row": 1,
 						"layoutName": "Header"
 					},
-					"visible": true,
+					"visible": true
 				},
 				"parentName": "Header",
 				"propertyName": "items",
-				"index": 3
+				"index": 1
+			},
+			{
+				"operation": "insert",
+				"name": "STRING0a430b5a-a555-4389-b4a4-98943ff2462c",
+				"values": {
+					"layout": {
+						"colSpan": 12,
+						"rowSpan": 1,
+						"column": 0,
+						"row": 1,
+						"layoutName": "Header"
+					},
+					"bindTo": "UsrSenderRef",
+					"enabled": false
+				},
+				"parentName": "Header",
+				"propertyName": "items",
+				"index": 2
 			},
 			{
 				"operation": "insert",
@@ -225,7 +250,7 @@ define("UsrCounterpartyNP1Page", ['ProcessModuleUtilities'], function(ProcessMod
 				},
 				"parentName": "Header",
 				"propertyName": "items",
-				"index": 2
+				"index": 3
 			},
 			{
 				"operation": "insert",

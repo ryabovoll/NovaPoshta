@@ -3,7 +3,9 @@
 	<Group Type="String">
 		<Items>
 			<Item Name="Caption" Value="Страница редактирования: &quot;Відправлення&quot;" />
+			<Item Name="LocalizableStrings.Tab7fd4820dTabLabelTabCaption.Value" Value="Відповідь" />
 			<Item Name="LocalizableStrings.Tab9959d105TabLabelTabCaption.Value" Value="Відправлення" />
+			<Item Name="LocalizableStrings.UsrPayerType98e6160544424b15899d3a1ca0211753LabelCaption.Value" Value="Платник за доставку" />
 		</Items>
 	</Group>
 </Resources>
