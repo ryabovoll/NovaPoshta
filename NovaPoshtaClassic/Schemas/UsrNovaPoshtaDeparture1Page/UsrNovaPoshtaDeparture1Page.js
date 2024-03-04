@@ -1,4 +1,4 @@
-define("UsrNovaPoshtaDeparture1Page", [], function() {
+define("UsrNovaPoshtaDeparture1Page", ['ProcessModuleUtilities'], function(ProcessModuleUtilities) {
 	return {
 		entitySchemaName: "UsrNovaPoshtaDeparture",
 		attributes: {},
@@ -923,7 +923,7 @@ define("UsrNovaPoshtaDeparture1Page", [], function() {
 				"06dd799d-4969-4385-afef-75b0b2ea8931": {
 					"uId": "06dd799d-4969-4385-afef-75b0b2ea8931",
 					"enabled": true,
-					"removed": false,
+					"removed": true,
 					"ruleType": 0,
 					"property": 2,
 					"logical": 0,
@@ -1377,7 +1377,7 @@ define("UsrNovaPoshtaDeparture1Page", [], function() {
 				"88a94a6c-9e2e-4910-a362-6b17d5986444": {
 					"uId": "88a94a6c-9e2e-4910-a362-6b17d5986444",
 					"enabled": true,
-					"removed": false,
+					"removed": true,
 					"ruleType": 3,
 					"populatingAttributeSource": {
 						"expression": {
@@ -1402,7 +1402,7 @@ define("UsrNovaPoshtaDeparture1Page", [], function() {
 				"4ddaae97-42e5-45e0-a781-3bad3db3a9f9": {
 					"uId": "4ddaae97-42e5-45e0-a781-3bad3db3a9f9",
 					"enabled": true,
-					"removed": false,
+					"removed": true,
 					"ruleType": 3,
 					"populatingAttributeSource": {
 						"expression": {
@@ -1422,695 +1422,754 @@ define("UsrNovaPoshtaDeparture1Page", [], function() {
 						}
 					]
 				}
+			},
+			"Tab7fd4820dTabLabel": {
+				"78755f08-c978-4b97-af66-0327ff5c1ab5": {
+					"uId": "78755f08-c978-4b97-af66-0327ff5c1ab5",
+					"enabled": true,
+					"removed": true,
+					"ruleType": 0,
+					"property": 0,
+					"logical": 0,
+					"conditions": [
+						{
+							"comparisonType": 3,
+							"leftExpression": {
+								"type": 1,
+								"attribute": "UsrIntDefault"
+							},
+							"rightExpression": {
+								"type": 0,
+								"value": 2,
+								"dataValueType": 4
+							}
+						}
+					]
+				}
+			},
+			"Tab9959d105TabLabelGroupaeb83c70": {
+				"5039b750-8610-42f5-838a-feb60690b4a3": {
+					"uId": "5039b750-8610-42f5-838a-feb60690b4a3",
+					"enabled": true,
+					"removed": false,
+					"ruleType": 0,
+					"property": 0,
+					"logical": 0,
+					"conditions": [
+						{
+							"comparisonType": 3,
+							"leftExpression": {
+								"type": 1,
+								"attribute": "UsrIntDefault"
+							},
+							"rightExpression": {
+								"type": 0,
+								"value": 0,
+								"dataValueType": 4
+							}
+						}
+					]
+				},
+				"f5b0f08c-046d-408f-92fc-9291210afa2f": {
+					"uId": "f5b0f08c-046d-408f-92fc-9291210afa2f",
+					"enabled": true,
+					"removed": true,
+					"ruleType": 0,
+					"property": 0,
+					"logical": 0,
+					"conditions": [
+						{
+							"comparisonType": 3,
+							"leftExpression": {
+								"type": 1,
+								"attribute": "UsrSuccess"
+							},
+							"rightExpression": {
+								"type": 0,
+								"value": false,
+								"dataValueType": 12
+							}
+						}
+					]
+				}
+			},
+			"Tab9959d105TabLabelGrouped411047": {
+				"fed8d550-a9a9-4949-af10-262870ac6a1f": {
+					"uId": "fed8d550-a9a9-4949-af10-262870ac6a1f",
+					"enabled": true,
+					"removed": true,
+					"ruleType": 0,
+					"property": 0,
+					"logical": 0,
+					"conditions": [
+						{
+							"comparisonType": 3,
+							"leftExpression": {
+								"type": 1,
+								"attribute": "UsrIntDefault"
+							},
+							"rightExpression": {
+								"type": 0,
+								"value": 0,
+								"dataValueType": 4
+							}
+						}
+					]
+				}
+			},
+			"Tab9959d105TabLabelGroup0029467f": {
+				"babe20f8-ae93-4c59-beef-e7a62133e226": {
+					"uId": "babe20f8-ae93-4c59-beef-e7a62133e226",
+					"enabled": true,
+					"removed": true,
+					"ruleType": 0,
+					"property": 0,
+					"logical": 0,
+					"conditions": [
+						{
+							"comparisonType": 3,
+							"leftExpression": {
+								"type": 1,
+								"attribute": "UsrIntDefault"
+							},
+							"rightExpression": {
+								"type": 0,
+								"value": 0,
+								"dataValueType": 4
+							}
+						}
+					]
+				}
+			},
+			"Tab9959d105TabLabelGroupeb35b941": {
+				"73999f42-15ed-46f1-83c8-71caa3672339": {
+					"uId": "73999f42-15ed-46f1-83c8-71caa3672339",
+					"enabled": true,
+					"removed": false,
+					"ruleType": 0,
+					"property": 0,
+					"logical": 0,
+					"conditions": [
+						{
+							"comparisonType": 3,
+							"leftExpression": {
+								"type": 1,
+								"attribute": "UsrIntDefault"
+							},
+							"rightExpression": {
+								"type": 0,
+								"value": 1,
+								"dataValueType": 4
+							}
+						}
+					]
+				},
+				"1231a1b6-8589-406e-a6c4-5d1594017a6d": {
+					"uId": "1231a1b6-8589-406e-a6c4-5d1594017a6d",
+					"enabled": true,
+					"removed": true,
+					"ruleType": 0,
+					"property": 0,
+					"logical": 0,
+					"conditions": [
+						{
+							"comparisonType": 3,
+							"leftExpression": {
+								"type": 1,
+								"attribute": "UsrSuccess"
+							},
+							"rightExpression": {
+								"type": 0,
+								"value": false,
+								"dataValueType": 12
+							}
+						}
+					]
+				}
+			},
+			"Tab9959d105TabLabelGroup6cd6fa76": {
+				"078e1f04-2b48-4540-99fa-170a92cdc94e": {
+					"uId": "078e1f04-2b48-4540-99fa-170a92cdc94e",
+					"enabled": true,
+					"removed": true,
+					"ruleType": 0,
+					"property": 0,
+					"logical": 0,
+					"conditions": [
+						{
+							"comparisonType": 3,
+							"leftExpression": {
+								"type": 1,
+								"attribute": "UsrIntDefault"
+							},
+							"rightExpression": {
+								"type": 0,
+								"value": 1,
+								"dataValueType": 4
+							}
+						}
+					]
+				}
+			},
+			"Tab9959d105TabLabelGroup1e2f0cb3": {
+				"aaff904d-3af6-4ca7-a454-d2be5e818edc": {
+					"uId": "aaff904d-3af6-4ca7-a454-d2be5e818edc",
+					"enabled": true,
+					"removed": true,
+					"ruleType": 0,
+					"property": 0,
+					"logical": 0,
+					"conditions": [
+						{
+							"comparisonType": 3,
+							"leftExpression": {
+								"type": 1,
+								"attribute": "UsrIntDefault"
+							},
+							"rightExpression": {
+								"type": 0,
+								"value": 1,
+								"dataValueType": 4
+							}
+						}
+					]
+				}
+			},
+			"UsrNext": {
+				"5e6e548e-ece8-4074-a5ed-1ecb07a241ce": {
+					"uId": "5e6e548e-ece8-4074-a5ed-1ecb07a241ce",
+					"enabled": true,
+					"removed": false,
+					"ruleType": 3,
+					"populatingAttributeSource": {
+						"expression": {
+							"type": 1,
+							"attribute": "UsrForTheRuleALLTrue"
+						}
+					},
+					"logical": 0,
+					"conditions": [
+						{
+							"comparisonType": 2,
+							"leftExpression": {
+								"type": 1,
+								"attribute": "UsrCargoType"
+							}
+						},
+						{
+							"comparisonType": 2,
+							"leftExpression": {
+								"type": 1,
+								"attribute": "UsrPayerType"
+							}
+						},
+						{
+							"comparisonType": 2,
+							"leftExpression": {
+								"type": 1,
+								"attribute": "UsrPaymentMethod"
+							}
+						},
+						{
+							"comparisonType": 2,
+							"leftExpression": {
+								"type": 1,
+								"attribute": "UsrSeatsAmount"
+							}
+						},
+						{
+							"comparisonType": 2,
+							"leftExpression": {
+								"type": 1,
+								"attribute": "UsrWeight"
+							}
+						},
+						{
+							"comparisonType": 2,
+							"leftExpression": {
+								"type": 1,
+								"attribute": "UsrDescription"
+							}
+						},
+						{
+							"comparisonType": 2,
+							"leftExpression": {
+								"type": 1,
+								"attribute": "UsrCost"
+							}
+						}
+					]
+				},
+				"dc329827-b7ea-4e1e-8746-6b29a4c6a764": {
+					"uId": "dc329827-b7ea-4e1e-8746-6b29a4c6a764",
+					"enabled": true,
+					"removed": false,
+					"ruleType": 3,
+					"populatingAttributeSource": {
+						"expression": {
+							"type": 1,
+							"attribute": "UsrForTheRule"
+						}
+					},
+					"logical": 1,
+					"conditions": [
+						{
+							"comparisonType": 1,
+							"leftExpression": {
+								"type": 1,
+								"attribute": "UsrCargoType"
+							}
+						},
+						{
+							"comparisonType": 1,
+							"leftExpression": {
+								"type": 1,
+								"attribute": "UsrPayerType"
+							}
+						},
+						{
+							"comparisonType": 1,
+							"leftExpression": {
+								"type": 1,
+								"attribute": "UsrPaymentMethod"
+							}
+						},
+						{
+							"comparisonType": 1,
+							"leftExpression": {
+								"type": 1,
+								"attribute": "UsrSeatsAmount"
+							}
+						},
+						{
+							"comparisonType": 1,
+							"leftExpression": {
+								"type": 1,
+								"attribute": "UsrWeight"
+							}
+						},
+						{
+							"comparisonType": 1,
+							"leftExpression": {
+								"type": 1,
+								"attribute": "UsrDescription"
+							}
+						},
+						{
+							"comparisonType": 1,
+							"leftExpression": {
+								"type": 1,
+								"attribute": "UsrCost"
+							}
+						}
+					]
+				}
+			},
+			"Tab9959d105TabLabelGroup3f348a31": {
+				"721c132e-ee35-4eba-9ab2-37f4d2c1ac9b": {
+					"uId": "721c132e-ee35-4eba-9ab2-37f4d2c1ac9b",
+					"enabled": true,
+					"removed": false,
+					"ruleType": 0,
+					"property": 0,
+					"logical": 0,
+					"conditions": [
+						{
+							"comparisonType": 3,
+							"leftExpression": {
+								"type": 1,
+								"attribute": "UsrSuccess"
+							},
+							"rightExpression": {
+								"type": 0,
+								"value": true,
+								"dataValueType": 12
+							}
+						}
+					]
+				},
+				"bfd86eee-c910-45a8-b79f-6350abb4091b": {
+					"uId": "bfd86eee-c910-45a8-b79f-6350abb4091b",
+					"enabled": true,
+					"removed": false,
+					"ruleType": 0,
+					"property": 0,
+					"logical": 0,
+					"conditions": [
+						{
+							"comparisonType": 3,
+							"leftExpression": {
+								"type": 1,
+								"attribute": "UsrIntDefault"
+							},
+							"rightExpression": {
+								"type": 0,
+								"value": 2,
+								"dataValueType": 4
+							}
+						}
+					]
+				}
+			},
+			"Tab9959d105TabLabelGroupee76de07": {
+				"b8589cf7-f2ca-4db2-9eb3-3099f303b3c2": {
+					"uId": "b8589cf7-f2ca-4db2-9eb3-3099f303b3c2",
+					"enabled": true,
+					"removed": true,
+					"ruleType": 0,
+					"property": 0,
+					"logical": 0,
+					"conditions": [
+						{
+							"comparisonType": 3,
+							"leftExpression": {
+								"type": 1,
+								"attribute": "UsrSuccess"
+							},
+							"rightExpression": {
+								"type": 0,
+								"value": false,
+								"dataValueType": 12
+							}
+						}
+					]
+				},
+				"f5c2ce41-0cef-4053-b69f-88645d2d3592": {
+					"uId": "f5c2ce41-0cef-4053-b69f-88645d2d3592",
+					"enabled": true,
+					"removed": false,
+					"ruleType": 0,
+					"property": 0,
+					"logical": 1,
+					"conditions": [
+						{
+							"comparisonType": 3,
+							"leftExpression": {
+								"type": 1,
+								"attribute": "UsrIntDefault"
+							},
+							"rightExpression": {
+								"type": 0,
+								"value": 0,
+								"dataValueType": 4
+							}
+						},
+						{
+							"comparisonType": 3,
+							"leftExpression": {
+								"type": 1,
+								"attribute": "UsrIntDefault"
+							},
+							"rightExpression": {
+								"type": 0,
+								"value": 1,
+								"dataValueType": 4
+							}
+						},
+						{
+							"comparisonType": 3,
+							"leftExpression": {
+								"type": 1,
+								"attribute": "UsrIntDefault"
+							},
+							"rightExpression": {
+								"type": 0,
+								"value": 2,
+								"dataValueType": 4
+							}
+						}
+					]
+				}
 			}
 		}/**SCHEMA_BUSINESS_RULES*/,
-		methods: {},
+		methods: {
+			save: function(config) {
+                if (config) {
+                    config.isSilent = true;
+                }
+                else {
+                    config = {
+                        isSilent: true
+                    };
+                }
+                this.callParent([config]);
+            },
+			onMyButtonClickBack: function() {
+				
+				var IntDefault = this.get("UsrIntDefault");
+				var Default = IntDefault - 1;
+				this.set("UsrIntDefault", Default);
+				this.set("UsrNext", true);
+				if (Default == 0){
+					this.set("UsrBack", false);
+					}
+				},
+			
+			getUsrBack: function() {
+				var UsrBack = this.get("UsrBack");
+				var result = UsrBack;
+				return result;
+			},
+			
+			onMyButtonClick: function() {
+				var UsrIntDefault = this.get("UsrIntDefault");
+				var IntDefault = UsrIntDefault + 1;
+				this.set("UsrIntDefault", IntDefault);
+				this.set("UsrBack", true);
+				if (IntDefault == 2){
+					this.set("UsrNext", false);
+					}
+				},
+			
+			getUsrNext: function() {
+				var UsrNext = this.get("UsrNext");
+				var result = UsrNext;
+				return result;
+			},
+			
+			onMyButtonClickStartProces: function() {
+                var contactParameter = this.get("Id");
+                const runProcessRequest = Ext.create("Terrasoft.RunProcessRequest", {
+                    "schemaName": "UsrProcess_0e02c98_e9c33b4NovaPoshtaClassic1",
+                    "schemaUId": "ba5f3d63-3d12-4bf0-886c-97c79c2fc12d",
+                    "parameterValues": {
+                        "ProcessSchemaParameter1": contactParameter
+                    },
+                    "resultParameterNames": [
+                        "DocNumber"
+                    ]
+                    });
+                runProcessRequest.execute(function(response) {
+                    if (response.isSuccess()) {
+                        var job = response.resultParameterValues["DocNumber"];
+                        Terrasoft.showInformation("Full job title: " +  job);
+						this.reloadEntity();
+                    }
+                }, this);
+				
+			},
+			
+			getUsrStartProces: function() {
+				var UsrStart = this.get("UsrStart");
+				var result = UsrStart;
+				return result;
+			},
+			
+			onMyButtonClickSuccess: function() {
+				debugger;
+				var DocNumber = this.get("UsrName");
+				var urlNP = "https://my.novaposhta.ua/orders/printMarking100x100/orders[]/" + DocNumber + "/type/pdf/apiKey/1e34a629cda2aa3c43e174bbaca950c6/zebra";
+				return urlNP;
+				
+				},
+		},
 		dataModels: /**SCHEMA_DATA_MODELS*/{}/**SCHEMA_DATA_MODELS*/,
 		diff: /**SCHEMA_DIFF*/[
 			{
 				"operation": "insert",
-				"name": "UsrForTheRulef9c6aa54-3c69-43a2-9279-8ed45d3414b1",
+				"name": "UsrCargoTypef86c0b72-6295-4101-9dfd-42b1038e7016",
 				"values": {
 					"layout": {
 						"colSpan": 24,
 						"rowSpan": 1,
 						"column": 0,
 						"row": 0,
+						"layoutName": "ProfileContainer"
+					},
+					"bindTo": "UsrCargoType"
+				},
+				"parentName": "ProfileContainer",
+				"propertyName": "items",
+				"index": 0
+			},
+			{
+				"operation": "insert",
+				"name": "UsrPayerType541148b1-3602-4fa7-baac-b976b5b46e78",
+				"values": {
+					"layout": {
+						"colSpan": 24,
+						"rowSpan": 1,
+						"column": 0,
+						"row": 1,
+						"layoutName": "ProfileContainer"
+					},
+					"bindTo": "UsrPayerType"
+				},
+				"parentName": "ProfileContainer",
+				"propertyName": "items",
+				"index": 1
+			},
+			{
+				"operation": "insert",
+				"name": "UsrPaymentMethod922340b8-89e0-48aa-806a-19c7d7b8d1c7",
+				"values": {
+					"layout": {
+						"colSpan": 24,
+						"rowSpan": 1,
+						"column": 0,
+						"row": 2,
+						"layoutName": "ProfileContainer"
+					},
+					"bindTo": "UsrPaymentMethod"
+				},
+				"parentName": "ProfileContainer",
+				"propertyName": "items",
+				"index": 2
+			},
+			{
+				"operation": "insert",
+				"name": "UsrSeatsAmountf7c42ac1-0741-4d39-9766-2dbbbaf5e8ca",
+				"values": {
+					"layout": {
+						"colSpan": 24,
+						"rowSpan": 1,
+						"column": 0,
+						"row": 3,
+						"layoutName": "ProfileContainer"
+					},
+					"bindTo": "UsrSeatsAmount"
+				},
+				"parentName": "ProfileContainer",
+				"propertyName": "items",
+				"index": 3
+			},
+			{
+				"operation": "insert",
+				"name": "UsrWeighta85586bc-c729-4ec7-9e65-0f29f924a206",
+				"values": {
+					"layout": {
+						"colSpan": 24,
+						"rowSpan": 1,
+						"column": 0,
+						"row": 4,
+						"layoutName": "ProfileContainer"
+					},
+					"bindTo": "UsrWeight"
+				},
+				"parentName": "ProfileContainer",
+				"propertyName": "items",
+				"index": 4
+			},
+			{
+				"operation": "insert",
+				"name": "UsrForTheRulef5f67385-a35c-47a9-ae33-0e41496d4185",
+				"values": {
+					"layout": {
+						"colSpan": 24,
+						"rowSpan": 1,
+						"column": 0,
+						"row": 5,
 						"layoutName": "ProfileContainer"
 					},
 					"bindTo": "UsrForTheRule"
 				},
 				"parentName": "ProfileContainer",
 				"propertyName": "items",
-				"index": 0
-			},
-			{
-				"operation": "insert",
-				"name": "LOOKUPe8a00c8d-bf13-4e1c-9c19-95f33b8d5abd",
-				"values": {
-					"layout": {
-						"colSpan": 24,
-						"rowSpan": 1,
-						"column": 0,
-						"row": 1,
-						"layoutName": "ProfileContainer"
-					},
-					"bindTo": "UsrDefault",
-					"enabled": true,
-					"contentType": 5
-				},
-				"parentName": "ProfileContainer",
-				"propertyName": "items",
-				"index": 1
-			},
-			{
-				"operation": "insert",
-				"name": "LOOKUP08cf6399-de2a-4352-8723-69d7ade682ae",
-				"values": {
-					"layout": {
-						"colSpan": 24,
-						"rowSpan": 1,
-						"column": 0,
-						"row": 2,
-						"layoutName": "ProfileContainer"
-					},
-					"bindTo": "UsrSenderCounterparty",
-					"enabled": true,
-					"contentType": 3
-				},
-				"parentName": "ProfileContainer",
-				"propertyName": "items",
-				"index": 2
-			},
-			{
-				"operation": "insert",
-				"name": "LOOKUP83b28790-7b5a-45d0-b424-0e5945833041",
-				"values": {
-					"layout": {
-						"colSpan": 24,
-						"rowSpan": 1,
-						"column": 0,
-						"row": 3,
-						"layoutName": "ProfileContainer"
-					},
-					"bindTo": "UsrAddressCounterparty",
-					"enabled": true,
-					"contentType": 3
-				},
-				"parentName": "ProfileContainer",
-				"propertyName": "items",
-				"index": 3
-			},
-			{
-				"operation": "insert",
-				"name": "LOOKUP9e715a80-03c8-466d-aea4-bbfc65b3c80e",
-				"values": {
-					"layout": {
-						"colSpan": 24,
-						"rowSpan": 1,
-						"column": 0,
-						"row": 4,
-						"layoutName": "ProfileContainer"
-					},
-					"bindTo": "UsrRecipientContact",
-					"enabled": true,
-					"contentType": 5
-				},
-				"parentName": "ProfileContainer",
-				"propertyName": "items",
-				"index": 4
-			},
-			{
-				"operation": "insert",
-				"name": "BOOLEAN3082c9d7-91ae-434f-a0d6-70deabf24b1c",
-				"values": {
-					"layout": {
-						"colSpan": 4,
-						"rowSpan": 1,
-						"column": 12,
-						"row": 0,
-						"layoutName": "Header"
-					},
-					"bindTo": "UsrRecipient",
-					"enabled": true
-				},
-				"parentName": "Header",
-				"propertyName": "items",
-				"index": 0
-			},
-			{
-				"operation": "insert",
-				"name": "BOOLEAN7f4f792d-0ff2-4141-8833-fcf915668bff",
-				"values": {
-					"layout": {
-						"colSpan": 4,
-						"rowSpan": 1,
-						"column": 16,
-						"row": 0,
-						"layoutName": "Header"
-					},
-					"bindTo": "UsrSender",
-					"enabled": true
-				},
-				"parentName": "Header",
-				"propertyName": "items",
-				"index": 1
-			},
-			{
-				"operation": "insert",
-				"name": "BOOLEAN57c6f71a-2862-43e8-a37e-7e80a4797370",
-				"values": {
-					"layout": {
-						"colSpan": 4,
-						"rowSpan": 1,
-						"column": 20,
-						"row": 0,
-						"layoutName": "Header"
-					},
-					"bindTo": "UsrThirdPerson",
-					"enabled": true
-				},
-				"parentName": "Header",
-				"propertyName": "items",
-				"index": 2
-			},
-			{
-				"operation": "insert",
-				"name": "UsrPayerType98e61605-4442-4b15-899d-3a1ca0211753",
-				"values": {
-					"layout": {
-						"colSpan": 12,
-						"rowSpan": 1,
-						"column": 0,
-						"row": 0,
-						"layoutName": "Header"
-					},
-					"bindTo": "UsrPayerType",
-					"enabled": true
-				},
-				"parentName": "Header",
-				"propertyName": "items",
-				"index": 3
-			},
-			{
-				"operation": "insert",
-				"name": "BOOLEAN05aca756-2010-49b1-87bc-1f27b1ae9482",
-				"values": {
-					"layout": {
-						"colSpan": 4,
-						"rowSpan": 1,
-						"column": 12,
-						"row": 1,
-						"layoutName": "Header"
-					},
-					"bindTo": "UsrCash",
-					"enabled": true
-				},
-				"parentName": "Header",
-				"propertyName": "items",
-				"index": 4
-			},
-			{
-				"operation": "insert",
-				"name": "BOOLEAN884086f8-a1c2-4086-9b44-92856694e68c",
-				"values": {
-					"layout": {
-						"colSpan": 4,
-						"rowSpan": 1,
-						"column": 16,
-						"row": 1,
-						"layoutName": "Header"
-					},
-					"bindTo": "UsrNonCash",
-					"enabled": true
-				},
-				"parentName": "Header",
-				"propertyName": "items",
 				"index": 5
 			},
 			{
 				"operation": "insert",
-				"name": "UsrPaymentMethode59720a8-ae97-4f63-85aa-ad421cd24762",
+				"name": "UsrForTheRuleALLTruee5642797-926e-49d9-b709-0dd12301a0f6",
 				"values": {
 					"layout": {
-						"colSpan": 12,
+						"colSpan": 24,
 						"rowSpan": 1,
 						"column": 0,
-						"row": 1,
-						"layoutName": "Header"
+						"row": 6,
+						"layoutName": "ProfileContainer"
 					},
-					"bindTo": "UsrPaymentMethod",
-					"enabled": true
+					"bindTo": "UsrForTheRuleALLTrue"
 				},
-				"parentName": "Header",
+				"parentName": "ProfileContainer",
 				"propertyName": "items",
 				"index": 6
 			},
 			{
 				"operation": "insert",
-				"name": "UsrDateTime6ac72ea0-30a7-4acb-bbcd-fa71c0b6b888",
+				"name": "UsrNexta23363cc-6898-4692-a6cc-0db849ebd1d9",
 				"values": {
 					"layout": {
-						"colSpan": 12,
+						"colSpan": 24,
 						"rowSpan": 1,
 						"column": 0,
-						"row": 2,
-						"layoutName": "Header"
+						"row": 7,
+						"layoutName": "ProfileContainer"
 					},
-					"bindTo": "UsrDateTime"
+					"bindTo": "UsrNext"
 				},
-				"parentName": "Header",
+				"parentName": "ProfileContainer",
 				"propertyName": "items",
 				"index": 7
 			},
 			{
 				"operation": "insert",
-				"name": "BOOLEAN09beabe4-a65a-4ecd-925b-354fceb26d82",
+				"name": "UsrBackd5caf710-5d6c-4b5d-80d8-045159dd2e0e",
 				"values": {
 					"layout": {
-						"colSpan": 4,
+						"colSpan": 24,
 						"rowSpan": 1,
-						"column": 12,
-						"row": 3,
-						"layoutName": "Header"
+						"column": 0,
+						"row": 8,
+						"layoutName": "ProfileContainer"
 					},
-					"bindTo": "UsrParcel",
-					"enabled": true
+					"bindTo": "UsrBack"
 				},
-				"parentName": "Header",
+				"parentName": "ProfileContainer",
 				"propertyName": "items",
 				"index": 8
 			},
 			{
 				"operation": "insert",
-				"name": "BOOLEANb232bc2a-caac-4aaf-93e9-78f7dfa97baf",
+				"name": "BOOLEAN3bd78744-4b58-42e5-89e4-d3a84a2f11af",
 				"values": {
 					"layout": {
-						"colSpan": 4,
+						"colSpan": 24,
 						"rowSpan": 1,
-						"column": 16,
-						"row": 3,
-						"layoutName": "Header"
+						"column": 0,
+						"row": 9,
+						"layoutName": "ProfileContainer"
 					},
-					"bindTo": "UsrDocuments",
+					"bindTo": "UsrStart",
 					"enabled": true
 				},
-				"parentName": "Header",
+				"parentName": "ProfileContainer",
 				"propertyName": "items",
 				"index": 9
 			},
 			{
 				"operation": "insert",
-				"name": "UsrCargoType174c897f-3a45-4808-8e83-b9601187ad83",
+				"name": "BOOLEANbf921c12-9ffe-4b5d-8b2a-f9104ffd3dbf",
 				"values": {
 					"layout": {
-						"colSpan": 12,
+						"colSpan": 24,
 						"rowSpan": 1,
 						"column": 0,
-						"row": 3,
-						"layoutName": "Header"
+						"row": 10,
+						"layoutName": "ProfileContainer"
 					},
-					"bindTo": "UsrCargoType",
+					"bindTo": "UsrSuccess",
 					"enabled": true
 				},
-				"parentName": "Header",
+				"parentName": "ProfileContainer",
 				"propertyName": "items",
 				"index": 10
 			},
 			{
 				"operation": "insert",
-				"name": "UsrWeighta70ef7f4-4193-47ff-8633-46b01be4c5ae",
+				"name": "UsrIntDefaultbdc5a398-c6a9-4a38-adf9-54af255f4935",
 				"values": {
 					"layout": {
-						"colSpan": 12,
+						"colSpan": 24,
 						"rowSpan": 1,
 						"column": 0,
-						"row": 4,
-						"layoutName": "Header"
+						"row": 11,
+						"layoutName": "ProfileContainer"
 					},
-					"bindTo": "UsrWeight"
+					"bindTo": "UsrIntDefault"
 				},
-				"parentName": "Header",
+				"parentName": "ProfileContainer",
 				"propertyName": "items",
 				"index": 11
-			},
-			{
-				"operation": "insert",
-				"name": "LOOKUPd390d756-079f-408e-926b-253a5ddd7568",
-				"values": {
-					"layout": {
-						"colSpan": 12,
-						"rowSpan": 1,
-						"column": 12,
-						"row": 4,
-						"layoutName": "Header"
-					},
-					"bindTo": "UsrWeightList",
-					"enabled": true,
-					"contentType": 3
-				},
-				"parentName": "Header",
-				"propertyName": "items",
-				"index": 12
-			},
-			{
-				"operation": "insert",
-				"name": "UsrBranch5f684fd8-ef09-4240-8329-306583112dc1",
-				"values": {
-					"layout": {
-						"colSpan": 6,
-						"rowSpan": 1,
-						"column": 12,
-						"row": 5,
-						"layoutName": "Header"
-					},
-					"bindTo": "UsrBranch"
-				},
-				"parentName": "Header",
-				"propertyName": "items",
-				"index": 13
-			},
-			{
-				"operation": "insert",
-				"name": "UsrPostomat71cf60a0-b017-48cc-b0f0-474f66be55dd",
-				"values": {
-					"layout": {
-						"colSpan": 6,
-						"rowSpan": 1,
-						"column": 18,
-						"row": 5,
-						"layoutName": "Header"
-					},
-					"bindTo": "UsrPostomat"
-				},
-				"parentName": "Header",
-				"propertyName": "items",
-				"index": 14
-			},
-			{
-				"operation": "insert",
-				"name": "UsrServiceType2f75706d-9018-4e52-a7b5-09d1105c6d38",
-				"values": {
-					"layout": {
-						"colSpan": 12,
-						"rowSpan": 1,
-						"column": 0,
-						"row": 5,
-						"layoutName": "Header"
-					},
-					"bindTo": "UsrServiceType"
-				},
-				"parentName": "Header",
-				"propertyName": "items",
-				"index": 15
-			},
-			{
-				"operation": "insert",
-				"name": "UsrSeatsAmountc90742c3-15e3-4615-ab3c-b3fb1b5ff077",
-				"values": {
-					"layout": {
-						"colSpan": 12,
-						"rowSpan": 1,
-						"column": 0,
-						"row": 6,
-						"layoutName": "Header"
-					},
-					"bindTo": "UsrSeatsAmount"
-				},
-				"parentName": "Header",
-				"propertyName": "items",
-				"index": 16
-			},
-			{
-				"operation": "insert",
-				"name": "LOOKUP02c54105-75f9-4b67-b660-7e7ffe6a1f16",
-				"values": {
-					"layout": {
-						"colSpan": 12,
-						"rowSpan": 1,
-						"column": 12,
-						"row": 6,
-						"layoutName": "Header"
-					},
-					"bindTo": "UsrSeatsAmountList",
-					"enabled": true,
-					"contentType": 3
-				},
-				"parentName": "Header",
-				"propertyName": "items",
-				"index": 17
-			},
-			{
-				"operation": "insert",
-				"name": "UsrDescriptioncd706c82-1ace-4659-91a7-dd00511313ac",
-				"values": {
-					"layout": {
-						"colSpan": 12,
-						"rowSpan": 1,
-						"column": 0,
-						"row": 7,
-						"layoutName": "Header"
-					},
-					"bindTo": "UsrDescription"
-				},
-				"parentName": "Header",
-				"propertyName": "items",
-				"index": 18
-			},
-			{
-				"operation": "insert",
-				"name": "UsrCostc80657b1-bab9-4049-8801-05b41512dc43",
-				"values": {
-					"layout": {
-						"colSpan": 12,
-						"rowSpan": 1,
-						"column": 0,
-						"row": 8,
-						"layoutName": "Header"
-					},
-					"bindTo": "UsrCost"
-				},
-				"parentName": "Header",
-				"propertyName": "items",
-				"index": 19
-			},
-			{
-				"operation": "insert",
-				"name": "UsrRecipientsPhone0eb1cc03-7509-4a20-8636-e2d9edfe236d",
-				"values": {
-					"layout": {
-						"colSpan": 12,
-						"rowSpan": 1,
-						"column": 0,
-						"row": 9,
-						"layoutName": "Header"
-					},
-					"bindTo": "UsrRecipientsPhone"
-				},
-				"parentName": "Header",
-				"propertyName": "items",
-				"index": 20
-			},
-			{
-				"operation": "insert",
-				"name": "UsrRecipientCityNameab808079-f9ae-412e-98bb-cacb4470a0d1",
-				"values": {
-					"layout": {
-						"colSpan": 12,
-						"rowSpan": 1,
-						"column": 0,
-						"row": 10,
-						"layoutName": "Header"
-					},
-					"bindTo": "UsrRecipientCityName"
-				},
-				"parentName": "Header",
-				"propertyName": "items",
-				"index": 21
-			},
-			{
-				"operation": "insert",
-				"name": "UsrDepartment98a03269-caf7-4b07-85ed-97df3be01b42",
-				"values": {
-					"layout": {
-						"colSpan": 12,
-						"rowSpan": 1,
-						"column": 12,
-						"row": 10,
-						"layoutName": "Header"
-					},
-					"bindTo": "UsrDepartment"
-				},
-				"parentName": "Header",
-				"propertyName": "items",
-				"index": 22
-			},
-			{
-				"operation": "insert",
-				"name": "UsrRecipientAreae1197451-2eec-4811-83a9-05b9cc19cfec",
-				"values": {
-					"layout": {
-						"colSpan": 12,
-						"rowSpan": 1,
-						"column": 0,
-						"row": 11,
-						"layoutName": "Header"
-					},
-					"bindTo": "UsrRecipientArea"
-				},
-				"parentName": "Header",
-				"propertyName": "items",
-				"index": 23
-			},
-			{
-				"operation": "insert",
-				"name": "UsrDepartmentfc1eb336-0f27-49ad-b513-5e27391a9f3b",
-				"values": {
-					"layout": {
-						"colSpan": 12,
-						"rowSpan": 1,
-						"column": 12,
-						"row": 11,
-						"layoutName": "Header"
-					},
-					"bindTo": "UsrDepartment"
-				},
-				"parentName": "Header",
-				"propertyName": "items",
-				"index": 24
-			},
-			{
-				"operation": "insert",
-				"name": "UsrRecipientAddressNamef69db7e1-b713-45df-852f-351a3365ee2f",
-				"values": {
-					"layout": {
-						"colSpan": 12,
-						"rowSpan": 1,
-						"column": 0,
-						"row": 12,
-						"layoutName": "Header"
-					},
-					"bindTo": "UsrRecipientAddressName"
-				},
-				"parentName": "Header",
-				"propertyName": "items",
-				"index": 25
-			},
-			{
-				"operation": "insert",
-				"name": "UsrDepartmenta55817eb-d25d-4844-b9ca-cc589cce363f",
-				"values": {
-					"layout": {
-						"colSpan": 12,
-						"rowSpan": 1,
-						"column": 12,
-						"row": 12,
-						"layoutName": "Header"
-					},
-					"bindTo": "UsrDepartment"
-				},
-				"parentName": "Header",
-				"propertyName": "items",
-				"index": 26
-			},
-			{
-				"operation": "insert",
-				"name": "UsrRecipientHousebd387f05-57bf-4454-b071-03773ce933b7",
-				"values": {
-					"layout": {
-						"colSpan": 12,
-						"rowSpan": 1,
-						"column": 0,
-						"row": 13,
-						"layoutName": "Header"
-					},
-					"bindTo": "UsrRecipientHouse"
-				},
-				"parentName": "Header",
-				"propertyName": "items",
-				"index": 27
-			},
-			{
-				"operation": "insert",
-				"name": "UsrRecipientFlat5129f42f-c909-48de-a05f-9448d2eb39c3",
-				"values": {
-					"layout": {
-						"colSpan": 12,
-						"rowSpan": 1,
-						"column": 0,
-						"row": 14,
-						"layoutName": "Header"
-					},
-					"bindTo": "UsrRecipientFlat"
-				},
-				"parentName": "Header",
-				"propertyName": "items",
-				"index": 28
-			},
-			{
-				"operation": "insert",
-				"name": "UsrRecipientNamebeb7d599-82ce-492b-9bf5-5c962e9fe171",
-				"values": {
-					"layout": {
-						"colSpan": 12,
-						"rowSpan": 1,
-						"column": 0,
-						"row": 15,
-						"layoutName": "Header"
-					},
-					"bindTo": "UsrRecipientName"
-				},
-				"parentName": "Header",
-				"propertyName": "items",
-				"index": 29
-			},
-			{
-				"operation": "insert",
-				"name": "UsrRecipientType6deaf633-3d13-43b5-831a-cc90b8ecbd9f",
-				"values": {
-					"layout": {
-						"colSpan": 12,
-						"rowSpan": 1,
-						"column": 0,
-						"row": 16,
-						"layoutName": "Header"
-					},
-					"bindTo": "UsrRecipientType"
-				},
-				"parentName": "Header",
-				"propertyName": "items",
-				"index": 30
-			},
-			{
-				"operation": "insert",
-				"name": "UsrSettlementType531747ef-c50b-4442-bcd4-4c4ce89b0f5b",
-				"values": {
-					"layout": {
-						"colSpan": 12,
-						"rowSpan": 1,
-						"column": 0,
-						"row": 17,
-						"layoutName": "Header"
-					},
-					"bindTo": "UsrSettlementType"
-				},
-				"parentName": "Header",
-				"propertyName": "items",
-				"index": 31
-			},
-			{
-				"operation": "insert",
-				"name": "UsrDepartment07fa4e1b-88ea-4a3e-8541-f0c2fad563dd",
-				"values": {
-					"layout": {
-						"colSpan": 12,
-						"rowSpan": 1,
-						"column": 12,
-						"row": 17,
-						"layoutName": "Header"
-					},
-					"bindTo": "UsrDepartment"
-				},
-				"parentName": "Header",
-				"propertyName": "items",
-				"index": 32
-			},
-			{
-				"operation": "insert",
-				"name": "UsrEDRPOUa1674bf5-a73b-4ad2-a19a-d5438ea1a448",
-				"values": {
-					"layout": {
-						"colSpan": 12,
-						"rowSpan": 1,
-						"column": 0,
-						"row": 18,
-						"layoutName": "Header"
-					},
-					"bindTo": "UsrEDRPOU"
-				},
-				"parentName": "Header",
-				"propertyName": "items",
-				"index": 33
 			},
 			{
 				"operation": "insert",
@@ -2154,17 +2213,20 @@ define("UsrNovaPoshtaDeparture1Page", [], function() {
 			},
 			{
 				"operation": "insert",
-				"name": "BOOLEANc1f012eb-2932-4910-ae18-c0e2749c099d",
+				"name": "STRING00d537d6-ffcb-4893-b47b-d5fc3e79252e",
 				"values": {
 					"layout": {
-						"colSpan": 6,
+						"colSpan": 11,
 						"rowSpan": 1,
 						"column": 0,
 						"row": 0,
 						"layoutName": "Tab9959d105TabLabelGridLayoutb9299c0e"
 					},
-					"bindTo": "UsrBranch",
-					"enabled": true
+					"bindTo": "UsrControlOptions",
+					"labelConfig": {
+						"visible": false
+					},
+					"enabled": false
 				},
 				"parentName": "Tab9959d105TabLabelGridLayoutb9299c0e",
 				"propertyName": "items",
@@ -2172,16 +2234,21 @@ define("UsrNovaPoshtaDeparture1Page", [], function() {
 			},
 			{
 				"operation": "insert",
-				"name": "BOOLEAN91a2a16b-128d-4334-80f3-cac8ee8d3f77",
+				"name": "UsrParcel64acc9fc-c3f8-4365-84de-97970d1c10f5",
 				"values": {
 					"layout": {
-						"colSpan": 6,
+						"colSpan": 5,
 						"rowSpan": 1,
-						"column": 6,
-						"row": 0,
+						"column": 1,
+						"row": 1,
 						"layoutName": "Tab9959d105TabLabelGridLayoutb9299c0e"
 					},
-					"bindTo": "UsrPostomat",
+					"bindTo": "UsrParcel",
+					"labelConfig": {
+						"caption": {
+							"bindTo": "Resources.Strings.UsrParcel64acc9fcc3f8436584de97970d1c10f5LabelCaption"
+						}
+					},
 					"enabled": true
 				},
 				"parentName": "Tab9959d105TabLabelGridLayoutb9299c0e",
@@ -2190,18 +2257,22 @@ define("UsrNovaPoshtaDeparture1Page", [], function() {
 			},
 			{
 				"operation": "insert",
-				"name": "LOOKUP5be2b9df-b9d5-4443-9726-b469006a740c",
+				"name": "UsrDocumentsfaaeb619-34d7-4bfd-95ef-fd3d0b20583f",
 				"values": {
 					"layout": {
-						"colSpan": 12,
+						"colSpan": 5,
 						"rowSpan": 1,
-						"column": 0,
+						"column": 6,
 						"row": 1,
 						"layoutName": "Tab9959d105TabLabelGridLayoutb9299c0e"
 					},
-					"bindTo": "UsrSettlement",
-					"enabled": true,
-					"contentType": 3
+					"bindTo": "UsrDocuments",
+					"labelConfig": {
+						"caption": {
+							"bindTo": "Resources.Strings.UsrDocumentsfaaeb61934d74bfd95effd3d0b20583fLabelCaption"
+						}
+					},
+					"enabled": true
 				},
 				"parentName": "Tab9959d105TabLabelGridLayoutb9299c0e",
 				"propertyName": "items",
@@ -2209,18 +2280,22 @@ define("UsrNovaPoshtaDeparture1Page", [], function() {
 			},
 			{
 				"operation": "insert",
-				"name": "LOOKUP0dc552a7-af23-4a04-8168-b60ee8209fde",
+				"name": "UsrDescription49baa2ee-b050-4da9-bdcf-166128be389f",
 				"values": {
 					"layout": {
-						"colSpan": 12,
+						"colSpan": 8,
 						"rowSpan": 1,
-						"column": 12,
-						"row": 1,
+						"column": 1,
+						"row": 2,
 						"layoutName": "Tab9959d105TabLabelGridLayoutb9299c0e"
 					},
-					"bindTo": "UsrDepartment",
-					"enabled": true,
-					"contentType": 3
+					"bindTo": "UsrDescription",
+					"labelConfig": {
+						"caption": {
+							"bindTo": "Resources.Strings.UsrDescription49baa2eeb0504da9bdcf166128be389fLabelCaption"
+						}
+					},
+					"enabled": true
 				},
 				"parentName": "Tab9959d105TabLabelGridLayoutb9299c0e",
 				"propertyName": "items",
@@ -2228,133 +2303,713 @@ define("UsrNovaPoshtaDeparture1Page", [], function() {
 			},
 			{
 				"operation": "insert",
-				"name": "Tab7fd4820dTabLabel",
+				"name": "UsrCostaa75da9c-97c4-4094-a2b4-858661cc28bf",
 				"values": {
-					"caption": {
-						"bindTo": "Resources.Strings.Tab7fd4820dTabLabelTabCaption"
+					"layout": {
+						"colSpan": 8,
+						"rowSpan": 1,
+						"column": 9,
+						"row": 2,
+						"layoutName": "Tab9959d105TabLabelGridLayoutb9299c0e"
 					},
-					"items": [],
-					"order": 1
+					"bindTo": "UsrCost",
+					"labelConfig": {
+						"caption": {
+							"bindTo": "Resources.Strings.UsrCostaa75da9c97c44094a2b4858661cc28bfLabelCaption"
+						}
+					},
+					"enabled": true
 				},
-				"parentName": "Tabs",
-				"propertyName": "tabs",
-				"index": 1
+				"parentName": "Tab9959d105TabLabelGridLayoutb9299c0e",
+				"propertyName": "items",
+				"index": 4
 			},
 			{
 				"operation": "insert",
-				"name": "Tab7fd4820dTabLabelGroup177ff011",
+				"name": "UsrWeightList2baf618c-6053-4f87-ac68-4dfca00dbc9e",
+				"values": {
+					"layout": {
+						"colSpan": 8,
+						"rowSpan": 1,
+						"column": 1,
+						"row": 3,
+						"layoutName": "Tab9959d105TabLabelGridLayoutb9299c0e"
+					},
+					"bindTo": "UsrWeightList",
+					"labelConfig": {
+						"caption": {
+							"bindTo": "Resources.Strings.UsrWeightList2baf618c60534f87ac684dfca00dbc9eLabelCaption"
+						}
+					},
+					"enabled": true,
+					"contentType": 3
+				},
+				"parentName": "Tab9959d105TabLabelGridLayoutb9299c0e",
+				"propertyName": "items",
+				"index": 5
+			},
+			{
+				"operation": "insert",
+				"name": "UsrSeatsAmountListdb25907a-f1e8-4f77-b4b2-69058f1a9e73",
+				"values": {
+					"layout": {
+						"colSpan": 8,
+						"rowSpan": 1,
+						"column": 9,
+						"row": 3,
+						"layoutName": "Tab9959d105TabLabelGridLayoutb9299c0e"
+					},
+					"bindTo": "UsrSeatsAmountList",
+					"labelConfig": {
+						"caption": {
+							"bindTo": "Resources.Strings.UsrSeatsAmountListdb25907af1e84f77b4b269058f1a9e73LabelCaption"
+						}
+					},
+					"enabled": true,
+					"contentType": 3
+				},
+				"parentName": "Tab9959d105TabLabelGridLayoutb9299c0e",
+				"propertyName": "items",
+				"index": 6
+			},
+			{
+				"operation": "insert",
+				"name": "STRINGf48de626-c976-44ee-80ec-08b1ef2f3984",
+				"values": {
+					"layout": {
+						"colSpan": 11,
+						"rowSpan": 1,
+						"column": 0,
+						"row": 5,
+						"layoutName": "Tab9959d105TabLabelGridLayoutb9299c0e"
+					},
+					"bindTo": "UsrPayerDelivery",
+					"enabled": false,
+					"labelConfig": {
+						"visible": false
+					}
+				},
+				"parentName": "Tab9959d105TabLabelGridLayoutb9299c0e",
+				"propertyName": "items",
+				"index": 7
+			},
+			{
+				"operation": "insert",
+				"name": "UsrRecipientc53bb54c-7c1d-4214-a791-0b91688b38a4",
+				"values": {
+					"layout": {
+						"colSpan": 6,
+						"rowSpan": 1,
+						"column": 1,
+						"row": 6,
+						"layoutName": "Tab9959d105TabLabelGridLayoutb9299c0e"
+					},
+					"bindTo": "UsrRecipient"
+				},
+				"parentName": "Tab9959d105TabLabelGridLayoutb9299c0e",
+				"propertyName": "items",
+				"index": 8
+			},
+			{
+				"operation": "insert",
+				"name": "UsrSenderf43098f9-fe3f-4c02-b6a9-ce3146d99ad9",
+				"values": {
+					"layout": {
+						"colSpan": 6,
+						"rowSpan": 1,
+						"column": 7,
+						"row": 6,
+						"layoutName": "Tab9959d105TabLabelGridLayoutb9299c0e"
+					},
+					"bindTo": "UsrSender"
+				},
+				"parentName": "Tab9959d105TabLabelGridLayoutb9299c0e",
+				"propertyName": "items",
+				"index": 9
+			},
+			{
+				"operation": "insert",
+				"name": "UsrThirdPersonc23e1fe5-0ca3-4c9b-9144-102f20a61759",
+				"values": {
+					"layout": {
+						"colSpan": 6,
+						"rowSpan": 1,
+						"column": 13,
+						"row": 6,
+						"layoutName": "Tab9959d105TabLabelGridLayoutb9299c0e"
+					},
+					"bindTo": "UsrThirdPerson"
+				},
+				"parentName": "Tab9959d105TabLabelGridLayoutb9299c0e",
+				"propertyName": "items",
+				"index": 10
+			},
+			{
+				"operation": "insert",
+				"name": "STRING2181c995-f892-421d-a9fb-90d07bc91ae6",
+				"values": {
+					"layout": {
+						"colSpan": 11,
+						"rowSpan": 1,
+						"column": 0,
+						"row": 8,
+						"layoutName": "Tab9959d105TabLabelGridLayoutb9299c0e"
+					},
+					"bindTo": "UsrDeliveryPaymentForm",
+					"labelConfig": {
+						"visible": false
+					},
+					"enabled": false
+				},
+				"parentName": "Tab9959d105TabLabelGridLayoutb9299c0e",
+				"propertyName": "items",
+				"index": 11
+			},
+			{
+				"operation": "insert",
+				"name": "UsrCash4b629eff-c235-400d-a92e-e3b9d766db3f",
+				"values": {
+					"layout": {
+						"colSpan": 6,
+						"rowSpan": 1,
+						"column": 1,
+						"row": 9,
+						"layoutName": "Tab9959d105TabLabelGridLayoutb9299c0e"
+					},
+					"bindTo": "UsrCash"
+				},
+				"parentName": "Tab9959d105TabLabelGridLayoutb9299c0e",
+				"propertyName": "items",
+				"index": 12
+			},
+			{
+				"operation": "insert",
+				"name": "UsrNonCash37a88f23-0e08-4610-bcf0-14e2b2989cf6",
+				"values": {
+					"layout": {
+						"colSpan": 6,
+						"rowSpan": 1,
+						"column": 7,
+						"row": 9,
+						"layoutName": "Tab9959d105TabLabelGridLayoutb9299c0e"
+					},
+					"bindTo": "UsrNonCash"
+				},
+				"parentName": "Tab9959d105TabLabelGridLayoutb9299c0e",
+				"propertyName": "items",
+				"index": 13
+			},
+			{
+				"operation": "insert",
+				"name": "UsrRecipientName88a79b17-7187-4a78-8b0f-12e711d8336f",
+				"values": {
+					"layout": {
+						"colSpan": 1,
+						"rowSpan": 1,
+						"column": 23,
+						"row": 11,
+						"layoutName": "Tab9959d105TabLabelGridLayoutb9299c0e"
+					},
+					"bindTo": "UsrRecipientName",
+					"labelConfig": {
+						"visible": false
+					},
+					"enabled": false
+				},
+				"parentName": "Tab9959d105TabLabelGridLayoutb9299c0e",
+				"propertyName": "items",
+				"index": 14
+			},
+			{
+				"operation": "insert",
+				"name": "Tab9959d105TabLabelGroupeb35b941",
 				"values": {
 					"caption": {
-						"bindTo": "Resources.Strings.Tab7fd4820dTabLabelGroup177ff011GroupCaption"
+						"bindTo": "Resources.Strings.Tab9959d105TabLabelGroupeb35b941GroupCaption"
 					},
 					"itemType": 15,
 					"markerValue": "added-group",
 					"items": []
 				},
-				"parentName": "Tab7fd4820dTabLabel",
+				"parentName": "Tab9959d105TabLabel",
 				"propertyName": "items",
-				"index": 0
+				"index": 1
 			},
 			{
 				"operation": "insert",
-				"name": "Tab7fd4820dTabLabelGridLayout35ccd8a3",
+				"name": "Tab9959d105TabLabelGridLayoutc38da43a",
 				"values": {
 					"itemType": 0,
 					"items": []
 				},
-				"parentName": "Tab7fd4820dTabLabelGroup177ff011",
+				"parentName": "Tab9959d105TabLabelGroupeb35b941",
 				"propertyName": "items",
 				"index": 0
 			},
 			{
 				"operation": "insert",
-				"name": "STRING8fa79aaa-92e9-4bcd-bc79-7dcba75091f6",
+				"name": "STRING869b0184-efa7-463f-a0e7-dd2b99bd82ad",
+				"values": {
+					"layout": {
+						"colSpan": 11,
+						"rowSpan": 1,
+						"column": 0,
+						"row": 0,
+						"layoutName": "Tab9959d105TabLabelGridLayoutc38da43a"
+					},
+					"bindTo": "UsrSenderStr",
+					"labelConfig": {
+						"visible": false
+					},
+					"enabled": false
+				},
+				"parentName": "Tab9959d105TabLabelGridLayoutc38da43a",
+				"propertyName": "items",
+				"index": 0
+			},
+			{
+				"operation": "insert",
+				"name": "UsrSenderCounterparty31f5d14e-8c64-4fec-b831-2ee37520026f",
+				"values": {
+					"layout": {
+						"colSpan": 17,
+						"rowSpan": 1,
+						"column": 1,
+						"row": 1,
+						"layoutName": "Tab9959d105TabLabelGridLayoutc38da43a"
+					},
+					"bindTo": "UsrSenderCounterparty",
+					"enabled": true,
+					"contentType": 3
+				},
+				"parentName": "Tab9959d105TabLabelGridLayoutc38da43a",
+				"propertyName": "items",
+				"index": 1
+			},
+			{
+				"operation": "insert",
+				"name": "UsrAddressCounterparty2fdbe823-645e-49dc-b36e-45fb7bee8b36",
+				"values": {
+					"layout": {
+						"colSpan": 17,
+						"rowSpan": 1,
+						"column": 1,
+						"row": 2,
+						"layoutName": "Tab9959d105TabLabelGridLayoutc38da43a"
+					},
+					"bindTo": "UsrAddressCounterparty",
+					"enabled": true,
+					"contentType": 3
+				},
+				"parentName": "Tab9959d105TabLabelGridLayoutc38da43a",
+				"propertyName": "items",
+				"index": 2
+			},
+			{
+				"operation": "insert",
+				"name": "STRING607fe7aa-76c5-4386-b5de-7255c75b0555",
+				"values": {
+					"layout": {
+						"colSpan": 11,
+						"rowSpan": 1,
+						"column": 0,
+						"row": 4,
+						"layoutName": "Tab9959d105TabLabelGridLayoutc38da43a"
+					},
+					"bindTo": "UsrRecipientStr",
+					"labelConfig": {
+						"visible": false
+					},
+					"enabled": false
+				},
+				"parentName": "Tab9959d105TabLabelGridLayoutc38da43a",
+				"propertyName": "items",
+				"index": 3
+			},
+			{
+				"operation": "insert",
+				"name": "UsrRecipientContactfb350a71-57ad-4867-aac9-1783d42e4009",
+				"values": {
+					"layout": {
+						"colSpan": 10,
+						"rowSpan": 1,
+						"column": 1,
+						"row": 5,
+						"layoutName": "Tab9959d105TabLabelGridLayoutc38da43a"
+					},
+					"bindTo": "UsrRecipientContact"
+				},
+				"parentName": "Tab9959d105TabLabelGridLayoutc38da43a",
+				"propertyName": "items",
+				"index": 4
+			},
+			{
+				"operation": "insert",
+				"name": "UsrRecipientsPhone787363d7-8a4b-48df-9034-aaaf3927aebc",
+				"values": {
+					"layout": {
+						"colSpan": 10,
+						"rowSpan": 1,
+						"column": 1,
+						"row": 6,
+						"layoutName": "Tab9959d105TabLabelGridLayoutc38da43a"
+					},
+					"bindTo": "UsrRecipientsPhone"
+				},
+				"parentName": "Tab9959d105TabLabelGridLayoutc38da43a",
+				"propertyName": "items",
+				"index": 5
+			},
+			{
+				"operation": "insert",
+				"name": "UsrBranch71f44fda-0a1b-4aed-906f-02119eac8b8f",
+				"values": {
+					"layout": {
+						"colSpan": 8,
+						"rowSpan": 1,
+						"column": 1,
+						"row": 7,
+						"layoutName": "Tab9959d105TabLabelGridLayoutc38da43a"
+					},
+					"bindTo": "UsrBranch"
+				},
+				"parentName": "Tab9959d105TabLabelGridLayoutc38da43a",
+				"propertyName": "items",
+				"index": 6
+			},
+			{
+				"operation": "insert",
+				"name": "UsrPostomat7ef86ce6-22c9-4b91-b485-88338589d9fc",
+				"values": {
+					"layout": {
+						"colSpan": 8,
+						"rowSpan": 1,
+						"column": 9,
+						"row": 7,
+						"layoutName": "Tab9959d105TabLabelGridLayoutc38da43a"
+					},
+					"bindTo": "UsrPostomat"
+				},
+				"parentName": "Tab9959d105TabLabelGridLayoutc38da43a",
+				"propertyName": "items",
+				"index": 7
+			},
+			{
+				"operation": "insert",
+				"name": "UsrSettlement09e2da55-1ca2-4291-9595-31b212a2392c",
+				"values": {
+					"layout": {
+						"colSpan": 10,
+						"rowSpan": 1,
+						"column": 1,
+						"row": 8,
+						"layoutName": "Tab9959d105TabLabelGridLayoutc38da43a"
+					},
+					"bindTo": "UsrSettlement"
+				},
+				"parentName": "Tab9959d105TabLabelGridLayoutc38da43a",
+				"propertyName": "items",
+				"index": 8
+			},
+			{
+				"operation": "insert",
+				"name": "UsrDepartmentaf939135-7ea1-47e8-902b-dd97e8a37ad6",
+				"values": {
+					"layout": {
+						"colSpan": 11,
+						"rowSpan": 1,
+						"column": 11,
+						"row": 8,
+						"layoutName": "Tab9959d105TabLabelGridLayoutc38da43a"
+					},
+					"bindTo": "UsrDepartment"
+				},
+				"parentName": "Tab9959d105TabLabelGridLayoutc38da43a",
+				"propertyName": "items",
+				"index": 9
+			},
+			{
+				"operation": "insert",
+				"name": "STRINGd19d302f-f854-4fed-ad3d-89fd4fcbf51a",
+				"values": {
+					"layout": {
+						"colSpan": 11,
+						"rowSpan": 1,
+						"column": 0,
+						"row": 10,
+						"layoutName": "Tab9959d105TabLabelGridLayoutc38da43a"
+					},
+					"bindTo": "UsrAdditionalServicesStr",
+					"labelConfig": {
+						"visible": false
+					},
+					"enabled": false
+				},
+				"parentName": "Tab9959d105TabLabelGridLayoutc38da43a",
+				"propertyName": "items",
+				"index": 10
+			},
+			{
+				"operation": "insert",
+				"name": "UsrDateTime7a672e51-0664-4ebc-898c-b582e7746d63",
+				"values": {
+					"layout": {
+						"colSpan": 9,
+						"rowSpan": 1,
+						"column": 1,
+						"row": 11,
+						"layoutName": "Tab9959d105TabLabelGridLayoutc38da43a"
+					},
+					"bindTo": "UsrDateTime"
+				},
+				"parentName": "Tab9959d105TabLabelGridLayoutc38da43a",
+				"propertyName": "items",
+				"index": 11
+			},
+			{
+				"operation": "insert",
+				"name": "Tab9959d105TabLabelGroup3f348a31",
+				"values": {
+					"caption": {
+						"bindTo": "Resources.Strings.Tab9959d105TabLabelGroup3f348a31GroupCaption"
+					},
+					"itemType": 15,
+					"markerValue": "added-group",
+					"items": []
+				},
+				"parentName": "Tab9959d105TabLabel",
+				"propertyName": "items",
+				"index": 2
+			},
+			{
+				"operation": "insert",
+				"name": "Tab9959d105TabLabelGridLayout72db1f7d",
+				"values": {
+					"itemType": 0,
+					"items": []
+				},
+				"parentName": "Tab9959d105TabLabelGroup3f348a31",
+				"propertyName": "items",
+				"index": 0
+			},
+			{
+				"operation": "insert",
+				"name": "MyButtonSuccess",
+				"values": {
+					"itemType": 5,
+					"caption": {
+						"bindTo": "Resources.Strings.MyButtonSuccess"
+					},
+					"click": {
+						"bindTo": "onMyButtonClickSuccess"
+					},
+					"style": "RED",
+					"layout": {
+						"colSpan": 6,
+						"rowSpan": 2,
+						"column": 15,
+						"row": 0
+					},
+					"visible": true
+				},
+				"parentName": "Tab9959d105TabLabelGridLayout72db1f7d",
+				"propertyName": "items",
+				"index": 0
+			},
+			{
+				"operation": "insert",
+				"name": "UsrName2202f265-207e-45a7-8b64-0c601cc86f64",
 				"values": {
 					"layout": {
 						"colSpan": 12,
 						"rowSpan": 1,
 						"column": 0,
 						"row": 0,
-						"layoutName": "Tab7fd4820dTabLabelGridLayout35ccd8a3"
+						"layoutName": "Tab9959d105TabLabelGridLayout72db1f7d"
 					},
-					"bindTo": "UsrRef",
-					"enabled": true
+					"bindTo": "UsrName"
 				},
-				"parentName": "Tab7fd4820dTabLabelGridLayout35ccd8a3",
+				"parentName": "Tab9959d105TabLabelGridLayout72db1f7d",
 				"propertyName": "items",
-				"index": 0
+				"index": 1
 			},
 			{
 				"operation": "insert",
-				"name": "INTEGERd7180790-48ab-474e-8f38-fce1e3a70baf",
+				"name": "UsrCostOnSite39c39729-2cd5-48f0-a1a1-1c79b161a7d2",
 				"values": {
 					"layout": {
 						"colSpan": 12,
 						"rowSpan": 1,
 						"column": 0,
 						"row": 1,
-						"layoutName": "Tab7fd4820dTabLabelGridLayout35ccd8a3"
+						"layoutName": "Tab9959d105TabLabelGridLayout72db1f7d"
 					},
-					"bindTo": "UsrCostOnSite",
-					"enabled": true
+					"bindTo": "UsrCostOnSite"
 				},
-				"parentName": "Tab7fd4820dTabLabelGridLayout35ccd8a3",
+				"parentName": "Tab9959d105TabLabelGridLayout72db1f7d",
 				"propertyName": "items",
-				"index": 1
+				"index": 2
 			},
 			{
 				"operation": "insert",
-				"name": "STRING73c2d091-e5e4-45cd-b605-0929326b2954",
+				"name": "UsrEstimatedDeliveryDate25a3a853-6bcf-4bad-9705-e1bfedd89787",
 				"values": {
 					"layout": {
 						"colSpan": 12,
 						"rowSpan": 1,
 						"column": 0,
 						"row": 2,
-						"layoutName": "Tab7fd4820dTabLabelGridLayout35ccd8a3"
+						"layoutName": "Tab9959d105TabLabelGridLayout72db1f7d"
 					},
-					"bindTo": "UsrEstimatedDeliveryDate",
-					"enabled": true
+					"bindTo": "UsrEstimatedDeliveryDate"
 				},
-				"parentName": "Tab7fd4820dTabLabelGridLayout35ccd8a3",
+				"parentName": "Tab9959d105TabLabelGridLayout72db1f7d",
 				"propertyName": "items",
-				"index": 2
+				"index": 3
 			},
 			{
 				"operation": "insert",
-				"name": "STRING9359ce80-badb-428b-8a61-644db7603c4d",
+				"name": "UsrRefe10e2514-28cf-420c-bf34-bba9d0a0df0a",
 				"values": {
 					"layout": {
 						"colSpan": 12,
 						"rowSpan": 1,
 						"column": 0,
 						"row": 3,
-						"layoutName": "Tab7fd4820dTabLabelGridLayout35ccd8a3"
+						"layoutName": "Tab9959d105TabLabelGridLayout72db1f7d"
 					},
-					"bindTo": "UsrIntDocNumber",
-					"enabled": true
+					"bindTo": "UsrRef"
 				},
-				"parentName": "Tab7fd4820dTabLabelGridLayout35ccd8a3",
+				"parentName": "Tab9959d105TabLabelGridLayout72db1f7d",
 				"propertyName": "items",
-				"index": 3
+				"index": 4
 			},
 			{
 				"operation": "insert",
-				"name": "STRING9f4d74ff-ccb4-4988-9d9f-a7134798bc4d",
+				"name": "UsrTypeDocument597e9e69-d818-4e83-b579-72d81f584b1f",
 				"values": {
 					"layout": {
 						"colSpan": 12,
 						"rowSpan": 1,
 						"column": 0,
 						"row": 4,
-						"layoutName": "Tab7fd4820dTabLabelGridLayout35ccd8a3"
+						"layoutName": "Tab9959d105TabLabelGridLayout72db1f7d"
 					},
-					"bindTo": "UsrTypeDocument",
-					"enabled": true
+					"bindTo": "UsrTypeDocument"
 				},
-				"parentName": "Tab7fd4820dTabLabelGridLayout35ccd8a3",
+				"parentName": "Tab9959d105TabLabelGridLayout72db1f7d",
 				"propertyName": "items",
-				"index": 4
+				"index": 5
+			},
+			{
+				"operation": "insert",
+				"name": "Tab9959d105TabLabelGroupee76de07",
+				"values": {
+					"caption": {
+						"bindTo": "Resources.Strings.Tab9959d105TabLabelGroupee76de07GroupCaption"
+					},
+					"itemType": 15,
+					"markerValue": "added-group",
+					"items": []
+				},
+				"parentName": "Tab9959d105TabLabel",
+				"propertyName": "items",
+				"index": 3
+			},
+			{
+				"operation": "insert",
+				"name": "Tab9959d105TabLabelGridLayout7c0cc3e5",
+				"values": {
+					"itemType": 0,
+					"items": []
+				},
+				"parentName": "Tab9959d105TabLabelGroupee76de07",
+				"propertyName": "items",
+				"index": 0
+			},
+			{
+				"operation": "insert",
+				"name": "MyButtonBack",
+				"values": {
+					"itemType": 5,
+					"caption": {
+						"bindTo": "Resources.Strings.MyButtonBack"
+					},
+					"click": {
+						"bindTo": "onMyButtonClickBack"
+					},
+					"enabled": {
+						"bindTo": "getUsrBack"
+					},
+					"style": "RED",
+					"layout": {
+						"colSpan": 6,
+						"rowSpan": 1,
+						"column": 0,
+						"row": 0,
+						"layoutName": "Tab9959d105TabLabelGridLayout7c0cc3e5"
+					},
+					"visible": true
+				},
+				"parentName": "Tab9959d105TabLabelGridLayout7c0cc3e5",
+				"propertyName": "items",
+				"index": 0
+			},
+			{
+				"operation": "insert",
+				"name": "MyButtonNext",
+				"values": {
+					"itemType": 5,
+					"caption": {
+						"bindTo": "Resources.Strings.MyButtonCaption"
+					},
+					"click": {
+						"bindTo": "onMyButtonClick"
+					},
+					"enabled": {
+						"bindTo": "getUsrNext"
+					},
+					"style": "RED",
+					"layout": {
+						"colSpan": 6,
+						"rowSpan": 1,
+						"column": 9,
+						"row": 0,
+						"layoutName": "Tab9959d105TabLabelGridLayout7c0cc3e5"
+					},
+					"visible": true
+				},
+				"parentName": "Tab9959d105TabLabelGridLayout7c0cc3e5",
+				"propertyName": "items",
+				"index": 1
+			},
+			{
+				"operation": "insert",
+				"name": "MyButtonStartProces",
+				"values": {
+					"itemType": 5,
+					"caption": {
+						"bindTo": "Resources.Strings.MyButtonStartProces"
+					},
+					"click": {
+						"bindTo": "onMyButtonClickStartProces"
+					},
+					"enabled": {
+						"bindTo": "getUsrStartProces"
+					},
+					"style": "RED",
+					"layout": {
+						"colSpan": 6,
+						"rowSpan": 1,
+						"column": 18,
+						"row": 0,
+						"layoutName": "Tab9959d105TabLabelGridLayout7c0cc3e5"
+					},
+					"visible": true
+				},
+				"parentName": "Tab9959d105TabLabelGridLayout7c0cc3e5",
+				"propertyName": "items",
+				"index": 2
 			},
 			{
 				"operation": "remove",

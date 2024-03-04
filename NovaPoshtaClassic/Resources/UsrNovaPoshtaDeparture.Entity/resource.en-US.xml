@@ -3,26 +3,34 @@
 	<Group Type="String">
 		<Items>
 			<Item Name="Caption" Value="Відправлення" />
+			<Item Name="Columns.UsrAdditionalServicesStr.Caption" Value="Додаткові послуги" />
 			<Item Name="Columns.UsrAddressCounterparty.Caption" Value="Адреса" />
+			<Item Name="Columns.UsrBack.Caption" Value="back" />
 			<Item Name="Columns.UsrBranch.Caption" Value="Відділення" />
 			<Item Name="Columns.UsrCargoType.Caption" Value="CargoType" />
 			<Item Name="Columns.UsrCargoTypeList.Caption" Value="CargoTypeList" />
 			<Item Name="Columns.UsrCash.Caption" Value="Готівка" />
+			<Item Name="Columns.UsrControlOptions.Caption" Value="Параметри відправлення" />
 			<Item Name="Columns.UsrCost.Caption" Value="Cost Преобразовать в строку" />
 			<Item Name="Columns.UsrCostOnSite.Caption" Value="CostOnSite" />
 			<Item Name="Columns.UsrDateTime.Caption" Value="DateTime" />
 			<Item Name="Columns.UsrDefault.Caption" Value="DefaultLics" />
+			<Item Name="Columns.UsrDeliveryPaymentForm.Caption" Value="Форма оплати за доставку" />
 			<Item Name="Columns.UsrDepartment.Caption" Value="Відділення" />
 			<Item Name="Columns.UsrDescription.Caption" Value="Description" />
 			<Item Name="Columns.UsrDocuments.Caption" Value="Документи" />
 			<Item Name="Columns.UsrEDRPOU.Caption" Value="EDRPOU" />
 			<Item Name="Columns.UsrEstimatedDeliveryDate.Caption" Value="EstimatedDeliveryDate" />
 			<Item Name="Columns.UsrForTheRule.Caption" Value=" For the rule - ALL &quot;False&quot;" />
+			<Item Name="Columns.UsrForTheRuleALLTrue.Caption" Value=" For the rule - ALL &quot;True&quot;" />
+			<Item Name="Columns.UsrIntDefault.Caption" Value="IntDefault" />
 			<Item Name="Columns.UsrIntDocNumber.Caption" Value="IntDocNumber" />
 			<Item Name="Columns.UsrName.Caption" Value="Name" />
+			<Item Name="Columns.UsrNext.Caption" Value="Next" />
 			<Item Name="Columns.UsrNonCash.Caption" Value="Безготівка" />
 			<Item Name="Columns.UsrNotes.Caption" Value="Notes" />
 			<Item Name="Columns.UsrParcel.Caption" Value="Посилка" />
+			<Item Name="Columns.UsrPayerDelivery.Caption" Value="Платник за доставку" />
 			<Item Name="Columns.UsrPayerType.Caption" Value="PayerType" />
 			<Item Name="Columns.UsrPayerTypedefault.Caption" Value="PayerTypedefault" />
 			<Item Name="Columns.UsrPayerTypeList.Caption" Value="PayerTypeList" />
@@ -38,6 +46,7 @@
 			<Item Name="Columns.UsrRecipientHouse.Caption" Value="RecipientHouse" />
 			<Item Name="Columns.UsrRecipientName.Caption" Value="RecipientName" />
 			<Item Name="Columns.UsrRecipientsPhone.Caption" Value="RecipientsPhone" />
+			<Item Name="Columns.UsrRecipientStr.Caption" Value="Одержувач" />
 			<Item Name="Columns.UsrRecipientType.Caption" Value="RecipientType" />
 			<Item Name="Columns.UsrRef.Caption" Value="Ref" />
 			<Item Name="Columns.UsrRegion.Caption" Value="Область" />
@@ -45,9 +54,12 @@
 			<Item Name="Columns.UsrSeatsAmountList.Caption" Value="SeatsAmountList" />
 			<Item Name="Columns.UsrSender.Caption" Value="Відправник" />
 			<Item Name="Columns.UsrSenderCounterparty.Caption" Value="Відправник" />
+			<Item Name="Columns.UsrSenderStr.Caption" Value="Відправник" />
 			<Item Name="Columns.UsrServiceType.Caption" Value="ServiceType" />
 			<Item Name="Columns.UsrSettlement.Caption" Value="Населённый пункт" />
 			<Item Name="Columns.UsrSettlementType.Caption" Value="SettlementType" />
+			<Item Name="Columns.UsrStart.Caption" Value="Start" />
+			<Item Name="Columns.UsrSuccess.Caption" Value="success" />
 			<Item Name="Columns.UsrThirdPerson.Caption" Value="Третя особа" />
 			<Item Name="Columns.UsrTypeDocument.Caption" Value="TypeDocument" />
 			<Item Name="Columns.UsrWeight.Caption" Value="Weight" />

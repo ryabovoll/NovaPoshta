@@ -1,27 +1,27 @@
 <Project>
 	<ItemGroup Label="Entity Files" Condition="'$(PkgPath)' != ''">
-		<Compile Include="$(PkgPath)/NovaPoshtaClassic/Schemas/UsrRegion/UsrRegion.cs" Condition="Exists('$(PkgPath)/NovaPoshtaClassic/Schemas/UsrRegion/UsrRegion.cs')" />
 		<Compile Include="$(PkgPath)/NovaPoshtaClassic/Schemas/UsrSeatsAmountList/UsrSeatsAmountList.cs" Condition="Exists('$(PkgPath)/NovaPoshtaClassic/Schemas/UsrSeatsAmountList/UsrSeatsAmountList.cs')" />
-		<Compile Include="$(PkgPath)/NovaPoshtaClassic/Schemas/UsrPayerTypedefaultList/UsrPayerTypedefaultList.cs" Condition="Exists('$(PkgPath)/NovaPoshtaClassic/Schemas/UsrPayerTypedefaultList/UsrPayerTypedefaultList.cs')" />
+		<Compile Include="$(PkgPath)/NovaPoshtaClassic/Schemas/UsrAddressCounterpartyBranch/UsrAddressCounterpartyBranch.cs" Condition="Exists('$(PkgPath)/NovaPoshtaClassic/Schemas/UsrAddressCounterpartyBranch/UsrAddressCounterpartyBranch.cs')" />
+		<Compile Include="$(PkgPath)/NovaPoshtaClassic/Schemas/UsrCounterpartyNP/UsrCounterpartyNP.cs" Condition="Exists('$(PkgPath)/NovaPoshtaClassic/Schemas/UsrCounterpartyNP/UsrCounterpartyNP.cs')" />
+		<Compile Include="$(PkgPath)/NovaPoshtaClassic/Schemas/UsrCounterpartyNPFolder/UsrCounterpartyNPFolder.cs" Condition="Exists('$(PkgPath)/NovaPoshtaClassic/Schemas/UsrCounterpartyNPFolder/UsrCounterpartyNPFolder.cs')" />
 		<Compile Include="$(PkgPath)/NovaPoshtaClassic/Schemas/UsrCounterpartyNPInTag/UsrCounterpartyNPInTag.cs" Condition="Exists('$(PkgPath)/NovaPoshtaClassic/Schemas/UsrCounterpartyNPInTag/UsrCounterpartyNPInTag.cs')" />
+		<Compile Include="$(PkgPath)/NovaPoshtaClassic/Schemas/UsrNovaPoshtaDepartureFolder/UsrNovaPoshtaDepartureFolder.cs" Condition="Exists('$(PkgPath)/NovaPoshtaClassic/Schemas/UsrNovaPoshtaDepartureFolder/UsrNovaPoshtaDepartureFolder.cs')" />
+		<Compile Include="$(PkgPath)/NovaPoshtaClassic/Schemas/UsrNovaPoshtaDepartureInTag/UsrNovaPoshtaDepartureInTag.cs" Condition="Exists('$(PkgPath)/NovaPoshtaClassic/Schemas/UsrNovaPoshtaDepartureInTag/UsrNovaPoshtaDepartureInTag.cs')" />
+		<Compile Include="$(PkgPath)/NovaPoshtaClassic/Schemas/UsrNovaPoshtaDepartureTag/UsrNovaPoshtaDepartureTag.cs" Condition="Exists('$(PkgPath)/NovaPoshtaClassic/Schemas/UsrNovaPoshtaDepartureTag/UsrNovaPoshtaDepartureTag.cs')" />
+		<Compile Include="$(PkgPath)/NovaPoshtaClassic/Schemas/UsrRegion/UsrRegion.cs" Condition="Exists('$(PkgPath)/NovaPoshtaClassic/Schemas/UsrRegion/UsrRegion.cs')" />
+		<Compile Include="$(PkgPath)/NovaPoshtaClassic/Schemas/UsrPayerTypedefaultList/UsrPayerTypedefaultList.cs" Condition="Exists('$(PkgPath)/NovaPoshtaClassic/Schemas/UsrPayerTypedefaultList/UsrPayerTypedefaultList.cs')" />
 		<Compile Include="$(PkgPath)/NovaPoshtaClassic/Schemas/UsrCounterpartyNPTag/UsrCounterpartyNPTag.cs" Condition="Exists('$(PkgPath)/NovaPoshtaClassic/Schemas/UsrCounterpartyNPTag/UsrCounterpartyNPTag.cs')" />
 		<Compile Include="$(PkgPath)/NovaPoshtaClassic/Schemas/UsrCounterpartyNPInFolder/UsrCounterpartyNPInFolder.cs" Condition="Exists('$(PkgPath)/NovaPoshtaClassic/Schemas/UsrCounterpartyNPInFolder/UsrCounterpartyNPInFolder.cs')" />
 		<Compile Include="$(PkgPath)/NovaPoshtaClassic/Schemas/UsrDefaultLics/UsrDefaultLics.cs" Condition="Exists('$(PkgPath)/NovaPoshtaClassic/Schemas/UsrDefaultLics/UsrDefaultLics.cs')" />
 		<Compile Include="$(PkgPath)/NovaPoshtaClassic/Schemas/UsrPaymentMethodList/UsrPaymentMethodList.cs" Condition="Exists('$(PkgPath)/NovaPoshtaClassic/Schemas/UsrPaymentMethodList/UsrPaymentMethodList.cs')" />
-		<Compile Include="$(PkgPath)/NovaPoshtaClassic/Schemas/UsrNovaPoshtaDepartureInTag/UsrNovaPoshtaDepartureInTag.cs" Condition="Exists('$(PkgPath)/NovaPoshtaClassic/Schemas/UsrNovaPoshtaDepartureInTag/UsrNovaPoshtaDepartureInTag.cs')" />
 		<Compile Include="$(PkgPath)/NovaPoshtaClassic/Schemas/UsrNovaPoshtaDeparture/UsrNovaPoshtaDeparture.cs" Condition="Exists('$(PkgPath)/NovaPoshtaClassic/Schemas/UsrNovaPoshtaDeparture/UsrNovaPoshtaDeparture.cs')" />
 		<Compile Include="$(PkgPath)/NovaPoshtaClassic/Schemas/UsrDepartment/UsrDepartment.cs" Condition="Exists('$(PkgPath)/NovaPoshtaClassic/Schemas/UsrDepartment/UsrDepartment.cs')" />
 		<Compile Include="$(PkgPath)/NovaPoshtaClassic/Schemas/UsrNovaPoshtaDepartureFile/UsrNovaPoshtaDepartureFile.cs" Condition="Exists('$(PkgPath)/NovaPoshtaClassic/Schemas/UsrNovaPoshtaDepartureFile/UsrNovaPoshtaDepartureFile.cs')" />
-		<Compile Include="$(PkgPath)/NovaPoshtaClassic/Schemas/UsrNovaPoshtaDepartureTag/UsrNovaPoshtaDepartureTag.cs" Condition="Exists('$(PkgPath)/NovaPoshtaClassic/Schemas/UsrNovaPoshtaDepartureTag/UsrNovaPoshtaDepartureTag.cs')" />
-		<Compile Include="$(PkgPath)/NovaPoshtaClassic/Schemas/UsrNovaPoshtaDepartureInFolder/UsrNovaPoshtaDepartureInFolder.cs" Condition="Exists('$(PkgPath)/NovaPoshtaClassic/Schemas/UsrNovaPoshtaDepartureInFolder/UsrNovaPoshtaDepartureInFolder.cs')" />
-		<Compile Include="$(PkgPath)/NovaPoshtaClassic/Schemas/UsrNovaPoshtaDepartureFolder/UsrNovaPoshtaDepartureFolder.cs" Condition="Exists('$(PkgPath)/NovaPoshtaClassic/Schemas/UsrNovaPoshtaDepartureFolder/UsrNovaPoshtaDepartureFolder.cs')" />
 		<Compile Include="$(PkgPath)/NovaPoshtaClassic/Schemas/UsrSettlement/UsrSettlement.cs" Condition="Exists('$(PkgPath)/NovaPoshtaClassic/Schemas/UsrSettlement/UsrSettlement.cs')" />
+		<Compile Include="$(PkgPath)/NovaPoshtaClassic/Schemas/UsrNovaPoshtaDepartureInFolder/UsrNovaPoshtaDepartureInFolder.cs" Condition="Exists('$(PkgPath)/NovaPoshtaClassic/Schemas/UsrNovaPoshtaDepartureInFolder/UsrNovaPoshtaDepartureInFolder.cs')" />
 		<Compile Include="$(PkgPath)/NovaPoshtaClassic/Schemas/UsrPayerTypeList/UsrPayerTypeList.cs" Condition="Exists('$(PkgPath)/NovaPoshtaClassic/Schemas/UsrPayerTypeList/UsrPayerTypeList.cs')" />
 		<Compile Include="$(PkgPath)/NovaPoshtaClassic/Schemas/UsrWeightList/UsrWeightList.cs" Condition="Exists('$(PkgPath)/NovaPoshtaClassic/Schemas/UsrWeightList/UsrWeightList.cs')" />
 		<Compile Include="$(PkgPath)/NovaPoshtaClassic/Schemas/UsrCounterpartyNPFile/UsrCounterpartyNPFile.cs" Condition="Exists('$(PkgPath)/NovaPoshtaClassic/Schemas/UsrCounterpartyNPFile/UsrCounterpartyNPFile.cs')" />
 		<Compile Include="$(PkgPath)/NovaPoshtaClassic/Schemas/UsrCargoTypeList/UsrCargoTypeList.cs" Condition="Exists('$(PkgPath)/NovaPoshtaClassic/Schemas/UsrCargoTypeList/UsrCargoTypeList.cs')" />
-		<Compile Include="$(PkgPath)/NovaPoshtaClassic/Schemas/UsrAddressCounterpartyBranch/UsrAddressCounterpartyBranch.cs" Condition="Exists('$(PkgPath)/NovaPoshtaClassic/Schemas/UsrAddressCounterpartyBranch/UsrAddressCounterpartyBranch.cs')" />
-		<Compile Include="$(PkgPath)/NovaPoshtaClassic/Schemas/UsrCounterpartyNP/UsrCounterpartyNP.cs" Condition="Exists('$(PkgPath)/NovaPoshtaClassic/Schemas/UsrCounterpartyNP/UsrCounterpartyNP.cs')" />
-		<Compile Include="$(PkgPath)/NovaPoshtaClassic/Schemas/UsrCounterpartyNPFolder/UsrCounterpartyNPFolder.cs" Condition="Exists('$(PkgPath)/NovaPoshtaClassic/Schemas/UsrCounterpartyNPFolder/UsrCounterpartyNPFolder.cs')" />
 	</ItemGroup>
 </Project>
