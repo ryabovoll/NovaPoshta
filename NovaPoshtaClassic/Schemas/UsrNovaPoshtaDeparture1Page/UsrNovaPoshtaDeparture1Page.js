@@ -51,6 +51,45 @@ define("UsrNovaPoshtaDeparture1Page", ['ProcessModuleUtilities'], function(Proce
 					"autocomplete": true,
 					"type": 1,
 					"attribute": "UsrPostomat"
+				},
+				"3f2d7810-2b5c-40d8-9a91-d267e530612b": {
+					"uId": "3f2d7810-2b5c-40d8-9a91-d267e530612b",
+					"enabled": true,
+					"removed": false,
+					"ruleType": 3,
+					"populatingAttributeSource": {
+						"expression": {
+							"type": 1,
+							"attribute": "UsrDepartmentDefault"
+						}
+					},
+					"logical": 0,
+					"conditions": [
+						{
+							"comparisonType": 3,
+							"leftExpression": {
+								"type": 1,
+								"attribute": "UsrPostomat"
+							},
+							"rightExpression": {
+								"type": 0,
+								"value": false,
+								"dataValueType": 12
+							}
+						},
+						{
+							"comparisonType": 3,
+							"leftExpression": {
+								"type": 1,
+								"attribute": "UsrBranch"
+							},
+							"rightExpression": {
+								"type": 0,
+								"value": false,
+								"dataValueType": 12
+							}
+						}
+					]
 				}
 			},
 			"UsrPostomat": {
@@ -1763,13 +1802,67 @@ define("UsrNovaPoshtaDeparture1Page", ['ProcessModuleUtilities'], function(Proce
 							}
 						}
 					]
+				},
+				"1c6b3766-7779-4755-b62e-a0920f898d21": {
+					"uId": "1c6b3766-7779-4755-b62e-a0920f898d21",
+					"enabled": true,
+					"removed": false,
+					"ruleType": 3,
+					"populatingAttributeSource": {
+						"expression": {
+							"type": 1,
+							"attribute": "UsrForTheRule"
+						}
+					},
+					"logical": 0,
+					"conditions": [
+						{
+							"comparisonType": 3,
+							"leftExpression": {
+								"type": 1,
+								"attribute": "UsrStart"
+							},
+							"rightExpression": {
+								"type": 0,
+								"value": true,
+								"dataValueType": 12
+							}
+						}
+					]
+				},
+				"966dd5ae-383e-4c9e-9d25-abbfeaef1e9b": {
+					"uId": "966dd5ae-383e-4c9e-9d25-abbfeaef1e9b",
+					"enabled": true,
+					"removed": false,
+					"ruleType": 3,
+					"populatingAttributeSource": {
+						"expression": {
+							"type": 1,
+							"attribute": "UsrForTheRuleALLTrue"
+						}
+					},
+					"logical": 0,
+					"conditions": [
+						{
+							"comparisonType": 3,
+							"leftExpression": {
+								"type": 1,
+								"attribute": "UsrStart"
+							},
+							"rightExpression": {
+								"type": 0,
+								"value": false,
+								"dataValueType": 12
+							}
+						}
+					]
 				}
 			},
 			"Tab9959d105TabLabelGroup3f348a31": {
 				"721c132e-ee35-4eba-9ab2-37f4d2c1ac9b": {
 					"uId": "721c132e-ee35-4eba-9ab2-37f4d2c1ac9b",
 					"enabled": true,
-					"removed": false,
+					"removed": true,
 					"ruleType": 0,
 					"property": 0,
 					"logical": 0,
@@ -1880,6 +1973,219 @@ define("UsrNovaPoshtaDeparture1Page", ['ProcessModuleUtilities'], function(Proce
 						}
 					]
 				}
+			},
+			"UsrSettlement": {
+				"c42be879-fca2-4323-8c7e-e0ee1851df0b": {
+					"uId": "c42be879-fca2-4323-8c7e-e0ee1851df0b",
+					"enabled": true,
+					"removed": false,
+					"ruleType": 3,
+					"populatingAttributeSource": {
+						"expression": {
+							"type": 1,
+							"attribute": "UsrSettlementDefault"
+						}
+					},
+					"logical": 0,
+					"conditions": [
+						{
+							"comparisonType": 3,
+							"leftExpression": {
+								"type": 1,
+								"attribute": "UsrBranch"
+							},
+							"rightExpression": {
+								"type": 0,
+								"value": false,
+								"dataValueType": 12
+							}
+						},
+						{
+							"comparisonType": 3,
+							"leftExpression": {
+								"type": 1,
+								"attribute": "UsrPostomat"
+							},
+							"rightExpression": {
+								"type": 0,
+								"value": false,
+								"dataValueType": 12
+							}
+						}
+					]
+				}
+			},
+			"UsrStart": {
+				"f3363f85-4745-4e77-818d-3f580efb7e2d": {
+					"uId": "f3363f85-4745-4e77-818d-3f580efb7e2d",
+					"enabled": true,
+					"removed": false,
+					"ruleType": 3,
+					"populatingAttributeSource": {
+						"expression": {
+							"type": 1,
+							"attribute": "UsrForTheRuleALLTrue"
+						}
+					},
+					"logical": 0,
+					"conditions": [
+						{
+							"comparisonType": 2,
+							"leftExpression": {
+								"type": 1,
+								"attribute": "UsrSenderCounterparty"
+							}
+						},
+						{
+							"comparisonType": 2,
+							"leftExpression": {
+								"type": 1,
+								"attribute": "UsrAddressCounterparty"
+							}
+						},
+						{
+							"comparisonType": 2,
+							"leftExpression": {
+								"type": 1,
+								"attribute": "UsrRecipientContact"
+							}
+						},
+						{
+							"comparisonType": 2,
+							"leftExpression": {
+								"type": 1,
+								"attribute": "UsrRecipientsPhone"
+							}
+						},
+						{
+							"comparisonType": 2,
+							"leftExpression": {
+								"type": 1,
+								"attribute": "UsrSettlement"
+							}
+						},
+						{
+							"comparisonType": 2,
+							"leftExpression": {
+								"type": 1,
+								"attribute": "UsrDepartment"
+							}
+						}
+					]
+				},
+				"5135da47-5916-42c7-8b76-c8ce2dd3dca2": {
+					"uId": "5135da47-5916-42c7-8b76-c8ce2dd3dca2",
+					"enabled": true,
+					"removed": false,
+					"ruleType": 3,
+					"populatingAttributeSource": {
+						"expression": {
+							"type": 1,
+							"attribute": "UsrForTheRule"
+						}
+					},
+					"logical": 1,
+					"conditions": [
+						{
+							"comparisonType": 1,
+							"leftExpression": {
+								"type": 1,
+								"attribute": "UsrDepartment"
+							}
+						},
+						{
+							"comparisonType": 1,
+							"leftExpression": {
+								"type": 1,
+								"attribute": "UsrSettlement"
+							}
+						},
+						{
+							"comparisonType": 1,
+							"leftExpression": {
+								"type": 1,
+								"attribute": "UsrRecipientsPhone"
+							}
+						},
+						{
+							"comparisonType": 1,
+							"leftExpression": {
+								"type": 1,
+								"attribute": "UsrRecipientContact"
+							}
+						},
+						{
+							"comparisonType": 1,
+							"leftExpression": {
+								"type": 1,
+								"attribute": "UsrAddressCounterparty"
+							}
+						},
+						{
+							"comparisonType": 1,
+							"leftExpression": {
+								"type": 1,
+								"attribute": "UsrSenderCounterparty"
+							}
+						}
+					]
+				}
+			},
+			"UsrBack": {
+				"5ed31b41-a043-4b03-bd8a-f5350b19f8fe": {
+					"uId": "5ed31b41-a043-4b03-bd8a-f5350b19f8fe",
+					"enabled": true,
+					"removed": false,
+					"ruleType": 3,
+					"populatingAttributeSource": {
+						"expression": {
+							"type": 1,
+							"attribute": "UsrForTheRule"
+						}
+					},
+					"logical": 0,
+					"conditions": [
+						{
+							"comparisonType": 3,
+							"leftExpression": {
+								"type": 1,
+								"attribute": "UsrStart"
+							},
+							"rightExpression": {
+								"type": 0,
+								"value": true,
+								"dataValueType": 12
+							}
+						}
+					]
+				},
+				"94dc9659-4ef3-4282-8557-235d9b42bab4": {
+					"uId": "94dc9659-4ef3-4282-8557-235d9b42bab4",
+					"enabled": true,
+					"removed": false,
+					"ruleType": 3,
+					"populatingAttributeSource": {
+						"expression": {
+							"type": 1,
+							"attribute": "UsrForTheRuleALLTrue"
+						}
+					},
+					"logical": 0,
+					"conditions": [
+						{
+							"comparisonType": 3,
+							"leftExpression": {
+								"type": 1,
+								"attribute": "UsrStart"
+							},
+							"rightExpression": {
+								"type": 0,
+								"value": false,
+								"dataValueType": 12
+							}
+						}
+					]
+				}
 			}
 		}/**SCHEMA_BUSINESS_RULES*/,
 		methods: {
@@ -1890,44 +2196,35 @@ define("UsrNovaPoshtaDeparture1Page", ['ProcessModuleUtilities'], function(Proce
                 else {
                     config = {
                         isSilent: true
-                    };
+                    }; 
                 }
                 this.callParent([config]);
             },
+			
 			onMyButtonClickBack: function() {
-				
+				debugger;
 				var IntDefault = this.get("UsrIntDefault");
 				var Default = IntDefault - 1;
 				this.set("UsrIntDefault", Default);
 				this.set("UsrNext", true);
-				if (Default == 0){
+				if (Default === 0){
 					this.set("UsrBack", false);
 					}
-				},
-			
-			getUsrBack: function() {
-				var UsrBack = this.get("UsrBack");
-				var result = UsrBack;
-				return result;
 			},
 			
-			onMyButtonClick: function() {
+			onMyButtonClickNext: function() {
+				debugger;
 				var UsrIntDefault = this.get("UsrIntDefault");
 				var IntDefault = UsrIntDefault + 1;
 				this.set("UsrIntDefault", IntDefault);
 				this.set("UsrBack", true);
-				if (IntDefault == 2){
+				if (IntDefault === 2){
 					this.set("UsrNext", false);
 					}
-				},
-			
-			getUsrNext: function() {
-				var UsrNext = this.get("UsrNext");
-				var result = UsrNext;
-				return result;
 			},
 			
 			onMyButtonClickStartProces: function() {
+				debugger;
                 var contactParameter = this.get("Id");
                 const runProcessRequest = Ext.create("Terrasoft.RunProcessRequest", {
                     "schemaName": "UsrProcess_0e02c98_e9c33b4NovaPoshtaClassic1",
@@ -1942,10 +2239,11 @@ define("UsrNovaPoshtaDeparture1Page", ['ProcessModuleUtilities'], function(Proce
                 runProcessRequest.execute(function(response) {
                     if (response.isSuccess()) {
                         var job = response.resultParameterValues["DocNumber"];
-                        Terrasoft.showInformation("Full job title: " +  job);
+                        Terrasoft.showInformation(job);
 						this.reloadEntity();
                     }
                 }, this);
+				//this.save(contactParameter);
 				
 			},
 			
@@ -1955,12 +2253,24 @@ define("UsrNovaPoshtaDeparture1Page", ['ProcessModuleUtilities'], function(Proce
 				return result;
 			},
 			
+			getUsrBack: function() {
+				var UsrBack = this.get("UsrBack");
+				var result = UsrBack;
+				return result;
+			},
+			
+			getUsrNext: function() {
+				var UsrNext = this.get("UsrNext");
+				var result = UsrNext;
+				return result;
+			},
+			
 			onMyButtonClickSuccess: function() {
-				debugger;
 				var DocNumber = this.get("UsrName");
 				var urlNP = "https://my.novaposhta.ua/orders/printMarking100x100/orders[]/" + DocNumber + "/type/pdf/apiKey/1e34a629cda2aa3c43e174bbaca950c6/zebra";
-				return urlNP;
-				
+
+				// Открываем ссылку в новом окне
+				window.open(urlNP, '_blank');
 				},
 		},
 		dataModels: /**SCHEMA_DATA_MODELS*/{}/**SCHEMA_DATA_MODELS*/,
@@ -2170,6 +2480,44 @@ define("UsrNovaPoshtaDeparture1Page", ['ProcessModuleUtilities'], function(Proce
 				"parentName": "ProfileContainer",
 				"propertyName": "items",
 				"index": 11
+			},
+			{
+				"operation": "insert",
+				"name": "LOOKUPda703dbb-d473-42fe-ab23-6ac46d406f57",
+				"values": {
+					"layout": {
+						"colSpan": 24,
+						"rowSpan": 1,
+						"column": 0,
+						"row": 12,
+						"layoutName": "ProfileContainer"
+					},
+					"bindTo": "UsrSettlementDefault",
+					"enabled": false,
+					"contentType": 5
+				},
+				"parentName": "ProfileContainer",
+				"propertyName": "items",
+				"index": 12
+			},
+			{
+				"operation": "insert",
+				"name": "LOOKUP46f5853a-78a7-47c0-8362-01ebda2571bf",
+				"values": {
+					"layout": {
+						"colSpan": 24,
+						"rowSpan": 1,
+						"column": 0,
+						"row": 13,
+						"layoutName": "ProfileContainer"
+					},
+					"bindTo": "UsrDepartmentDefault",
+					"enabled": false,
+					"contentType": 5
+				},
+				"parentName": "ProfileContainer",
+				"propertyName": "items",
+				"index": 13
 			},
 			{
 				"operation": "insert",
@@ -2501,20 +2849,20 @@ define("UsrNovaPoshtaDeparture1Page", ['ProcessModuleUtilities'], function(Proce
 			},
 			{
 				"operation": "insert",
-				"name": "UsrRecipientName88a79b17-7187-4a78-8b0f-12e711d8336f",
+				"name": "MyButtonText",
 				"values": {
+					"itemType": 5,
+					"caption": {
+						"bindTo": "Resources.Strings.MyButtonText"
+					},
+					"style": "TRANSPARENT",
 					"layout": {
 						"colSpan": 1,
 						"rowSpan": 1,
 						"column": 23,
-						"row": 11,
-						"layoutName": "Tab9959d105TabLabelGridLayoutb9299c0e"
+						"row": 12
 					},
-					"bindTo": "UsrRecipientName",
-					"labelConfig": {
-						"visible": false
-					},
-					"enabled": false
+					"visible": false
 				},
 				"parentName": "Tab9959d105TabLabelGridLayoutb9299c0e",
 				"propertyName": "items",
@@ -2757,7 +3105,7 @@ define("UsrNovaPoshtaDeparture1Page", ['ProcessModuleUtilities'], function(Proce
 						"colSpan": 9,
 						"rowSpan": 1,
 						"column": 1,
-						"row": 11,
+						"row": 12,
 						"layoutName": "Tab9959d105TabLabelGridLayoutc38da43a"
 					},
 					"bindTo": "UsrDateTime"
@@ -2903,6 +3251,27 @@ define("UsrNovaPoshtaDeparture1Page", ['ProcessModuleUtilities'], function(Proce
 			},
 			{
 				"operation": "insert",
+				"name": "MyButto",
+				"values": {
+					"itemType": 5,
+					"caption": {
+						"bindTo": "Resources.Strings.MyButto"
+					},
+					"style": "TRANSPARENT",
+					"layout": {
+						"colSpan": 1,
+						"rowSpan": 1,
+						"column": 23,
+						"row": 12
+					},
+					"visible": false
+				},
+				"parentName": "Tab9959d105TabLabelGridLayout72db1f7d",
+				"propertyName": "items",
+				"index": 6
+			},
+			{
+				"operation": "insert",
 				"name": "Tab9959d105TabLabelGroupee76de07",
 				"values": {
 					"caption": {
@@ -2941,7 +3310,7 @@ define("UsrNovaPoshtaDeparture1Page", ['ProcessModuleUtilities'], function(Proce
 					"enabled": {
 						"bindTo": "getUsrBack"
 					},
-					"style": "RED",
+					"style": "BLUE",
 					"layout": {
 						"colSpan": 6,
 						"rowSpan": 1,
@@ -2964,12 +3333,12 @@ define("UsrNovaPoshtaDeparture1Page", ['ProcessModuleUtilities'], function(Proce
 						"bindTo": "Resources.Strings.MyButtonCaption"
 					},
 					"click": {
-						"bindTo": "onMyButtonClick"
+						"bindTo": "onMyButtonClickNext"
 					},
 					"enabled": {
 						"bindTo": "getUsrNext"
 					},
-					"style": "RED",
+					"style": "BLUE",
 					"layout": {
 						"colSpan": 6,
 						"rowSpan": 1,
@@ -2997,7 +3366,7 @@ define("UsrNovaPoshtaDeparture1Page", ['ProcessModuleUtilities'], function(Proce
 					"enabled": {
 						"bindTo": "getUsrStartProces"
 					},
-					"style": "RED",
+					"style": "BLUE",
 					"layout": {
 						"colSpan": 6,
 						"rowSpan": 1,

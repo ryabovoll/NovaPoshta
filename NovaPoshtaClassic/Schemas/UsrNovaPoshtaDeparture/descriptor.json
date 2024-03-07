@@ -2,7 +2,7 @@
   "Descriptor": {
     "UId": "bfa88a55-0935-4396-8569-2cc0b9bb62b2",
     "Name": "UsrNovaPoshtaDeparture",
-    "ModifiedOnUtc": "\/Date(1709238666000)\/",
+    "ModifiedOnUtc": "\/Date(1709662990000)\/",
     "Parent": {
       "UId": "1bab9dcf-17d5-49f8-9536-8e0064f1dce0",
       "Name": "BaseEntity"

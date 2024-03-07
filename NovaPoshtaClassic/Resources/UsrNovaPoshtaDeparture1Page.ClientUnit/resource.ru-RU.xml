@@ -3,6 +3,7 @@
 	<Group Type="String">
 		<Items>
 			<Item Name="Caption" Value="Страница редактирования: &quot;Відправлення&quot;" />
+			<Item Name="LocalizableStrings.MyButto.Value" Value="Заколовок" />
 			<Item Name="LocalizableStrings.MyButtonBack.Value" Value="Назад" />
 			<Item Name="LocalizableStrings.MyButtonCaption.Value" Value="Продовжити" />
 			<Item Name="LocalizableStrings.MyButtonStartProces.Value" Value="Створити накладну" />
