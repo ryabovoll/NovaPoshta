@@ -2,6 +2,7 @@
 <Resources Culture="en-US">
 	<Group Type="String">
 		<Items>
+			<Item Name="BaseElements.ConditionalSequenceFlow2.Caption" Value="Ошибка" />
 			<Item Name="BaseElements.ReadDataUserTask1.Caption" Value="запись &quot;Відправлення&quot;" />
 			<Item Name="BaseElements.ReadDataUserTask1.Parameters.AggregationColumnName.Caption" Value="Name of aggregate function column" />
 			<Item Name="BaseElements.ReadDataUserTask1.Parameters.CanReadUncommitedData.Caption" Value="Read uncommitted data" />
@@ -261,6 +262,7 @@
 			<Item Name="Parameters.DocNumber.Caption" Value="IntDocNumber" />
 			<Item Name="Parameters.DocNumber.DisplayValue" Value="123456енг" />
 			<Item Name="Parameters.ProcessSchemaParameter1.Caption" Value="iD" />
+			<Item Name="Parameters.Success.Caption" Value="Success" />
 		</Items>
 	</Group>
 </Resources>

@@ -2,6 +2,7 @@
 <Resources Culture="ru-RU">
 	<Group Type="String">
 		<Items>
+			<Item Name="BaseElements.ConditionalSequenceFlow2.Caption" Value="Ошибка" />
 			<Item Name="BaseElements.ReadDataUserTask1.Caption" Value="Відправлення" />
 			<Item Name="BaseElements.ReadDataUserTask1.Parameters.AggregationColumnName.Caption" Value="Имя колонки для агрегирующей функции" />
 			<Item Name="BaseElements.ReadDataUserTask1.Parameters.CanReadUncommitedData.Caption" Value="Выполнять &quot;грязное чтение&quot;" />
@@ -261,6 +262,8 @@
 			<Item Name="Parameters.DocNumber.Caption" Value="DocNumber" />
 			<Item Name="Parameters.DocNumber.DisplayValue" Value="[#api.novaposhta.ua 1.Тело ответа сервиса#]" />
 			<Item Name="Parameters.ProcessSchemaParameter1.Caption" Value="iD" />
+			<Item Name="Parameters.Success.Caption" Value="Success" />
+			<Item Name="Parameters.Success.DisplayValue" Value="[#api.novaposhta.ua 1.Success#]" />
 		</Items>
 	</Group>
 </Resources>

@@ -2202,7 +2202,6 @@ define("UsrNovaPoshtaDeparture1Page", ['ProcessModuleUtilities'], function(Proce
             },
 			
 			onMyButtonClickBack: function() {
-				debugger;
 				var IntDefault = this.get("UsrIntDefault");
 				var Default = IntDefault - 1;
 				this.set("UsrIntDefault", Default);
@@ -2213,7 +2212,6 @@ define("UsrNovaPoshtaDeparture1Page", ['ProcessModuleUtilities'], function(Proce
 			},
 			
 			onMyButtonClickNext: function() {
-				debugger;
 				var UsrIntDefault = this.get("UsrIntDefault");
 				var IntDefault = UsrIntDefault + 1;
 				this.set("UsrIntDefault", IntDefault);
@@ -2224,28 +2222,72 @@ define("UsrNovaPoshtaDeparture1Page", ['ProcessModuleUtilities'], function(Proce
 			},
 			
 			onMyButtonClickStartProces: function() {
-				debugger;
-                var contactParameter = this.get("Id");
+				var contactParameter = this.get("Id");
+				const runProcessRequest = Ext.create("Terrasoft.RunProcessRequest", {
+					"schemaName": "UsrProcess_0e02c98_e9c33b4NovaPoshtaClassic1",
+					"schemaUId": "ba5f3d63-3d12-4bf0-886c-97c79c2fc12d",
+					"parameterValues": {
+						"ProcessSchemaParameter1": contactParameter
+					},
+					"resultParameterNames": [
+						"DocNumber",
+						"Success"
+					]
+				});
+
+				runProcessRequest.execute(function(response) {
+					debugger;
+					if (response.isSuccess()) {
+						var DocNumber = response.resultParameterValues["DocNumber"];
+						var jsonObjectDocNumber;
+						try {
+							jsonObjectDocNumber = JSON.parse(DocNumber);
+						} catch (e) {
+							Terrasoft.showInformation("Ошибка разбора JSON: " + e.message);
+							return;
+						}
+
+						var success = jsonObjectDocNumber.success === true;
+						if (success) {
+							var data = jsonObjectDocNumber.data;
+							if (data && data.length > 0) {
+								var intDocNumber = data[0].IntDocNumber;
+								Terrasoft.showInformation("Створено накладну: " + intDocNumber);
+								this.reloadEntity();
+							} else {
+								Terrasoft.showInformation("Ошибка: " + jsonObjectDocNumber.errors[0]);
+							}
+						} else {
+							Terrasoft.showInformation("Ошибка: " + jsonObjectDocNumber.errors[0]);
+						}
+					} else {
+						Terrasoft.showInformation("Произошла ошибка в запросе. Response: " + JSON.stringify(response));
+						this.reloadEntity();
+					}
+				}, this);
+			},
+			
+			onMyButtonClickSuccess: function() {
+				var ParameterID = this.get("Id");
+				var DocNumber = this.get("UsrName");
                 const runProcessRequest = Ext.create("Terrasoft.RunProcessRequest", {
-                    "schemaName": "UsrProcess_0e02c98_e9c33b4NovaPoshtaClassic1",
-                    "schemaUId": "ba5f3d63-3d12-4bf0-886c-97c79c2fc12d",
+                    "schemaName": "UsrProcess_8ca894e",
+                    "schemaUId": "fb33d961-9573-40d9-83a4-6b3e20f5ab02",
                     "parameterValues": {
-                        "ProcessSchemaParameter1": contactParameter
+                        "ProcessSchemaParameter1": ParameterID
                     },
                     "resultParameterNames": [
-                        "DocNumber"
+                        "apiKey"
                     ]
                     });
                 runProcessRequest.execute(function(response) {
                     if (response.isSuccess()) {
-                        var job = response.resultParameterValues["DocNumber"];
-                        Terrasoft.showInformation(job);
-						this.reloadEntity();
+                        var apiKey = response.resultParameterValues["apiKey"];
+                        var urlNP = "https://my.novaposhta.ua/orders/printMarking100x100/orders[]/" + DocNumber + "/type/pdf/apiKey/" + apiKey + "/zebra";
+						window.open(urlNP, '_blank');
                     }
                 }, this);
-				//this.save(contactParameter);
-				
-			},
+				},
 			
 			getUsrStartProces: function() {
 				var UsrStart = this.get("UsrStart");
@@ -2265,260 +2307,9 @@ define("UsrNovaPoshtaDeparture1Page", ['ProcessModuleUtilities'], function(Proce
 				return result;
 			},
 			
-			onMyButtonClickSuccess: function() {
-				var DocNumber = this.get("UsrName");
-				var urlNP = "https://my.novaposhta.ua/orders/printMarking100x100/orders[]/" + DocNumber + "/type/pdf/apiKey/1e34a629cda2aa3c43e174bbaca950c6/zebra";
-
-				// Открываем ссылку в новом окне
-				window.open(urlNP, '_blank');
-				},
 		},
 		dataModels: /**SCHEMA_DATA_MODELS*/{}/**SCHEMA_DATA_MODELS*/,
 		diff: /**SCHEMA_DIFF*/[
-			{
-				"operation": "insert",
-				"name": "UsrCargoTypef86c0b72-6295-4101-9dfd-42b1038e7016",
-				"values": {
-					"layout": {
-						"colSpan": 24,
-						"rowSpan": 1,
-						"column": 0,
-						"row": 0,
-						"layoutName": "ProfileContainer"
-					},
-					"bindTo": "UsrCargoType"
-				},
-				"parentName": "ProfileContainer",
-				"propertyName": "items",
-				"index": 0
-			},
-			{
-				"operation": "insert",
-				"name": "UsrPayerType541148b1-3602-4fa7-baac-b976b5b46e78",
-				"values": {
-					"layout": {
-						"colSpan": 24,
-						"rowSpan": 1,
-						"column": 0,
-						"row": 1,
-						"layoutName": "ProfileContainer"
-					},
-					"bindTo": "UsrPayerType"
-				},
-				"parentName": "ProfileContainer",
-				"propertyName": "items",
-				"index": 1
-			},
-			{
-				"operation": "insert",
-				"name": "UsrPaymentMethod922340b8-89e0-48aa-806a-19c7d7b8d1c7",
-				"values": {
-					"layout": {
-						"colSpan": 24,
-						"rowSpan": 1,
-						"column": 0,
-						"row": 2,
-						"layoutName": "ProfileContainer"
-					},
-					"bindTo": "UsrPaymentMethod"
-				},
-				"parentName": "ProfileContainer",
-				"propertyName": "items",
-				"index": 2
-			},
-			{
-				"operation": "insert",
-				"name": "UsrSeatsAmountf7c42ac1-0741-4d39-9766-2dbbbaf5e8ca",
-				"values": {
-					"layout": {
-						"colSpan": 24,
-						"rowSpan": 1,
-						"column": 0,
-						"row": 3,
-						"layoutName": "ProfileContainer"
-					},
-					"bindTo": "UsrSeatsAmount"
-				},
-				"parentName": "ProfileContainer",
-				"propertyName": "items",
-				"index": 3
-			},
-			{
-				"operation": "insert",
-				"name": "UsrWeighta85586bc-c729-4ec7-9e65-0f29f924a206",
-				"values": {
-					"layout": {
-						"colSpan": 24,
-						"rowSpan": 1,
-						"column": 0,
-						"row": 4,
-						"layoutName": "ProfileContainer"
-					},
-					"bindTo": "UsrWeight"
-				},
-				"parentName": "ProfileContainer",
-				"propertyName": "items",
-				"index": 4
-			},
-			{
-				"operation": "insert",
-				"name": "UsrForTheRulef5f67385-a35c-47a9-ae33-0e41496d4185",
-				"values": {
-					"layout": {
-						"colSpan": 24,
-						"rowSpan": 1,
-						"column": 0,
-						"row": 5,
-						"layoutName": "ProfileContainer"
-					},
-					"bindTo": "UsrForTheRule"
-				},
-				"parentName": "ProfileContainer",
-				"propertyName": "items",
-				"index": 5
-			},
-			{
-				"operation": "insert",
-				"name": "UsrForTheRuleALLTruee5642797-926e-49d9-b709-0dd12301a0f6",
-				"values": {
-					"layout": {
-						"colSpan": 24,
-						"rowSpan": 1,
-						"column": 0,
-						"row": 6,
-						"layoutName": "ProfileContainer"
-					},
-					"bindTo": "UsrForTheRuleALLTrue"
-				},
-				"parentName": "ProfileContainer",
-				"propertyName": "items",
-				"index": 6
-			},
-			{
-				"operation": "insert",
-				"name": "UsrNexta23363cc-6898-4692-a6cc-0db849ebd1d9",
-				"values": {
-					"layout": {
-						"colSpan": 24,
-						"rowSpan": 1,
-						"column": 0,
-						"row": 7,
-						"layoutName": "ProfileContainer"
-					},
-					"bindTo": "UsrNext"
-				},
-				"parentName": "ProfileContainer",
-				"propertyName": "items",
-				"index": 7
-			},
-			{
-				"operation": "insert",
-				"name": "UsrBackd5caf710-5d6c-4b5d-80d8-045159dd2e0e",
-				"values": {
-					"layout": {
-						"colSpan": 24,
-						"rowSpan": 1,
-						"column": 0,
-						"row": 8,
-						"layoutName": "ProfileContainer"
-					},
-					"bindTo": "UsrBack"
-				},
-				"parentName": "ProfileContainer",
-				"propertyName": "items",
-				"index": 8
-			},
-			{
-				"operation": "insert",
-				"name": "BOOLEAN3bd78744-4b58-42e5-89e4-d3a84a2f11af",
-				"values": {
-					"layout": {
-						"colSpan": 24,
-						"rowSpan": 1,
-						"column": 0,
-						"row": 9,
-						"layoutName": "ProfileContainer"
-					},
-					"bindTo": "UsrStart",
-					"enabled": true
-				},
-				"parentName": "ProfileContainer",
-				"propertyName": "items",
-				"index": 9
-			},
-			{
-				"operation": "insert",
-				"name": "BOOLEANbf921c12-9ffe-4b5d-8b2a-f9104ffd3dbf",
-				"values": {
-					"layout": {
-						"colSpan": 24,
-						"rowSpan": 1,
-						"column": 0,
-						"row": 10,
-						"layoutName": "ProfileContainer"
-					},
-					"bindTo": "UsrSuccess",
-					"enabled": true
-				},
-				"parentName": "ProfileContainer",
-				"propertyName": "items",
-				"index": 10
-			},
-			{
-				"operation": "insert",
-				"name": "UsrIntDefaultbdc5a398-c6a9-4a38-adf9-54af255f4935",
-				"values": {
-					"layout": {
-						"colSpan": 24,
-						"rowSpan": 1,
-						"column": 0,
-						"row": 11,
-						"layoutName": "ProfileContainer"
-					},
-					"bindTo": "UsrIntDefault"
-				},
-				"parentName": "ProfileContainer",
-				"propertyName": "items",
-				"index": 11
-			},
-			{
-				"operation": "insert",
-				"name": "LOOKUPda703dbb-d473-42fe-ab23-6ac46d406f57",
-				"values": {
-					"layout": {
-						"colSpan": 24,
-						"rowSpan": 1,
-						"column": 0,
-						"row": 12,
-						"layoutName": "ProfileContainer"
-					},
-					"bindTo": "UsrSettlementDefault",
-					"enabled": false,
-					"contentType": 5
-				},
-				"parentName": "ProfileContainer",
-				"propertyName": "items",
-				"index": 12
-			},
-			{
-				"operation": "insert",
-				"name": "LOOKUP46f5853a-78a7-47c0-8362-01ebda2571bf",
-				"values": {
-					"layout": {
-						"colSpan": 24,
-						"rowSpan": 1,
-						"column": 0,
-						"row": 13,
-						"layoutName": "ProfileContainer"
-					},
-					"bindTo": "UsrDepartmentDefault",
-					"enabled": false,
-					"contentType": 5
-				},
-				"parentName": "ProfileContainer",
-				"propertyName": "items",
-				"index": 13
-			},
 			{
 				"operation": "insert",
 				"name": "Tab9959d105TabLabel",
