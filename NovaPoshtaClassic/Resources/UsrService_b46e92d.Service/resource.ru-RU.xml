@@ -250,6 +250,83 @@
 			<Item Name="ServiceMethods.UsrMethod3.Response.Parameters.UsrSuccess.Caption" Value="Success" />
 			<Item Name="ServiceMethods.UsrMethod3.Response.Parameters.UsrWarnings.Caption" Value="Warnings" />
 			<Item Name="ServiceMethods.UsrMethod3.Response.Parameters.UsrWCodes.Caption" Value="WarningCodes" />
+			<Item Name="ServiceMethods.UsrMethod4.Caption" Value="Трекінг" />
+			<Item Name="ServiceMethods.UsrMethod4.Request.Parameters.UsrAKey.Caption" Value="ApiKey" />
+			<Item Name="ServiceMethods.UsrMethod4.Request.Parameters.UsrCMethod.Caption" Value="CalledMethod" />
+			<Item Name="ServiceMethods.UsrMethod4.Request.Parameters.UsrMName.Caption" Value="ModelName" />
+			<Item Name="ServiceMethods.UsrMethod4.Request.Parameters.UsrMPDocuments.Caption" Value="MethodProperties Documents" />
+			<Item Name="ServiceMethods.UsrMethod4.Request.Parameters.UsrMPDocuments.ItemProperties.UsrDDNumber.Caption" Value="DocumentNumber" />
+			<Item Name="ServiceMethods.UsrMethod4.Request.Parameters.UsrMPDocuments.ItemProperties.UsrDPhone.Caption" Value="Phone" />
+			<Item Name="ServiceMethods.UsrMethod4.Response.Parameters.UsrData.Caption" Value="Data" />
+			<Item Name="ServiceMethods.UsrMethod4.Response.Parameters.UsrData.ItemProperties.UsrDAOGCost.Caption" Value="AfterpaymentOnGoodsCost" />
+			<Item Name="ServiceMethods.UsrMethod4.Response.Parameters.UsrData.ItemProperties.UsrDAPrice.Caption" Value="AnnouncedPrice" />
+			<Item Name="ServiceMethods.UsrMethod4.Response.Parameters.UsrData.ItemProperties.UsrDCBarcode.Caption" Value="ClientBarcode" />
+			<Item Name="ServiceMethods.UsrMethod4.Response.Parameters.UsrData.ItemProperties.UsrDCDString.Caption" Value="CargoDescriptionString" />
+			<Item Name="ServiceMethods.UsrMethod4.Response.Parameters.UsrData.ItemProperties.UsrDCOTBasis.Caption" Value="CreatedOnTheBasis" />
+			<Item Name="ServiceMethods.UsrMethod4.Response.Parameters.UsrData.ItemProperties.UsrDCRDescription.Caption" Value="CounterpartyRecipientDescription" />
+			<Item Name="ServiceMethods.UsrMethod4.Response.Parameters.UsrData.ItemProperties.UsrDCRecipient.Caption" Value="CityRecipient" />
+			<Item Name="ServiceMethods.UsrMethod4.Response.Parameters.UsrData.ItemProperties.UsrDCSDescription.Caption" Value="CounterpartySenderDescription" />
+			<Item Name="ServiceMethods.UsrMethod4.Response.Parameters.UsrData.ItemProperties.UsrDCSender.Caption" Value="CitySender" />
+			<Item Name="ServiceMethods.UsrMethod4.Response.Parameters.UsrData.ItemProperties.UsrDCType.Caption" Value="CargoType" />
+			<Item Name="ServiceMethods.UsrMethod4.Response.Parameters.UsrData.ItemProperties.UsrDCWeight.Caption" Value="CheckWeight" />
+			<Item Name="ServiceMethods.UsrMethod4.Response.Parameters.UsrData.ItemProperties.UsrDDCost.Caption" Value="DocumentCost" />
+			<Item Name="ServiceMethods.UsrMethod4.Response.Parameters.UsrData.ItemProperties.UsrDDCreated.Caption" Value="DateCreated" />
+			<Item Name="ServiceMethods.UsrMethod4.Response.Parameters.UsrData.ItemProperties.UsrDDWeight.Caption" Value="DocumentWeight" />
+			<Item Name="ServiceMethods.UsrMethod4.Response.Parameters.UsrData.ItemProperties.UsrDEWATPay.Caption" Value="ExpressWaybillAmountToPay" />
+			<Item Name="ServiceMethods.UsrMethod4.Response.Parameters.UsrData.ItemProperties.UsrDEWPStatus.Caption" Value="ExpressWaybillPaymentStatus" />
+			<Item Name="ServiceMethods.UsrMethod4.Response.Parameters.UsrData.ItemProperties.UsrDIDType.Caption" Value="InternationalDeliveryType" />
+			<Item Name="ServiceMethods.UsrMethod4.Response.Parameters.UsrData.ItemProperties.UsrDLCOTBPType.Caption" Value="LastCreatedOnTheBasisPayerType" />
+			<Item Name="ServiceMethods.UsrMethod4.Response.Parameters.UsrData.ItemProperties.UsrDLRNumber.Caption" Value="LightReturnNumber" />
+			<Item Name="ServiceMethods.UsrMethod4.Response.Parameters.UsrData.ItemProperties.UsrDLTDTime.Caption" Value="LastTransactionDateTimeGM" />
+			<Item Name="ServiceMethods.UsrMethod4.Response.Parameters.UsrData.ItemProperties.UsrDNumber.Caption" Value="Number" />
+			<Item Name="ServiceMethods.UsrMethod4.Response.Parameters.UsrData.ItemProperties.UsrDODType.Caption" Value="OwnerDocumentType" />
+			<Item Name="ServiceMethods.UsrMethod4.Response.Parameters.UsrData.ItemProperties.UsrDPCCCard.Caption" Value="PossibilityChangeCash2Card" />
+			<Item Name="ServiceMethods.UsrMethod4.Response.Parameters.UsrData.ItemProperties.UsrDPCClaim.Caption" Value="PossibilityCreateClaim" />
+			<Item Name="ServiceMethods.UsrMethod4.Response.Parameters.UsrData.ItemProperties.UsrDPCDIntervals.Caption" Value="PossibilityChangeDeliveryIntervals" />
+			<Item Name="ServiceMethods.UsrMethod4.Response.Parameters.UsrData.ItemProperties.UsrDPChange.Caption" Value="PossibilityChangeEW" />
+			<Item Name="ServiceMethods.UsrMethod4.Response.Parameters.UsrData.ItemProperties.UsrDPCRedirecting.Caption" Value="PossibilityCreateRedirecting" />
+			<Item Name="ServiceMethods.UsrMethod4.Response.Parameters.UsrData.ItemProperties.UsrDPCRefusal.Caption" Value="PossibilityCreateRefusal" />
+			<Item Name="ServiceMethods.UsrMethod4.Response.Parameters.UsrData.ItemProperties.UsrDPCReturn.Caption" Value="PossibilityCreateReturn" />
+			<Item Name="ServiceMethods.UsrMethod4.Response.Parameters.UsrData.ItemProperties.UsrDPLReturn.Caption" Value="PossibilityLightReturn" />
+			<Item Name="ServiceMethods.UsrMethod4.Response.Parameters.UsrData.ItemProperties.UsrDPMethod.Caption" Value="PaymentMethod" />
+			<Item Name="ServiceMethods.UsrMethod4.Response.Parameters.UsrData.ItemProperties.UsrDPTExtension.Caption" Value="PossibilityTermExtension" />
+			<Item Name="ServiceMethods.UsrMethod4.Response.Parameters.UsrData.ItemProperties.UsrDPTRecipient.Caption" Value="PossibilityTrusteeRecipient" />
+			<Item Name="ServiceMethods.UsrMethod4.Response.Parameters.UsrData.ItemProperties.UsrDPType.Caption" Value="PayerType" />
+			<Item Name="ServiceMethods.UsrMethod4.Response.Parameters.UsrData.ItemProperties.UsrDRAddress.Caption" Value="RecipientAddress" />
+			<Item Name="ServiceMethods.UsrMethod4.Response.Parameters.UsrData.ItemProperties.UsrDRCRecipient.Caption" Value="RefCityRecipient" />
+			<Item Name="ServiceMethods.UsrMethod4.Response.Parameters.UsrData.ItemProperties.UsrDRCSender.Caption" Value="RefCitySender" />
+			<Item Name="ServiceMethods.UsrMethod4.Response.Parameters.UsrData.ItemProperties.UsrDRef.Caption" Value="RefEW" />
+			<Item Name="ServiceMethods.UsrMethod4.Response.Parameters.UsrData.ItemProperties.UsrDRFName.Caption" Value="RecipientFullName" />
+			<Item Name="ServiceMethods.UsrMethod4.Response.Parameters.UsrData.ItemProperties.UsrDRPayer.Caption" Value="RedeliveryPayer" />
+			<Item Name="ServiceMethods.UsrMethod4.Response.Parameters.UsrData.ItemProperties.UsrDRPCDescription.Caption" Value="RedeliveryPaymentCardDescription" />
+			<Item Name="ServiceMethods.UsrMethod4.Response.Parameters.UsrData.ItemProperties.UsrDRPCRef.Caption" Value="RedeliveryPaymentCardRef" />
+			<Item Name="ServiceMethods.UsrMethod4.Response.Parameters.UsrData.ItemProperties.UsrDRSum.Caption" Value="RedeliverySum" />
+			<Item Name="ServiceMethods.UsrMethod4.Response.Parameters.UsrData.ItemProperties.UsrDRWIndex.Caption" Value="RecipientWarehouseIndex" />
+			<Item Name="ServiceMethods.UsrMethod4.Response.Parameters.UsrData.ItemProperties.UsrDRWTRef.Caption" Value="RecipientWarehouseTypeRef" />
+			<Item Name="ServiceMethods.UsrMethod4.Response.Parameters.UsrData.ItemProperties.UsrDSAddress.Caption" Value="SenderAddress" />
+			<Item Name="ServiceMethods.UsrMethod4.Response.Parameters.UsrData.ItemProperties.UsrDSCode.Caption" Value="StatusCode" />
+			<Item Name="ServiceMethods.UsrMethod4.Response.Parameters.UsrData.ItemProperties.UsrDSDDate.Caption" Value="ScheduledDeliveryDate" />
+			<Item Name="ServiceMethods.UsrMethod4.Response.Parameters.UsrData.ItemProperties.UsrDSPayment.Caption" Value="SecurePayment" />
+			<Item Name="ServiceMethods.UsrMethod4.Response.Parameters.UsrData.ItemProperties.UsrDStatus.Caption" Value="Status" />
+			<Item Name="ServiceMethods.UsrMethod4.Response.Parameters.UsrData.ItemProperties.UsrDSType.Caption" Value="ServiceType" />
+			<Item Name="ServiceMethods.UsrMethod4.Response.Parameters.UsrData.ItemProperties.UsrDSWIndex.Caption" Value="SenderWarehouseIndex" />
+			<Item Name="ServiceMethods.UsrMethod4.Response.Parameters.UsrData.ItemProperties.UsrDTRPhone.Caption" Value="TrusteeRecipientPhone" />
+			<Item Name="ServiceMethods.UsrMethod4.Response.Parameters.UsrData.ItemProperties.UsrDVWeight.Caption" Value="VolumeWeight" />
+			<Item Name="ServiceMethods.UsrMethod4.Response.Parameters.UsrData.ItemProperties.UsrDWRecipient.Caption" Value="WarehouseRecipient" />
+			<Item Name="ServiceMethods.UsrMethod4.Response.Parameters.UsrData.ItemProperties.UsrDWRIARef.Caption" Value="WarehouseRecipientInternetAddressRef" />
+			<Item Name="ServiceMethods.UsrMethod4.Response.Parameters.UsrData.ItemProperties.UsrDWRRef.Caption" Value="WarehouseRecipientRef" />
+			<Item Name="ServiceMethods.UsrMethod4.Response.Parameters.UsrData.ItemProperties.UsrDWSAddress.Caption" Value="WarehouseSenderAddress" />
+			<Item Name="ServiceMethods.UsrMethod4.Response.Parameters.UsrData.ItemProperties.UsrDWSender.Caption" Value="WarehouseSender" />
+			<Item Name="ServiceMethods.UsrMethod4.Response.Parameters.UsrData.ItemProperties.UsrDWSIARef.Caption" Value="WarehouseSenderInternetAddressRef" />
+			<Item Name="ServiceMethods.UsrMethod4.Response.Parameters.UsrECodes.Caption" Value="ErrorCodes" />
+			<Item Name="ServiceMethods.UsrMethod4.Response.Parameters.UsrErrors.Caption" Value="Errors" />
+			<Item Name="ServiceMethods.UsrMethod4.Response.Parameters.UsrICodes.Caption" Value="InfoCodes" />
+			<Item Name="ServiceMethods.UsrMethod4.Response.Parameters.UsrInfo.Caption" Value="Info" />
+			<Item Name="ServiceMethods.UsrMethod4.Response.Parameters.UsrMCodes.Caption" Value="MessageCodes" />
+			<Item Name="ServiceMethods.UsrMethod4.Response.Parameters.UsrSuccess.Caption" Value="Success" />
+			<Item Name="ServiceMethods.UsrMethod4.Response.Parameters.UsrWarnings.Caption" Value="Warnings" />
+			<Item Name="ServiceMethods.UsrMethod4.Response.Parameters.UsrWarnings.ItemProperties.UsrWarnings1.Caption" Value="ID_20450884703223" />
+			<Item Name="ServiceMethods.UsrMethod4.Response.Parameters.UsrWCodes.Caption" Value="WarningCodes" />
 		</Items>
 	</Group>
 </Resources>

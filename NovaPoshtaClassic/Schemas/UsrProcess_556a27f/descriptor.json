@@ -4,6 +4,7 @@
     "Name": "UsrProcess_556a27f",
     "ModifiedOnUtc": "\/Date(1710076694000)\/",
     "ManagerName": "ProcessSchemaManager",
-    "Caption": "Создать накладную ПОДПРОЦЕСС"
+    "Caption": "Создать накладную ПОДПРОЦЕСС",
+    "DependsOn": []
   }
 }

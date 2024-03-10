@@ -2,8 +2,9 @@
   "Descriptor": {
     "UId": "fb33d961-9573-40d9-83a4-6b3e20f5ab02",
     "Name": "UsrProcess_8ca894e",
-    "ModifiedOnUtc": "\/Date(1709898221000)\/",
+    "ModifiedOnUtc": "\/Date(1709898222000)\/",
     "ManagerName": "ProcessSchemaManager",
-    "Caption": "Прочитати APi ключ відправника"
+    "Caption": "Прочитати APi ключ відправника",
+    "DependsOn": []
   }
 }

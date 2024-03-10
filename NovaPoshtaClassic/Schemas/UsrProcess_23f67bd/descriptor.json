@@ -4,6 +4,7 @@
     "Name": "UsrProcess_23f67bd",
     "ModifiedOnUtc": "\/Date(1710078993000)\/",
     "ManagerName": "ProcessSchemaManager",
-    "Caption": "Трекинг колекция"
+    "Caption": "Трекинг колекция",
+    "DependsOn": []
   }
 }

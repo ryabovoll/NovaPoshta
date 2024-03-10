@@ -416,7 +416,7 @@ define("UsrNovaPoshtaDeparture1Page", ['ProcessModuleUtilities'], function(Proce
 				"7e8d67b2-c825-47b4-80f2-2f0d88d1ccfa": {
 					"uId": "7e8d67b2-c825-47b4-80f2-2f0d88d1ccfa",
 					"enabled": true,
-					"removed": false,
+					"removed": true,
 					"ruleType": 3,
 					"populatingAttributeSource": {
 						"expression": {
@@ -443,7 +443,7 @@ define("UsrNovaPoshtaDeparture1Page", ['ProcessModuleUtilities'], function(Proce
 				"b23dd925-bdcd-400e-ab7d-da50faa6d983": {
 					"uId": "b23dd925-bdcd-400e-ab7d-da50faa6d983",
 					"enabled": true,
-					"removed": false,
+					"removed": true,
 					"ruleType": 3,
 					"populatingAttributeSource": {
 						"expression": {
@@ -530,6 +530,60 @@ define("UsrNovaPoshtaDeparture1Page", ['ProcessModuleUtilities'], function(Proce
 							"rightExpression": {
 								"type": 0,
 								"value": false,
+								"dataValueType": 12
+							}
+						}
+					]
+				},
+				"c41650ef-21e1-4d75-aed0-1b13a8febd0c": {
+					"uId": "c41650ef-21e1-4d75-aed0-1b13a8febd0c",
+					"enabled": true,
+					"removed": false,
+					"ruleType": 3,
+					"populatingAttributeSource": {
+						"expression": {
+							"type": 1,
+							"attribute": "UsrForTheRule"
+						}
+					},
+					"logical": 0,
+					"conditions": [
+						{
+							"comparisonType": 3,
+							"leftExpression": {
+								"type": 1,
+								"attribute": "UsrSender"
+							},
+							"rightExpression": {
+								"type": 0,
+								"value": true,
+								"dataValueType": 12
+							}
+						}
+					]
+				},
+				"9ea505fc-e54e-4d04-bd06-3aff5a4179da": {
+					"uId": "9ea505fc-e54e-4d04-bd06-3aff5a4179da",
+					"enabled": true,
+					"removed": false,
+					"ruleType": 3,
+					"populatingAttributeSource": {
+						"expression": {
+							"type": 1,
+							"attribute": "UsrForTheRule"
+						}
+					},
+					"logical": 0,
+					"conditions": [
+						{
+							"comparisonType": 3,
+							"leftExpression": {
+								"type": 1,
+								"attribute": "UsrRecipient"
+							},
+							"rightExpression": {
+								"type": 0,
+								"value": true,
 								"dataValueType": 12
 							}
 						}
@@ -2568,23 +2622,6 @@ define("UsrNovaPoshtaDeparture1Page", ['ProcessModuleUtilities'], function(Proce
 			},
 			{
 				"operation": "insert",
-				"name": "UsrThirdPersonc23e1fe5-0ca3-4c9b-9144-102f20a61759",
-				"values": {
-					"layout": {
-						"colSpan": 6,
-						"rowSpan": 1,
-						"column": 13,
-						"row": 6,
-						"layoutName": "Tab9959d105TabLabelGridLayoutb9299c0e"
-					},
-					"bindTo": "UsrThirdPerson"
-				},
-				"parentName": "Tab9959d105TabLabelGridLayoutb9299c0e",
-				"propertyName": "items",
-				"index": 10
-			},
-			{
-				"operation": "insert",
 				"name": "STRING2181c995-f892-421d-a9fb-90d07bc91ae6",
 				"values": {
 					"layout": {
@@ -2602,7 +2639,7 @@ define("UsrNovaPoshtaDeparture1Page", ['ProcessModuleUtilities'], function(Proce
 				},
 				"parentName": "Tab9959d105TabLabelGridLayoutb9299c0e",
 				"propertyName": "items",
-				"index": 11
+				"index": 10
 			},
 			{
 				"operation": "insert",
@@ -2619,7 +2656,7 @@ define("UsrNovaPoshtaDeparture1Page", ['ProcessModuleUtilities'], function(Proce
 				},
 				"parentName": "Tab9959d105TabLabelGridLayoutb9299c0e",
 				"propertyName": "items",
-				"index": 12
+				"index": 11
 			},
 			{
 				"operation": "insert",
@@ -2636,7 +2673,7 @@ define("UsrNovaPoshtaDeparture1Page", ['ProcessModuleUtilities'], function(Proce
 				},
 				"parentName": "Tab9959d105TabLabelGridLayoutb9299c0e",
 				"propertyName": "items",
-				"index": 13
+				"index": 12
 			},
 			{
 				"operation": "insert",
@@ -2654,6 +2691,24 @@ define("UsrNovaPoshtaDeparture1Page", ['ProcessModuleUtilities'], function(Proce
 						"row": 12
 					},
 					"visible": false
+				},
+				"parentName": "Tab9959d105TabLabelGridLayoutb9299c0e",
+				"propertyName": "items",
+				"index": 13
+			},
+			{
+				"operation": "insert",
+				"name": "UsrThirdPerson84d67f28-23db-4c3e-b4e3-9cda8c043f2b",
+				"values": {
+					"layout": {
+						"colSpan": 6,
+						"rowSpan": 1,
+						"column": 13,
+						"row": 6,
+						"layoutName": "Tab9959d105TabLabelGridLayoutb9299c0e"
+					},
+					"bindTo": "UsrThirdPerson",
+					"enabled": true
 				},
 				"parentName": "Tab9959d105TabLabelGridLayoutb9299c0e",
 				"propertyName": "items",
@@ -3042,27 +3097,6 @@ define("UsrNovaPoshtaDeparture1Page", ['ProcessModuleUtilities'], function(Proce
 			},
 			{
 				"operation": "insert",
-				"name": "MyButto",
-				"values": {
-					"itemType": 5,
-					"caption": {
-						"bindTo": "Resources.Strings.MyButto"
-					},
-					"style": "TRANSPARENT",
-					"layout": {
-						"colSpan": 1,
-						"rowSpan": 1,
-						"column": 23,
-						"row": 12
-					},
-					"visible": false
-				},
-				"parentName": "Tab9959d105TabLabelGridLayout72db1f7d",
-				"propertyName": "items",
-				"index": 6
-			},
-			{
-				"operation": "insert",
 				"name": "LOOKUP141c4725-fa46-4dba-9ba1-f8a57e4c141f",
 				"values": {
 					"layout": {
@@ -3078,7 +3112,7 @@ define("UsrNovaPoshtaDeparture1Page", ['ProcessModuleUtilities'], function(Proce
 				},
 				"parentName": "Tab9959d105TabLabelGridLayout72db1f7d",
 				"propertyName": "items",
-				"index": 7
+				"index": 6
 			},
 			{
 				"operation": "insert",
@@ -3093,6 +3127,27 @@ define("UsrNovaPoshtaDeparture1Page", ['ProcessModuleUtilities'], function(Proce
 					},
 					"bindTo": "UsrStatusDocumentsDescriptionString",
 					"enabled": true
+				},
+				"parentName": "Tab9959d105TabLabelGridLayout72db1f7d",
+				"propertyName": "items",
+				"index": 7
+			},
+			{
+				"operation": "insert",
+				"name": "MyButto",
+				"values": {
+					"itemType": 5,
+					"caption": {
+						"bindTo": "Resources.Strings.MyButto"
+					},
+					"style": "TRANSPARENT",
+					"layout": {
+						"colSpan": 1,
+						"rowSpan": 1,
+						"column": 23,
+						"row": 12
+					},
+					"visible": false
 				},
 				"parentName": "Tab9959d105TabLabelGridLayout72db1f7d",
 				"propertyName": "items",

@@ -341,13 +341,13 @@
 			<SpecificVersion>False</SpecificVersion>
 			<Private>False</Private>
 		</Reference>
-		<Reference Include="CrtCalendar">
-			<HintPath>$(RelativePkgFolderPath)/CrtCalendar/$(StandalonePackageAssemblyPath)/CrtCalendar.dll</HintPath>
+		<Reference Include="CrtML">
+			<HintPath>$(RelativePkgFolderPath)/CrtML/$(StandalonePackageAssemblyPath)/CrtML.dll</HintPath>
 			<SpecificVersion>False</SpecificVersion>
 			<Private>False</Private>
 		</Reference>
-		<Reference Include="CrtML">
-			<HintPath>$(RelativePkgFolderPath)/CrtML/$(StandalonePackageAssemblyPath)/CrtML.dll</HintPath>
+		<Reference Include="CrtCalendar">
+			<HintPath>$(RelativePkgFolderPath)/CrtCalendar/$(StandalonePackageAssemblyPath)/CrtCalendar.dll</HintPath>
 			<SpecificVersion>False</SpecificVersion>
 			<Private>False</Private>
 		</Reference>
@@ -361,8 +361,28 @@
 			<SpecificVersion>False</SpecificVersion>
 			<Private>False</Private>
 		</Reference>
-		<Reference Include="XSSProtection">
-			<HintPath>$(RelativePkgFolderPath)/XSSProtection/$(StandalonePackageAssemblyPath)/XSSProtection.dll</HintPath>
+		<Reference Include="CrtUISwitcher">
+			<HintPath>$(RelativePkgFolderPath)/CrtUISwitcher/$(StandalonePackageAssemblyPath)/CrtUISwitcher.dll</HintPath>
+			<SpecificVersion>False</SpecificVersion>
+			<Private>False</Private>
+		</Reference>
+		<Reference Include="CrtNextStep">
+			<HintPath>$(RelativePkgFolderPath)/CrtNextStep/$(StandalonePackageAssemblyPath)/CrtNextStep.dll</HintPath>
+			<SpecificVersion>False</SpecificVersion>
+			<Private>False</Private>
+		</Reference>
+		<Reference Include="SsoSettings">
+			<HintPath>$(RelativePkgFolderPath)/SsoSettings/$(StandalonePackageAssemblyPath)/SsoSettings.dll</HintPath>
+			<SpecificVersion>False</SpecificVersion>
+			<Private>False</Private>
+		</Reference>
+		<Reference Include="MLProcessDesigner">
+			<HintPath>$(RelativePkgFolderPath)/MLProcessDesigner/$(StandalonePackageAssemblyPath)/MLProcessDesigner.dll</HintPath>
+			<SpecificVersion>False</SpecificVersion>
+			<Private>False</Private>
+		</Reference>
+		<Reference Include="OpenIdAuth">
+			<HintPath>$(RelativePkgFolderPath)/OpenIdAuth/$(StandalonePackageAssemblyPath)/OpenIdAuth.dll</HintPath>
 			<SpecificVersion>False</SpecificVersion>
 			<Private>False</Private>
 		</Reference>
@@ -376,38 +396,23 @@
 			<SpecificVersion>False</SpecificVersion>
 			<Private>False</Private>
 		</Reference>
-		<Reference Include="OpenIdAuth">
-			<HintPath>$(RelativePkgFolderPath)/OpenIdAuth/$(StandalonePackageAssemblyPath)/OpenIdAuth.dll</HintPath>
-			<SpecificVersion>False</SpecificVersion>
-			<Private>False</Private>
-		</Reference>
 		<Reference Include="Finesse">
 			<HintPath>$(RelativePkgFolderPath)/Finesse/$(StandalonePackageAssemblyPath)/Finesse.dll</HintPath>
 			<SpecificVersion>False</SpecificVersion>
 			<Private>False</Private>
 		</Reference>
-		<Reference Include="CrtNextStep">
-			<HintPath>$(RelativePkgFolderPath)/CrtNextStep/$(StandalonePackageAssemblyPath)/CrtNextStep.dll</HintPath>
-			<SpecificVersion>False</SpecificVersion>
-			<Private>False</Private>
-		</Reference>
-		<Reference Include="CrtUISwitcher">
-			<HintPath>$(RelativePkgFolderPath)/CrtUISwitcher/$(StandalonePackageAssemblyPath)/CrtUISwitcher.dll</HintPath>
-			<SpecificVersion>False</SpecificVersion>
-			<Private>False</Private>
-		</Reference>
-		<Reference Include="MLProcessDesigner">
-			<HintPath>$(RelativePkgFolderPath)/MLProcessDesigner/$(StandalonePackageAssemblyPath)/MLProcessDesigner.dll</HintPath>
-			<SpecificVersion>False</SpecificVersion>
-			<Private>False</Private>
-		</Reference>
-		<Reference Include="SsoSettings">
-			<HintPath>$(RelativePkgFolderPath)/SsoSettings/$(StandalonePackageAssemblyPath)/SsoSettings.dll</HintPath>
+		<Reference Include="XSSProtection">
+			<HintPath>$(RelativePkgFolderPath)/XSSProtection/$(StandalonePackageAssemblyPath)/XSSProtection.dll</HintPath>
 			<SpecificVersion>False</SpecificVersion>
 			<Private>False</Private>
 		</Reference>
 		<Reference Include="CrtLead">
 			<HintPath>$(RelativePkgFolderPath)/CrtLead/$(StandalonePackageAssemblyPath)/CrtLead.dll</HintPath>
+			<SpecificVersion>False</SpecificVersion>
+			<Private>False</Private>
+		</Reference>
+		<Reference Include="CrtMLLeadScoring">
+			<HintPath>$(RelativePkgFolderPath)/CrtMLLeadScoring/$(StandalonePackageAssemblyPath)/CrtMLLeadScoring.dll</HintPath>
 			<SpecificVersion>False</SpecificVersion>
 			<Private>False</Private>
 		</Reference>
@@ -418,11 +423,6 @@
 		</Reference>
 		<Reference Include="CrtSpecification">
 			<HintPath>$(RelativePkgFolderPath)/CrtSpecification/$(StandalonePackageAssemblyPath)/CrtSpecification.dll</HintPath>
-			<SpecificVersion>False</SpecificVersion>
-			<Private>False</Private>
-		</Reference>
-		<Reference Include="CrtMLLeadScoring">
-			<HintPath>$(RelativePkgFolderPath)/CrtMLLeadScoring/$(StandalonePackageAssemblyPath)/CrtMLLeadScoring.dll</HintPath>
 			<SpecificVersion>False</SpecificVersion>
 			<Private>False</Private>
 		</Reference>
@@ -446,13 +446,13 @@
 			<SpecificVersion>False</SpecificVersion>
 			<Private>False</Private>
 		</Reference>
-		<Reference Include="CrtCustomer360App">
-			<HintPath>$(RelativePkgFolderPath)/CrtCustomer360App/$(StandalonePackageAssemblyPath)/CrtCustomer360App.dll</HintPath>
+		<Reference Include="CrtCase7x">
+			<HintPath>$(RelativePkgFolderPath)/CrtCase7x/$(StandalonePackageAssemblyPath)/CrtCase7x.dll</HintPath>
 			<SpecificVersion>False</SpecificVersion>
 			<Private>False</Private>
 		</Reference>
-		<Reference Include="CrtCase7x">
-			<HintPath>$(RelativePkgFolderPath)/CrtCase7x/$(StandalonePackageAssemblyPath)/CrtCase7x.dll</HintPath>
+		<Reference Include="CrtCustomer360App">
+			<HintPath>$(RelativePkgFolderPath)/CrtCustomer360App/$(StandalonePackageAssemblyPath)/CrtCustomer360App.dll</HintPath>
 			<SpecificVersion>False</SpecificVersion>
 			<Private>False</Private>
 		</Reference>
@@ -466,18 +466,13 @@
 			<SpecificVersion>False</SpecificVersion>
 			<Private>False</Private>
 		</Reference>
-		<Reference Include="CrtInvoice">
-			<HintPath>$(RelativePkgFolderPath)/CrtInvoice/$(StandalonePackageAssemblyPath)/CrtInvoice.dll</HintPath>
-			<SpecificVersion>False</SpecificVersion>
-			<Private>False</Private>
-		</Reference>
-		<Reference Include="CrtMatomoConnector">
-			<HintPath>$(RelativePkgFolderPath)/CrtMatomoConnector/$(StandalonePackageAssemblyPath)/CrtMatomoConnector.dll</HintPath>
-			<SpecificVersion>False</SpecificVersion>
-			<Private>False</Private>
-		</Reference>
 		<Reference Include="CrtMarketingInC360">
 			<HintPath>$(RelativePkgFolderPath)/CrtMarketingInC360/$(StandalonePackageAssemblyPath)/CrtMarketingInC360.dll</HintPath>
+			<SpecificVersion>False</SpecificVersion>
+			<Private>False</Private>
+		</Reference>
+		<Reference Include="CrtInvoice">
+			<HintPath>$(RelativePkgFolderPath)/CrtInvoice/$(StandalonePackageAssemblyPath)/CrtInvoice.dll</HintPath>
 			<SpecificVersion>False</SpecificVersion>
 			<Private>False</Private>
 		</Reference>
@@ -486,13 +481,13 @@
 			<SpecificVersion>False</SpecificVersion>
 			<Private>False</Private>
 		</Reference>
-		<Reference Include="CrtTouchPointInC360">
-			<HintPath>$(RelativePkgFolderPath)/CrtTouchPointInC360/$(StandalonePackageAssemblyPath)/CrtTouchPointInC360.dll</HintPath>
+		<Reference Include="CrtMatomoConnector">
+			<HintPath>$(RelativePkgFolderPath)/CrtMatomoConnector/$(StandalonePackageAssemblyPath)/CrtMatomoConnector.dll</HintPath>
 			<SpecificVersion>False</SpecificVersion>
 			<Private>False</Private>
 		</Reference>
-		<Reference Include="CrtMLLeadConversion">
-			<HintPath>$(RelativePkgFolderPath)/CrtMLLeadConversion/$(StandalonePackageAssemblyPath)/CrtMLLeadConversion.dll</HintPath>
+		<Reference Include="CrtTouchPointInC360">
+			<HintPath>$(RelativePkgFolderPath)/CrtTouchPointInC360/$(StandalonePackageAssemblyPath)/CrtTouchPointInC360.dll</HintPath>
 			<SpecificVersion>False</SpecificVersion>
 			<Private>False</Private>
 		</Reference>
@@ -501,13 +496,8 @@
 			<SpecificVersion>False</SpecificVersion>
 			<Private>False</Private>
 		</Reference>
-		<Reference Include="CrtEngagementInC360">
-			<HintPath>$(RelativePkgFolderPath)/CrtEngagementInC360/$(StandalonePackageAssemblyPath)/CrtEngagementInC360.dll</HintPath>
-			<SpecificVersion>False</SpecificVersion>
-			<Private>False</Private>
-		</Reference>
-		<Reference Include="CrtSupplyPayment">
-			<HintPath>$(RelativePkgFolderPath)/CrtSupplyPayment/$(StandalonePackageAssemblyPath)/CrtSupplyPayment.dll</HintPath>
+		<Reference Include="CrtMLLeadConversion">
+			<HintPath>$(RelativePkgFolderPath)/CrtMLLeadConversion/$(StandalonePackageAssemblyPath)/CrtMLLeadConversion.dll</HintPath>
 			<SpecificVersion>False</SpecificVersion>
 			<Private>False</Private>
 		</Reference>
@@ -516,18 +506,8 @@
 			<SpecificVersion>False</SpecificVersion>
 			<Private>False</Private>
 		</Reference>
-		<Reference Include="CrtKnowledgeManagementApp">
-			<HintPath>$(RelativePkgFolderPath)/CrtKnowledgeManagementApp/$(StandalonePackageAssemblyPath)/CrtKnowledgeManagementApp.dll</HintPath>
-			<SpecificVersion>False</SpecificVersion>
-			<Private>False</Private>
-		</Reference>
 		<Reference Include="CrtDigitalAdsApp">
 			<HintPath>$(RelativePkgFolderPath)/CrtDigitalAdsApp/$(StandalonePackageAssemblyPath)/CrtDigitalAdsApp.dll</HintPath>
-			<SpecificVersion>False</SpecificVersion>
-			<Private>False</Private>
-		</Reference>
-		<Reference Include="CrtContactToLeadInC360">
-			<HintPath>$(RelativePkgFolderPath)/CrtContactToLeadInC360/$(StandalonePackageAssemblyPath)/CrtContactToLeadInC360.dll</HintPath>
 			<SpecificVersion>False</SpecificVersion>
 			<Private>False</Private>
 		</Reference>
@@ -541,6 +521,26 @@
 			<SpecificVersion>False</SpecificVersion>
 			<Private>False</Private>
 		</Reference>
+		<Reference Include="CrtContactToLeadInC360">
+			<HintPath>$(RelativePkgFolderPath)/CrtContactToLeadInC360/$(StandalonePackageAssemblyPath)/CrtContactToLeadInC360.dll</HintPath>
+			<SpecificVersion>False</SpecificVersion>
+			<Private>False</Private>
+		</Reference>
+		<Reference Include="CrtSupplyPayment">
+			<HintPath>$(RelativePkgFolderPath)/CrtSupplyPayment/$(StandalonePackageAssemblyPath)/CrtSupplyPayment.dll</HintPath>
+			<SpecificVersion>False</SpecificVersion>
+			<Private>False</Private>
+		</Reference>
+		<Reference Include="CrtKnowledgeManagementApp">
+			<HintPath>$(RelativePkgFolderPath)/CrtKnowledgeManagementApp/$(StandalonePackageAssemblyPath)/CrtKnowledgeManagementApp.dll</HintPath>
+			<SpecificVersion>False</SpecificVersion>
+			<Private>False</Private>
+		</Reference>
+		<Reference Include="CrtEngagementInC360">
+			<HintPath>$(RelativePkgFolderPath)/CrtEngagementInC360/$(StandalonePackageAssemblyPath)/CrtEngagementInC360.dll</HintPath>
+			<SpecificVersion>False</SpecificVersion>
+			<Private>False</Private>
+		</Reference>
 		<Reference Include="CrtC360InUiV2">
 			<HintPath>$(RelativePkgFolderPath)/CrtC360InUiV2/$(StandalonePackageAssemblyPath)/CrtC360InUiV2.dll</HintPath>
 			<SpecificVersion>False</SpecificVersion>
@@ -549,27 +549,28 @@
 	</ItemGroup>
 	<ItemGroup Label="Standalone package external assembly references" />
 	<ItemGroup Label="Entity Files">
-		<Compile Remove="$(RelativePkgFolderPath)/NovaPoshtaClassic/Schemas/UsrSeatsAmountList/UsrSeatsAmountList.cs" Condition="Exists('$(RelativePkgFolderPath)/NovaPoshtaClassic/Schemas/UsrSeatsAmountList/UsrSeatsAmountList.cs')" />
 		<Compile Remove="$(RelativePkgFolderPath)/NovaPoshtaClassic/Schemas/UsrAddressCounterpartyBranch/UsrAddressCounterpartyBranch.cs" Condition="Exists('$(RelativePkgFolderPath)/NovaPoshtaClassic/Schemas/UsrAddressCounterpartyBranch/UsrAddressCounterpartyBranch.cs')" />
 		<Compile Remove="$(RelativePkgFolderPath)/NovaPoshtaClassic/Schemas/UsrCounterpartyNP/UsrCounterpartyNP.cs" Condition="Exists('$(RelativePkgFolderPath)/NovaPoshtaClassic/Schemas/UsrCounterpartyNP/UsrCounterpartyNP.cs')" />
+		<Compile Remove="$(RelativePkgFolderPath)/NovaPoshtaClassic/Schemas/UsrCounterpartyNPInFolder/UsrCounterpartyNPInFolder.cs" Condition="Exists('$(RelativePkgFolderPath)/NovaPoshtaClassic/Schemas/UsrCounterpartyNPInFolder/UsrCounterpartyNPInFolder.cs')" />
+		<Compile Remove="$(RelativePkgFolderPath)/NovaPoshtaClassic/Schemas/UsrCounterpartyNPTag/UsrCounterpartyNPTag.cs" Condition="Exists('$(RelativePkgFolderPath)/NovaPoshtaClassic/Schemas/UsrCounterpartyNPTag/UsrCounterpartyNPTag.cs')" />
+		<Compile Remove="$(RelativePkgFolderPath)/NovaPoshtaClassic/Schemas/UsrNovaPoshtaDepartureFolder/UsrNovaPoshtaDepartureFolder.cs" Condition="Exists('$(RelativePkgFolderPath)/NovaPoshtaClassic/Schemas/UsrNovaPoshtaDepartureFolder/UsrNovaPoshtaDepartureFolder.cs')" />
+		<Compile Remove="$(RelativePkgFolderPath)/NovaPoshtaClassic/Schemas/UsrRegion/UsrRegion.cs" Condition="Exists('$(RelativePkgFolderPath)/NovaPoshtaClassic/Schemas/UsrRegion/UsrRegion.cs')" />
+		<Compile Remove="$(RelativePkgFolderPath)/NovaPoshtaClassic/Schemas/UsrSeatsAmountList/UsrSeatsAmountList.cs" Condition="Exists('$(RelativePkgFolderPath)/NovaPoshtaClassic/Schemas/UsrSeatsAmountList/UsrSeatsAmountList.cs')" />
+		<Compile Remove="$(RelativePkgFolderPath)/NovaPoshtaClassic/Schemas/UsrStatusDocuments/UsrStatusDocuments.cs" Condition="Exists('$(RelativePkgFolderPath)/NovaPoshtaClassic/Schemas/UsrStatusDocuments/UsrStatusDocuments.cs')" />
 		<Compile Remove="$(RelativePkgFolderPath)/NovaPoshtaClassic/Schemas/UsrCounterpartyNPFolder/UsrCounterpartyNPFolder.cs" Condition="Exists('$(RelativePkgFolderPath)/NovaPoshtaClassic/Schemas/UsrCounterpartyNPFolder/UsrCounterpartyNPFolder.cs')" />
 		<Compile Remove="$(RelativePkgFolderPath)/NovaPoshtaClassic/Schemas/UsrCounterpartyNPInTag/UsrCounterpartyNPInTag.cs" Condition="Exists('$(RelativePkgFolderPath)/NovaPoshtaClassic/Schemas/UsrCounterpartyNPInTag/UsrCounterpartyNPInTag.cs')" />
-		<Compile Remove="$(RelativePkgFolderPath)/NovaPoshtaClassic/Schemas/UsrNovaPoshtaDepartureFolder/UsrNovaPoshtaDepartureFolder.cs" Condition="Exists('$(RelativePkgFolderPath)/NovaPoshtaClassic/Schemas/UsrNovaPoshtaDepartureFolder/UsrNovaPoshtaDepartureFolder.cs')" />
 		<Compile Remove="$(RelativePkgFolderPath)/NovaPoshtaClassic/Schemas/UsrNovaPoshtaDepartureInTag/UsrNovaPoshtaDepartureInTag.cs" Condition="Exists('$(RelativePkgFolderPath)/NovaPoshtaClassic/Schemas/UsrNovaPoshtaDepartureInTag/UsrNovaPoshtaDepartureInTag.cs')" />
 		<Compile Remove="$(RelativePkgFolderPath)/NovaPoshtaClassic/Schemas/UsrNovaPoshtaDepartureTag/UsrNovaPoshtaDepartureTag.cs" Condition="Exists('$(RelativePkgFolderPath)/NovaPoshtaClassic/Schemas/UsrNovaPoshtaDepartureTag/UsrNovaPoshtaDepartureTag.cs')" />
-		<Compile Remove="$(RelativePkgFolderPath)/NovaPoshtaClassic/Schemas/UsrRegion/UsrRegion.cs" Condition="Exists('$(RelativePkgFolderPath)/NovaPoshtaClassic/Schemas/UsrRegion/UsrRegion.cs')" />
 		<Compile Remove="$(RelativePkgFolderPath)/NovaPoshtaClassic/Schemas/UsrPayerTypedefaultList/UsrPayerTypedefaultList.cs" Condition="Exists('$(RelativePkgFolderPath)/NovaPoshtaClassic/Schemas/UsrPayerTypedefaultList/UsrPayerTypedefaultList.cs')" />
-		<Compile Remove="$(RelativePkgFolderPath)/NovaPoshtaClassic/Schemas/UsrCounterpartyNPTag/UsrCounterpartyNPTag.cs" Condition="Exists('$(RelativePkgFolderPath)/NovaPoshtaClassic/Schemas/UsrCounterpartyNPTag/UsrCounterpartyNPTag.cs')" />
-		<Compile Remove="$(RelativePkgFolderPath)/NovaPoshtaClassic/Schemas/UsrCounterpartyNPInFolder/UsrCounterpartyNPInFolder.cs" Condition="Exists('$(RelativePkgFolderPath)/NovaPoshtaClassic/Schemas/UsrCounterpartyNPInFolder/UsrCounterpartyNPInFolder.cs')" />
 		<Compile Remove="$(RelativePkgFolderPath)/NovaPoshtaClassic/Schemas/UsrDefaultLics/UsrDefaultLics.cs" Condition="Exists('$(RelativePkgFolderPath)/NovaPoshtaClassic/Schemas/UsrDefaultLics/UsrDefaultLics.cs')" />
+		<Compile Remove="$(RelativePkgFolderPath)/NovaPoshtaClassic/Schemas/UsrWeightList/UsrWeightList.cs" Condition="Exists('$(RelativePkgFolderPath)/NovaPoshtaClassic/Schemas/UsrWeightList/UsrWeightList.cs')" />
 		<Compile Remove="$(RelativePkgFolderPath)/NovaPoshtaClassic/Schemas/UsrPaymentMethodList/UsrPaymentMethodList.cs" Condition="Exists('$(RelativePkgFolderPath)/NovaPoshtaClassic/Schemas/UsrPaymentMethodList/UsrPaymentMethodList.cs')" />
 		<Compile Remove="$(RelativePkgFolderPath)/NovaPoshtaClassic/Schemas/UsrNovaPoshtaDeparture/UsrNovaPoshtaDeparture.cs" Condition="Exists('$(RelativePkgFolderPath)/NovaPoshtaClassic/Schemas/UsrNovaPoshtaDeparture/UsrNovaPoshtaDeparture.cs')" />
-		<Compile Remove="$(RelativePkgFolderPath)/NovaPoshtaClassic/Schemas/UsrDepartment/UsrDepartment.cs" Condition="Exists('$(RelativePkgFolderPath)/NovaPoshtaClassic/Schemas/UsrDepartment/UsrDepartment.cs')" />
 		<Compile Remove="$(RelativePkgFolderPath)/NovaPoshtaClassic/Schemas/UsrNovaPoshtaDepartureFile/UsrNovaPoshtaDepartureFile.cs" Condition="Exists('$(RelativePkgFolderPath)/NovaPoshtaClassic/Schemas/UsrNovaPoshtaDepartureFile/UsrNovaPoshtaDepartureFile.cs')" />
-		<Compile Remove="$(RelativePkgFolderPath)/NovaPoshtaClassic/Schemas/UsrSettlement/UsrSettlement.cs" Condition="Exists('$(RelativePkgFolderPath)/NovaPoshtaClassic/Schemas/UsrSettlement/UsrSettlement.cs')" />
+		<Compile Remove="$(RelativePkgFolderPath)/NovaPoshtaClassic/Schemas/UsrDepartment/UsrDepartment.cs" Condition="Exists('$(RelativePkgFolderPath)/NovaPoshtaClassic/Schemas/UsrDepartment/UsrDepartment.cs')" />
 		<Compile Remove="$(RelativePkgFolderPath)/NovaPoshtaClassic/Schemas/UsrNovaPoshtaDepartureInFolder/UsrNovaPoshtaDepartureInFolder.cs" Condition="Exists('$(RelativePkgFolderPath)/NovaPoshtaClassic/Schemas/UsrNovaPoshtaDepartureInFolder/UsrNovaPoshtaDepartureInFolder.cs')" />
+		<Compile Remove="$(RelativePkgFolderPath)/NovaPoshtaClassic/Schemas/UsrSettlement/UsrSettlement.cs" Condition="Exists('$(RelativePkgFolderPath)/NovaPoshtaClassic/Schemas/UsrSettlement/UsrSettlement.cs')" />
 		<Compile Remove="$(RelativePkgFolderPath)/NovaPoshtaClassic/Schemas/UsrPayerTypeList/UsrPayerTypeList.cs" Condition="Exists('$(RelativePkgFolderPath)/NovaPoshtaClassic/Schemas/UsrPayerTypeList/UsrPayerTypeList.cs')" />
-		<Compile Remove="$(RelativePkgFolderPath)/NovaPoshtaClassic/Schemas/UsrWeightList/UsrWeightList.cs" Condition="Exists('$(RelativePkgFolderPath)/NovaPoshtaClassic/Schemas/UsrWeightList/UsrWeightList.cs')" />
 		<Compile Remove="$(RelativePkgFolderPath)/NovaPoshtaClassic/Schemas/UsrCounterpartyNPFile/UsrCounterpartyNPFile.cs" Condition="Exists('$(RelativePkgFolderPath)/NovaPoshtaClassic/Schemas/UsrCounterpartyNPFile/UsrCounterpartyNPFile.cs')" />
 		<Compile Remove="$(RelativePkgFolderPath)/NovaPoshtaClassic/Schemas/UsrCargoTypeList/UsrCargoTypeList.cs" Condition="Exists('$(RelativePkgFolderPath)/NovaPoshtaClassic/Schemas/UsrCargoTypeList/UsrCargoTypeList.cs')" />
 	</ItemGroup>

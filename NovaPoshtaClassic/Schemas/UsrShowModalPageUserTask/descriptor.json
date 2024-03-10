@@ -1,9 +1,0 @@
-﻿{
-  "Descriptor": {
-    "UId": "18995e1a-4c4c-4802-acb6-26226ca89dc9",
-    "Name": "UsrShowModalPageUserTask",
-    "ModifiedOnUtc": "\/Date(1709715620000)\/",
-    "ManagerName": "ProcessUserTaskSchemaManager",
-    "Caption": "Show modal page (process user task)"
-  }
-}

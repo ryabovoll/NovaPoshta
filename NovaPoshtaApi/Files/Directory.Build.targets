@@ -1,0 +1,19 @@
+<Project>
+	<ItemGroup Condition="'$(PkgPath)' != ''">
+		<Compile Remove="$(PkgPath)/NovaPoshtaApi/Assemblies/**" />
+		<Compile Remove="$(PkgPath)/NovaPoshtaApi/Data/**" />
+		<Compile Remove="$(PkgPath)/NovaPoshtaApi/SqlScripts/**" />
+		<Compile Remove="$(PkgPath)/NovaPoshtaApi/Schemas\**" />
+		<Compile Remove="$(PkgPath)/NovaPoshtaApi/Resources/**" />
+		<EmbeddedResource Remove="$(PkgPath)/NovaPoshtaApi/Assemblies/**" />
+		<EmbeddedResource Remove="$(PkgPath)/NovaPoshtaApi/Data/**" />
+		<EmbeddedResource Remove="$(PkgPath)/NovaPoshtaApi/SqlScripts/**" />
+		<EmbeddedResource Remove="$(PkgPath)/NovaPoshtaApi/Schemas/**" />
+		<EmbeddedResource Remove="$(PkgPath)/NovaPoshtaApi/Resources/**" />
+		<None Remove="$(PkgPath)/NovaPoshtaApi/Assemblies/**" />
+		<None Remove="$(PkgPath)/NovaPoshtaApi/Data/**" />
+		<None Remove="$(PkgPath)/NovaPoshtaApi/SqlScripts/**" />
+		<None Remove="$(PkgPath)/NovaPoshtaApi/Schemas/**" />
+		<None Remove="$(PkgPath)/NovaPoshtaApi/Resources/**" />
+  </ItemGroup>
+</Project>

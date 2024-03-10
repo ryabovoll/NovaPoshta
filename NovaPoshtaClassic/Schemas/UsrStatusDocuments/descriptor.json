@@ -2,12 +2,13 @@
   "Descriptor": {
     "UId": "1fa6581b-1624-4586-8169-61a973c3b2db",
     "Name": "UsrStatusDocuments",
-    "ModifiedOnUtc": "\/Date(1710070631000)\/",
+    "ModifiedOnUtc": "\/Date(1710070632000)\/",
     "Parent": {
       "UId": "11ab4bcb-9b23-4b6d-9c86-520fae925d75",
       "Name": "BaseLookup"
     },
     "ManagerName": "EntitySchemaManager",
-    "Caption": "StatusDocuments"
+    "Caption": "StatusDocuments",
+    "DependsOn": []
   }
 }

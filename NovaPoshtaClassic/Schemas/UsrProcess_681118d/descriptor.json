@@ -2,8 +2,9 @@
   "Descriptor": {
     "UId": "fa27dcff-0afb-45d7-b1d0-78b3fd1afd19",
     "Name": "UsrProcess_681118d",
-    "ModifiedOnUtc": "\/Date(1710074599000)\/",
+    "ModifiedOnUtc": "\/Date(1710074600000)\/",
     "ManagerName": "ProcessSchemaManager",
-    "Caption": "Трекинг изменить запись отправления"
+    "Caption": "Трекинг изменить запись отправления",
+    "DependsOn": []
   }
 }

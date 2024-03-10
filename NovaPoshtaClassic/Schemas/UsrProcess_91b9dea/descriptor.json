@@ -4,6 +4,7 @@
     "Name": "UsrProcess_91b9dea",
     "ModifiedOnUtc": "\/Date(1710075370000)\/",
     "ManagerName": "ProcessSchemaManager",
-    "Caption": "Трекинг получить данные по 1 накладной"
+    "Caption": "Трекинг получить данные по 1 накладной",
+    "DependsOn": []
   }
 }
