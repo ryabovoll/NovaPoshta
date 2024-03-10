@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Resources Culture="en-US">
+	<Group Type="String">
+		<Items>
+			<Item Name="Caption" Value="Страница редактирования: &quot;Counterparty&quot;" />
+			<Item Name="LocalizableStrings.ARVSchemadb769e14Detail880d21deDetailCaptionOnPage.Value" Value="Branch address" />
+			<Item Name="LocalizableStrings.Tab6b550b43TabLabelTabCaption.Value" Value="AddressesSender" />
+		</Items>
+	</Group>
+</Resources>

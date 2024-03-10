@@ -1,0 +1,26 @@
+﻿{
+  "PackageData": [
+    {
+      "Row": [
+        {
+          "SchemaColumnUId": "ae0e45ca-c495-4fe7-a39d-3ab7278e1617",
+          "Value": "1de8b7a6-165c-4261-a535-5c0ad2491fdf"
+        },
+        {
+          "SchemaColumnUId": "0e3d3857-2203-40e4-b1ec-8e972007650e",
+          "Value": "5196a691-2cb6-4c9e-af51-2be6a42eb1b0",
+          "DisplayValue": "NovaPoshta"
+        },
+        {
+          "SchemaColumnUId": "991cf5ef-ffb8-49a5-add3-074a595f6c43",
+          "Value": "777b7b97-176e-4d81-a499-da77668fb5a1",
+          "DisplayValue": "Counterparty"
+        },
+        {
+          "SchemaColumnUId": "bd12ea8e-2bc2-42bf-925a-3ab766cc0b9f",
+          "Value": 30
+        }
+      ]
+    }
+  ]
+}

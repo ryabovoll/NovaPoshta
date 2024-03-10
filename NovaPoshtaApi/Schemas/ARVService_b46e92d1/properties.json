@@ -1,0 +1,7 @@
+﻿{
+  "Properties": {
+    "BaseUri": "https://api.novaposhta.ua",
+    "CreatedInVersion": "8.1.1.3635",
+    "Type": "Rest"
+  }
+}

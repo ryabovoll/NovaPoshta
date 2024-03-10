@@ -1,0 +1,14 @@
+﻿{
+  "Descriptor": {
+    "UId": "7c502105-11dc-435f-9a5e-ae095098cd1f",
+    "Name": "ARVNovaPoshtaDepartureInTag",
+    "ModifiedOnUtc": "\/Date(1710097387000)\/",
+    "Parent": {
+      "UId": "5894a2b0-51d5-419a-82bb-238674634270",
+      "Name": "BaseEntityInTag"
+    },
+    "ManagerName": "EntitySchemaManager",
+    "Caption": "Тег в записи раздела NovaPoshtaDeparture",
+    "DependsOn": []
+  }
+}

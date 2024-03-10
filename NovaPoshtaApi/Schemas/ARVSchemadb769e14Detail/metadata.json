@@ -1,0 +1,10 @@
+= MetaData.Schema.UId "6bb93f54-3131-4255-bdd0-c384021e0004"
+= MetaData.Schema.A2 "ARVSchemadb769e14Detail"
+= MetaData.Schema.A5 "ac4f7f0f-d5d5-4e8b-997a-a2f7c46f033e"
+= MetaData.Schema.B2.["8f7c31a4-b656-47c9-a503-a72d0b3dd077"].A4 "6bb93f54-3131-4255-bdd0-c384021e0004"
+= MetaData.Schema.B6 "857cd037-28c5-a912-cc15-7c71ec1dd6ee"
+= MetaData.Schema.B8 "8.1.1.3635"
+= MetaData.Schema.HD5 []
+- MetaData.Schema.B7
++ MetaData.Schema.B7 false
+= MetaData.Schema.HD1 "01eb38ee-668a-42f0-999d-c2534f979089"
