@@ -3063,6 +3063,43 @@ define("UsrNovaPoshtaDeparture1Page", ['ProcessModuleUtilities'], function(Proce
 			},
 			{
 				"operation": "insert",
+				"name": "LOOKUP141c4725-fa46-4dba-9ba1-f8a57e4c141f",
+				"values": {
+					"layout": {
+						"colSpan": 12,
+						"rowSpan": 1,
+						"column": 0,
+						"row": 5,
+						"layoutName": "Tab9959d105TabLabelGridLayout72db1f7d"
+					},
+					"bindTo": "UsrStatusDocuments",
+					"enabled": true,
+					"contentType": 5
+				},
+				"parentName": "Tab9959d105TabLabelGridLayout72db1f7d",
+				"propertyName": "items",
+				"index": 7
+			},
+			{
+				"operation": "insert",
+				"name": "STRINGf7fa1c6f-2c84-4a96-bcd7-7b74bb4cba02",
+				"values": {
+					"layout": {
+						"colSpan": 12,
+						"rowSpan": 1,
+						"column": 0,
+						"row": 6,
+						"layoutName": "Tab9959d105TabLabelGridLayout72db1f7d"
+					},
+					"bindTo": "UsrStatusDocumentsDescriptionString",
+					"enabled": true
+				},
+				"parentName": "Tab9959d105TabLabelGridLayout72db1f7d",
+				"propertyName": "items",
+				"index": 8
+			},
+			{
+				"operation": "insert",
 				"name": "Tab9959d105TabLabelGroupee76de07",
 				"values": {
 					"caption": {

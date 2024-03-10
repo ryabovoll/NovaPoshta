@@ -175,6 +175,9 @@
 			<Item Name="BaseElements.SubProcess1.Parameters.OutputRecordCollection.ProcessSchemaParameter6.Caption" Value="TypeDocument" />
 			<Item Name="BaseElements.SubProcess1.Parameters.TerminatedIterationsCount.Caption" Value="Число прерванных экземпляров" />
 			<Item Name="BaseElements.SubProcess1.Parameters.TotalIterationsCount.Caption" Value="Общее число экземпляров" />
+			<Item Name="BaseElements.SubProcess2.Caption" Value="Трекинг получить данные по 1 накладной 1" />
+			<Item Name="BaseElements.SubProcess2.Parameters.ProcessSchemaParameter1.Caption" Value="ID" />
+			<Item Name="BaseElements.SubProcess2.Parameters.ProcessSchemaParameter1.DisplayValue" Value="[#Відправлення.Первый элемент результирующей коллекции.Id#]" />
 			<Item Name="BaseElements.WebService1.Caption" Value="api.novaposhta.ua 1" />
 			<Item Name="BaseElements.WebService1.Parameters.RequestBody.Caption" Value="Тело запроса сервиса" />
 			<Item Name="BaseElements.WebService1.Parameters.Response.Caption" Value="Тело ответа сервиса" />
@@ -262,7 +265,7 @@
 			<Item Name="Parameters.DocNumber.Caption" Value="IntDocNumber" />
 			<Item Name="Parameters.DocNumber.DisplayValue" Value="123456енг" />
 			<Item Name="Parameters.ProcessSchemaParameter1.Caption" Value="iD" />
-			<Item Name="Parameters.Success.Caption" Value="Success" />
+			<Item Name="Parameters.Success.Caption" Value="Success " />
 		</Items>
 	</Group>
 </Resources>

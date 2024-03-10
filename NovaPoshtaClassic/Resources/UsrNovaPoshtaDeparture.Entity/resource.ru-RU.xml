@@ -61,6 +61,8 @@
 			<Item Name="Columns.UsrSettlementDefault.Caption" Value="Населений пункт (Default)" />
 			<Item Name="Columns.UsrSettlementType.Caption" Value="ХХХХХ" />
 			<Item Name="Columns.UsrStart.Caption" Value="Start" />
+			<Item Name="Columns.UsrStatusDocuments.Caption" Value="StatusDocuments" />
+			<Item Name="Columns.UsrStatusDocumentsDescriptionString.Caption" Value="StatusDocumentsDescriptionString" />
 			<Item Name="Columns.UsrSuccess.Caption" Value="success" />
 			<Item Name="Columns.UsrThirdPerson.Caption" Value="Третя особа" />
 			<Item Name="Columns.UsrTypeDocument.Caption" Value="TypeDocument" />

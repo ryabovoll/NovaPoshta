@@ -1,0 +1,180 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Resources Culture="en-US">
+	<Group Type="String">
+		<Items>
+			<Item Name="BaseElements.ReadDataUserTask1.Caption" Value="читаем 1 отправление" />
+			<Item Name="BaseElements.ReadDataUserTask1.Parameters.AggregationColumnName.Caption" Value="Name of aggregate function column" />
+			<Item Name="BaseElements.ReadDataUserTask1.Parameters.CanReadUncommitedData.Caption" Value="Read uncommitted data" />
+			<Item Name="BaseElements.ReadDataUserTask1.Parameters.ConsiderTimeInFilter.Caption" Value="Consider time in the filter" />
+			<Item Name="BaseElements.ReadDataUserTask1.Parameters.ConsiderTimeInFilter.DisplayValue" Value="true" />
+			<Item Name="BaseElements.ReadDataUserTask1.Parameters.DataSourceFilters.Caption" Value="Data source of filters" />
+			<Item Name="BaseElements.ReadDataUserTask1.Parameters.EntityColumnMetaPathes.Caption" Value="Columns to read" />
+			<Item Name="BaseElements.ReadDataUserTask1.Parameters.FunctionType.Caption" Value="Aggregate function type" />
+			<Item Name="BaseElements.ReadDataUserTask1.Parameters.IgnoreDisplayValues.Caption" Value="Do not read displayed values of lookup columns" />
+			<Item Name="BaseElements.ReadDataUserTask1.Parameters.NumberOfRecords.Caption" Value="Number of records to read" />
+			<Item Name="BaseElements.ReadDataUserTask1.Parameters.OrderInfo.Caption" Value="Columns order" />
+			<Item Name="BaseElements.ReadDataUserTask1.Parameters.ReadSomeTopRecords.Caption" Value="Read first" />
+			<Item Name="BaseElements.ReadDataUserTask1.Parameters.ResultCompositeObjectList.Caption" Value="Collection of records" />
+			<Item Name="BaseElements.ReadDataUserTask1.Parameters.ResultCount.Caption" Value="Number of records" />
+			<Item Name="BaseElements.ReadDataUserTask1.Parameters.ResultDateTimeFunction.Caption" Value="Function result (Date/Time)" />
+			<Item Name="BaseElements.ReadDataUserTask1.Parameters.ResultEntity.Caption" Value="First item of resulting collection" />
+			<Item Name="BaseElements.ReadDataUserTask1.Parameters.ResultEntityCollection.Caption" Value="Resulting collection" />
+			<Item Name="BaseElements.ReadDataUserTask1.Parameters.ResultFloatFunction.Caption" Value="Function result (Decimal)" />
+			<Item Name="BaseElements.ReadDataUserTask1.Parameters.ResultIntegerFunction.Caption" Value="Function result (Integer)" />
+			<Item Name="BaseElements.ReadDataUserTask1.Parameters.ResultRowsCount.Caption" Value="Number of records read" />
+			<Item Name="BaseElements.ReadDataUserTask1.Parameters.ResultType.Caption" Value="Type of result" />
+			<Item Name="BaseElements.ReadDataUserTask2.Caption" Value="читаем контакт отправителя" />
+			<Item Name="BaseElements.ReadDataUserTask2.Parameters.AggregationColumnName.Caption" Value="Name of aggregate function column" />
+			<Item Name="BaseElements.ReadDataUserTask2.Parameters.CanReadUncommitedData.Caption" Value="Read uncommitted data" />
+			<Item Name="BaseElements.ReadDataUserTask2.Parameters.ConsiderTimeInFilter.Caption" Value="Consider time in the filter" />
+			<Item Name="BaseElements.ReadDataUserTask2.Parameters.ConsiderTimeInFilter.DisplayValue" Value="true" />
+			<Item Name="BaseElements.ReadDataUserTask2.Parameters.DataSourceFilters.Caption" Value="Data source of filters" />
+			<Item Name="BaseElements.ReadDataUserTask2.Parameters.EntityColumnMetaPathes.Caption" Value="Columns to read" />
+			<Item Name="BaseElements.ReadDataUserTask2.Parameters.FunctionType.Caption" Value="Aggregate function type" />
+			<Item Name="BaseElements.ReadDataUserTask2.Parameters.IgnoreDisplayValues.Caption" Value="Do not read displayed values of lookup columns" />
+			<Item Name="BaseElements.ReadDataUserTask2.Parameters.NumberOfRecords.Caption" Value="Number of records to read" />
+			<Item Name="BaseElements.ReadDataUserTask2.Parameters.OrderInfo.Caption" Value="Columns order" />
+			<Item Name="BaseElements.ReadDataUserTask2.Parameters.ReadSomeTopRecords.Caption" Value="Read first" />
+			<Item Name="BaseElements.ReadDataUserTask2.Parameters.ResultCompositeObjectList.Caption" Value="Collection of records" />
+			<Item Name="BaseElements.ReadDataUserTask2.Parameters.ResultCount.Caption" Value="Number of records" />
+			<Item Name="BaseElements.ReadDataUserTask2.Parameters.ResultDateTimeFunction.Caption" Value="Function result (Date/Time)" />
+			<Item Name="BaseElements.ReadDataUserTask2.Parameters.ResultEntity.Caption" Value="First item of resulting collection" />
+			<Item Name="BaseElements.ReadDataUserTask2.Parameters.ResultEntityCollection.Caption" Value="Resulting collection" />
+			<Item Name="BaseElements.ReadDataUserTask2.Parameters.ResultFloatFunction.Caption" Value="Function result (Decimal)" />
+			<Item Name="BaseElements.ReadDataUserTask2.Parameters.ResultIntegerFunction.Caption" Value="Function result (Integer)" />
+			<Item Name="BaseElements.ReadDataUserTask2.Parameters.ResultRowsCount.Caption" Value="Number of records read" />
+			<Item Name="BaseElements.ReadDataUserTask2.Parameters.ResultType.Caption" Value="Type of result" />
+			<Item Name="BaseElements.ReadDataUserTask3.Caption" Value="читаем ApiKey отправителя" />
+			<Item Name="BaseElements.ReadDataUserTask3.Parameters.AggregationColumnName.Caption" Value="Name of aggregate function column" />
+			<Item Name="BaseElements.ReadDataUserTask3.Parameters.CanReadUncommitedData.Caption" Value="Read uncommitted data" />
+			<Item Name="BaseElements.ReadDataUserTask3.Parameters.ConsiderTimeInFilter.Caption" Value="Consider time in the filter" />
+			<Item Name="BaseElements.ReadDataUserTask3.Parameters.ConsiderTimeInFilter.DisplayValue" Value="true" />
+			<Item Name="BaseElements.ReadDataUserTask3.Parameters.DataSourceFilters.Caption" Value="Data source of filters" />
+			<Item Name="BaseElements.ReadDataUserTask3.Parameters.EntityColumnMetaPathes.Caption" Value="Columns to read" />
+			<Item Name="BaseElements.ReadDataUserTask3.Parameters.FunctionType.Caption" Value="Aggregate function type" />
+			<Item Name="BaseElements.ReadDataUserTask3.Parameters.IgnoreDisplayValues.Caption" Value="Do not read displayed values of lookup columns" />
+			<Item Name="BaseElements.ReadDataUserTask3.Parameters.NumberOfRecords.Caption" Value="Number of records to read" />
+			<Item Name="BaseElements.ReadDataUserTask3.Parameters.OrderInfo.Caption" Value="Columns order" />
+			<Item Name="BaseElements.ReadDataUserTask3.Parameters.ReadSomeTopRecords.Caption" Value="Read first" />
+			<Item Name="BaseElements.ReadDataUserTask3.Parameters.ResultCompositeObjectList.Caption" Value="Collection of records" />
+			<Item Name="BaseElements.ReadDataUserTask3.Parameters.ResultCount.Caption" Value="Number of records" />
+			<Item Name="BaseElements.ReadDataUserTask3.Parameters.ResultDateTimeFunction.Caption" Value="Function result (Date/Time)" />
+			<Item Name="BaseElements.ReadDataUserTask3.Parameters.ResultEntity.Caption" Value="First item of resulting collection" />
+			<Item Name="BaseElements.ReadDataUserTask3.Parameters.ResultEntityCollection.Caption" Value="Resulting collection" />
+			<Item Name="BaseElements.ReadDataUserTask3.Parameters.ResultFloatFunction.Caption" Value="Function result (Decimal)" />
+			<Item Name="BaseElements.ReadDataUserTask3.Parameters.ResultIntegerFunction.Caption" Value="Function result (Integer)" />
+			<Item Name="BaseElements.ReadDataUserTask3.Parameters.ResultRowsCount.Caption" Value="Number of records read" />
+			<Item Name="BaseElements.ReadDataUserTask3.Parameters.ResultType.Caption" Value="Type of result" />
+			<Item Name="BaseElements.SubProcess1.Caption" Value="Трекинг изменить запись отправления 1" />
+			<Item Name="BaseElements.SubProcess1.Parameters.CompletedIterationsCount.Caption" Value="Число выполненных экземпляров" />
+			<Item Name="BaseElements.SubProcess1.Parameters.InputRecordCollection.Caption" Value="Входящая коллекция записей" />
+			<Item Name="BaseElements.SubProcess1.Parameters.InputRecordCollection.DisplayValue" Value="[#api.novaposhta.ua 1.Data#]" />
+			<Item Name="BaseElements.SubProcess1.Parameters.InputRecordCollection.ProcessSchemaParameter1.Caption" Value="ID" />
+			<Item Name="BaseElements.SubProcess1.Parameters.InputRecordCollection.ProcessSchemaParameter1.DisplayValue" Value="[#читаем 1 отправление.Первый элемент результирующей коллекции.Id#]" />
+			<Item Name="BaseElements.SubProcess1.Parameters.InputRecordCollection.status.Caption" Value="status" />
+			<Item Name="BaseElements.SubProcess1.Parameters.InputRecordCollection.status.DisplayValue" Value="[#api.novaposhta.ua 1.Data:StatusCode#]" />
+			<Item Name="BaseElements.SubProcess1.Parameters.InputRecordCollection.StatusDocumentsDescriptionString.Caption" Value="StatusDocumentsDescriptionString" />
+			<Item Name="BaseElements.SubProcess1.Parameters.InputRecordCollection.StatusDocumentsDescriptionString.DisplayValue" Value="[#api.novaposhta.ua 1.Data:Status#]" />
+			<Item Name="BaseElements.SubProcess1.Parameters.OutputRecordCollection.Caption" Value="Исходящая коллекция записей" />
+			<Item Name="BaseElements.SubProcess1.Parameters.OutputRecordCollection.ProcessSchemaParameter1.Caption" Value="ID" />
+			<Item Name="BaseElements.SubProcess1.Parameters.OutputRecordCollection.status.Caption" Value="status" />
+			<Item Name="BaseElements.SubProcess1.Parameters.OutputRecordCollection.StatusDocumentsDescriptionString.Caption" Value="StatusDocumentsDescriptionString" />
+			<Item Name="BaseElements.SubProcess1.Parameters.TerminatedIterationsCount.Caption" Value="Число прерванных экземпляров" />
+			<Item Name="BaseElements.SubProcess1.Parameters.TotalIterationsCount.Caption" Value="Общее число экземпляров" />
+			<Item Name="BaseElements.WebService1.Parameters.RequestBody.Caption" Value="Тело запроса сервиса" />
+			<Item Name="BaseElements.WebService1.Parameters.Response.Caption" Value="Тело ответа сервиса" />
+			<Item Name="BaseElements.WebService1.Parameters.StatusCode.Caption" Value="Http код состояния" />
+			<Item Name="BaseElements.WebService1.Parameters.Success.Caption" Value="Успешно выполнен" />
+			<Item Name="BaseElements.WebService1.Parameters.UsrAKey_In.Caption" Value="ApiKey" />
+			<Item Name="BaseElements.WebService1.Parameters.UsrAKey_In.DisplayValue" Value="[#читаем ApiKey отправителя.Первый элемент результирующей коллекции.apiKey#]" />
+			<Item Name="BaseElements.WebService1.Parameters.UsrCMethod_In.Caption" Value="CalledMethod" />
+			<Item Name="BaseElements.WebService1.Parameters.UsrData_Out.Caption" Value="Data" />
+			<Item Name="BaseElements.WebService1.Parameters.UsrData_Out.UsrDAOGCost_Out.Caption" Value="AfterpaymentOnGoodsCost" />
+			<Item Name="BaseElements.WebService1.Parameters.UsrData_Out.UsrDAPrice_Out.Caption" Value="AnnouncedPrice" />
+			<Item Name="BaseElements.WebService1.Parameters.UsrData_Out.UsrDCBarcode_Out.Caption" Value="ClientBarcode" />
+			<Item Name="BaseElements.WebService1.Parameters.UsrData_Out.UsrDCDString_Out.Caption" Value="CargoDescriptionString" />
+			<Item Name="BaseElements.WebService1.Parameters.UsrData_Out.UsrDCOTBasis_Out.Caption" Value="CreatedOnTheBasis" />
+			<Item Name="BaseElements.WebService1.Parameters.UsrData_Out.UsrDCRDescription_Out.Caption" Value="CounterpartyRecipientDescription" />
+			<Item Name="BaseElements.WebService1.Parameters.UsrData_Out.UsrDCRecipient_Out.Caption" Value="CityRecipient" />
+			<Item Name="BaseElements.WebService1.Parameters.UsrData_Out.UsrDCSDescription_Out.Caption" Value="CounterpartySenderDescription" />
+			<Item Name="BaseElements.WebService1.Parameters.UsrData_Out.UsrDCSender_Out.Caption" Value="CitySender" />
+			<Item Name="BaseElements.WebService1.Parameters.UsrData_Out.UsrDCType_Out.Caption" Value="CargoType" />
+			<Item Name="BaseElements.WebService1.Parameters.UsrData_Out.UsrDCWeight_Out.Caption" Value="CheckWeight" />
+			<Item Name="BaseElements.WebService1.Parameters.UsrData_Out.UsrDDCost_Out.Caption" Value="DocumentCost" />
+			<Item Name="BaseElements.WebService1.Parameters.UsrData_Out.UsrDDCreated_Out.Caption" Value="DateCreated" />
+			<Item Name="BaseElements.WebService1.Parameters.UsrData_Out.UsrDDWeight_Out.Caption" Value="DocumentWeight" />
+			<Item Name="BaseElements.WebService1.Parameters.UsrData_Out.UsrDEWATPay_Out.Caption" Value="ExpressWaybillAmountToPay" />
+			<Item Name="BaseElements.WebService1.Parameters.UsrData_Out.UsrDEWPStatus_Out.Caption" Value="ExpressWaybillPaymentStatus" />
+			<Item Name="BaseElements.WebService1.Parameters.UsrData_Out.UsrDIDType_Out.Caption" Value="InternationalDeliveryType" />
+			<Item Name="BaseElements.WebService1.Parameters.UsrData_Out.UsrDLCOTBPType_Out.Caption" Value="LastCreatedOnTheBasisPayerType" />
+			<Item Name="BaseElements.WebService1.Parameters.UsrData_Out.UsrDLRNumber_Out.Caption" Value="LightReturnNumber" />
+			<Item Name="BaseElements.WebService1.Parameters.UsrData_Out.UsrDLTDTime_Out.Caption" Value="LastTransactionDateTimeGM" />
+			<Item Name="BaseElements.WebService1.Parameters.UsrData_Out.UsrDNumber_Out.Caption" Value="Number" />
+			<Item Name="BaseElements.WebService1.Parameters.UsrData_Out.UsrDODType_Out.Caption" Value="OwnerDocumentType" />
+			<Item Name="BaseElements.WebService1.Parameters.UsrData_Out.UsrDPCCCard_Out.Caption" Value="PossibilityChangeCash2Card" />
+			<Item Name="BaseElements.WebService1.Parameters.UsrData_Out.UsrDPCClaim_Out.Caption" Value="PossibilityCreateClaim" />
+			<Item Name="BaseElements.WebService1.Parameters.UsrData_Out.UsrDPCDIntervals_Out.Caption" Value="PossibilityChangeDeliveryIntervals" />
+			<Item Name="BaseElements.WebService1.Parameters.UsrData_Out.UsrDPChange_Out.Caption" Value="PossibilityChangeEW" />
+			<Item Name="BaseElements.WebService1.Parameters.UsrData_Out.UsrDPCRedirecting_Out.Caption" Value="PossibilityCreateRedirecting" />
+			<Item Name="BaseElements.WebService1.Parameters.UsrData_Out.UsrDPCRefusal_Out.Caption" Value="PossibilityCreateRefusal" />
+			<Item Name="BaseElements.WebService1.Parameters.UsrData_Out.UsrDPCReturn_Out.Caption" Value="PossibilityCreateReturn" />
+			<Item Name="BaseElements.WebService1.Parameters.UsrData_Out.UsrDPLReturn_Out.Caption" Value="PossibilityLightReturn" />
+			<Item Name="BaseElements.WebService1.Parameters.UsrData_Out.UsrDPMethod_Out.Caption" Value="PaymentMethod" />
+			<Item Name="BaseElements.WebService1.Parameters.UsrData_Out.UsrDPTExtension_Out.Caption" Value="PossibilityTermExtension" />
+			<Item Name="BaseElements.WebService1.Parameters.UsrData_Out.UsrDPTRecipient_Out.Caption" Value="PossibilityTrusteeRecipient" />
+			<Item Name="BaseElements.WebService1.Parameters.UsrData_Out.UsrDPType_Out.Caption" Value="PayerType" />
+			<Item Name="BaseElements.WebService1.Parameters.UsrData_Out.UsrDRAddress_Out.Caption" Value="RecipientAddress" />
+			<Item Name="BaseElements.WebService1.Parameters.UsrData_Out.UsrDRCRecipient_Out.Caption" Value="RefCityRecipient" />
+			<Item Name="BaseElements.WebService1.Parameters.UsrData_Out.UsrDRCSender_Out.Caption" Value="RefCitySender" />
+			<Item Name="BaseElements.WebService1.Parameters.UsrData_Out.UsrDRef_Out.Caption" Value="RefEW" />
+			<Item Name="BaseElements.WebService1.Parameters.UsrData_Out.UsrDRFName_Out.Caption" Value="RecipientFullName" />
+			<Item Name="BaseElements.WebService1.Parameters.UsrData_Out.UsrDRPayer_Out.Caption" Value="RedeliveryPayer" />
+			<Item Name="BaseElements.WebService1.Parameters.UsrData_Out.UsrDRPCDescription_Out.Caption" Value="RedeliveryPaymentCardDescription" />
+			<Item Name="BaseElements.WebService1.Parameters.UsrData_Out.UsrDRPCRef_Out.Caption" Value="RedeliveryPaymentCardRef" />
+			<Item Name="BaseElements.WebService1.Parameters.UsrData_Out.UsrDRSum_Out.Caption" Value="RedeliverySum" />
+			<Item Name="BaseElements.WebService1.Parameters.UsrData_Out.UsrDRWIndex_Out.Caption" Value="RecipientWarehouseIndex" />
+			<Item Name="BaseElements.WebService1.Parameters.UsrData_Out.UsrDRWTRef_Out.Caption" Value="RecipientWarehouseTypeRef" />
+			<Item Name="BaseElements.WebService1.Parameters.UsrData_Out.UsrDSAddress_Out.Caption" Value="SenderAddress" />
+			<Item Name="BaseElements.WebService1.Parameters.UsrData_Out.UsrDSCode_Out.Caption" Value="StatusCode" />
+			<Item Name="BaseElements.WebService1.Parameters.UsrData_Out.UsrDSDDate_Out.Caption" Value="ScheduledDeliveryDate" />
+			<Item Name="BaseElements.WebService1.Parameters.UsrData_Out.UsrDSPayment_Out.Caption" Value="SecurePayment" />
+			<Item Name="BaseElements.WebService1.Parameters.UsrData_Out.UsrDStatus_Out.Caption" Value="Status" />
+			<Item Name="BaseElements.WebService1.Parameters.UsrData_Out.UsrDSType_Out.Caption" Value="ServiceType" />
+			<Item Name="BaseElements.WebService1.Parameters.UsrData_Out.UsrDSWIndex_Out.Caption" Value="SenderWarehouseIndex" />
+			<Item Name="BaseElements.WebService1.Parameters.UsrData_Out.UsrDTRPhone_Out.Caption" Value="TrusteeRecipientPhone" />
+			<Item Name="BaseElements.WebService1.Parameters.UsrData_Out.UsrDVWeight_Out.Caption" Value="VolumeWeight" />
+			<Item Name="BaseElements.WebService1.Parameters.UsrData_Out.UsrDWRecipient_Out.Caption" Value="WarehouseRecipient" />
+			<Item Name="BaseElements.WebService1.Parameters.UsrData_Out.UsrDWRIARef_Out.Caption" Value="WarehouseRecipientInternetAddressRef" />
+			<Item Name="BaseElements.WebService1.Parameters.UsrData_Out.UsrDWRRef_Out.Caption" Value="WarehouseRecipientRef" />
+			<Item Name="BaseElements.WebService1.Parameters.UsrData_Out.UsrDWSAddress_Out.Caption" Value="WarehouseSenderAddress" />
+			<Item Name="BaseElements.WebService1.Parameters.UsrData_Out.UsrDWSender_Out.Caption" Value="WarehouseSender" />
+			<Item Name="BaseElements.WebService1.Parameters.UsrData_Out.UsrDWSIARef_Out.Caption" Value="WarehouseSenderInternetAddressRef" />
+			<Item Name="BaseElements.WebService1.Parameters.UsrECodes_Out.Caption" Value="ErrorCodes" />
+			<Item Name="BaseElements.WebService1.Parameters.UsrECodes_Out.UsrECodesItemValue_Out.Caption" Value="Значение элемента" />
+			<Item Name="BaseElements.WebService1.Parameters.UsrErrors_Out.Caption" Value="Errors" />
+			<Item Name="BaseElements.WebService1.Parameters.UsrErrors_Out.UsrErrorsItemValue_Out.Caption" Value="Значение элемента" />
+			<Item Name="BaseElements.WebService1.Parameters.UsrICodes_Out.Caption" Value="InfoCodes" />
+			<Item Name="BaseElements.WebService1.Parameters.UsrICodes_Out.UsrICodesItemValue_Out.Caption" Value="Значение элемента" />
+			<Item Name="BaseElements.WebService1.Parameters.UsrInfo_Out.Caption" Value="Info" />
+			<Item Name="BaseElements.WebService1.Parameters.UsrInfo_Out.UsrInfoItemValue_Out.Caption" Value="Значение элемента" />
+			<Item Name="BaseElements.WebService1.Parameters.UsrMCodes_Out.Caption" Value="MessageCodes" />
+			<Item Name="BaseElements.WebService1.Parameters.UsrMCodes_Out.UsrMCodesItemValue_Out.Caption" Value="Значение элемента" />
+			<Item Name="BaseElements.WebService1.Parameters.UsrMName_In.Caption" Value="ModelName" />
+			<Item Name="BaseElements.WebService1.Parameters.UsrMPDocuments_In.Caption" Value="MethodProperties Documents" />
+			<Item Name="BaseElements.WebService1.Parameters.UsrMPDocuments_In.UsrDDNumber_In.Caption" Value="DocumentNumber" />
+			<Item Name="BaseElements.WebService1.Parameters.UsrMPDocuments_In.UsrDDNumber_In.DisplayValue" Value="[#читаем 1 отправление.Первый элемент результирующей коллекции.IntDocNumber#]" />
+			<Item Name="BaseElements.WebService1.Parameters.UsrMPDocuments_In.UsrDPhone_In.Caption" Value="Phone" />
+			<Item Name="BaseElements.WebService1.Parameters.UsrSuccess_Out.Caption" Value="Success" />
+			<Item Name="BaseElements.WebService1.Parameters.UsrWarnings_Out.Caption" Value="Warnings" />
+			<Item Name="BaseElements.WebService1.Parameters.UsrWarnings_Out.UsrWarnings1_Out.Caption" Value="ID_20450884703223" />
+			<Item Name="BaseElements.WebService1.Parameters.UsrWCodes_Out.Caption" Value="WarningCodes" />
+			<Item Name="BaseElements.WebService1.Parameters.UsrWCodes_Out.UsrWCodesItemValue_Out.Caption" Value="Значение элемента" />
+			<Item Name="Caption" Value="Трекинг получить данные по 1 накладной" />
+			<Item Name="LaneSets.LaneSet1.Caption" Value="LaneSet 1" />
+			<Item Name="LaneSets.LaneSet1.Lanes.Lane1.Caption" Value="Lane 1" />
+			<Item Name="NotificationCaption.Caption" Value="Заголовок экземпляра процесса" />
+			<Item Name="NotificationCaption.DisplayValue" Value="[#Название процесса#]" />
+			<Item Name="Parameters.ProcessSchemaParameter1.Caption" Value="ID" />
+		</Items>
+	</Group>
+</Resources>
