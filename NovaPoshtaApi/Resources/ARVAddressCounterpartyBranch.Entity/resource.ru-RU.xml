@@ -4,7 +4,9 @@
 		<Items>
 			<Item Name="Caption" Value="Адрес отделения" />
 			<Item Name="Columns.ARVARVCounterpartyNP.Caption" Value="Counterparty" />
+			<Item Name="Columns.ARVDepartment.Caption" Value="Отделение" />
 			<Item Name="Columns.ARVName.Caption" Value="Название" />
+			<Item Name="Columns.ARVSettlement.Caption" Value="Населенный пункт" />
 		</Items>
 	</Group>
 </Resources>

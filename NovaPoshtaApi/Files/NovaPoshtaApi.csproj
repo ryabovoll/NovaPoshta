@@ -559,9 +559,16 @@
 		<Compile Remove="$(RelativePkgFolderPath)/NovaPoshtaApi/Schemas/ARVNovaPoshtaDepartureFile/ARVNovaPoshtaDepartureFile.cs" Condition="Exists('$(RelativePkgFolderPath)/NovaPoshtaApi/Schemas/ARVNovaPoshtaDepartureFile/ARVNovaPoshtaDepartureFile.cs')" />
 		<Compile Remove="$(RelativePkgFolderPath)/NovaPoshtaApi/Schemas/ARVNovaPoshtaDepartureFolder/ARVNovaPoshtaDepartureFolder.cs" Condition="Exists('$(RelativePkgFolderPath)/NovaPoshtaApi/Schemas/ARVNovaPoshtaDepartureFolder/ARVNovaPoshtaDepartureFolder.cs')" />
 		<Compile Remove="$(RelativePkgFolderPath)/NovaPoshtaApi/Schemas/ARVNovaPoshtaDepartureInFolder/ARVNovaPoshtaDepartureInFolder.cs" Condition="Exists('$(RelativePkgFolderPath)/NovaPoshtaApi/Schemas/ARVNovaPoshtaDepartureInFolder/ARVNovaPoshtaDepartureInFolder.cs')" />
+		<Compile Remove="$(RelativePkgFolderPath)/NovaPoshtaApi/Schemas/ARVDepartment/ARVDepartment.cs" Condition="Exists('$(RelativePkgFolderPath)/NovaPoshtaApi/Schemas/ARVDepartment/ARVDepartment.cs')" />
 		<Compile Remove="$(RelativePkgFolderPath)/NovaPoshtaApi/Schemas/ARVNovaPoshtaDeparture/ARVNovaPoshtaDeparture.cs" Condition="Exists('$(RelativePkgFolderPath)/NovaPoshtaApi/Schemas/ARVNovaPoshtaDeparture/ARVNovaPoshtaDeparture.cs')" />
-		<Compile Remove="$(RelativePkgFolderPath)/NovaPoshtaApi/Schemas/ARVCounterpartyNP/ARVCounterpartyNP.cs" Condition="Exists('$(RelativePkgFolderPath)/NovaPoshtaApi/Schemas/ARVCounterpartyNP/ARVCounterpartyNP.cs')" />
 		<Compile Remove="$(RelativePkgFolderPath)/NovaPoshtaApi/Schemas/ARVAddressCounterpartyBranch/ARVAddressCounterpartyBranch.cs" Condition="Exists('$(RelativePkgFolderPath)/NovaPoshtaApi/Schemas/ARVAddressCounterpartyBranch/ARVAddressCounterpartyBranch.cs')" />
+		<Compile Remove="$(RelativePkgFolderPath)/NovaPoshtaApi/Schemas/ARVSeatsAmount/ARVSeatsAmount.cs" Condition="Exists('$(RelativePkgFolderPath)/NovaPoshtaApi/Schemas/ARVSeatsAmount/ARVSeatsAmount.cs')" />
+		<Compile Remove="$(RelativePkgFolderPath)/NovaPoshtaApi/Schemas/ARVDefaultLics/ARVDefaultLics.cs" Condition="Exists('$(RelativePkgFolderPath)/NovaPoshtaApi/Schemas/ARVDefaultLics/ARVDefaultLics.cs')" />
+		<Compile Remove="$(RelativePkgFolderPath)/NovaPoshtaApi/Schemas/ARVStatusDocuments/ARVStatusDocuments.cs" Condition="Exists('$(RelativePkgFolderPath)/NovaPoshtaApi/Schemas/ARVStatusDocuments/ARVStatusDocuments.cs')" />
+		<Compile Remove="$(RelativePkgFolderPath)/NovaPoshtaApi/Schemas/ARVLookupWeight/ARVLookupWeight.cs" Condition="Exists('$(RelativePkgFolderPath)/NovaPoshtaApi/Schemas/ARVLookupWeight/ARVLookupWeight.cs')" />
+		<Compile Remove="$(RelativePkgFolderPath)/NovaPoshtaApi/Schemas/ARVRegion/ARVRegion.cs" Condition="Exists('$(RelativePkgFolderPath)/NovaPoshtaApi/Schemas/ARVRegion/ARVRegion.cs')" />
+		<Compile Remove="$(RelativePkgFolderPath)/NovaPoshtaApi/Schemas/ARVSettlement/ARVSettlement.cs" Condition="Exists('$(RelativePkgFolderPath)/NovaPoshtaApi/Schemas/ARVSettlement/ARVSettlement.cs')" />
+		<Compile Remove="$(RelativePkgFolderPath)/NovaPoshtaApi/Schemas/ARVCounterpartyNP/ARVCounterpartyNP.cs" Condition="Exists('$(RelativePkgFolderPath)/NovaPoshtaApi/Schemas/ARVCounterpartyNP/ARVCounterpartyNP.cs')" />
 	</ItemGroup>
 	<ItemGroup Label="3rd Party References"></ItemGroup>
 	<Target Name="Paths" BeforeTargets="BeforeCompile">

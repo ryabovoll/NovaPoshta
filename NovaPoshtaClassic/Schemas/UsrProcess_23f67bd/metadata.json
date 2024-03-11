@@ -316,6 +316,7 @@
           "A5": "5141af29-7738-433c-bc10-0d6c784a543e",
           "BL7": "11a47caf-a0d5-41fa-a274-a0b11f77447a",
           "BL8": "19afd5cb-3eb2-403d-aef4-8dbe71a0c6db",
+          "BM1": 0,
           "BM4": [
             {
               "BL1": "Terrasoft.Core.Process.ProcessSchemaLane",
@@ -645,6 +646,39 @@
           "BP2": [
             {
               "BL1": "Terrasoft.Core.Process.ProcessSchemaParameter",
+              "UId": "05ca92eb-2cd4-4e32-b270-4652361a17f0",
+              "A2": "CompletedIterationsCount",
+              "A3": "19afd5cb-3eb2-403d-aef4-8dbe71a0c6db",
+              "A4": "19afd5cb-3eb2-403d-aef4-8dbe71a0c6db",
+              "IL2": "bfbaf50c-f7f7-44c9-8a53-ec3c1cc8adb5",
+              "L1": "6b6b74e2-820d-490e-a017-2b73d4ccf2b0",
+              "L8": {},
+              "L12": 1
+            },
+            {
+              "BL1": "Terrasoft.Core.Process.ProcessSchemaParameter",
+              "UId": "c11e1a20-8c7a-4bd5-9d9e-ad4c7c506d7a",
+              "A2": "TerminatedIterationsCount",
+              "A3": "19afd5cb-3eb2-403d-aef4-8dbe71a0c6db",
+              "A4": "19afd5cb-3eb2-403d-aef4-8dbe71a0c6db",
+              "IL2": "bfbaf50c-f7f7-44c9-8a53-ec3c1cc8adb5",
+              "L1": "6b6b74e2-820d-490e-a017-2b73d4ccf2b0",
+              "L8": {},
+              "L12": 1
+            },
+            {
+              "BL1": "Terrasoft.Core.Process.ProcessSchemaParameter",
+              "UId": "0d44ff5e-d69e-464c-86de-9bbb39840fe6",
+              "A2": "TotalIterationsCount",
+              "A3": "19afd5cb-3eb2-403d-aef4-8dbe71a0c6db",
+              "A4": "19afd5cb-3eb2-403d-aef4-8dbe71a0c6db",
+              "IL2": "bfbaf50c-f7f7-44c9-8a53-ec3c1cc8adb5",
+              "L1": "6b6b74e2-820d-490e-a017-2b73d4ccf2b0",
+              "L8": {},
+              "L12": 1
+            },
+            {
+              "BL1": "Terrasoft.Core.Process.ProcessSchemaParameter",
               "UId": "9a98af6f-698e-407b-85c0-eb7ac668da92",
               "A2": "InputRecordCollection",
               "A3": "19afd5cb-3eb2-403d-aef4-8dbe71a0c6db",
@@ -698,39 +732,6 @@
                   }
                 }
               ]
-            },
-            {
-              "BL1": "Terrasoft.Core.Process.ProcessSchemaParameter",
-              "UId": "05ca92eb-2cd4-4e32-b270-4652361a17f0",
-              "A2": "CompletedIterationsCount",
-              "A3": "19afd5cb-3eb2-403d-aef4-8dbe71a0c6db",
-              "A4": "19afd5cb-3eb2-403d-aef4-8dbe71a0c6db",
-              "IL2": "bfbaf50c-f7f7-44c9-8a53-ec3c1cc8adb5",
-              "L1": "6b6b74e2-820d-490e-a017-2b73d4ccf2b0",
-              "L8": {},
-              "L12": 1
-            },
-            {
-              "BL1": "Terrasoft.Core.Process.ProcessSchemaParameter",
-              "UId": "c11e1a20-8c7a-4bd5-9d9e-ad4c7c506d7a",
-              "A2": "TerminatedIterationsCount",
-              "A3": "19afd5cb-3eb2-403d-aef4-8dbe71a0c6db",
-              "A4": "19afd5cb-3eb2-403d-aef4-8dbe71a0c6db",
-              "IL2": "bfbaf50c-f7f7-44c9-8a53-ec3c1cc8adb5",
-              "L1": "6b6b74e2-820d-490e-a017-2b73d4ccf2b0",
-              "L8": {},
-              "L12": 1
-            },
-            {
-              "BL1": "Terrasoft.Core.Process.ProcessSchemaParameter",
-              "UId": "0d44ff5e-d69e-464c-86de-9bbb39840fe6",
-              "A2": "TotalIterationsCount",
-              "A3": "19afd5cb-3eb2-403d-aef4-8dbe71a0c6db",
-              "A4": "19afd5cb-3eb2-403d-aef4-8dbe71a0c6db",
-              "IL2": "bfbaf50c-f7f7-44c9-8a53-ec3c1cc8adb5",
-              "L1": "6b6b74e2-820d-490e-a017-2b73d4ccf2b0",
-              "L8": {},
-              "L12": 1
             }
           ],
           "CK4": "f19ca334-55f7-4819-b144-c964a2adeed2",
@@ -765,7 +766,8 @@
           "BL8": "19afd5cb-3eb2-403d-aef4-8dbe71a0c6db",
           "BN2": "31;31",
           "BO3": true,
-          "FC1": []
+          "FC1": [],
+          "ED1": false
         },
         {
           "BL1": "Terrasoft.Core.Process.ProcessSchemaSequenceFlow",

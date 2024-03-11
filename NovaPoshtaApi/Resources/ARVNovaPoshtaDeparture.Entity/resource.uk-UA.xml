@@ -3,8 +3,34 @@
 	<Group Type="String">
 		<Items>
 			<Item Name="Caption" Value="NovaPoshtaDeparture" />
-			<Item Name="Columns.ARVName.Caption" Value="Назва" />
+			<Item Name="Columns.ARVAddressCounterparty.Caption" Value="Адреса" />
+			<Item Name="Columns.ARVCash.Caption" Value="Готівка" />
+			<Item Name="Columns.ARVCost.Caption" Value="Оголошена вартість" />
+			<Item Name="Columns.ARVCostOnSite.Caption" Value="Ціна за доставку" />
+			<Item Name="Columns.ARVDateTime.Caption" Value="Дата відправки" />
+			<Item Name="Columns.ARVDepartment.Caption" Value="Відділення" />
+			<Item Name="Columns.ARVDepartmentBool.Caption" Value="Відділення" />
+			<Item Name="Columns.ARVDescriptionNP.Caption" Value="Опис" />
+			<Item Name="Columns.ARVDocuments.Caption" Value="Документи" />
+			<Item Name="Columns.ARVEstimatedDeliveryDate.Caption" Value="Передбачувана дата поставки" />
+			<Item Name="Columns.ARVName.Caption" Value="Номер документа" />
+			<Item Name="Columns.ARVNoCash.Caption" Value="Безготівка" />
 			<Item Name="Columns.ARVNotes.Caption" Value="Примітки" />
+			<Item Name="Columns.ARVParcel.Caption" Value="Посилка" />
+			<Item Name="Columns.ARVPostomat.Caption" Value="Поштомат" />
+			<Item Name="Columns.ARVRecipient.Caption" Value="Отримувач" />
+			<Item Name="Columns.ARVRecipientContact.Caption" Value="Одержувач" />
+			<Item Name="Columns.ARVRecipientsPhoneNP.Caption" Value="Телефон одержувача" />
+			<Item Name="Columns.ARVRef.Caption" Value="Ref" />
+			<Item Name="Columns.ARVSeatsAmount.Caption" Value="Кількість місць" />
+			<Item Name="Columns.ARVSender.Caption" Value="Відправник" />
+			<Item Name="Columns.ARVSenderCounterparty.Caption" Value="Контакт" />
+			<Item Name="Columns.ARVSenderCounterpartyNP.Caption" Value="Контакт" />
+			<Item Name="Columns.ARVSettlement.Caption" Value="Населений пункт" />
+			<Item Name="Columns.ARVStatusDocuments.Caption" Value="Статус" />
+			<Item Name="Columns.ARVStatusDocumentsDescriptionString.Caption" Value="Опис статусу" />
+			<Item Name="Columns.ARVTypeDocument.Caption" Value="Тип документа" />
+			<Item Name="Columns.ARVWeight.Caption" Value="Вага" />
 		</Items>
 	</Group>
 </Resources>

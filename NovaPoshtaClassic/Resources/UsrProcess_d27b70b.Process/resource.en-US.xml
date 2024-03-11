@@ -14,6 +14,7 @@
 			<Item Name="BaseElements.ConditionalSequenceFlow1.Caption" Value="дубль" />
 			<Item Name="BaseElements.ConditionalSequenceFlow2.Caption" Value="Первый вход " />
 			<Item Name="BaseElements.ConditionalSequenceFlow5.Caption" Value="Нужно повторить циклы" />
+			<Item Name="BaseElements.FormulaTask1.Caption" Value="Info TotalCount" />
 			<Item Name="BaseElements.FormulaTask2.Caption" Value="Остаток циклов" />
 			<Item Name="BaseElements.FormulaTask3.Caption" Value="Переход на следуйщюу страницу" />
 			<Item Name="BaseElements.ReadDataUserTask1.Caption" Value="Проверяем на дубль " />
@@ -37,6 +38,7 @@
 			<Item Name="BaseElements.ReadDataUserTask1.Parameters.ResultIntegerFunction.Caption" Value="Function result (Integer)" />
 			<Item Name="BaseElements.ReadDataUserTask1.Parameters.ResultRowsCount.Caption" Value="Number of records read" />
 			<Item Name="BaseElements.ReadDataUserTask1.Parameters.ResultType.Caption" Value="Type of result" />
+			<Item Name="BaseElements.SubProcess1.Caption" Value="Наполнить справочник Населенных пунктов Новой Почты 1" />
 			<Item Name="BaseElements.SubProcess1.Parameters.CompletedIterationsCount.Caption" Value="Число выполненных экземпляров" />
 			<Item Name="BaseElements.SubProcess1.Parameters.InputRecordCollection.Caption" Value="Входящая коллекция записей" />
 			<Item Name="BaseElements.SubProcess1.Parameters.InputRecordCollection.DisplayValue" Value="[#https://api.novaposhta.ua 1.Data#]" />
@@ -133,6 +135,7 @@
 			<Item Name="BaseElements.SubProcess1.Parameters.OutputRecordCollection.ProcessSchemaParameter9.Caption" Value="SettlementTypeDescriptionRu" />
 			<Item Name="BaseElements.SubProcess1.Parameters.TerminatedIterationsCount.Caption" Value="Число прерванных экземпляров" />
 			<Item Name="BaseElements.SubProcess1.Parameters.TotalIterationsCount.Caption" Value="Общее число экземпляров" />
+			<Item Name="BaseElements.WebService1.Caption" Value="https://api.novaposhta.ua 1" />
 			<Item Name="BaseElements.WebService1.Parameters.RequestBody.Caption" Value="Тело запроса сервиса" />
 			<Item Name="BaseElements.WebService1.Parameters.Response.Caption" Value="Тело ответа сервиса" />
 			<Item Name="BaseElements.WebService1.Parameters.StatusCode.Caption" Value="Http код состояния" />

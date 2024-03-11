@@ -2,7 +2,7 @@
 <Resources Culture="ru-RU">
 	<Group Type="String">
 		<Items>
-			<Item Name="Caption" Value="Адрес отделения" />
+			<Item Name="Caption" Value="Схема детали: &quot;Адрес отделения&quot;" />
 			<Item Name="LocalizableStrings.Caption.Value" Value="Адрес отделения" />
 		</Items>
 	</Group>

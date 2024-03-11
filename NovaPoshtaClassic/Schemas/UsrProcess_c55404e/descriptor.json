@@ -2,7 +2,7 @@
   "Descriptor": {
     "UId": "87b440e2-5bae-46a2-b97e-98786e88158b",
     "Name": "UsrProcess_c55404e",
-    "ModifiedOnUtc": "\/Date(1709058957000)\/",
+    "ModifiedOnUtc": "\/Date(1710170746000)\/",
     "ManagerName": "ProcessSchemaManager",
     "Caption": "Заполнить представление корагента",
     "DependsOn": []

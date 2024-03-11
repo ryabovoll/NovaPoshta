@@ -3,8 +3,54 @@
 	<Group Type="String">
 		<Items>
 			<Item Name="Caption" Value="NovaPoshtaDeparture" />
-			<Item Name="Columns.ARVName.Caption" Value="Name" />
+			<Item Name="Columns.ARVAddressCounterparty.Caption" Value="Address" />
+			<Item Name="Columns.ARVBack.Caption" Value="back" />
+			<Item Name="Columns.ARVCargoTypeNP.Caption" Value="CargoType" />
+			<Item Name="Columns.ARVCash.Caption" Value="Cash" />
+			<Item Name="Columns.ARVCost.Caption" Value="Announced price" />
+			<Item Name="Columns.ARVCostOnSite.Caption" Value="Delivery price" />
+			<Item Name="Columns.ARVDateTime.Caption" Value="Date of dispatch" />
+			<Item Name="Columns.ARVDefault.Caption" Value="Default" />
+			<Item Name="Columns.ARVDepartment.Caption" Value="Department" />
+			<Item Name="Columns.ARVDepartmentBool.Caption" Value="Department" />
+			<Item Name="Columns.ARVDepartmentDefault.Caption" Value="Відділення (Default)" />
+			<Item Name="Columns.ARVDescriptionNP.Caption" Value="Description" />
+			<Item Name="Columns.ARVDocuments.Caption" Value="Documents" />
+			<Item Name="Columns.ARVEstimatedDeliveryDate.Caption" Value="Estimated Delivery Date" />
+			<Item Name="Columns.ARVForTheRuleALLTrue.Caption" Value="For the rule - ALL &quot;True&quot;" />
+			<Item Name="Columns.ARVForTheRuleFalse.Caption" Value="For the rule - ALL &quot;False&quot;" />
+			<Item Name="Columns.ARVIntDefault.Caption" Value="IntDefault" />
+			<Item Name="Columns.ARVIntWeight.Caption" Value="IntWeight" />
+			<Item Name="Columns.ARVName.Caption" Value="Doc Number" />
+			<Item Name="Columns.ARVNext.Caption" Value="Next" />
+			<Item Name="Columns.ARVNoCash.Caption" Value="No cash" />
 			<Item Name="Columns.ARVNotes.Caption" Value="Notes" />
+			<Item Name="Columns.ARVParcel.Caption" Value="Parcel" />
+			<Item Name="Columns.ARVPayerTypeNP.Caption" Value="PayerType" />
+			<Item Name="Columns.ARVPaymentMethodNP.Caption" Value="PaymentMethod" />
+			<Item Name="Columns.ARVPostomat.Caption" Value="Postomat" />
+			<Item Name="Columns.ARVRecipient.Caption" Value="Recipient" />
+			<Item Name="Columns.ARVRecipientCityName.Caption" Value="RecipientCityName" />
+			<Item Name="Columns.ARVRecipientContact.Caption" Value="Recipient" />
+			<Item Name="Columns.ARVRecipientFlat.Caption" Value="RecipientFlat" />
+			<Item Name="Columns.ARVRecipientHouse.Caption" Value="RecipientHouse" />
+			<Item Name="Columns.ARVRecipientsPhoneNP.Caption" Value="Recipients Phone" />
+			<Item Name="Columns.ARVRecipientType.Caption" Value="RecipientType" />
+			<Item Name="Columns.ARVRef.Caption" Value="Ref" />
+			<Item Name="Columns.ARVRegion.Caption" Value="Region" />
+			<Item Name="Columns.ARVSeatsAmount.Caption" Value="Seats Amount" />
+			<Item Name="Columns.ARVSeatsAmountNP.Caption" Value="SeatsAmount" />
+			<Item Name="Columns.ARVSender.Caption" Value="Sender" />
+			<Item Name="Columns.ARVSenderCounterparty.Caption" Value="Contact" />
+			<Item Name="Columns.ARVSenderCounterpartyNP.Caption" Value="Contact" />
+			<Item Name="Columns.ARVServiceType.Caption" Value="ServiceType" />
+			<Item Name="Columns.ARVSettlement.Caption" Value="Settlement" />
+			<Item Name="Columns.ARVSettlementDefault.Caption" Value="Settlement (Default)" />
+			<Item Name="Columns.ARVStart.Caption" Value="Start" />
+			<Item Name="Columns.ARVStatusDocuments.Caption" Value="Status" />
+			<Item Name="Columns.ARVStatusDocumentsDescriptionString.Caption" Value="Status Description" />
+			<Item Name="Columns.ARVTypeDocument.Caption" Value="Type Document" />
+			<Item Name="Columns.ARVWeight.Caption" Value="Weight" />
 		</Items>
 	</Group>
 </Resources>

@@ -411,6 +411,7 @@
           "A5": "5141af29-7738-433c-bc10-0d6c784a543e",
           "BL7": "11a47caf-a0d5-41fa-a274-a0b11f77447a",
           "BL8": "fa27dcff-0afb-45d7-b1d0-78b3fd1afd19",
+          "BM1": 0,
           "BM4": [
             {
               "BL1": "Terrasoft.Core.Process.ProcessSchemaLane",
@@ -445,7 +446,8 @@
           "BL8": "fa27dcff-0afb-45d7-b1d0-78b3fd1afd19",
           "BN2": "31;31",
           "BO3": true,
-          "FC1": []
+          "FC1": [],
+          "ED1": false
         },
         {
           "BL1": "Terrasoft.Core.Process.ProcessSchemaTerminateEvent",
@@ -489,7 +491,8 @@
                 "GS1": 1,
                 "GS2": "bfa88a55-0935-4396-8569-2cc0b9bb62b2",
                 "GS5": "fa27dcff-0afb-45d7-b1d0-78b3fd1afd19"
-              }
+              },
+              "L9": "6c7394db-06ff-4050-91ef-8278e21dce15"
             },
             {
               "BL1": "Terrasoft.Core.Process.ProcessSchemaParameter",

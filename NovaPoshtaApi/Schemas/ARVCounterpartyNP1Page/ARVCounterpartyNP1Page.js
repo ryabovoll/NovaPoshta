@@ -21,8 +21,93 @@ define("ARVCounterpartyNP1Page", [], function() {
 				}
 			}
 		}/**SCHEMA_DETAILS*/,
-		businessRules: /**SCHEMA_BUSINESS_RULES*/{}/**SCHEMA_BUSINESS_RULES*/,
-		methods: {},
+		businessRules: /**SCHEMA_BUSINESS_RULES*/{
+			"ARVPhone": {
+				"8daf7983-3b52-4024-98cc-1f3f533b12d7": {
+					"uId": "8daf7983-3b52-4024-98cc-1f3f533b12d7",
+					"enabled": true,
+					"removed": false,
+					"ruleType": 3,
+					"populatingAttributeSource": {
+						"expression": {
+							"type": 1,
+							"attribute": "ARVContact",
+							"attributePath": "MobilePhone"
+						}
+					},
+					"logical": 0,
+					"conditions": [
+						{
+							"comparisonType": 2,
+							"leftExpression": {
+								"type": 1,
+								"attribute": "ARVContact"
+							}
+						}
+					]
+				}
+			},
+			"ARVApiKey": {
+				"1544e0d8-e9ee-4a44-a3ee-c0bbcb539077": {
+					"uId": "1544e0d8-e9ee-4a44-a3ee-c0bbcb539077",
+					"enabled": true,
+					"removed": false,
+					"ruleType": 0,
+					"property": 1,
+					"logical": 0,
+					"conditions": [
+						{
+							"comparisonType": 1,
+							"leftExpression": {
+								"type": 1,
+								"attribute": "ARVApiKey"
+							}
+						}
+					]
+				}
+			}
+		}/**SCHEMA_BUSINESS_RULES*/,
+		methods: {
+			
+			save: function(config) {
+                if (config) {
+                    config.isSilent = true;
+                }
+                else {
+                    config = {
+                        isSilent: true
+                    };
+                }
+                this.callParent([config]);
+            },
+			
+				onButtonREF: function() {
+				var IDCounterpartyNP = this.get("Id");
+                const runProcessRequest = Ext.create("Terrasoft.RunProcessRequest", {
+                    "schemaName": "ARVProcess_580d254",
+                    "schemaUId": "b7b0e4d8-bc1b-446e-b376-2a72f1c37521",
+                    "parameterValues": {
+                        "ProcessSchemaParameter1": IDCounterpartyNP
+                    },
+                    "resultParameterNames": [
+                        "ProcessSchemaParameter2"
+                    ]
+                    });
+                runProcessRequest.execute(function(response) {
+                    if (response.isSuccess()) {
+                        var respons = response.resultParameterValues["ProcessSchemaParameter2"];
+                        Terrasoft.showInformation("Success");
+						this.reloadEntity();
+                    }
+                  }, this);
+				},
+			
+			getUsrApiKey: function() {
+				var ARVApiKey = this.get("ARVApiKey");
+				var result = !!ARVApiKey;
+				return result;
+			}
+		},
 		dataModels: /**SCHEMA_DATA_MODELS*/{}/**SCHEMA_DATA_MODELS*/,
 		diff: /**SCHEMA_DIFF*/[
 			{
@@ -82,6 +167,34 @@ define("ARVCounterpartyNP1Page", [], function() {
 			},
 			{
 				"operation": "insert",
+				"name": "MyButton",
+				"values": {
+					"itemType": 5,
+					"caption": {
+						"bindTo": "Resources.Strings.ButtonREF"
+					},
+					"click": {
+						"bindTo": "onButtonREF"
+					},
+					"enabled": {
+						"bindTo": "getUsrApiKey"
+					},
+					"style": "blue",
+					"layout": {
+						"colSpan": 7,
+						"rowSpan": 1,
+						"column": 13,
+						"row": 1,
+						"layoutName": "Header"
+					},
+					"visible": true
+				},
+				"parentName": "Header",
+				"propertyName": "items",
+				"index": 1
+			},
+			{
+				"operation": "insert",
 				"name": "STRING2eaec8a3-fff5-47c3-9a16-fe1281183e2f",
 				"values": {
 					"layout": {
@@ -92,11 +205,11 @@ define("ARVCounterpartyNP1Page", [], function() {
 						"layoutName": "Header"
 					},
 					"bindTo": "ARVRef",
-					"enabled": true
+					"enabled": false
 				},
 				"parentName": "Header",
 				"propertyName": "items",
-				"index": 1
+				"index": 2
 			},
 			{
 				"operation": "insert",
@@ -114,7 +227,7 @@ define("ARVCounterpartyNP1Page", [], function() {
 				},
 				"parentName": "Header",
 				"propertyName": "items",
-				"index": 2
+				"index": 3
 			},
 			{
 				"operation": "insert",

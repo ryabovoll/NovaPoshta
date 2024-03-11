@@ -884,7 +884,6 @@
           "GT5": "5dc70810-6cb9-42ec-b308-ba39eff7bc1d",
           "GT4": "fa27dcff-0afb-45d7-b1d0-78b3fd1afd19",
           "GT1": {
-            "GS2": "",
             "GS5": "fa27dcff-0afb-45d7-b1d0-78b3fd1afd19"
           }
         },
@@ -899,7 +898,6 @@
           "GT5": "ff65004c-753f-4183-ab1e-1fb5c6d9668d",
           "GT4": "fa27dcff-0afb-45d7-b1d0-78b3fd1afd19",
           "GT1": {
-            "GS2": "",
             "GS5": "fa27dcff-0afb-45d7-b1d0-78b3fd1afd19"
           }
         }
@@ -928,6 +926,7 @@
           "A5": "5141af29-7738-433c-bc10-0d6c784a543e",
           "BL7": "11a47caf-a0d5-41fa-a274-a0b11f77447a",
           "BL8": "f19ca334-55f7-4819-b144-c964a2adeed2",
+          "BM1": 0,
           "BM4": [
             {
               "BL1": "Terrasoft.Core.Process.ProcessSchemaLane",
@@ -962,7 +961,8 @@
           "BL8": "f19ca334-55f7-4819-b144-c964a2adeed2",
           "BN2": "31;31",
           "BO3": true,
-          "FC1": []
+          "FC1": [],
+          "ED1": false
         },
         {
           "BL1": "Terrasoft.Core.Process.ProcessSchemaUserTask",
@@ -2862,6 +2862,39 @@
           "BP2": [
             {
               "BL1": "Terrasoft.Core.Process.ProcessSchemaParameter",
+              "UId": "105fd82a-5595-4e86-b39c-56e453ade5fd",
+              "A2": "CompletedIterationsCount",
+              "A3": "f19ca334-55f7-4819-b144-c964a2adeed2",
+              "A4": "f19ca334-55f7-4819-b144-c964a2adeed2",
+              "IL2": "562e143a-a60e-4b3e-aacd-d74645ea5b17",
+              "L1": "6b6b74e2-820d-490e-a017-2b73d4ccf2b0",
+              "L8": {},
+              "L12": 1
+            },
+            {
+              "BL1": "Terrasoft.Core.Process.ProcessSchemaParameter",
+              "UId": "9ea83411-215c-4179-b1b6-6d01fb2df9d7",
+              "A2": "TerminatedIterationsCount",
+              "A3": "f19ca334-55f7-4819-b144-c964a2adeed2",
+              "A4": "f19ca334-55f7-4819-b144-c964a2adeed2",
+              "IL2": "562e143a-a60e-4b3e-aacd-d74645ea5b17",
+              "L1": "6b6b74e2-820d-490e-a017-2b73d4ccf2b0",
+              "L8": {},
+              "L12": 1
+            },
+            {
+              "BL1": "Terrasoft.Core.Process.ProcessSchemaParameter",
+              "UId": "d8d60b03-07f1-4dc2-a7a6-8bd9d28155ce",
+              "A2": "TotalIterationsCount",
+              "A3": "f19ca334-55f7-4819-b144-c964a2adeed2",
+              "A4": "f19ca334-55f7-4819-b144-c964a2adeed2",
+              "IL2": "562e143a-a60e-4b3e-aacd-d74645ea5b17",
+              "L1": "6b6b74e2-820d-490e-a017-2b73d4ccf2b0",
+              "L8": {},
+              "L12": 1
+            },
+            {
+              "BL1": "Terrasoft.Core.Process.ProcessSchemaParameter",
               "UId": "a066579e-220c-456f-b298-946dfb79d55a",
               "A2": "InputRecordCollection",
               "A3": "f19ca334-55f7-4819-b144-c964a2adeed2",
@@ -2967,39 +3000,6 @@
                   }
                 }
               ]
-            },
-            {
-              "BL1": "Terrasoft.Core.Process.ProcessSchemaParameter",
-              "UId": "105fd82a-5595-4e86-b39c-56e453ade5fd",
-              "A2": "CompletedIterationsCount",
-              "A3": "f19ca334-55f7-4819-b144-c964a2adeed2",
-              "A4": "f19ca334-55f7-4819-b144-c964a2adeed2",
-              "IL2": "562e143a-a60e-4b3e-aacd-d74645ea5b17",
-              "L1": "6b6b74e2-820d-490e-a017-2b73d4ccf2b0",
-              "L8": {},
-              "L12": 1
-            },
-            {
-              "BL1": "Terrasoft.Core.Process.ProcessSchemaParameter",
-              "UId": "9ea83411-215c-4179-b1b6-6d01fb2df9d7",
-              "A2": "TerminatedIterationsCount",
-              "A3": "f19ca334-55f7-4819-b144-c964a2adeed2",
-              "A4": "f19ca334-55f7-4819-b144-c964a2adeed2",
-              "IL2": "562e143a-a60e-4b3e-aacd-d74645ea5b17",
-              "L1": "6b6b74e2-820d-490e-a017-2b73d4ccf2b0",
-              "L8": {},
-              "L12": 1
-            },
-            {
-              "BL1": "Terrasoft.Core.Process.ProcessSchemaParameter",
-              "UId": "d8d60b03-07f1-4dc2-a7a6-8bd9d28155ce",
-              "A2": "TotalIterationsCount",
-              "A3": "f19ca334-55f7-4819-b144-c964a2adeed2",
-              "A4": "f19ca334-55f7-4819-b144-c964a2adeed2",
-              "IL2": "562e143a-a60e-4b3e-aacd-d74645ea5b17",
-              "L1": "6b6b74e2-820d-490e-a017-2b73d4ccf2b0",
-              "L8": {},
-              "L12": 1
             }
           ],
           "CK4": "fa27dcff-0afb-45d7-b1d0-78b3fd1afd19",

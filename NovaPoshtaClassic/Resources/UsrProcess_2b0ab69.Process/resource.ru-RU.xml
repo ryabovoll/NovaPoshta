@@ -53,7 +53,7 @@
 			<Item Name="BaseElements.WebService1.Parameters.UsrWarnings_Out.UsrWarningsItemValue_Out.Caption" Value="Значение элемента" />
 			<Item Name="BaseElements.WebService1.Parameters.UsrWCodes_Out.Caption" Value="WarningCodes" />
 			<Item Name="BaseElements.WebService1.Parameters.UsrWCodes_Out.UsrWCodesItemValue_Out.Caption" Value="Значение элемента" />
-			<Item Name="Caption" Value="Наповнити довідник Областей Нової Пошти" />
+			<Item Name="Caption" Value="Наповнити довідник Областей Нової Пошти 😱" />
 			<Item Name="LaneSets.LaneSet1.Caption" Value="LaneSet 1" />
 			<Item Name="LaneSets.LaneSet1.Lanes.Lane1.Caption" Value="Lane 1" />
 			<Item Name="NotificationCaption.Caption" Value="Заголовок экземпляра процесса" />

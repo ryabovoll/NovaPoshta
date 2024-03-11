@@ -4,7 +4,9 @@
 		<Items>
 			<Item Name="Caption" Value="Branch address" />
 			<Item Name="Columns.ARVARVCounterpartyNP.Caption" Value="Counterparty" />
+			<Item Name="Columns.ARVDepartment.Caption" Value="Department" />
 			<Item Name="Columns.ARVName.Caption" Value="Name" />
+			<Item Name="Columns.ARVSettlement.Caption" Value="Settlement" />
 		</Items>
 	</Group>
 </Resources>

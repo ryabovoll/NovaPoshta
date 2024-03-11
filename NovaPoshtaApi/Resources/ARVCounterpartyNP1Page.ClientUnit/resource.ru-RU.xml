@@ -4,6 +4,7 @@
 		<Items>
 			<Item Name="Caption" Value="Страница редактирования: &quot;Counterparty&quot;" />
 			<Item Name="LocalizableStrings.ARVSchemadb769e14Detail880d21deDetailCaptionOnPage.Value" Value="Адрес отделения" />
+			<Item Name="LocalizableStrings.ButtonREF.Value" Value="Загрузить Ref из Н.П." />
 			<Item Name="LocalizableStrings.Tab6b550b43TabLabelTabCaption.Value" Value="Адреса отправителя" />
 		</Items>
 	</Group>

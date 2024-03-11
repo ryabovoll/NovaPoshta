@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Resources Culture="en-US">
+	<Group Type="String">
+		<Items>
+			<Item Name="BaseElements.SubProcess1.Parameters.CompletedIterationsCount.Caption" Value="Число выполненных экземпляров" />
+			<Item Name="BaseElements.SubProcess1.Parameters.InputRecordCollection.Caption" Value="Входящая коллекция записей" />
+			<Item Name="BaseElements.SubProcess1.Parameters.InputRecordCollection.DisplayValue" Value="[#ApiNovaPoshta 1.Data#]" />
+			<Item Name="BaseElements.SubProcess1.Parameters.InputRecordCollection.ProcessSchemaParameter1.Caption" Value="Counterparty Ref" />
+			<Item Name="BaseElements.SubProcess1.Parameters.InputRecordCollection.ProcessSchemaParameter1.DisplayValue" Value="[#Counterparty Ref#]" />
+			<Item Name="BaseElements.SubProcess1.Parameters.InputRecordCollection.ProcessSchemaParameter2.Caption" Value="ID CounterpartyNP" />
+			<Item Name="BaseElements.SubProcess1.Parameters.InputRecordCollection.ProcessSchemaParameter2.DisplayValue" Value="[#ID CounterpartyNP#]" />
+			<Item Name="BaseElements.SubProcess1.Parameters.InputRecordCollection.ProcessSchemaParameter3.Caption" Value="Contact Ref" />
+			<Item Name="BaseElements.SubProcess1.Parameters.InputRecordCollection.ProcessSchemaParameter3.DisplayValue" Value="[#ApiNovaPoshta 1.Data:Ref#]" />
+			<Item Name="BaseElements.SubProcess1.Parameters.OutputRecordCollection.Caption" Value="Исходящая коллекция записей" />
+			<Item Name="BaseElements.SubProcess1.Parameters.OutputRecordCollection.ProcessSchemaParameter1.Caption" Value="Counterparty Ref" />
+			<Item Name="BaseElements.SubProcess1.Parameters.OutputRecordCollection.ProcessSchemaParameter2.Caption" Value="ID CounterpartyNP" />
+			<Item Name="BaseElements.SubProcess1.Parameters.OutputRecordCollection.ProcessSchemaParameter3.Caption" Value="Contact Ref" />
+			<Item Name="BaseElements.SubProcess1.Parameters.TerminatedIterationsCount.Caption" Value="Число прерванных экземпляров" />
+			<Item Name="BaseElements.SubProcess1.Parameters.TotalIterationsCount.Caption" Value="Общее число экземпляров" />
+			<Item Name="BaseElements.WebService1.Caption" Value="ApiNovaPoshta 1" />
+			<Item Name="BaseElements.WebService1.Parameters.ARVUsrAKey_In.Caption" Value="ApiKey" />
+			<Item Name="BaseElements.WebService1.Parameters.ARVUsrAKey_In.DisplayValue" Value="[#ApiKey#]" />
+			<Item Name="BaseElements.WebService1.Parameters.ARVUsrCMethod_In.Caption" Value="CalledMethod" />
+			<Item Name="BaseElements.WebService1.Parameters.ARVUsrData_Out.ARVUsrDDescription_Out.Caption" Value="Description" />
+			<Item Name="BaseElements.WebService1.Parameters.ARVUsrData_Out.ARVUsrDEmail_Out.Caption" Value="Email" />
+			<Item Name="BaseElements.WebService1.Parameters.ARVUsrData_Out.ARVUsrDFName_Out.Caption" Value="FirstName" />
+			<Item Name="BaseElements.WebService1.Parameters.ARVUsrData_Out.ARVUsrDLName_Out.Caption" Value="LastName" />
+			<Item Name="BaseElements.WebService1.Parameters.ARVUsrData_Out.ARVUsrDMName_Out.Caption" Value="MiddleName" />
+			<Item Name="BaseElements.WebService1.Parameters.ARVUsrData_Out.ARVUsrDMPDescription_Out.Caption" Value="MarketplacePartnerDescription" />
+			<Item Name="BaseElements.WebService1.Parameters.ARVUsrData_Out.ARVUsrDPhones_Out.Caption" Value="Phones" />
+			<Item Name="BaseElements.WebService1.Parameters.ARVUsrData_Out.ARVUsrDRef_Out.Caption" Value="Ref" />
+			<Item Name="BaseElements.WebService1.Parameters.ARVUsrData_Out.Caption" Value="Data" />
+			<Item Name="BaseElements.WebService1.Parameters.ARVUsrECodes_Out.ARVUsrECodesItemValue_Out.Caption" Value="Значение элемента" />
+			<Item Name="BaseElements.WebService1.Parameters.ARVUsrECodes_Out.Caption" Value="ErrorCodes" />
+			<Item Name="BaseElements.WebService1.Parameters.ARVUsrErrors_Out.ARVUsrErrorsItemValue_Out.Caption" Value="Значение элемента" />
+			<Item Name="BaseElements.WebService1.Parameters.ARVUsrErrors_Out.Caption" Value="Errors" />
+			<Item Name="BaseElements.WebService1.Parameters.ARVUsrICodes_Out.ARVUsrICodesItemValue_Out.Caption" Value="Значение элемента" />
+			<Item Name="BaseElements.WebService1.Parameters.ARVUsrICodes_Out.Caption" Value="InfoCodes" />
+			<Item Name="BaseElements.WebService1.Parameters.ARVUsrITCount_Out.Caption" Value="Info TotalCount" />
+			<Item Name="BaseElements.WebService1.Parameters.ARVUsrMCodes_Out.ARVUsrMCodesItemValue_Out.Caption" Value="Значение элемента" />
+			<Item Name="BaseElements.WebService1.Parameters.ARVUsrMCodes_Out.Caption" Value="MessageCodes" />
+			<Item Name="BaseElements.WebService1.Parameters.ARVUsrMName_In.Caption" Value="ModelName" />
+			<Item Name="BaseElements.WebService1.Parameters.ARVUsrMPRef_In.Caption" Value="MethodProperties Ref" />
+			<Item Name="BaseElements.WebService1.Parameters.ARVUsrMPRef_In.DisplayValue" Value="[#Counterparty Ref#]" />
+			<Item Name="BaseElements.WebService1.Parameters.ARVUsrSuccess_Out.Caption" Value="Success" />
+			<Item Name="BaseElements.WebService1.Parameters.ARVUsrWarnings_Out.ARVUsrWarningsItemValue_Out.Caption" Value="Значение элемента" />
+			<Item Name="BaseElements.WebService1.Parameters.ARVUsrWarnings_Out.Caption" Value="Warnings" />
+			<Item Name="BaseElements.WebService1.Parameters.ARVUsrWCodes_Out.ARVUsrWCodesItemValue_Out.Caption" Value="Значение элемента" />
+			<Item Name="BaseElements.WebService1.Parameters.ARVUsrWCodes_Out.Caption" Value="WarningCodes" />
+			<Item Name="BaseElements.WebService1.Parameters.RequestBody.Caption" Value="Тело запроса сервиса" />
+			<Item Name="BaseElements.WebService1.Parameters.Response.Caption" Value="Тело ответа сервиса" />
+			<Item Name="BaseElements.WebService1.Parameters.StatusCode.Caption" Value="Http код состояния" />
+			<Item Name="BaseElements.WebService1.Parameters.Success.Caption" Value="Успешно выполнен" />
+			<Item Name="Caption" Value="Заполнить REF по контрагенту ПОДПРОЦЕСС" />
+			<Item Name="LaneSets.LaneSet1.Caption" Value="LaneSet 1" />
+			<Item Name="LaneSets.LaneSet1.Lanes.Lane1.Caption" Value="Lane 1" />
+			<Item Name="NotificationCaption.Caption" Value="Заголовок экземпляра процесса" />
+			<Item Name="NotificationCaption.DisplayValue" Value="[#Название процесса#]" />
+			<Item Name="Parameters.ProcessSchemaParameter1.Caption" Value="ApiKey" />
+			<Item Name="Parameters.ProcessSchemaParameter2.Caption" Value="Counterparty Ref" />
+			<Item Name="Parameters.ProcessSchemaParameter3.Caption" Value="ID CounterpartyNP" />
+		</Items>
+	</Group>
+</Resources>

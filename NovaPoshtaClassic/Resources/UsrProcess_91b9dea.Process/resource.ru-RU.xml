@@ -170,7 +170,7 @@
 			<Item Name="BaseElements.WebService1.Parameters.UsrWarnings_Out.UsrWarnings1_Out.Caption" Value="ID_20450884703223" />
 			<Item Name="BaseElements.WebService1.Parameters.UsrWCodes_Out.Caption" Value="WarningCodes" />
 			<Item Name="BaseElements.WebService1.Parameters.UsrWCodes_Out.UsrWCodesItemValue_Out.Caption" Value="Значение элемента" />
-			<Item Name="Caption" Value="Трекинг получить данные по 1 накладной" />
+			<Item Name="Caption" Value="Трекинг получить данные по 1 накладной 😱" />
 			<Item Name="LaneSets.LaneSet1.Caption" Value="LaneSet 1" />
 			<Item Name="LaneSets.LaneSet1.Lanes.Lane1.Caption" Value="Lane 1" />
 			<Item Name="NotificationCaption.Caption" Value="Заголовок экземпляра процесса" />

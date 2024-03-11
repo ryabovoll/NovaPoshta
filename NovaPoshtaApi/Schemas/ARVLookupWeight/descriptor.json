@@ -1,0 +1,14 @@
+﻿{
+  "Descriptor": {
+    "UId": "93e770c6-1a5f-446d-bd69-2b79db8494a3",
+    "Name": "ARVLookupWeight",
+    "ModifiedOnUtc": "\/Date(1710152360000)\/",
+    "Parent": {
+      "UId": "11ab4bcb-9b23-4b6d-9c86-520fae925d75",
+      "Name": "BaseLookup"
+    },
+    "ManagerName": "EntitySchemaManager",
+    "Caption": "LookupWeight",
+    "DependsOn": []
+  }
+}

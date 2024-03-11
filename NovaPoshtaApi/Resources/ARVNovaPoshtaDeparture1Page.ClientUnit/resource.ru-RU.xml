@@ -3,6 +3,10 @@
 	<Group Type="String">
 		<Items>
 			<Item Name="Caption" Value="Страница редактирования: &quot;NovaPoshtaDeparture&quot;" />
+			<Item Name="LocalizableStrings.Tabe407c41eTabLabelGroup71a85491GroupCaption.Value" Value="Адрес" />
+			<Item Name="LocalizableStrings.Tabe407c41eTabLabelGroupb4125567GroupCaption.Value" Value="Накладная" />
+			<Item Name="LocalizableStrings.Tabe407c41eTabLabelGroupc0526d09GroupCaption.Value" Value="Отправка" />
+			<Item Name="LocalizableStrings.Tabe407c41eTabLabelTabCaption.Value" Value="Отправка" />
 		</Items>
 	</Group>
 </Resources>
