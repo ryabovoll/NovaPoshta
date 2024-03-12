@@ -1,0 +1,10 @@
+﻿{
+  "Descriptor": {
+    "UId": "8960425a-b8a4-46c9-abc8-c5e161fc759b",
+    "Name": "ARVProcess_35ca2a9",
+    "ModifiedOnUtc": "\/Date(1710256957000)\/",
+    "ManagerName": "ProcessSchemaManager",
+    "Caption": "Трекинг колекция",
+    "DependsOn": []
+  }
+}

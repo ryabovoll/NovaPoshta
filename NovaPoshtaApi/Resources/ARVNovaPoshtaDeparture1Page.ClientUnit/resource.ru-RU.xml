@@ -3,9 +3,19 @@
 	<Group Type="String">
 		<Items>
 			<Item Name="Caption" Value="Страница редактирования: &quot;NovaPoshtaDeparture&quot;" />
-			<Item Name="LocalizableStrings.Tabe407c41eTabLabelGroup71a85491GroupCaption.Value" Value="Адрес" />
+			<Item Name="LocalizableStrings.MyButtonBack.Value" Value="Назад" />
+			<Item Name="LocalizableStrings.MyButtonCaption.Value" Value="Далее" />
+			<Item Name="LocalizableStrings.MyButtonStartProces.Value" Value="Создать накладную" />
+			<Item Name="LocalizableStrings.MyButtonSuccess.Value" Value="Загрузить накладную" />
+			<Item Name="LocalizableStrings.MyTitle.Value" Value="Параметры отправки" />
+			<Item Name="LocalizableStrings.MyTitle2.Value" Value="Плательщик за доставку" />
+			<Item Name="LocalizableStrings.MyTitle3.Value" Value="Форма оплаты за доставку" />
+			<Item Name="LocalizableStrings.MyTitle4.Value" Value="Отправитель" />
+			<Item Name="LocalizableStrings.MyTitle5.Value" Value="Получатель" />
+			<Item Name="LocalizableStrings.MyTitle6.Value" Value="Дополнительные услуги" />
+			<Item Name="LocalizableStrings.Tabe407c41eTabLabelGroup71a85491GroupCaption.Value" Value="  " />
 			<Item Name="LocalizableStrings.Tabe407c41eTabLabelGroupb4125567GroupCaption.Value" Value="Накладная" />
-			<Item Name="LocalizableStrings.Tabe407c41eTabLabelGroupc0526d09GroupCaption.Value" Value="Отправка" />
+			<Item Name="LocalizableStrings.Tabe407c41eTabLabelGroupc0526d09GroupCaption.Value" Value="  " />
 			<Item Name="LocalizableStrings.Tabe407c41eTabLabelTabCaption.Value" Value="Отправка" />
 		</Items>
 	</Group>

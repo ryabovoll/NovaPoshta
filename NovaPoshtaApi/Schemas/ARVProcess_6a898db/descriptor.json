@@ -1,0 +1,10 @@
+﻿{
+  "Descriptor": {
+    "UId": "1ae35298-23df-461d-a665-833fd5a8bd85",
+    "Name": "ARVProcess_6a898db",
+    "ModifiedOnUtc": "\/Date(1710250081000)\/",
+    "ManagerName": "ProcessSchemaManager",
+    "Caption": "Трекинг получить данные по 1 накладной",
+    "DependsOn": []
+  }
+}

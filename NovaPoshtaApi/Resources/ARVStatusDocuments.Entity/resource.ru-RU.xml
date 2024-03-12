@@ -2,7 +2,7 @@
 <Resources Culture="ru-RU">
 	<Group Type="String">
 		<Items>
-			<Item Name="Caption" Value="StatusDocuments" />
+			<Item Name="Caption" Value="StatusDocumentsNP" />
 		</Items>
 	</Group>
 </Resources>

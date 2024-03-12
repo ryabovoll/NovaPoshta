@@ -15,7 +15,7 @@
 			<Item Name="Columns.ARVDepartmentBool.Caption" Value="Отделение Bool" />
 			<Item Name="Columns.ARVDepartmentDefault.Caption" Value="Department (Default)" />
 			<Item Name="Columns.ARVDescriptionNP.Caption" Value="Описание" />
-			<Item Name="Columns.ARVDocuments.Caption" Value="Документи" />
+			<Item Name="Columns.ARVDocuments.Caption" Value="Документы" />
 			<Item Name="Columns.ARVEstimatedDeliveryDate.Caption" Value="Предполагаемая дата поставки" />
 			<Item Name="Columns.ARVForTheRuleALLTrue.Caption" Value="For the rule - ALL &quot;True&quot;" />
 			<Item Name="Columns.ARVForTheRuleFalse.Caption" Value="For the rule - ALL &quot;False&quot;" />
