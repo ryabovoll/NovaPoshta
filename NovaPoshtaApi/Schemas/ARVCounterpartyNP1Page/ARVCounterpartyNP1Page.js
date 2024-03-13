@@ -90,17 +90,38 @@ define("ARVCounterpartyNP1Page", [], function() {
                         "ProcessSchemaParameter1": IDCounterpartyNP
                     },
                     "resultParameterNames": [
-                        "ProcessSchemaParameter2"
+                        "Answer"
                     ]
                     });
                 runProcessRequest.execute(function(response) {
-                    if (response.isSuccess()) {
-                        var respons = response.resultParameterValues["ProcessSchemaParameter2"];
-                        Terrasoft.showInformation("Success");
+					if (response.isSuccess()) {
+						var DocNumber = response.resultParameterValues["Answer"];
+						var jsonObjectDocNumber;
+						try {
+							jsonObjectDocNumber = JSON.parse(DocNumber);
+						} catch (e) {
+							Terrasoft.showInformation("Ошибка разбора JSON: " + e.message);
+							return;
+						}
+
+						var success = jsonObjectDocNumber.success === true;
+						if (success) {
+							var data = jsonObjectDocNumber.data;
+							if (data && data.length > 0) {
+								Terrasoft.showInformation("Success");
+								this.reloadEntity();
+							} else {
+								Terrasoft.showInformation("Error: " + jsonObjectDocNumber.errors[0]);
+							}
+						} else {
+							Terrasoft.showInformation("Error: " + jsonObjectDocNumber.errors[0]);
+						}
+					} else {
+						Terrasoft.showInformation("Произошла ошибка в запросе. Response: " + JSON.stringify(response));
 						this.reloadEntity();
-                    }
-                  }, this);
-				},
+					}
+				}, this);
+			},
 			
 			getUsrApiKey: function() {
 				var ARVApiKey = this.get("ARVApiKey");

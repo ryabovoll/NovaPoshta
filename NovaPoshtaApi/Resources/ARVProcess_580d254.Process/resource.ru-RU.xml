@@ -2,6 +2,7 @@
 <Resources Culture="ru-RU">
 	<Group Type="String">
 		<Items>
+			<Item Name="BaseElements.ConditionalSequenceFlow2.Caption" Value="Error" />
 			<Item Name="BaseElements.ReadDataUserTask1.Caption" Value="Читаем контарегта" />
 			<Item Name="BaseElements.ReadDataUserTask1.Parameters.AggregationColumnName.Caption" Value="Имя колонки для агрегирующей функции" />
 			<Item Name="BaseElements.ReadDataUserTask1.Parameters.CanReadUncommitedData.Caption" Value="Выполнять &quot;грязное чтение&quot;" />
@@ -83,8 +84,10 @@
 			<Item Name="LaneSets.LaneSet1.Lanes.Lane1.Caption" Value="Lane 1" />
 			<Item Name="NotificationCaption.Caption" Value="Заголовок экземпляра процесса" />
 			<Item Name="NotificationCaption.DisplayValue" Value="[#Название процесса#]" />
+			<Item Name="Parameters.Answer.Caption" Value="Answer" />
+			<Item Name="Parameters.Answer.DisplayValue" Value="[#ApiNovaPoshta 1.Тело ответа сервиса#]" />
 			<Item Name="Parameters.ProcessSchemaParameter1.Caption" Value="ID CounterpartyNP" />
-			<Item Name="Parameters.ProcessSchemaParameter2.Caption" Value="ответ" />
+			<Item Name="Parameters.Success.Caption" Value="Success " />
 		</Items>
 	</Group>
 </Resources>

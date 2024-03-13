@@ -13,6 +13,11 @@
 			<Item Name="Columns.ARVDescriptionNP.Caption" Value="Опис" />
 			<Item Name="Columns.ARVDocuments.Caption" Value="Документи" />
 			<Item Name="Columns.ARVEstimatedDeliveryDate.Caption" Value="Передбачувана дата поставки" />
+			<Item Name="Columns.ARVFloatVolumeWeight.Caption" Value="об'ємна вага" />
+			<Item Name="Columns.ARVIntHeight.Caption" Value="Висота см" />
+			<Item Name="Columns.ARVIntLength.Caption" Value="Довжина см" />
+			<Item Name="Columns.ARVIntWeight.Caption" Value="Вага" />
+			<Item Name="Columns.ARVIntWidth.Caption" Value="Ширина см" />
 			<Item Name="Columns.ARVName.Caption" Value="Номер документа" />
 			<Item Name="Columns.ARVNoCash.Caption" Value="Безготівка" />
 			<Item Name="Columns.ARVNotes.Caption" Value="Примітки" />

@@ -1015,6 +1015,18 @@
                   "IV1": "null"
                 },
                 "IU6": []
+              },
+              {
+                "UId": "2e1d2a23-62a1-4d23-80c2-f629c9dc5ae5",
+                "A2": "ARVMPVGeneral",
+                "IU1": "$.methodProperties.VolumeGeneral",
+                "IU2": "Text",
+                "IU8": "item",
+                "IU4": 1,
+                "IU5": {
+                  "IV1": "null"
+                },
+                "IU6": []
               }
             ],
             "IT2": 2,

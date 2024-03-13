@@ -859,6 +859,28 @@ define("ARVNovaPoshtaDeparture1Page", [], function() {
 							}
 						}
 					]
+				},
+				"80aeda60-acf4-4f15-8161-1ece78e67d92": {
+					"uId": "80aeda60-acf4-4f15-8161-1ece78e67d92",
+					"enabled": true,
+					"removed": false,
+					"ruleType": 0,
+					"property": 0,
+					"logical": 0,
+					"conditions": [
+						{
+							"comparisonType": 3,
+							"leftExpression": {
+								"type": 1,
+								"attribute": "ARVParcel"
+							},
+							"rightExpression": {
+								"type": 0,
+								"value": true,
+								"dataValueType": 12
+							}
+						}
+					]
 				}
 			},
 			"ARVSeatsAmountNP": {
@@ -1459,6 +1481,296 @@ define("ARVNovaPoshtaDeparture1Page", [], function() {
 							"rightExpression": {
 								"type": 0,
 								"value": false,
+								"dataValueType": 12
+							}
+						}
+					]
+				}
+			},
+			"ARVFloatVolumeWeight": {
+				"34142742-dc39-4de0-b5a3-2015b526d6bf": {
+					"uId": "34142742-dc39-4de0-b5a3-2015b526d6bf",
+					"enabled": true,
+					"removed": false,
+					"ruleType": 3,
+					"populatingAttributeSource": {
+						"expression": {
+							"type": 6,
+							"formula": {
+								"type": 0,
+								"dataType": 4,
+								"operatorType": 1,
+								"leftExpression": {
+									"type": 0,
+									"dataType": 4,
+									"operatorType": 1,
+									"leftExpression": {
+										"type": 0,
+										"dataType": 4,
+										"operatorType": 1,
+										"leftExpression": {
+											"type": 1,
+											"dataType": 4,
+											"operandType": 1,
+											"columnPath": "ARVIntLength",
+											"columnOperandType": 0
+										},
+										"rightExpression": {
+											"type": 1,
+											"dataType": 4,
+											"operandType": 1,
+											"columnPath": "ARVIntWidth",
+											"columnOperandType": 0
+										},
+										"arithmeticOperatorType": 2
+									},
+									"rightExpression": {
+										"type": 1,
+										"dataType": 4,
+										"operandType": 1,
+										"columnPath": "ARVIntHeight",
+										"columnOperandType": 0
+									},
+									"arithmeticOperatorType": 2
+								},
+								"rightExpression": {
+									"type": 1,
+									"dataType": 4,
+									"operandType": 0,
+									"value": "4000"
+								},
+								"arithmeticOperatorType": 3
+							}
+						}
+					},
+					"logical": 0,
+					"conditions": [
+						{
+							"comparisonType": 2,
+							"leftExpression": {
+								"type": 1,
+								"attribute": "ARVIntLength"
+							}
+						},
+						{
+							"comparisonType": 2,
+							"leftExpression": {
+								"type": 1,
+								"attribute": "ARVIntWidth"
+							}
+						},
+						{
+							"comparisonType": 2,
+							"leftExpression": {
+								"type": 1,
+								"attribute": "ARVIntHeight"
+							}
+						}
+					]
+				},
+				"9a19f54a-bdfc-4f76-a48c-8f98b0b860c7": {
+					"uId": "9a19f54a-bdfc-4f76-a48c-8f98b0b860c7",
+					"enabled": true,
+					"removed": false,
+					"ruleType": 0,
+					"property": 0,
+					"logical": 0,
+					"conditions": [
+						{
+							"comparisonType": 3,
+							"leftExpression": {
+								"type": 1,
+								"attribute": "ARVParcel"
+							},
+							"rightExpression": {
+								"type": 0,
+								"value": true,
+								"dataValueType": 12
+							}
+						}
+					]
+				}
+			},
+			"ARVWeight": {
+				"57738ee0-c01e-4a4e-a074-03fe24bbcf4b": {
+					"uId": "57738ee0-c01e-4a4e-a074-03fe24bbcf4b",
+					"enabled": true,
+					"removed": false,
+					"ruleType": 0,
+					"property": 0,
+					"logical": 0,
+					"conditions": [
+						{
+							"comparisonType": 3,
+							"leftExpression": {
+								"type": 1,
+								"attribute": "ARVDocuments"
+							},
+							"rightExpression": {
+								"type": 0,
+								"value": true,
+								"dataValueType": 12
+							}
+						}
+					]
+				}
+			},
+			"ARVSeatsAmount": {
+				"f6b9a3ff-92bc-4716-82dd-616e680ff981": {
+					"uId": "f6b9a3ff-92bc-4716-82dd-616e680ff981",
+					"enabled": true,
+					"removed": false,
+					"ruleType": 0,
+					"property": 0,
+					"logical": 0,
+					"conditions": [
+						{
+							"comparisonType": 3,
+							"leftExpression": {
+								"type": 1,
+								"attribute": "ARVDocuments"
+							},
+							"rightExpression": {
+								"type": 0,
+								"value": true,
+								"dataValueType": 12
+							}
+						}
+					]
+				}
+			},
+			"ARVIntLength": {
+				"319122a7-23dd-4213-a6b3-f9fc9b8943a2": {
+					"uId": "319122a7-23dd-4213-a6b3-f9fc9b8943a2",
+					"enabled": true,
+					"removed": false,
+					"ruleType": 0,
+					"property": 0,
+					"logical": 0,
+					"conditions": [
+						{
+							"comparisonType": 3,
+							"leftExpression": {
+								"type": 1,
+								"attribute": "ARVParcel"
+							},
+							"rightExpression": {
+								"type": 0,
+								"value": true,
+								"dataValueType": 12
+							}
+						}
+					]
+				},
+				"f35f9149-6aae-41f6-b2b1-98a9cf1bc087": {
+					"uId": "f35f9149-6aae-41f6-b2b1-98a9cf1bc087",
+					"enabled": true,
+					"removed": false,
+					"ruleType": 0,
+					"property": 2,
+					"logical": 0,
+					"conditions": [
+						{
+							"comparisonType": 3,
+							"leftExpression": {
+								"type": 1,
+								"attribute": "ARVParcel"
+							},
+							"rightExpression": {
+								"type": 0,
+								"value": true,
+								"dataValueType": 12
+							}
+						}
+					]
+				}
+			},
+			"ARVIntWidth": {
+				"411d4b5a-2006-475d-8e6e-053ae9347922": {
+					"uId": "411d4b5a-2006-475d-8e6e-053ae9347922",
+					"enabled": true,
+					"removed": false,
+					"ruleType": 0,
+					"property": 0,
+					"logical": 0,
+					"conditions": [
+						{
+							"comparisonType": 3,
+							"leftExpression": {
+								"type": 1,
+								"attribute": "ARVParcel"
+							},
+							"rightExpression": {
+								"type": 0,
+								"value": true,
+								"dataValueType": 12
+							}
+						}
+					]
+				},
+				"1079b04f-b702-4563-92c7-54e363588ecd": {
+					"uId": "1079b04f-b702-4563-92c7-54e363588ecd",
+					"enabled": true,
+					"removed": false,
+					"ruleType": 0,
+					"property": 2,
+					"logical": 0,
+					"conditions": [
+						{
+							"comparisonType": 3,
+							"leftExpression": {
+								"type": 1,
+								"attribute": "ARVParcel"
+							},
+							"rightExpression": {
+								"type": 0,
+								"value": true,
+								"dataValueType": 12
+							}
+						}
+					]
+				}
+			},
+			"ARVIntHeight": {
+				"1f49e58f-b95e-49de-a934-7657aebc608c": {
+					"uId": "1f49e58f-b95e-49de-a934-7657aebc608c",
+					"enabled": true,
+					"removed": false,
+					"ruleType": 0,
+					"property": 0,
+					"logical": 0,
+					"conditions": [
+						{
+							"comparisonType": 3,
+							"leftExpression": {
+								"type": 1,
+								"attribute": "ARVParcel"
+							},
+							"rightExpression": {
+								"type": 0,
+								"value": true,
+								"dataValueType": 12
+							}
+						}
+					]
+				},
+				"ac9c8f4c-708a-4db2-809c-21de2b5f6c05": {
+					"uId": "ac9c8f4c-708a-4db2-809c-21de2b5f6c05",
+					"enabled": true,
+					"removed": false,
+					"ruleType": 0,
+					"property": 2,
+					"logical": 0,
+					"conditions": [
+						{
+							"comparisonType": 3,
+							"leftExpression": {
+								"type": 1,
+								"attribute": "ARVParcel"
+							},
+							"rightExpression": {
+								"type": 0,
+								"value": true,
 								"dataValueType": 12
 							}
 						}
@@ -2130,6 +2442,101 @@ define("ARVNovaPoshtaDeparture1Page", [], function() {
 			},
 			{
 				"operation": "insert",
+				"name": "ARVIntWeight728aa06a-033f-4b47-80f8-38117f945457",
+				"values": {
+					"layout": {
+						"colSpan": 4,
+						"rowSpan": 1,
+						"column": 1,
+						"row": 4,
+						"layoutName": "Tabe407c41eTabLabelGridLayout5b311016"
+					},
+					"bindTo": "ARVIntWeight",
+					"enabled": true
+				},
+				"parentName": "Tabe407c41eTabLabelGridLayout5b311016",
+				"propertyName": "items",
+				"index": 7
+			},
+			{
+				"operation": "insert",
+				"name": "INTEGER6916e34d-2327-43dc-95d9-6a9aa5720748",
+				"values": {
+					"layout": {
+						"colSpan": 4,
+						"rowSpan": 1,
+						"column": 5,
+						"row": 4,
+						"layoutName": "Tabe407c41eTabLabelGridLayout5b311016"
+					},
+					"bindTo": "ARVIntLength",
+					"enabled": true
+				},
+				"parentName": "Tabe407c41eTabLabelGridLayout5b311016",
+				"propertyName": "items",
+				"index": 8
+			},
+			{
+				"operation": "insert",
+				"name": "INTEGER4714ebfb-e44d-4679-a2d9-4dc0f70af9ec",
+				"values": {
+					"layout": {
+						"colSpan": 4,
+						"rowSpan": 1,
+						"column": 9,
+						"row": 4,
+						"layoutName": "Tabe407c41eTabLabelGridLayout5b311016"
+					},
+					"bindTo": "ARVIntWidth",
+					"enabled": true
+				},
+				"parentName": "Tabe407c41eTabLabelGridLayout5b311016",
+				"propertyName": "items",
+				"index": 9
+			},
+			{
+				"operation": "insert",
+				"name": "INTEGER16528b32-2211-47c5-a487-e4586b32ce04",
+				"values": {
+					"layout": {
+						"colSpan": 4,
+						"rowSpan": 1,
+						"column": 13,
+						"row": 4,
+						"layoutName": "Tabe407c41eTabLabelGridLayout5b311016"
+					},
+					"bindTo": "ARVIntHeight",
+					"enabled": true
+				},
+				"parentName": "Tabe407c41eTabLabelGridLayout5b311016",
+				"propertyName": "items",
+				"index": 10
+			},
+			{
+				"operation": "insert",
+				"name": "FLOAT2711ba2c-9dcd-4d73-b96c-992ea85a640b",
+				"values": {
+					"layout": {
+						"colSpan": 5,
+						"rowSpan": 1,
+						"column": 17,
+						"row": 4,
+						"layoutName": "Tabe407c41eTabLabelGridLayout5b311016"
+					},
+					"bindTo": "ARVFloatVolumeWeight",
+					"enabled": false,
+					"tip": {
+						"content": {
+							"bindTo": "Resources.Strings.FLOAT2711ba2c9dcd4d73b96c992ea85a640bTip"
+						}
+					}
+				},
+				"parentName": "Tabe407c41eTabLabelGridLayout5b311016",
+				"propertyName": "items",
+				"index": 11
+			},
+			{
+				"operation": "insert",
 				"name": "MyTitle2",
 				"values": {
 					"itemType": 5,
@@ -2146,7 +2553,7 @@ define("ARVNovaPoshtaDeparture1Page", [], function() {
 				},
 				"parentName": "Tabe407c41eTabLabelGridLayout5b311016",
 				"propertyName": "items",
-				"index": 7
+				"index": 12
 			},
 			{
 				"operation": "insert",
@@ -2164,7 +2571,7 @@ define("ARVNovaPoshtaDeparture1Page", [], function() {
 				},
 				"parentName": "Tabe407c41eTabLabelGridLayout5b311016",
 				"propertyName": "items",
-				"index": 8
+				"index": 13
 			},
 			{
 				"operation": "insert",
@@ -2182,7 +2589,7 @@ define("ARVNovaPoshtaDeparture1Page", [], function() {
 				},
 				"parentName": "Tabe407c41eTabLabelGridLayout5b311016",
 				"propertyName": "items",
-				"index": 9
+				"index": 14
 			},
 			{
 				"operation": "insert",
@@ -2202,7 +2609,7 @@ define("ARVNovaPoshtaDeparture1Page", [], function() {
 				},
 				"parentName": "Tabe407c41eTabLabelGridLayout5b311016",
 				"propertyName": "items",
-				"index": 10
+				"index": 15
 			},
 			{
 				"operation": "insert",
@@ -2220,7 +2627,7 @@ define("ARVNovaPoshtaDeparture1Page", [], function() {
 				},
 				"parentName": "Tabe407c41eTabLabelGridLayout5b311016",
 				"propertyName": "items",
-				"index": 11
+				"index": 16
 			},
 			{
 				"operation": "insert",
@@ -2238,7 +2645,7 @@ define("ARVNovaPoshtaDeparture1Page", [], function() {
 				},
 				"parentName": "Tabe407c41eTabLabelGridLayout5b311016",
 				"propertyName": "items",
-				"index": 12
+				"index": 17
 			},
 			{
 				"operation": "insert",
@@ -2258,7 +2665,7 @@ define("ARVNovaPoshtaDeparture1Page", [], function() {
 				},
 				"parentName": "Tabe407c41eTabLabelGridLayout5b311016",
 				"propertyName": "items",
-				"index": 13
+				"index": 18
 			},
 			{
 				"operation": "insert",

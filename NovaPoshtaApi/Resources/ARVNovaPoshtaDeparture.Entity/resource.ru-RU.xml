@@ -17,10 +17,14 @@
 			<Item Name="Columns.ARVDescriptionNP.Caption" Value="Описание" />
 			<Item Name="Columns.ARVDocuments.Caption" Value="Документы" />
 			<Item Name="Columns.ARVEstimatedDeliveryDate.Caption" Value="Предполагаемая дата поставки" />
+			<Item Name="Columns.ARVFloatVolumeWeight.Caption" Value="объемный вес" />
 			<Item Name="Columns.ARVForTheRuleALLTrue.Caption" Value="For the rule - ALL &quot;True&quot;" />
 			<Item Name="Columns.ARVForTheRuleFalse.Caption" Value="For the rule - ALL &quot;False&quot;" />
 			<Item Name="Columns.ARVIntDefault.Caption" Value="IntDefault" />
-			<Item Name="Columns.ARVIntWeight.Caption" Value="IntWeight" />
+			<Item Name="Columns.ARVIntHeight.Caption" Value="Высота см" />
+			<Item Name="Columns.ARVIntLength.Caption" Value="Длина см" />
+			<Item Name="Columns.ARVIntWeight.Caption" Value="Масса" />
+			<Item Name="Columns.ARVIntWidth.Caption" Value="Ширина см" />
 			<Item Name="Columns.ARVName.Caption" Value="Номер документа" />
 			<Item Name="Columns.ARVNext.Caption" Value="Next" />
 			<Item Name="Columns.ARVNoCash.Caption" Value="Безналичные" />

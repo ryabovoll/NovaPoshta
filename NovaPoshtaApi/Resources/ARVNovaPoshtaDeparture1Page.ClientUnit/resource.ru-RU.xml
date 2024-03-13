@@ -3,6 +3,7 @@
 	<Group Type="String">
 		<Items>
 			<Item Name="Caption" Value="Страница редактирования: &quot;NovaPoshtaDeparture&quot;" />
+			<Item Name="LocalizableStrings.FLOAT2711ba2c9dcd4d73b96c992ea85a640bTip.Value" Value="Об’ємна вага розраховується за формулою (Довжина × Ширина × Висота, см) / 4000 та порівнюється з фактичною вагою. Більший показник використовується в розрахунках вартості перевезення." />
 			<Item Name="LocalizableStrings.MyButtonBack.Value" Value="Назад" />
 			<Item Name="LocalizableStrings.MyButtonCaption.Value" Value="Далее" />
 			<Item Name="LocalizableStrings.MyButtonStartProces.Value" Value="Создать накладную" />

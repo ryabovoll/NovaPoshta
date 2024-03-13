@@ -17,10 +17,14 @@
 			<Item Name="Columns.ARVDescriptionNP.Caption" Value="Description" />
 			<Item Name="Columns.ARVDocuments.Caption" Value="Documents" />
 			<Item Name="Columns.ARVEstimatedDeliveryDate.Caption" Value="Estimated Delivery Date" />
+			<Item Name="Columns.ARVFloatVolumeWeight.Caption" Value="volume weight" />
 			<Item Name="Columns.ARVForTheRuleALLTrue.Caption" Value="For the rule - ALL &quot;True&quot;" />
 			<Item Name="Columns.ARVForTheRuleFalse.Caption" Value="For the rule - ALL &quot;False&quot;" />
 			<Item Name="Columns.ARVIntDefault.Caption" Value="IntDefault" />
-			<Item Name="Columns.ARVIntWeight.Caption" Value="IntWeight" />
+			<Item Name="Columns.ARVIntHeight.Caption" Value="Height cm" />
+			<Item Name="Columns.ARVIntLength.Caption" Value="Length cm" />
+			<Item Name="Columns.ARVIntWeight.Caption" Value="Weight" />
+			<Item Name="Columns.ARVIntWidth.Caption" Value="Width cm" />
 			<Item Name="Columns.ARVName.Caption" Value="Doc Number" />
 			<Item Name="Columns.ARVNext.Caption" Value="Next" />
 			<Item Name="Columns.ARVNoCash.Caption" Value="No cash" />

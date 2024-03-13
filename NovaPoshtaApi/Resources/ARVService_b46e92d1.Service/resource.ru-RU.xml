@@ -157,6 +157,7 @@
 			<Item Name="ServiceMethods.ARVUsrGetWarehouses.Response.Parameters.ARVUsrWarnings.Caption" Value="Warnings" />
 			<Item Name="ServiceMethods.ARVUsrGetWarehouses.Response.Parameters.ARVUsrWCodes.Caption" Value="WarningCodes" />
 			<Item Name="ServiceMethods.ARVUsrMethod1.Caption" Value="Создать накладную" />
+			<Item Name="ServiceMethods.ARVUsrMethod1.Request.Parameters.ARVMPVGeneral.Caption" Value="MethodProperties VolumeGeneral" />
 			<Item Name="ServiceMethods.ARVUsrMethod1.Request.Parameters.ARVUsrAKey.Caption" Value="ApiKey" />
 			<Item Name="ServiceMethods.ARVUsrMethod1.Request.Parameters.ARVUsrCMethod.Caption" Value="CalledMethod" />
 			<Item Name="ServiceMethods.ARVUsrMethod1.Request.Parameters.ARVUsrMName.Caption" Value="ModelName" />
