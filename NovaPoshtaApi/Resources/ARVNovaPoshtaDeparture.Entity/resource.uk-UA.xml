@@ -24,16 +24,20 @@
 			<Item Name="Columns.ARVParcel.Caption" Value="Посилка" />
 			<Item Name="Columns.ARVPostomat.Caption" Value="Поштомат" />
 			<Item Name="Columns.ARVRecipient.Caption" Value="Отримувач" />
+			<Item Name="Columns.ARVRecipientBack.Caption" Value="Одержувач" />
 			<Item Name="Columns.ARVRecipientContact.Caption" Value="Одержувач" />
 			<Item Name="Columns.ARVRecipientsPhoneNP.Caption" Value="Телефон одержувача" />
 			<Item Name="Columns.ARVRef.Caption" Value="Ref" />
+			<Item Name="Columns.ARVRefundForGoods.Caption" Value="Повернення коштів" />
 			<Item Name="Columns.ARVSeatsAmount.Caption" Value="Кількість місць" />
 			<Item Name="Columns.ARVSender.Caption" Value="Відправник" />
+			<Item Name="Columns.ARVSenderBack.Caption" Value="Відправник" />
 			<Item Name="Columns.ARVSenderCounterparty.Caption" Value="Контакт" />
 			<Item Name="Columns.ARVSenderCounterpartyNP.Caption" Value="Контакт" />
 			<Item Name="Columns.ARVSettlement.Caption" Value="Населений пункт" />
 			<Item Name="Columns.ARVStatusDocuments.Caption" Value="Статус" />
 			<Item Name="Columns.ARVStatusDocumentsDescriptionString.Caption" Value="Опис статусу" />
+			<Item Name="Columns.ARVSumBack.Caption" Value="Сума" />
 			<Item Name="Columns.ARVTypeDocument.Caption" Value="Тип документа" />
 			<Item Name="Columns.ARVWeight.Caption" Value="Вага" />
 		</Items>

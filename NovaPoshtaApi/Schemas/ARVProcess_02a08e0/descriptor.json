@@ -4,6 +4,7 @@
     "Name": "ARVProcess_02a08e0",
     "ModifiedOnUtc": "\/Date(1710341980000)\/",
     "ManagerName": "ProcessSchemaManager",
-    "Caption": "Удалить накладную"
+    "Caption": "Удалить накладную",
+    "DependsOn": []
   }
 }

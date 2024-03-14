@@ -18,6 +18,7 @@
 			<Item Name="Parameters.ProcessSchemaParameter1.Caption" Value="Counterparty Ref" />
 			<Item Name="Parameters.ProcessSchemaParameter2.Caption" Value="ID CounterpartyNP" />
 			<Item Name="Parameters.ProcessSchemaParameter3.Caption" Value="Contact Ref" />
+			<Item Name="Parameters.ProcessSchemaParameter4.Caption" Value="EDRPOU" />
 		</Items>
 	</Group>
 </Resources>

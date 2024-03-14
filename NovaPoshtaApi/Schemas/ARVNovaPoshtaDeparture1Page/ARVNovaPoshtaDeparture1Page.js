@@ -246,6 +246,29 @@ define("ARVNovaPoshtaDeparture1Page", [], function() {
 							}
 						}
 					]
+				},
+				"e464be56-13f2-4b56-aaf3-c2a20db84f73": {
+					"uId": "e464be56-13f2-4b56-aaf3-c2a20db84f73",
+					"enabled": true,
+					"removed": false,
+					"ruleType": 3,
+					"populatingAttributeSource": {
+						"expression": {
+							"type": 1,
+							"attribute": "ARVDefault",
+							"attributePath": "ARVRecipient"
+						}
+					},
+					"logical": 0,
+					"conditions": [
+						{
+							"comparisonType": 2,
+							"leftExpression": {
+								"type": 1,
+								"attribute": "ARVDefault"
+							}
+						}
+					]
 				}
 			},
 			"ARVSender": {
@@ -402,6 +425,29 @@ define("ARVNovaPoshtaDeparture1Page", [], function() {
 							}
 						}
 					]
+				},
+				"c5cb7241-3fd6-48c1-92aa-fda618e332b0": {
+					"uId": "c5cb7241-3fd6-48c1-92aa-fda618e332b0",
+					"enabled": true,
+					"removed": false,
+					"ruleType": 3,
+					"populatingAttributeSource": {
+						"expression": {
+							"type": 1,
+							"attribute": "ARVDefault",
+							"attributePath": "ARVCash"
+						}
+					},
+					"logical": 0,
+					"conditions": [
+						{
+							"comparisonType": 2,
+							"leftExpression": {
+								"type": 1,
+								"attribute": "ARVDefault"
+							}
+						}
+					]
 				}
 			},
 			"ARVNoCash": {
@@ -555,6 +601,29 @@ define("ARVNovaPoshtaDeparture1Page", [], function() {
 								"type": 0,
 								"value": false,
 								"dataValueType": 12
+							}
+						}
+					]
+				},
+				"a1818ceb-36d7-49a3-9218-84ec50abcc0e": {
+					"uId": "a1818ceb-36d7-49a3-9218-84ec50abcc0e",
+					"enabled": true,
+					"removed": false,
+					"ruleType": 3,
+					"populatingAttributeSource": {
+						"expression": {
+							"type": 1,
+							"attribute": "ARVDefault",
+							"attributePath": "ARVParcel"
+						}
+					},
+					"logical": 0,
+					"conditions": [
+						{
+							"comparisonType": 2,
+							"leftExpression": {
+								"type": 1,
+								"attribute": "ARVDefault"
 							}
 						}
 					]
@@ -1073,13 +1142,6 @@ define("ARVNovaPoshtaDeparture1Page", [], function() {
 								"type": 1,
 								"attribute": "ARVDescriptionNP"
 							}
-						},
-						{
-							"comparisonType": 2,
-							"leftExpression": {
-								"type": 1,
-								"attribute": "ARVCost"
-							}
 						}
 					]
 				},
@@ -1136,13 +1198,6 @@ define("ARVNovaPoshtaDeparture1Page", [], function() {
 							"leftExpression": {
 								"type": 1,
 								"attribute": "ARVDescriptionNP"
-							}
-						},
-						{
-							"comparisonType": 1,
-							"leftExpression": {
-								"type": 1,
-								"attribute": "ARVCost"
 							}
 						}
 					]
@@ -1589,6 +1644,51 @@ define("ARVNovaPoshtaDeparture1Page", [], function() {
 							}
 						}
 					]
+				},
+				"23679a71-eb93-4840-8866-399a220c54ee": {
+					"uId": "23679a71-eb93-4840-8866-399a220c54ee",
+					"enabled": true,
+					"removed": false,
+					"ruleType": 3,
+					"populatingAttributeSource": {
+						"expression": {
+							"type": 6,
+							"formula": {
+								"type": 0,
+								"dataType": 32,
+								"operatorType": 1,
+								"leftExpression": {
+									"type": 1,
+									"dataType": 32,
+									"operandType": 1,
+									"columnPath": "ARVFloatVolumeWeight",
+									"columnOperandType": 0
+								},
+								"rightExpression": {
+									"type": 1,
+									"dataType": 4,
+									"operandType": 0,
+									"value": "0"
+								},
+								"arithmeticOperatorType": 2
+							}
+						}
+					},
+					"logical": 0,
+					"conditions": [
+						{
+							"comparisonType": 3,
+							"leftExpression": {
+								"type": 1,
+								"attribute": "ARVDocuments"
+							},
+							"rightExpression": {
+								"type": 0,
+								"value": true,
+								"dataValueType": 12
+							}
+						}
+					]
 				}
 			},
 			"ARVWeight": {
@@ -1771,6 +1871,298 @@ define("ARVNovaPoshtaDeparture1Page", [], function() {
 							"rightExpression": {
 								"type": 0,
 								"value": true,
+								"dataValueType": 12
+							}
+						}
+					]
+				}
+			},
+			"ARVSumBack": {
+				"34e7bf87-52da-4be3-8c20-5aa4ad8c6517": {
+					"uId": "34e7bf87-52da-4be3-8c20-5aa4ad8c6517",
+					"enabled": true,
+					"removed": false,
+					"ruleType": 3,
+					"populatingAttributeSource": {
+						"expression": {
+							"type": 1,
+							"attribute": "ARVCost"
+						}
+					},
+					"logical": 0,
+					"conditions": [
+						{
+							"comparisonType": 2,
+							"leftExpression": {
+								"type": 1,
+								"attribute": "ARVCost"
+							}
+						}
+					]
+				},
+				"1c15e3ee-6256-4a14-8343-0d70e67c7f95": {
+					"uId": "1c15e3ee-6256-4a14-8343-0d70e67c7f95",
+					"enabled": true,
+					"removed": false,
+					"ruleType": 0,
+					"property": 0,
+					"logical": 0,
+					"conditions": [
+						{
+							"comparisonType": 3,
+							"leftExpression": {
+								"type": 1,
+								"attribute": "ARVRefundForGoods"
+							},
+							"rightExpression": {
+								"type": 0,
+								"value": true,
+								"dataValueType": 12
+							}
+						}
+					]
+				},
+				"3cd9f209-3537-40f2-a554-8e75b62b321b": {
+					"uId": "3cd9f209-3537-40f2-a554-8e75b62b321b",
+					"enabled": true,
+					"removed": false,
+					"ruleType": 0,
+					"property": 2,
+					"logical": 0,
+					"conditions": [
+						{
+							"comparisonType": 3,
+							"leftExpression": {
+								"type": 1,
+								"attribute": "ARVRefundForGoods"
+							},
+							"rightExpression": {
+								"type": 0,
+								"value": true,
+								"dataValueType": 12
+							}
+						}
+					]
+				}
+			},
+			"ARVCost": {
+				"8c0302e2-b883-4e5a-9a4a-775f8a7c59bb": {
+					"uId": "8c0302e2-b883-4e5a-9a4a-775f8a7c59bb",
+					"enabled": true,
+					"removed": false,
+					"ruleType": 3,
+					"populatingAttributeSource": {
+						"expression": {
+							"type": 1,
+							"attribute": "ARVSumBack"
+						}
+					},
+					"logical": 0,
+					"conditions": [
+						{
+							"comparisonType": 2,
+							"leftExpression": {
+								"type": 1,
+								"attribute": "ARVSumBack"
+							}
+						}
+					]
+				}
+			},
+			"ARVRecipientBack": {
+				"5bd7223c-c447-4e37-8b1c-d00195e9fa97": {
+					"uId": "5bd7223c-c447-4e37-8b1c-d00195e9fa97",
+					"enabled": true,
+					"removed": false,
+					"ruleType": 0,
+					"property": 0,
+					"logical": 0,
+					"conditions": [
+						{
+							"comparisonType": 3,
+							"leftExpression": {
+								"type": 1,
+								"attribute": "ARVRefundForGoods"
+							},
+							"rightExpression": {
+								"type": 0,
+								"value": true,
+								"dataValueType": 12
+							}
+						}
+					]
+				},
+				"26048370-30d2-47f7-ba99-c8e156a0436a": {
+					"uId": "26048370-30d2-47f7-ba99-c8e156a0436a",
+					"enabled": true,
+					"removed": false,
+					"ruleType": 3,
+					"populatingAttributeSource": {
+						"expression": {
+							"type": 1,
+							"attribute": "ARVForTheRuleFalse"
+						}
+					},
+					"logical": 0,
+					"conditions": [
+						{
+							"comparisonType": 3,
+							"leftExpression": {
+								"type": 1,
+								"attribute": "ARVSenderBack"
+							},
+							"rightExpression": {
+								"type": 0,
+								"value": true,
+								"dataValueType": 12
+							}
+						}
+					]
+				}
+			},
+			"ARVSenderBack": {
+				"79ac182a-d353-4f0c-af83-16737adf4eaf": {
+					"uId": "79ac182a-d353-4f0c-af83-16737adf4eaf",
+					"enabled": true,
+					"removed": false,
+					"ruleType": 0,
+					"property": 0,
+					"logical": 0,
+					"conditions": [
+						{
+							"comparisonType": 3,
+							"leftExpression": {
+								"type": 1,
+								"attribute": "ARVRefundForGoods"
+							},
+							"rightExpression": {
+								"type": 0,
+								"value": true,
+								"dataValueType": 12
+							}
+						}
+					]
+				},
+				"1a81cba6-31ac-48c3-8ffb-f16e38d043aa": {
+					"uId": "1a81cba6-31ac-48c3-8ffb-f16e38d043aa",
+					"enabled": true,
+					"removed": false,
+					"ruleType": 3,
+					"populatingAttributeSource": {
+						"expression": {
+							"type": 1,
+							"attribute": "ARVForTheRuleFalse"
+						}
+					},
+					"logical": 0,
+					"conditions": [
+						{
+							"comparisonType": 3,
+							"leftExpression": {
+								"type": 1,
+								"attribute": "ARVRecipientBack"
+							},
+							"rightExpression": {
+								"type": 0,
+								"value": true,
+								"dataValueType": 12
+							}
+						}
+					]
+				}
+			},
+			"ARVPayerTypeBackNP": {
+				"2a26d6f0-b002-463c-9fc9-5f780d24bdaa": {
+					"uId": "2a26d6f0-b002-463c-9fc9-5f780d24bdaa",
+					"enabled": true,
+					"removed": false,
+					"ruleType": 3,
+					"populatingAttributeSource": {
+						"expression": {
+							"type": 1,
+							"attribute": "ARVDefault",
+							"attributePath": "ARVRecipient"
+						}
+					},
+					"logical": 0,
+					"conditions": [
+						{
+							"comparisonType": 3,
+							"leftExpression": {
+								"type": 1,
+								"attribute": "ARVRecipientBack"
+							},
+							"rightExpression": {
+								"type": 0,
+								"value": true,
+								"dataValueType": 12
+							}
+						}
+					]
+				},
+				"a848cdb4-28b0-4123-bf48-3e374c535eed": {
+					"uId": "a848cdb4-28b0-4123-bf48-3e374c535eed",
+					"enabled": true,
+					"removed": false,
+					"ruleType": 3,
+					"populatingAttributeSource": {
+						"expression": {
+							"type": 1,
+							"attribute": "ARVDefault",
+							"attributePath": "ARVSender"
+						}
+					},
+					"logical": 0,
+					"conditions": [
+						{
+							"comparisonType": 3,
+							"leftExpression": {
+								"type": 1,
+								"attribute": "ARVSenderBack"
+							},
+							"rightExpression": {
+								"type": 0,
+								"value": true,
+								"dataValueType": 12
+							}
+						}
+					]
+				},
+				"e94ecc9f-c84b-456f-a702-e40342ed97da": {
+					"uId": "e94ecc9f-c84b-456f-a702-e40342ed97da",
+					"enabled": true,
+					"removed": false,
+					"ruleType": 3,
+					"populatingAttributeSource": {
+						"expression": {
+							"type": 1,
+							"attribute": "ARVDefault",
+							"attributePath": "Description"
+						}
+					},
+					"logical": 0,
+					"conditions": [
+						{
+							"comparisonType": 3,
+							"leftExpression": {
+								"type": 1,
+								"attribute": "ARVRecipientBack"
+							},
+							"rightExpression": {
+								"type": 0,
+								"value": false,
+								"dataValueType": 12
+							}
+						},
+						{
+							"comparisonType": 3,
+							"leftExpression": {
+								"type": 1,
+								"attribute": "ARVSenderBack"
+							},
+							"rightExpression": {
+								"type": 0,
+								"value": false,
 								"dataValueType": 12
 							}
 						}
@@ -2272,6 +2664,24 @@ define("ARVNovaPoshtaDeparture1Page", [], function() {
 			},
 			{
 				"operation": "insert",
+				"name": "STRING36d9998f-23dd-409c-8347-d5072413f1e3",
+				"values": {
+					"layout": {
+						"colSpan": 24,
+						"rowSpan": 1,
+						"column": 0,
+						"row": 20,
+						"layoutName": "ProfileContainer"
+					},
+					"bindTo": "ARVPayerTypeBackNP",
+					"enabled": true
+				},
+				"parentName": "ProfileContainer",
+				"propertyName": "items",
+				"index": 20
+			},
+			{
+				"operation": "insert",
 				"name": "Tabe407c41eTabLabel",
 				"values": {
 					"caption": {
@@ -2641,7 +3051,12 @@ define("ARVNovaPoshtaDeparture1Page", [], function() {
 						"layoutName": "Tabe407c41eTabLabelGridLayout5b311016"
 					},
 					"bindTo": "ARVNoCash",
-					"enabled": true
+					"enabled": true,
+					"tip": {
+						"content": {
+							"bindTo": "Resources.Strings.BOOLEAN2d1b13ce4576430b8575add267cc7d78Tip"
+						}
+					}
 				},
 				"parentName": "Tabe407c41eTabLabelGridLayout5b311016",
 				"propertyName": "items",
@@ -2900,6 +3315,78 @@ define("ARVNovaPoshtaDeparture1Page", [], function() {
 			},
 			{
 				"operation": "insert",
+				"name": "INTEGERe852532a-64a6-4a79-9902-7e10037fc5dc",
+				"values": {
+					"layout": {
+						"colSpan": 5,
+						"rowSpan": 1,
+						"column": 9,
+						"row": 11,
+						"layoutName": "Tabe407c41eTabLabelGridLayout7d13c93e"
+					},
+					"bindTo": "ARVSumBack",
+					"enabled": true
+				},
+				"parentName": "Tabe407c41eTabLabelGridLayout7d13c93e",
+				"propertyName": "items",
+				"index": 11
+			},
+			{
+				"operation": "insert",
+				"name": "BOOLEAN2a7c4b4c-e828-4bc6-aa11-d55a59730b0d",
+				"values": {
+					"layout": {
+						"colSpan": 5,
+						"rowSpan": 1,
+						"column": 14,
+						"row": 11,
+						"layoutName": "Tabe407c41eTabLabelGridLayout7d13c93e"
+					},
+					"bindTo": "ARVRecipientBack",
+					"enabled": true
+				},
+				"parentName": "Tabe407c41eTabLabelGridLayout7d13c93e",
+				"propertyName": "items",
+				"index": 12
+			},
+			{
+				"operation": "insert",
+				"name": "BOOLEAN12a79b70-27cc-430e-be2d-451defef1250",
+				"values": {
+					"layout": {
+						"colSpan": 5,
+						"rowSpan": 1,
+						"column": 19,
+						"row": 11,
+						"layoutName": "Tabe407c41eTabLabelGridLayout7d13c93e"
+					},
+					"bindTo": "ARVSenderBack",
+					"enabled": true
+				},
+				"parentName": "Tabe407c41eTabLabelGridLayout7d13c93e",
+				"propertyName": "items",
+				"index": 13
+			},
+			{
+				"operation": "insert",
+				"name": "BOOLEANc4fa814a-3c9a-4c30-b2b2-d423b5cd504b",
+				"values": {
+					"layout": {
+						"colSpan": 8,
+						"rowSpan": 1,
+						"column": 1,
+						"row": 11,
+						"layoutName": "Tabe407c41eTabLabelGridLayout7d13c93e"
+					},
+					"bindTo": "ARVRefundForGoods",
+					"enabled": true
+				},
+				"parentName": "Tabe407c41eTabLabelGridLayout7d13c93e",
+				"propertyName": "items",
+				"index": 14
+			},
+			{
+				"operation": "insert",
 				"name": "MyDelimiter2",
 				"values": {
 					"itemType": 5,
@@ -2916,25 +3403,30 @@ define("ARVNovaPoshtaDeparture1Page", [], function() {
 				},
 				"parentName": "Tabe407c41eTabLabelGridLayout7d13c93e",
 				"propertyName": "items",
-				"index": 11
+				"index": 15
 			},
 			{
 				"operation": "insert",
 				"name": "DATETIME520ebdd5-af54-4aac-95a1-5c8ae46d8a11",
 				"values": {
 					"layout": {
-						"colSpan": 12,
+						"colSpan": 8,
 						"rowSpan": 1,
 						"column": 1,
 						"row": 12,
 						"layoutName": "Tabe407c41eTabLabelGridLayout7d13c93e"
 					},
 					"bindTo": "ARVDateTime",
-					"enabled": true
+					"enabled": true,
+					"tip": {
+						"content": {
+							"bindTo": "Resources.Strings.DATETIME520ebdd5af544aac95a15c8ae46d8a11Tip"
+						}
+					}
 				},
 				"parentName": "Tabe407c41eTabLabelGridLayout7d13c93e",
 				"propertyName": "items",
-				"index": 12
+				"index": 16
 			},
 			{
 				"operation": "insert",
@@ -2974,11 +3466,29 @@ define("ARVNovaPoshtaDeparture1Page", [], function() {
 						"layoutName": "Tabe407c41eTabLabelGridLayoute2db29d4"
 					},
 					"bindTo": "ARVName",
-					"enabled": true
+					"enabled": false
 				},
 				"parentName": "Tabe407c41eTabLabelGridLayoute2db29d4",
 				"propertyName": "items",
 				"index": 0
+			},
+			{
+				"operation": "insert",
+				"name": "INTEGERb9150070-0c23-4871-8675-2618a7419ca0",
+				"values": {
+					"layout": {
+						"colSpan": 12,
+						"rowSpan": 1,
+						"column": 0,
+						"row": 1,
+						"layoutName": "Tabe407c41eTabLabelGridLayoute2db29d4"
+					},
+					"bindTo": "ARVCostOnSite",
+					"enabled": false
+				},
+				"parentName": "Tabe407c41eTabLabelGridLayoute2db29d4",
+				"propertyName": "items",
+				"index": 1
 			},
 			{
 				"operation": "insert",
@@ -2999,27 +3509,9 @@ define("ARVNovaPoshtaDeparture1Page", [], function() {
 						"colSpan": 8,
 						"rowSpan": 1,
 						"column": 14,
-						"row": 1
+						"row": 2
 					},
 					"visible": true
-				},
-				"parentName": "Tabe407c41eTabLabelGridLayoute2db29d4",
-				"propertyName": "items",
-				"index": 1
-			},
-			{
-				"operation": "insert",
-				"name": "INTEGERb9150070-0c23-4871-8675-2618a7419ca0",
-				"values": {
-					"layout": {
-						"colSpan": 12,
-						"rowSpan": 1,
-						"column": 0,
-						"row": 1,
-						"layoutName": "Tabe407c41eTabLabelGridLayoute2db29d4"
-					},
-					"bindTo": "ARVCostOnSite",
-					"enabled": false
 				},
 				"parentName": "Tabe407c41eTabLabelGridLayoute2db29d4",
 				"propertyName": "items",
@@ -3045,7 +3537,7 @@ define("ARVNovaPoshtaDeparture1Page", [], function() {
 			},
 			{
 				"operation": "insert",
-				"name": "STRING95930c8a-b3a7-45ab-9711-f22a22a114a9",
+				"name": "LOOKUPb8aa2f85-8976-4896-bd26-87defdee3922",
 				"values": {
 					"layout": {
 						"colSpan": 12,
@@ -3054,49 +3546,13 @@ define("ARVNovaPoshtaDeparture1Page", [], function() {
 						"row": 3,
 						"layoutName": "Tabe407c41eTabLabelGridLayoute2db29d4"
 					},
-					"bindTo": "ARVRef",
-					"enabled": false
-				},
-				"parentName": "Tabe407c41eTabLabelGridLayoute2db29d4",
-				"propertyName": "items",
-				"index": 4
-			},
-			{
-				"operation": "insert",
-				"name": "STRINGef711def-522a-48c1-a448-35a92d2860c3",
-				"values": {
-					"layout": {
-						"colSpan": 12,
-						"rowSpan": 1,
-						"column": 0,
-						"row": 4,
-						"layoutName": "Tabe407c41eTabLabelGridLayoute2db29d4"
-					},
-					"bindTo": "ARVTypeDocument",
-					"enabled": false
-				},
-				"parentName": "Tabe407c41eTabLabelGridLayoute2db29d4",
-				"propertyName": "items",
-				"index": 5
-			},
-			{
-				"operation": "insert",
-				"name": "LOOKUPb8aa2f85-8976-4896-bd26-87defdee3922",
-				"values": {
-					"layout": {
-						"colSpan": 12,
-						"rowSpan": 1,
-						"column": 0,
-						"row": 5,
-						"layoutName": "Tabe407c41eTabLabelGridLayoute2db29d4"
-					},
 					"bindTo": "ARVStatusDocuments",
 					"enabled": false,
 					"contentType": 5
 				},
 				"parentName": "Tabe407c41eTabLabelGridLayoute2db29d4",
 				"propertyName": "items",
-				"index": 6
+				"index": 4
 			},
 			{
 				"operation": "insert",
@@ -3106,7 +3562,7 @@ define("ARVNovaPoshtaDeparture1Page", [], function() {
 						"colSpan": 12,
 						"rowSpan": 1,
 						"column": 0,
-						"row": 6,
+						"row": 4,
 						"layoutName": "Tabe407c41eTabLabelGridLayoute2db29d4"
 					},
 					"bindTo": "ARVStatusDocumentsDescriptionString",
@@ -3115,7 +3571,7 @@ define("ARVNovaPoshtaDeparture1Page", [], function() {
 				},
 				"parentName": "Tabe407c41eTabLabelGridLayoute2db29d4",
 				"propertyName": "items",
-				"index": 7
+				"index": 5
 			},
 			{
 				"operation": "insert",
@@ -3135,7 +3591,7 @@ define("ARVNovaPoshtaDeparture1Page", [], function() {
 				},
 				"parentName": "Tabe407c41eTabLabelGridLayoute2db29d4",
 				"propertyName": "items",
-				"index": 8
+				"index": 6
 			},
 			{
 				"operation": "insert",

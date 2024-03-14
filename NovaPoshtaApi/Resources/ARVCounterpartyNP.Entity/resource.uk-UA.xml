@@ -6,6 +6,7 @@
 			<Item Name="Columns.ARVApiKey.Caption" Value="Api ключ" />
 			<Item Name="Columns.ARVContact.Caption" Value="Контакт" />
 			<Item Name="Columns.ARVContactSenderRef.Caption" Value="Ref контакта НП" />
+			<Item Name="Columns.ARVEDRPOU.Caption" Value="ЄДРПОУ" />
 			<Item Name="Columns.ARVName.Caption" Value="Назва" />
 			<Item Name="Columns.ARVNotes.Caption" Value="Примітки" />
 			<Item Name="Columns.ARVPhone.Caption" Value="Телефон" />

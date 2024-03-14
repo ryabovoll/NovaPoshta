@@ -30,21 +30,25 @@
 			<Item Name="Columns.ARVNoCash.Caption" Value="Безналичные" />
 			<Item Name="Columns.ARVNotes.Caption" Value="Заметки" />
 			<Item Name="Columns.ARVParcel.Caption" Value="Посылка" />
+			<Item Name="Columns.ARVPayerTypeBackNP.Caption" Value="PayerTypeBack" />
 			<Item Name="Columns.ARVPayerTypeNP.Caption" Value="PayerType" />
 			<Item Name="Columns.ARVPaymentMethodNP.Caption" Value="PaymentMethod" />
 			<Item Name="Columns.ARVPostomat.Caption" Value="Почтомат" />
 			<Item Name="Columns.ARVRecipient.Caption" Value="Получатель" />
-			<Item Name="Columns.ARVRecipientCityName.Caption" Value="RecipientCityName" />
+			<Item Name="Columns.ARVRecipientBack.Caption" Value="Получатель Back" />
+			<Item Name="Columns.ARVRecipientCityName.Caption" Value="ХХХХХХ" />
 			<Item Name="Columns.ARVRecipientContact.Caption" Value="Получатель" />
 			<Item Name="Columns.ARVRecipientFlat.Caption" Value="RecipientFlat" />
 			<Item Name="Columns.ARVRecipientHouse.Caption" Value="RecipientHouse" />
 			<Item Name="Columns.ARVRecipientsPhoneNP.Caption" Value="Телефон получателя" />
 			<Item Name="Columns.ARVRecipientType.Caption" Value="RecipientType" />
 			<Item Name="Columns.ARVRef.Caption" Value="Ref" />
+			<Item Name="Columns.ARVRefundForGoods.Caption" Value="Возврат средств" />
 			<Item Name="Columns.ARVRegion.Caption" Value="Region" />
 			<Item Name="Columns.ARVSeatsAmount.Caption" Value="Количество мест" />
 			<Item Name="Columns.ARVSeatsAmountNP.Caption" Value="SeatsAmount" />
 			<Item Name="Columns.ARVSender.Caption" Value="Отправитель" />
+			<Item Name="Columns.ARVSenderBack.Caption" Value="Отправитель Back" />
 			<Item Name="Columns.ARVSenderCounterparty.Caption" Value="ХХХХХХ" />
 			<Item Name="Columns.ARVSenderCounterpartyNP.Caption" Value="Контакт" />
 			<Item Name="Columns.ARVServiceType.Caption" Value="ServiceType" />
@@ -53,6 +57,7 @@
 			<Item Name="Columns.ARVStart.Caption" Value="Start" />
 			<Item Name="Columns.ARVStatusDocuments.Caption" Value="Статус" />
 			<Item Name="Columns.ARVStatusDocumentsDescriptionString.Caption" Value="Статус Описание" />
+			<Item Name="Columns.ARVSumBack.Caption" Value="Сума" />
 			<Item Name="Columns.ARVTypeDocument.Caption" Value="Тип документа" />
 			<Item Name="Columns.ARVWeight.Caption" Value="Вес" />
 		</Items>

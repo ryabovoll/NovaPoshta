@@ -170,6 +170,57 @@ define("ARVCounterpartyNP1Page", [], function() {
 			},
 			{
 				"operation": "insert",
+				"name": "ARVRefdfe2b217-bb9d-4502-8ea8-677bb359fc08",
+				"values": {
+					"layout": {
+						"colSpan": 24,
+						"rowSpan": 1,
+						"column": 0,
+						"row": 2,
+						"layoutName": "ProfileContainer"
+					},
+					"bindTo": "ARVRef"
+				},
+				"parentName": "ProfileContainer",
+				"propertyName": "items",
+				"index": 2
+			},
+			{
+				"operation": "insert",
+				"name": "ARVContactSenderRef30cbae4e-4dde-4744-9e73-b510a293a2b2",
+				"values": {
+					"layout": {
+						"colSpan": 24,
+						"rowSpan": 1,
+						"column": 0,
+						"row": 3,
+						"layoutName": "ProfileContainer"
+					},
+					"bindTo": "ARVContactSenderRef"
+				},
+				"parentName": "ProfileContainer",
+				"propertyName": "items",
+				"index": 3
+			},
+			{
+				"operation": "insert",
+				"name": "ARVEDRPOU9b9a760b-b9ca-4b97-a524-76afe8f3a191",
+				"values": {
+					"layout": {
+						"colSpan": 24,
+						"rowSpan": 1,
+						"column": 0,
+						"row": 4,
+						"layoutName": "ProfileContainer"
+					},
+					"bindTo": "ARVEDRPOU"
+				},
+				"parentName": "ProfileContainer",
+				"propertyName": "items",
+				"index": 4
+			},
+			{
+				"operation": "insert",
 				"name": "STRINGd563a3f7-a1dc-40e5-bac8-3e49ee778a95",
 				"values": {
 					"layout": {
@@ -204,8 +255,8 @@ define("ARVCounterpartyNP1Page", [], function() {
 					"layout": {
 						"colSpan": 7,
 						"rowSpan": 1,
-						"column": 13,
-						"row": 1,
+						"column": 14,
+						"row": 0,
 						"layoutName": "Header"
 					},
 					"visible": true
@@ -213,42 +264,6 @@ define("ARVCounterpartyNP1Page", [], function() {
 				"parentName": "Header",
 				"propertyName": "items",
 				"index": 1
-			},
-			{
-				"operation": "insert",
-				"name": "STRING2eaec8a3-fff5-47c3-9a16-fe1281183e2f",
-				"values": {
-					"layout": {
-						"colSpan": 12,
-						"rowSpan": 1,
-						"column": 0,
-						"row": 1,
-						"layoutName": "Header"
-					},
-					"bindTo": "ARVRef",
-					"enabled": false
-				},
-				"parentName": "Header",
-				"propertyName": "items",
-				"index": 2
-			},
-			{
-				"operation": "insert",
-				"name": "STRING7d10d04f-430f-42f6-a408-29b173379696",
-				"values": {
-					"layout": {
-						"colSpan": 12,
-						"rowSpan": 1,
-						"column": 0,
-						"row": 2,
-						"layoutName": "Header"
-					},
-					"bindTo": "ARVContactSenderRef",
-					"enabled": false
-				},
-				"parentName": "Header",
-				"propertyName": "items",
-				"index": 3
 			},
 			{
 				"operation": "insert",

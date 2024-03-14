@@ -2,7 +2,12 @@
 <Resources Culture="en-US">
 	<Group Type="String">
 		<Items>
+			<Item Name="BaseElements.ConditionalSequenceFlow1.Caption" Value="без возврата" />
 			<Item Name="BaseElements.ConditionalSequenceFlow2.Caption" Value=" ошибка" />
+			<Item Name="BaseElements.ConditionalSequenceFlow4.Caption" Value="с возвратом" />
+			<Item Name="BaseElements.ConditionalSequenceFlow6.Caption" Value="ошибка" />
+			<Item Name="BaseElements.FormulaTask1.Caption" Value="Записываем тело ответа в параметр" />
+			<Item Name="BaseElements.FormulaTask2.Caption" Value="Записываем тело ответа в параметр - Копия" />
 			<Item Name="BaseElements.ReadDataUserTask1.Caption" Value="Відправлення" />
 			<Item Name="BaseElements.ReadDataUserTask1.Parameters.AggregationColumnName.Caption" Value="Name of aggregate function column" />
 			<Item Name="BaseElements.ReadDataUserTask1.Parameters.CanReadUncommitedData.Caption" Value="Read uncommitted data" />
@@ -175,6 +180,31 @@
 			<Item Name="BaseElements.SubProcess1.Parameters.OutputRecordCollection.ProcessSchemaParameter6.Caption" Value="TypeDocument" />
 			<Item Name="BaseElements.SubProcess1.Parameters.TerminatedIterationsCount.Caption" Value="Число прерванных экземпляров" />
 			<Item Name="BaseElements.SubProcess1.Parameters.TotalIterationsCount.Caption" Value="Общее число экземпляров" />
+			<Item Name="BaseElements.SubProcess2.Caption" Value="Создать накладную ПОДПРОЦЕСС 1 - Копия" />
+			<Item Name="BaseElements.SubProcess2.Parameters.CompletedIterationsCount.Caption" Value="Число выполненных экземпляров" />
+			<Item Name="BaseElements.SubProcess2.Parameters.InputRecordCollection.Caption" Value="Входящая коллекция записей" />
+			<Item Name="BaseElements.SubProcess2.Parameters.InputRecordCollection.DisplayValue" Value="[#ApiNovaPoshta 1.Data#]" />
+			<Item Name="BaseElements.SubProcess2.Parameters.InputRecordCollection.ProcessSchemaParameter1.Caption" Value="iD Відправлення" />
+			<Item Name="BaseElements.SubProcess2.Parameters.InputRecordCollection.ProcessSchemaParameter1.DisplayValue" Value="[#Відправлення.Первый элемент результирующей коллекции.Id#]" />
+			<Item Name="BaseElements.SubProcess2.Parameters.InputRecordCollection.ProcessSchemaParameter2.Caption" Value="Ref" />
+			<Item Name="BaseElements.SubProcess2.Parameters.InputRecordCollection.ProcessSchemaParameter2.DisplayValue" Value="[#ApiNovaPoshta 1.Data:Ref#]" />
+			<Item Name="BaseElements.SubProcess2.Parameters.InputRecordCollection.ProcessSchemaParameter3.Caption" Value="CostOnSite" />
+			<Item Name="BaseElements.SubProcess2.Parameters.InputRecordCollection.ProcessSchemaParameter3.DisplayValue" Value="[#ApiNovaPoshta 1.Data:CostOnSite#]" />
+			<Item Name="BaseElements.SubProcess2.Parameters.InputRecordCollection.ProcessSchemaParameter4.Caption" Value="EstimatedDeliveryDate" />
+			<Item Name="BaseElements.SubProcess2.Parameters.InputRecordCollection.ProcessSchemaParameter4.DisplayValue" Value="[#ApiNovaPoshta 1.Data:EstimatedDeliveryDate#]" />
+			<Item Name="BaseElements.SubProcess2.Parameters.InputRecordCollection.ProcessSchemaParameter5.Caption" Value="IntDocNumber" />
+			<Item Name="BaseElements.SubProcess2.Parameters.InputRecordCollection.ProcessSchemaParameter5.DisplayValue" Value="[#ApiNovaPoshta 1.Data:IntDocNumber#]" />
+			<Item Name="BaseElements.SubProcess2.Parameters.InputRecordCollection.ProcessSchemaParameter6.Caption" Value="TypeDocument" />
+			<Item Name="BaseElements.SubProcess2.Parameters.InputRecordCollection.ProcessSchemaParameter6.DisplayValue" Value="[#ApiNovaPoshta 1.Data:TypeDocument#]" />
+			<Item Name="BaseElements.SubProcess2.Parameters.OutputRecordCollection.Caption" Value="Исходящая коллекция записей" />
+			<Item Name="BaseElements.SubProcess2.Parameters.OutputRecordCollection.ProcessSchemaParameter1.Caption" Value="iD Відправлення" />
+			<Item Name="BaseElements.SubProcess2.Parameters.OutputRecordCollection.ProcessSchemaParameter2.Caption" Value="Ref" />
+			<Item Name="BaseElements.SubProcess2.Parameters.OutputRecordCollection.ProcessSchemaParameter3.Caption" Value="CostOnSite" />
+			<Item Name="BaseElements.SubProcess2.Parameters.OutputRecordCollection.ProcessSchemaParameter4.Caption" Value="EstimatedDeliveryDate" />
+			<Item Name="BaseElements.SubProcess2.Parameters.OutputRecordCollection.ProcessSchemaParameter5.Caption" Value="IntDocNumber" />
+			<Item Name="BaseElements.SubProcess2.Parameters.OutputRecordCollection.ProcessSchemaParameter6.Caption" Value="TypeDocument" />
+			<Item Name="BaseElements.SubProcess2.Parameters.TerminatedIterationsCount.Caption" Value="Число прерванных экземпляров" />
+			<Item Name="BaseElements.SubProcess2.Parameters.TotalIterationsCount.Caption" Value="Общее число экземпляров" />
 			<Item Name="BaseElements.WebService1.Caption" Value="ApiNovaPoshta 1" />
 			<Item Name="BaseElements.WebService1.Parameters.ARVMPVGeneral_In.Caption" Value="MethodProperties VolumeGeneral" />
 			<Item Name="BaseElements.WebService1.Parameters.ARVMPVGeneral_In.DisplayValue" Value="Convert.ToString([#Відправлення.Первый элемент результирующей коллекции.объемный вес#])" />
@@ -228,6 +258,7 @@
 			<Item Name="BaseElements.WebService1.Parameters.ARVUsrMPRName_In.Caption" Value="MethodProperties RecipientName" />
 			<Item Name="BaseElements.WebService1.Parameters.ARVUsrMPRName_In.DisplayValue" Value="[#Контакт Одержувача.Первый элемент результирующей коллекции.ФИО#]" />
 			<Item Name="BaseElements.WebService1.Parameters.ARVUsrMProperties_In.Caption" Value="MethodProperties EDRPOU" />
+			<Item Name="BaseElements.WebService1.Parameters.ARVUsrMProperties_In.DisplayValue" Value="[#Контрагент Нова Пошта.Первый элемент результирующей коллекции.ЕГРПОУ#]" />
 			<Item Name="BaseElements.WebService1.Parameters.ARVUsrMPRPhone_In.Caption" Value="MethodProperties RecipientsPhone" />
 			<Item Name="BaseElements.WebService1.Parameters.ARVUsrMPRPhone_In.DisplayValue" Value="[#Відправлення.Первый элемент результирующей коллекции.Телефон получателя#]" />
 			<Item Name="BaseElements.WebService1.Parameters.ARVUsrMPRType_In.Caption" Value="MethodProperties RecipientType" />
@@ -256,13 +287,100 @@
 			<Item Name="BaseElements.WebService1.Parameters.Response.Caption" Value="Тело ответа сервиса" />
 			<Item Name="BaseElements.WebService1.Parameters.StatusCode.Caption" Value="Http код состояния" />
 			<Item Name="BaseElements.WebService1.Parameters.Success.Caption" Value="Успешно выполнен" />
+			<Item Name="BaseElements.WebService3.Caption" Value="ApiNovaPoshta 2" />
+			<Item Name="BaseElements.WebService3.Parameters.ARVMPBDData_In.ARVBDDCType_In.Caption" Value="CargoType" />
+			<Item Name="BaseElements.WebService3.Parameters.ARVMPBDData_In.ARVBDDPType_In.Caption" Value="PayerType" />
+			<Item Name="BaseElements.WebService3.Parameters.ARVMPBDData_In.ARVBDDPType_In.DisplayValue" Value="[#Відправлення.Первый элемент результирующей коллекции.PayerTypeBack#]" />
+			<Item Name="BaseElements.WebService3.Parameters.ARVMPBDData_In.ARVBDDRString_In.Caption" Value="RedeliveryString" />
+			<Item Name="BaseElements.WebService3.Parameters.ARVMPBDData_In.ARVBDDRString_In.DisplayValue" Value="Convert.ToString([#Відправлення.Первый элемент результирующей коллекции.Сума#])" />
+			<Item Name="BaseElements.WebService3.Parameters.ARVMPBDData_In.Caption" Value="MethodProperties BackwardDeliveryData" />
+			<Item Name="BaseElements.WebService3.Parameters.ARVMPVGeneral_In.Caption" Value="MethodProperties VolumeGeneral" />
+			<Item Name="BaseElements.WebService3.Parameters.ARVMPVGeneral_In.DisplayValue" Value="Convert.ToString([#Відправлення.Первый элемент результирующей коллекции.объемный вес#] / 100)" />
+			<Item Name="BaseElements.WebService3.Parameters.ARVUsrAKey_In.Caption" Value="ApiKey" />
+			<Item Name="BaseElements.WebService3.Parameters.ARVUsrAKey_In.DisplayValue" Value="[#Контрагент Нова Пошта.Первый элемент результирующей коллекции.Api ключ#]" />
+			<Item Name="BaseElements.WebService3.Parameters.ARVUsrCMethod_In.Caption" Value="CalledMethod" />
+			<Item Name="BaseElements.WebService3.Parameters.ARVUsrData_Out.ARVUsrDCOSite_Out.Caption" Value="CostOnSite" />
+			<Item Name="BaseElements.WebService3.Parameters.ARVUsrData_Out.ARVUsrDEDDate_Out.Caption" Value="EstimatedDeliveryDate" />
+			<Item Name="BaseElements.WebService3.Parameters.ARVUsrData_Out.ARVUsrDIDNumber_Out.Caption" Value="IntDocNumber" />
+			<Item Name="BaseElements.WebService3.Parameters.ARVUsrData_Out.ARVUsrDRef_Out.Caption" Value="Ref" />
+			<Item Name="BaseElements.WebService3.Parameters.ARVUsrData_Out.ARVUsrDTDocument_Out.Caption" Value="TypeDocument" />
+			<Item Name="BaseElements.WebService3.Parameters.ARVUsrData_Out.Caption" Value="Data" />
+			<Item Name="BaseElements.WebService3.Parameters.ARVUsrECodes_Out.ARVUsrECodesItemValue_Out.Caption" Value="Значение элемента" />
+			<Item Name="BaseElements.WebService3.Parameters.ARVUsrECodes_Out.Caption" Value="ErrorCodes" />
+			<Item Name="BaseElements.WebService3.Parameters.ARVUsrErrors_Out.ARVUsrErrorsItemValue_Out.Caption" Value="Значение элемента" />
+			<Item Name="BaseElements.WebService3.Parameters.ARVUsrErrors_Out.Caption" Value="Errors" />
+			<Item Name="BaseElements.WebService3.Parameters.ARVUsrICodes_Out.ARVUsrICodesItemValue_Out.Caption" Value="Значение элемента" />
+			<Item Name="BaseElements.WebService3.Parameters.ARVUsrICodes_Out.Caption" Value="InfoCodes" />
+			<Item Name="BaseElements.WebService3.Parameters.ARVUsrInfo_Out.ARVUsrInfoItemValue_Out.Caption" Value="Значение элемента" />
+			<Item Name="BaseElements.WebService3.Parameters.ARVUsrInfo_Out.Caption" Value="Info" />
+			<Item Name="BaseElements.WebService3.Parameters.ARVUsrMCodes_Out.ARVUsrMCodesItemValue_Out.Caption" Value="Значение элемента" />
+			<Item Name="BaseElements.WebService3.Parameters.ARVUsrMCodes_Out.Caption" Value="MessageCodes" />
+			<Item Name="BaseElements.WebService3.Parameters.ARVUsrMName_In.Caption" Value="ModelName" />
+			<Item Name="BaseElements.WebService3.Parameters.ARVUsrMPCost_In.Caption" Value="MethodProperties Cost" />
+			<Item Name="BaseElements.WebService3.Parameters.ARVUsrMPCost_In.DisplayValue" Value="Convert.ToString([#Відправлення.Первый элемент результирующей коллекции.Объявленная стоимость Cost#])" />
+			<Item Name="BaseElements.WebService3.Parameters.ARVUsrMPCSender_In.Caption" Value="MethodProperties CitySender" />
+			<Item Name="BaseElements.WebService3.Parameters.ARVUsrMPCSender_In.DisplayValue" Value="[#Відділення ОТПРАВИТЕЛЯ.Первый элемент результирующей коллекции.SettlementRef#]" />
+			<Item Name="BaseElements.WebService3.Parameters.ARVUsrMPCSender1_In.Caption" Value="MethodProperties ContactSender" />
+			<Item Name="BaseElements.WebService3.Parameters.ARVUsrMPCSender1_In.DisplayValue" Value="[#Контрагент Нова Пошта.Первый элемент результирующей коллекции.Ref контакта НП#]" />
+			<Item Name="BaseElements.WebService3.Parameters.ARVUsrMPCType_In.Caption" Value="MethodProperties CargoType" />
+			<Item Name="BaseElements.WebService3.Parameters.ARVUsrMPCType_In.DisplayValue" Value="[#Відправлення.Первый элемент результирующей коллекции.CargoType#]" />
+			<Item Name="BaseElements.WebService3.Parameters.ARVUsrMPDescription_In.Caption" Value="MethodProperties Description" />
+			<Item Name="BaseElements.WebService3.Parameters.ARVUsrMPDescription_In.DisplayValue" Value="[#Відправлення.Первый элемент результирующей коллекции.Описание#]" />
+			<Item Name="BaseElements.WebService3.Parameters.ARVUsrMPDTime_In.Caption" Value="MethodProperties DateTime" />
+			<Item Name="BaseElements.WebService3.Parameters.ARVUsrMPDTime_In.DisplayValue" Value="Convert.ToString([#Відправлення.Первый элемент результирующей коллекции.Дата отправки#]).Remove(10)" />
+			<Item Name="BaseElements.WebService3.Parameters.ARVUsrMPNAddress_In.Caption" Value="MethodProperties NewAddress" />
+			<Item Name="BaseElements.WebService3.Parameters.ARVUsrMPPMethod_In.Caption" Value="MethodProperties PaymentMethod" />
+			<Item Name="BaseElements.WebService3.Parameters.ARVUsrMPPMethod_In.DisplayValue" Value="[#Відправлення.Первый элемент результирующей коллекции.PaymentMethod#]" />
+			<Item Name="BaseElements.WebService3.Parameters.ARVUsrMPPType_In.Caption" Value="MethodProperties PayerType" />
+			<Item Name="BaseElements.WebService3.Parameters.ARVUsrMPPType_In.DisplayValue" Value="[#Відправлення.Первый элемент результирующей коллекции.PayerType#]" />
+			<Item Name="BaseElements.WebService3.Parameters.ARVUsrMPRAName_In.Caption" Value="MethodProperties RecipientAddressName" />
+			<Item Name="BaseElements.WebService3.Parameters.ARVUsrMPRAName_In.DisplayValue" Value="[#Відділення ПОЛУЧАТЕЛЯ.Первый элемент результирующей коллекции.Number#]" />
+			<Item Name="BaseElements.WebService3.Parameters.ARVUsrMPRArea_In.Caption" Value="MethodProperties RecipientArea" />
+			<Item Name="BaseElements.WebService3.Parameters.ARVUsrMPRArea_In.DisplayValue" Value="[#Відділення ПОЛУЧАТЕЛЯ.Первый элемент результирующей коллекции.SettlementAreaDescription#]" />
+			<Item Name="BaseElements.WebService3.Parameters.ARVUsrMPRARegions_In.Caption" Value="MethodProperties RecipientAreaRegions" />
+			<Item Name="BaseElements.WebService3.Parameters.ARVUsrMPRARegions_In.DisplayValue" Value="[#Відділення ПОЛУЧАТЕЛЯ.Первый элемент результирующей коллекции.SettlementRegionsDescription#]" />
+			<Item Name="BaseElements.WebService3.Parameters.ARVUsrMPRCName_In.Caption" Value="MethodProperties RecipientCityName" />
+			<Item Name="BaseElements.WebService3.Parameters.ARVUsrMPRCName_In.DisplayValue" Value="[#Відділення ПОЛУЧАТЕЛЯ.Первый элемент результирующей коллекции.CityDescription#]" />
+			<Item Name="BaseElements.WebService3.Parameters.ARVUsrMPRFlat_In.Caption" Value="MethodProperties RecipientFlat" />
+			<Item Name="BaseElements.WebService3.Parameters.ARVUsrMPRHouse_In.Caption" Value="MethodProperties RecipientHouse" />
+			<Item Name="BaseElements.WebService3.Parameters.ARVUsrMPRName_In.Caption" Value="MethodProperties RecipientName" />
+			<Item Name="BaseElements.WebService3.Parameters.ARVUsrMPRName_In.DisplayValue" Value="[#Контакт Одержувача.Первый элемент результирующей коллекции.ФИО#]" />
+			<Item Name="BaseElements.WebService3.Parameters.ARVUsrMProperties_In.Caption" Value="MethodProperties EDRPOU" />
+			<Item Name="BaseElements.WebService3.Parameters.ARVUsrMProperties_In.DisplayValue" Value="[#Контрагент Нова Пошта.Первый элемент результирующей коллекции.ЕГРПОУ#]" />
+			<Item Name="BaseElements.WebService3.Parameters.ARVUsrMPRPhone_In.Caption" Value="MethodProperties RecipientsPhone" />
+			<Item Name="BaseElements.WebService3.Parameters.ARVUsrMPRPhone_In.DisplayValue" Value="[#Відправлення.Первый элемент результирующей коллекции.Телефон получателя#]" />
+			<Item Name="BaseElements.WebService3.Parameters.ARVUsrMPRType_In.Caption" Value="MethodProperties RecipientType" />
+			<Item Name="BaseElements.WebService3.Parameters.ARVUsrMPRType_In.DisplayValue" Value="PrivatePerson" />
+			<Item Name="BaseElements.WebService3.Parameters.ARVUsrMPRType_In.Value" Value="PrivatePerson" />
+			<Item Name="BaseElements.WebService3.Parameters.ARVUsrMPSAddress_In.Caption" Value="MethodProperties SenderAddress" />
+			<Item Name="BaseElements.WebService3.Parameters.ARVUsrMPSAddress_In.DisplayValue" Value="[#Відділення ОТПРАВИТЕЛЯ.Первый элемент результирующей коллекции.Ref#]" />
+			<Item Name="BaseElements.WebService3.Parameters.ARVUsrMPSAmount_In.Caption" Value="MethodProperties SeatsAmount" />
+			<Item Name="BaseElements.WebService3.Parameters.ARVUsrMPSAmount_In.DisplayValue" Value="[#Відправлення.Первый элемент результирующей коллекции.SeatsAmount#]" />
+			<Item Name="BaseElements.WebService3.Parameters.ARVUsrMPSender_In.Caption" Value="MethodProperties Sender" />
+			<Item Name="BaseElements.WebService3.Parameters.ARVUsrMPSender_In.DisplayValue" Value="[#Контрагент Нова Пошта.Первый элемент результирующей коллекции.Ref контрагента НП#]" />
+			<Item Name="BaseElements.WebService3.Parameters.ARVUsrMPSPhone_In.Caption" Value="MethodProperties SendersPhone" />
+			<Item Name="BaseElements.WebService3.Parameters.ARVUsrMPSPhone_In.DisplayValue" Value="[#Контрагент Нова Пошта.Первый элемент результирующей коллекции.Телефон#]" />
+			<Item Name="BaseElements.WebService3.Parameters.ARVUsrMPSType_In.Caption" Value="MethodProperties ServiceType" />
+			<Item Name="BaseElements.WebService3.Parameters.ARVUsrMPSType_In.DisplayValue" Value="[#Відправлення.Первый элемент результирующей коллекции.ServiceType#]" />
+			<Item Name="BaseElements.WebService3.Parameters.ARVUsrMPSType1_In.Caption" Value="MethodProperties SettlementType" />
+			<Item Name="BaseElements.WebService3.Parameters.ARVUsrMPSType1_In.DisplayValue" Value="[#Відділення ПОЛУЧАТЕЛЯ.Первый элемент результирующей коллекции.SettlementTypeDescription#]" />
+			<Item Name="BaseElements.WebService3.Parameters.ARVUsrMPWeight_In.Caption" Value="MethodProperties Weight" />
+			<Item Name="BaseElements.WebService3.Parameters.ARVUsrMPWeight_In.DisplayValue" Value="Convert.ToString([#Відправлення.Первый элемент результирующей коллекции.Масса#])" />
+			<Item Name="BaseElements.WebService3.Parameters.ARVUsrSuccess_Out.Caption" Value="Success" />
+			<Item Name="BaseElements.WebService3.Parameters.ARVUsrWarnings_Out.ARVUsrWarningsItemValue_Out.Caption" Value="Значение элемента" />
+			<Item Name="BaseElements.WebService3.Parameters.ARVUsrWarnings_Out.Caption" Value="Warnings" />
+			<Item Name="BaseElements.WebService3.Parameters.ARVUsrWCodes_Out.ARVUsrWCodesItemValue_Out.Caption" Value="Значение элемента" />
+			<Item Name="BaseElements.WebService3.Parameters.ARVUsrWCodes_Out.Caption" Value="WarningCodes" />
+			<Item Name="BaseElements.WebService3.Parameters.RequestBody.Caption" Value="Тело запроса сервиса" />
+			<Item Name="BaseElements.WebService3.Parameters.Response.Caption" Value="Тело ответа сервиса" />
+			<Item Name="BaseElements.WebService3.Parameters.StatusCode.Caption" Value="Http код состояния" />
+			<Item Name="BaseElements.WebService3.Parameters.Success.Caption" Value="Успешно выполнен" />
 			<Item Name="Caption" Value="Создать накладную" />
 			<Item Name="LaneSets.LaneSet1.Caption" Value="LaneSet 1" />
 			<Item Name="LaneSets.LaneSet1.Lanes.Lane1.Caption" Value="Lane 1" />
 			<Item Name="NotificationCaption.Caption" Value="Заголовок экземпляра процесса" />
 			<Item Name="NotificationCaption.DisplayValue" Value="[#Название процесса#]" />
 			<Item Name="Parameters.DocNumber.Caption" Value="DocNumber" />
-			<Item Name="Parameters.DocNumber.DisplayValue" Value="[#ApiNovaPoshta 1.Тело ответа сервиса#]" />
 			<Item Name="Parameters.ProcessSchemaParameter1.Caption" Value="iD" />
 			<Item Name="Parameters.Success.Caption" Value="Success " />
 		</Items>

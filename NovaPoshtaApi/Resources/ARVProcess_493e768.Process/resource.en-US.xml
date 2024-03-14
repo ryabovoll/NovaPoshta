@@ -2,6 +2,7 @@
 <Resources Culture="en-US">
 	<Group Type="String">
 		<Items>
+			<Item Name="BaseElements.SubProcess1.Caption" Value="Заполнить REF по контрагенту и контакту ПОДПРОЦЕСС 1" />
 			<Item Name="BaseElements.SubProcess1.Parameters.CompletedIterationsCount.Caption" Value="Число выполненных экземпляров" />
 			<Item Name="BaseElements.SubProcess1.Parameters.InputRecordCollection.Caption" Value="Входящая коллекция записей" />
 			<Item Name="BaseElements.SubProcess1.Parameters.InputRecordCollection.DisplayValue" Value="[#ApiNovaPoshta 1.Data#]" />
@@ -11,10 +12,13 @@
 			<Item Name="BaseElements.SubProcess1.Parameters.InputRecordCollection.ProcessSchemaParameter2.DisplayValue" Value="[#ID CounterpartyNP#]" />
 			<Item Name="BaseElements.SubProcess1.Parameters.InputRecordCollection.ProcessSchemaParameter3.Caption" Value="Contact Ref" />
 			<Item Name="BaseElements.SubProcess1.Parameters.InputRecordCollection.ProcessSchemaParameter3.DisplayValue" Value="[#ApiNovaPoshta 1.Data:Ref#]" />
+			<Item Name="BaseElements.SubProcess1.Parameters.InputRecordCollection.ProcessSchemaParameter4.Caption" Value="EDRPOU" />
+			<Item Name="BaseElements.SubProcess1.Parameters.InputRecordCollection.ProcessSchemaParameter4.DisplayValue" Value="[#EDRPOU#]" />
 			<Item Name="BaseElements.SubProcess1.Parameters.OutputRecordCollection.Caption" Value="Исходящая коллекция записей" />
 			<Item Name="BaseElements.SubProcess1.Parameters.OutputRecordCollection.ProcessSchemaParameter1.Caption" Value="Counterparty Ref" />
 			<Item Name="BaseElements.SubProcess1.Parameters.OutputRecordCollection.ProcessSchemaParameter2.Caption" Value="ID CounterpartyNP" />
 			<Item Name="BaseElements.SubProcess1.Parameters.OutputRecordCollection.ProcessSchemaParameter3.Caption" Value="Contact Ref" />
+			<Item Name="BaseElements.SubProcess1.Parameters.OutputRecordCollection.ProcessSchemaParameter4.Caption" Value="EDRPOU" />
 			<Item Name="BaseElements.SubProcess1.Parameters.TerminatedIterationsCount.Caption" Value="Число прерванных экземпляров" />
 			<Item Name="BaseElements.SubProcess1.Parameters.TotalIterationsCount.Caption" Value="Общее число экземпляров" />
 			<Item Name="BaseElements.WebService1.Caption" Value="ApiNovaPoshta 1" />
@@ -59,6 +63,7 @@
 			<Item Name="Parameters.ProcessSchemaParameter1.Caption" Value="ApiKey" />
 			<Item Name="Parameters.ProcessSchemaParameter2.Caption" Value="Counterparty Ref" />
 			<Item Name="Parameters.ProcessSchemaParameter3.Caption" Value="ID CounterpartyNP" />
+			<Item Name="Parameters.ProcessSchemaParameter4.Caption" Value="EDRPOU" />
 		</Items>
 	</Group>
 </Resources>

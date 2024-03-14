@@ -6,6 +6,7 @@
 			<Item Name="Columns.ARVApiKey.Caption" Value="ApiKey" />
 			<Item Name="Columns.ARVContact.Caption" Value="Contact" />
 			<Item Name="Columns.ARVContactSenderRef.Caption" Value="ContactSenderRef" />
+			<Item Name="Columns.ARVEDRPOU.Caption" Value="EDRPOU" />
 			<Item Name="Columns.ARVName.Caption" Value="Name" />
 			<Item Name="Columns.ARVNotes.Caption" Value="Notes" />
 			<Item Name="Columns.ARVPhone.Caption" Value="Phone" />
