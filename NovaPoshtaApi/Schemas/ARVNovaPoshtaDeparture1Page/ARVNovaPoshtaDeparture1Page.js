@@ -903,6 +903,29 @@ define("ARVNovaPoshtaDeparture1Page", [], function() {
 							}
 						}
 					]
+				},
+				"e112eb7f-2056-414c-81ed-40ee1e40fbd5": {
+					"uId": "e112eb7f-2056-414c-81ed-40ee1e40fbd5",
+					"enabled": true,
+					"removed": false,
+					"ruleType": 3,
+					"populatingAttributeSource": {
+						"expression": {
+							"type": 1,
+							"attribute": "ARVDefault",
+							"attributePath": "ARVWarehouseWarehouse"
+						}
+					},
+					"logical": 0,
+					"conditions": [
+						{
+							"comparisonType": 2,
+							"leftExpression": {
+								"type": 1,
+								"attribute": "ARVDefault"
+							}
+						}
+					]
 				}
 			},
 			"ARVIntWeight": {
@@ -2205,7 +2228,7 @@ define("ARVNovaPoshtaDeparture1Page", [], function() {
 			
 			onMyButtonClickStartProces: function() {
 				var contactParameter = this.get("Id");
-				this.set("ARVStart", false)
+				this.set("ARVStart", false);
 				const runProcessRequest = Ext.create("Terrasoft.RunProcessRequest", {
 					"schemaName": "ARVProcess_f75bdbb",
 					"schemaUId": "916b636e-7f95-47ea-8ffb-42006428847a",
@@ -2238,9 +2261,11 @@ define("ARVNovaPoshtaDeparture1Page", [], function() {
 								this.reloadEntity();
 							} else {
 								Terrasoft.showInformation("Ошибка: " + jsonObjectDocNumber.errors[0]);
+								this.set("ARVStart", true);
 							}
 						} else {
 							Terrasoft.showInformation("Ошибка: " + jsonObjectDocNumber.errors[0]);
+							this.set("ARVStart", true);
 						}
 					} else {
 						Terrasoft.showInformation("Произошла ошибка в запросе. Response: " + JSON.stringify(response));
@@ -2298,388 +2323,6 @@ define("ARVNovaPoshtaDeparture1Page", [], function() {
 		},
 		dataModels: /**SCHEMA_DATA_MODELS*/{}/**SCHEMA_DATA_MODELS*/,
 		diff: /**SCHEMA_DIFF*/[
-			{
-				"operation": "insert",
-				"name": "STRING07db02aa-4cfd-4163-a25d-fe5dacffd232",
-				"values": {
-					"layout": {
-						"colSpan": 24,
-						"rowSpan": 1,
-						"column": 0,
-						"row": 0,
-						"layoutName": "ProfileContainer"
-					},
-					"bindTo": "ARVCargoTypeNP",
-					"enabled": true
-				},
-				"parentName": "ProfileContainer",
-				"propertyName": "items",
-				"index": 0
-			},
-			{
-				"operation": "insert",
-				"name": "STRING5c7ca81e-a991-4791-803a-aa26f96c5d97",
-				"values": {
-					"layout": {
-						"colSpan": 24,
-						"rowSpan": 1,
-						"column": 0,
-						"row": 1,
-						"layoutName": "ProfileContainer"
-					},
-					"bindTo": "ARVPayerTypeNP",
-					"enabled": true
-				},
-				"parentName": "ProfileContainer",
-				"propertyName": "items",
-				"index": 1
-			},
-			{
-				"operation": "insert",
-				"name": "STRING7c0823ec-d3f9-4818-b078-30f9bab66bda",
-				"values": {
-					"layout": {
-						"colSpan": 24,
-						"rowSpan": 1,
-						"column": 0,
-						"row": 2,
-						"layoutName": "ProfileContainer"
-					},
-					"bindTo": "ARVPaymentMethodNP",
-					"enabled": true
-				},
-				"parentName": "ProfileContainer",
-				"propertyName": "items",
-				"index": 2
-			},
-			{
-				"operation": "insert",
-				"name": "STRING76b5657c-15dd-40c0-a2d4-93165bca7f38",
-				"values": {
-					"layout": {
-						"colSpan": 24,
-						"rowSpan": 1,
-						"column": 0,
-						"row": 3,
-						"layoutName": "ProfileContainer"
-					},
-					"bindTo": "ARVSeatsAmountNP",
-					"enabled": true
-				},
-				"parentName": "ProfileContainer",
-				"propertyName": "items",
-				"index": 3
-			},
-			{
-				"operation": "insert",
-				"name": "INTEGER263a63e8-0555-4404-9796-cb9219ce964f",
-				"values": {
-					"layout": {
-						"colSpan": 24,
-						"rowSpan": 1,
-						"column": 0,
-						"row": 4,
-						"layoutName": "ProfileContainer"
-					},
-					"bindTo": "ARVIntWeight",
-					"enabled": true
-				},
-				"parentName": "ProfileContainer",
-				"propertyName": "items",
-				"index": 4
-			},
-			{
-				"operation": "insert",
-				"name": "BOOLEAN43aef7a6-acc3-49d6-a1be-c2bc523a7a66",
-				"values": {
-					"layout": {
-						"colSpan": 24,
-						"rowSpan": 1,
-						"column": 0,
-						"row": 5,
-						"layoutName": "ProfileContainer"
-					},
-					"bindTo": "ARVForTheRuleFalse",
-					"enabled": true
-				},
-				"parentName": "ProfileContainer",
-				"propertyName": "items",
-				"index": 5
-			},
-			{
-				"operation": "insert",
-				"name": "BOOLEAN4b29f4d3-d034-4b30-9696-5e207ca29f41",
-				"values": {
-					"layout": {
-						"colSpan": 24,
-						"rowSpan": 1,
-						"column": 0,
-						"row": 6,
-						"layoutName": "ProfileContainer"
-					},
-					"bindTo": "ARVForTheRuleALLTrue",
-					"enabled": true
-				},
-				"parentName": "ProfileContainer",
-				"propertyName": "items",
-				"index": 6
-			},
-			{
-				"operation": "insert",
-				"name": "LOOKUP3653727a-2b16-4b0f-8200-35e811693e22",
-				"values": {
-					"layout": {
-						"colSpan": 24,
-						"rowSpan": 1,
-						"column": 0,
-						"row": 7,
-						"layoutName": "ProfileContainer"
-					},
-					"bindTo": "ARVDefault",
-					"enabled": false,
-					"contentType": 5
-				},
-				"parentName": "ProfileContainer",
-				"propertyName": "items",
-				"index": 7
-			},
-			{
-				"operation": "insert",
-				"name": "INTEGER32f80b44-f644-4f62-b07a-e64d76ecec3f",
-				"values": {
-					"layout": {
-						"colSpan": 24,
-						"rowSpan": 1,
-						"column": 0,
-						"row": 8,
-						"layoutName": "ProfileContainer"
-					},
-					"bindTo": "ARVIntDefault",
-					"enabled": true
-				},
-				"parentName": "ProfileContainer",
-				"propertyName": "items",
-				"index": 8
-			},
-			{
-				"operation": "insert",
-				"name": "BOOLEANccc0d8d2-e08d-4c9c-94ac-d95d7cf7aaec",
-				"values": {
-					"layout": {
-						"colSpan": 24,
-						"rowSpan": 1,
-						"column": 0,
-						"row": 9,
-						"layoutName": "ProfileContainer"
-					},
-					"bindTo": "ARVNext",
-					"enabled": true
-				},
-				"parentName": "ProfileContainer",
-				"propertyName": "items",
-				"index": 9
-			},
-			{
-				"operation": "insert",
-				"name": "STRING4f729f38-75ff-455e-88a4-e1d9328bf289",
-				"values": {
-					"layout": {
-						"colSpan": 24,
-						"rowSpan": 1,
-						"column": 0,
-						"row": 10,
-						"layoutName": "ProfileContainer"
-					},
-					"bindTo": "ARVRecipientCityName",
-					"enabled": true
-				},
-				"parentName": "ProfileContainer",
-				"propertyName": "items",
-				"index": 10
-			},
-			{
-				"operation": "insert",
-				"name": "STRINGa28a10cb-1306-4cb6-9283-5bc59cb4b403",
-				"values": {
-					"layout": {
-						"colSpan": 24,
-						"rowSpan": 1,
-						"column": 0,
-						"row": 11,
-						"layoutName": "ProfileContainer"
-					},
-					"bindTo": "ARVRecipientFlat",
-					"enabled": true
-				},
-				"parentName": "ProfileContainer",
-				"propertyName": "items",
-				"index": 11
-			},
-			{
-				"operation": "insert",
-				"name": "STRINGf004046b-ae6d-4b47-846c-2f11eab64afc",
-				"values": {
-					"layout": {
-						"colSpan": 24,
-						"rowSpan": 1,
-						"column": 0,
-						"row": 12,
-						"layoutName": "ProfileContainer"
-					},
-					"bindTo": "ARVRecipientHouse",
-					"enabled": true
-				},
-				"parentName": "ProfileContainer",
-				"propertyName": "items",
-				"index": 12
-			},
-			{
-				"operation": "insert",
-				"name": "STRING401e41f4-8c88-4452-a2ad-4647fc53c11b",
-				"values": {
-					"layout": {
-						"colSpan": 24,
-						"rowSpan": 1,
-						"column": 0,
-						"row": 13,
-						"layoutName": "ProfileContainer"
-					},
-					"bindTo": "ARVRecipientType",
-					"enabled": true
-				},
-				"parentName": "ProfileContainer",
-				"propertyName": "items",
-				"index": 13
-			},
-			{
-				"operation": "insert",
-				"name": "STRING4701c39e-85f5-458b-88bb-b5b63dc09414",
-				"values": {
-					"layout": {
-						"colSpan": 24,
-						"rowSpan": 1,
-						"column": 0,
-						"row": 14,
-						"layoutName": "ProfileContainer"
-					},
-					"bindTo": "ARVServiceType",
-					"enabled": true
-				},
-				"parentName": "ProfileContainer",
-				"propertyName": "items",
-				"index": 14
-			},
-			{
-				"operation": "insert",
-				"name": "BOOLEAN11293475-3ed5-4e3d-ab61-5ac371294473",
-				"values": {
-					"layout": {
-						"colSpan": 24,
-						"rowSpan": 1,
-						"column": 0,
-						"row": 15,
-						"layoutName": "ProfileContainer"
-					},
-					"bindTo": "ARVStart",
-					"enabled": true
-				},
-				"parentName": "ProfileContainer",
-				"propertyName": "items",
-				"index": 15
-			},
-			{
-				"operation": "insert",
-				"name": "BOOLEANe57f1cea-41fe-4100-ae9f-013f915bb03e",
-				"values": {
-					"layout": {
-						"colSpan": 24,
-						"rowSpan": 1,
-						"column": 0,
-						"row": 16,
-						"layoutName": "ProfileContainer"
-					},
-					"bindTo": "ARVBack",
-					"enabled": true
-				},
-				"parentName": "ProfileContainer",
-				"propertyName": "items",
-				"index": 16
-			},
-			{
-				"operation": "insert",
-				"name": "LOOKUP86e87c20-8d90-476e-aecb-7263e4dd0851",
-				"values": {
-					"layout": {
-						"colSpan": 24,
-						"rowSpan": 1,
-						"column": 0,
-						"row": 17,
-						"layoutName": "ProfileContainer"
-					},
-					"bindTo": "ARVDepartmentDefault",
-					"enabled": true,
-					"contentType": 5
-				},
-				"parentName": "ProfileContainer",
-				"propertyName": "items",
-				"index": 17
-			},
-			{
-				"operation": "insert",
-				"name": "LOOKUPe9c834d6-f681-47a9-8378-9c401edd0d9f",
-				"values": {
-					"layout": {
-						"colSpan": 24,
-						"rowSpan": 1,
-						"column": 0,
-						"row": 18,
-						"layoutName": "ProfileContainer"
-					},
-					"bindTo": "ARVSettlementDefault",
-					"enabled": true,
-					"contentType": 5
-				},
-				"parentName": "ProfileContainer",
-				"propertyName": "items",
-				"index": 18
-			},
-			{
-				"operation": "insert",
-				"name": "LOOKUP890dcf4f-c50f-4aab-b6fd-58ee7671ef5f",
-				"values": {
-					"layout": {
-						"colSpan": 24,
-						"rowSpan": 1,
-						"column": 0,
-						"row": 19,
-						"layoutName": "ProfileContainer"
-					},
-					"bindTo": "ARVRegion",
-					"enabled": true,
-					"contentType": 5
-				},
-				"parentName": "ProfileContainer",
-				"propertyName": "items",
-				"index": 19
-			},
-			{
-				"operation": "insert",
-				"name": "STRING36d9998f-23dd-409c-8347-d5072413f1e3",
-				"values": {
-					"layout": {
-						"colSpan": 24,
-						"rowSpan": 1,
-						"column": 0,
-						"row": 20,
-						"layoutName": "ProfileContainer"
-					},
-					"bindTo": "ARVPayerTypeBackNP",
-					"enabled": true
-				},
-				"parentName": "ProfileContainer",
-				"propertyName": "items",
-				"index": 20
-			},
 			{
 				"operation": "insert",
 				"name": "Tabe407c41eTabLabel",
@@ -3547,7 +3190,7 @@ define("ARVNovaPoshtaDeparture1Page", [], function() {
 						"layoutName": "Tabe407c41eTabLabelGridLayoute2db29d4"
 					},
 					"bindTo": "ARVStatusDocuments",
-					"enabled": false,
+					"enabled": true,
 					"contentType": 5
 				},
 				"parentName": "Tabe407c41eTabLabelGridLayoute2db29d4",

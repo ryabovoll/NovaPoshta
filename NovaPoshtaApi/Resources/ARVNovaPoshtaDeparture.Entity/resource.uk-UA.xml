@@ -2,7 +2,7 @@
 <Resources Culture="uk-UA">
 	<Group Type="String">
 		<Items>
-			<Item Name="Caption" Value="NovaPoshtaDeparture" />
+			<Item Name="Caption" Value="Відправлення Н.П." />
 			<Item Name="Columns.ARVAddressCounterparty.Caption" Value="Адреса" />
 			<Item Name="Columns.ARVCash.Caption" Value="Готівка" />
 			<Item Name="Columns.ARVCost.Caption" Value="Оголошена вартість" />

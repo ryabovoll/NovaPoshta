@@ -2,7 +2,7 @@
 <Resources Culture="en-US">
 	<Group Type="String">
 		<Items>
-			<Item Name="Caption" Value="Counterparty" />
+			<Item Name="Caption" Value="Counterparty N.P." />
 			<Item Name="Columns.ARVApiKey.Caption" Value="ApiKey" />
 			<Item Name="Columns.ARVContact.Caption" Value="Contact" />
 			<Item Name="Columns.ARVContactSenderRef.Caption" Value="ContactSenderRef" />

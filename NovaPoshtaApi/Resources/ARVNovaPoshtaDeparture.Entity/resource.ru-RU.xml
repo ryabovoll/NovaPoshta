@@ -2,12 +2,12 @@
 <Resources Culture="ru-RU">
 	<Group Type="String">
 		<Items>
-			<Item Name="Caption" Value="Departure" />
+			<Item Name="Caption" Value="Отправление Н.П." />
 			<Item Name="Columns.ARVAddressCounterparty.Caption" Value="Адрес" />
 			<Item Name="Columns.ARVBack.Caption" Value="back" />
 			<Item Name="Columns.ARVCargoTypeNP.Caption" Value="CargoType" />
 			<Item Name="Columns.ARVCash.Caption" Value="Наличные" />
-			<Item Name="Columns.ARVCost.Caption" Value="Объявленная стоимость Cost" />
+			<Item Name="Columns.ARVCost.Caption" Value="Объявленная стоимость" />
 			<Item Name="Columns.ARVCostOnSite.Caption" Value="Цена за доставку" />
 			<Item Name="Columns.ARVDateTime.Caption" Value="Дата отправки" />
 			<Item Name="Columns.ARVDefault.Caption" Value="Default" />
@@ -35,7 +35,7 @@
 			<Item Name="Columns.ARVPaymentMethodNP.Caption" Value="PaymentMethod" />
 			<Item Name="Columns.ARVPostomat.Caption" Value="Почтомат" />
 			<Item Name="Columns.ARVRecipient.Caption" Value="Получатель" />
-			<Item Name="Columns.ARVRecipientBack.Caption" Value="Получатель Back" />
+			<Item Name="Columns.ARVRecipientBack.Caption" Value="Получатель" />
 			<Item Name="Columns.ARVRecipientCityName.Caption" Value="ХХХХХХ" />
 			<Item Name="Columns.ARVRecipientContact.Caption" Value="Получатель" />
 			<Item Name="Columns.ARVRecipientFlat.Caption" Value="RecipientFlat" />
@@ -48,7 +48,7 @@
 			<Item Name="Columns.ARVSeatsAmount.Caption" Value="Количество мест" />
 			<Item Name="Columns.ARVSeatsAmountNP.Caption" Value="SeatsAmount" />
 			<Item Name="Columns.ARVSender.Caption" Value="Отправитель" />
-			<Item Name="Columns.ARVSenderBack.Caption" Value="Отправитель Back" />
+			<Item Name="Columns.ARVSenderBack.Caption" Value="Отправитель" />
 			<Item Name="Columns.ARVSenderCounterparty.Caption" Value="ХХХХХХ" />
 			<Item Name="Columns.ARVSenderCounterpartyNP.Caption" Value="Контакт" />
 			<Item Name="Columns.ARVServiceType.Caption" Value="ServiceType" />

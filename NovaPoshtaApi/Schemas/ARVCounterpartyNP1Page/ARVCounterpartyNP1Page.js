@@ -221,24 +221,6 @@ define("ARVCounterpartyNP1Page", [], function() {
 			},
 			{
 				"operation": "insert",
-				"name": "STRINGd563a3f7-a1dc-40e5-bac8-3e49ee778a95",
-				"values": {
-					"layout": {
-						"colSpan": 12,
-						"rowSpan": 1,
-						"column": 0,
-						"row": 0,
-						"layoutName": "Header"
-					},
-					"bindTo": "ARVApiKey",
-					"enabled": true
-				},
-				"parentName": "Header",
-				"propertyName": "items",
-				"index": 0
-			},
-			{
-				"operation": "insert",
 				"name": "MyButton",
 				"values": {
 					"itemType": 5,
@@ -260,6 +242,24 @@ define("ARVCounterpartyNP1Page", [], function() {
 						"layoutName": "Header"
 					},
 					"visible": true
+				},
+				"parentName": "Header",
+				"propertyName": "items",
+				"index": 0
+			},
+			{
+				"operation": "insert",
+				"name": "STRINGd563a3f7-a1dc-40e5-bac8-3e49ee778a95",
+				"values": {
+					"layout": {
+						"colSpan": 12,
+						"rowSpan": 1,
+						"column": 0,
+						"row": 0,
+						"layoutName": "Header"
+					},
+					"bindTo": "ARVApiKey",
+					"enabled": true
 				},
 				"parentName": "Header",
 				"propertyName": "items",

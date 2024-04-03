@@ -2,7 +2,7 @@
 <Resources Culture="ru-RU">
 	<Group Type="String">
 		<Items>
-			<Item Name="Caption" Value="Counterparty" />
+			<Item Name="Caption" Value="Контрагент Н.П." />
 			<Item Name="Columns.ARVApiKey.Caption" Value="Api ключ" />
 			<Item Name="Columns.ARVContact.Caption" Value="Контакт" />
 			<Item Name="Columns.ARVContactSenderRef.Caption" Value="Ref контакта НП" />

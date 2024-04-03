@@ -2,7 +2,7 @@
 <Resources Culture="en-US">
 	<Group Type="String">
 		<Items>
-			<Item Name="Caption" Value="NovaPoshtaDeparture" />
+			<Item Name="Caption" Value="Departure N.P." />
 			<Item Name="Columns.ARVAddressCounterparty.Caption" Value="Address" />
 			<Item Name="Columns.ARVBack.Caption" Value="back" />
 			<Item Name="Columns.ARVCargoTypeNP.Caption" Value="CargoType" />
