@@ -12,7 +12,7 @@
 			<Item Name="Columns.ARVDateTime.Caption" Value="Дата отправки" />
 			<Item Name="Columns.ARVDefault.Caption" Value="Default" />
 			<Item Name="Columns.ARVDepartment.Caption" Value="Отделение" />
-			<Item Name="Columns.ARVDepartmentBool.Caption" Value="Отделение Bool" />
+			<Item Name="Columns.ARVDepartmentBool.Caption" Value="Отделение" />
 			<Item Name="Columns.ARVDepartmentDefault.Caption" Value="Department (Default)" />
 			<Item Name="Columns.ARVDescriptionNP.Caption" Value="Описание" />
 			<Item Name="Columns.ARVDocuments.Caption" Value="Документы" />

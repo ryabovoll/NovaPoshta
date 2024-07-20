@@ -739,7 +739,8 @@
                 "GS1": 1,
                 "GS2": "861de5e6-1eab-443f-834f-9d35e8304885",
                 "GS5": "f1afd48a-e922-4f8b-8754-1c80a8639210"
-              }
+              },
+              "L9": "6c7394db-06ff-4050-91ef-8278e21dce15"
             },
             {
               "BL1": "Terrasoft.Core.Process.ProcessSchemaParameter",

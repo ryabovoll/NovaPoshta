@@ -655,6 +655,322 @@
           }
         },
         {
+          "UId": "296f0ca3-751e-4d8a-9099-01bf7978f2a1",
+          "A2": "ARVMethod3",
+          "A3": "e843afd9-4581-4401-aa19-a555a1d791e2",
+          "A4": "e843afd9-4581-4401-aa19-a555a1d791e2",
+          "IR3": 5000,
+          "IR5": "null",
+          "IR1": {
+            "IW2": 1,
+            "IW1": [
+              {
+                "UId": "03d6fd52-8a95-4e67-a795-4c7de6f55cac",
+                "A2": "ARVAKey",
+                "IU1": "$.apiKey",
+                "IU2": "Text",
+                "IU8": "item",
+                "IU4": 1,
+                "IU5": {
+                  "IV1": "a559b2f7e76898efb7abff398b7e8093",
+                  "IV2": 1
+                },
+                "IU6": []
+              },
+              {
+                "UId": "92521136-a426-4c96-919e-6e2667337731",
+                "A2": "ARVMName",
+                "IU1": "$.modelName",
+                "IU2": "Text",
+                "IU8": "item",
+                "IU4": 1,
+                "IU5": {
+                  "IV1": "InternetDocumentGeneral",
+                  "IV2": 1
+                },
+                "IU6": []
+              },
+              {
+                "UId": "30994d93-c54b-4f64-b159-9a26632e53a4",
+                "A2": "ARVCMethod",
+                "IU1": "$.calledMethod",
+                "IU2": "Text",
+                "IU8": "item",
+                "IU4": 1,
+                "IU5": {
+                  "IV1": "getDocumentPrice",
+                  "IV2": 1
+                },
+                "IU6": []
+              },
+              {
+                "UId": "964f824c-34aa-489e-88b9-48a7f8d7b99d",
+                "A2": "ARVMPCSender",
+                "IU1": "$.methodProperties.CitySender",
+                "IU2": "Text",
+                "IU8": "item",
+                "IU4": 1,
+                "IU5": {
+                  "IV1": "e71629ab-4b33-11e4-ab6d-005056801329",
+                  "IV2": 1
+                },
+                "IU6": []
+              },
+              {
+                "UId": "999debc8-2c12-48e7-82c6-8388fe628185",
+                "A2": "ARVMPCRecipient",
+                "IU1": "$.methodProperties.CityRecipient",
+                "IU2": "Text",
+                "IU8": "item",
+                "IU4": 1,
+                "IU5": {
+                  "IV1": "db5c88de-391c-11dd-90d9-001a92567626",
+                  "IV2": 1
+                },
+                "IU6": []
+              },
+              {
+                "UId": "65c12f67-2dde-40da-bc4d-9c0e4a62b94a",
+                "A2": "ARVMPWeight",
+                "IU1": "$.methodProperties.Weight",
+                "IU2": "Text",
+                "IU8": "item",
+                "IU4": 1,
+                "IU5": {
+                  "IV1": "0.1",
+                  "IV2": 1
+                },
+                "IU6": []
+              },
+              {
+                "UId": "e40edd0a-9825-4bbb-bb88-733112573308",
+                "A2": "ARVMPSType",
+                "IU1": "$.methodProperties.ServiceType",
+                "IU2": "Text",
+                "IU8": "item",
+                "IU4": 1,
+                "IU5": {
+                  "IV1": "WarehouseWarehouse",
+                  "IV2": 1
+                },
+                "IU6": []
+              },
+              {
+                "UId": "c99be94a-4a38-4e57-adeb-ea6a86f5bcad",
+                "A2": "ARVMPCost",
+                "IU1": "$.methodProperties.Cost",
+                "IU2": "Text",
+                "IU8": "item",
+                "IU4": 1,
+                "IU5": {
+                  "IV1": "50",
+                  "IV2": 1
+                },
+                "IU6": []
+              },
+              {
+                "UId": "c7d8335f-4b4d-4d87-a015-730d1b55a096",
+                "A2": "ARVMPCType",
+                "IU1": "$.methodProperties.CargoType",
+                "IU2": "Text",
+                "IU8": "item",
+                "IU4": 1,
+                "IU5": {
+                  "IV1": "Cargo",
+                  "IV2": 1
+                },
+                "IU6": []
+              },
+              {
+                "UId": "a645b3e8-104c-486b-b406-419613873c32",
+                "A2": "ARVMPSAmount",
+                "IU1": "$.methodProperties.SeatsAmount",
+                "IU2": "Text",
+                "IU8": "item",
+                "IU4": 1,
+                "IU5": {
+                  "IV1": "1",
+                  "IV2": 1
+                },
+                "IU6": []
+              },
+              {
+                "UId": "08a8781c-ef32-474c-8b72-e86eeeb6ac2d",
+                "A2": "ARVMPDTime",
+                "IU1": "$.methodProperties.DateTime",
+                "IU2": "Text",
+                "IU8": "item",
+                "IU4": 1,
+                "IU5": {
+                  "IV1": "null",
+                  "IV2": 1
+                },
+                "IU6": []
+              },
+              {
+                "UId": "72bc93ad-8be2-4d7a-b637-b134156b2615",
+                "A2": "ARVMPVGeneral",
+                "IU1": "$.methodProperties.VolumeGeneral",
+                "IU2": "Text",
+                "IU8": "item",
+                "IU4": 1,
+                "IU5": {
+                  "IV1": "null"
+                },
+                "IU6": []
+              }
+            ],
+            "IT2": 2,
+            "IT1": "/v2.0/json/"
+          },
+          "IR2": {
+            "IW2": 1,
+            "IW1": [
+              {
+                "UId": "84822e20-ab10-4d36-92e3-d5dc41244688",
+                "A2": "ARVSuccess",
+                "IU1": "$.success",
+                "IU2": "Boolean",
+                "IU8": "item",
+                "IU4": 1,
+                "IU5": {
+                  "IV1": "null"
+                },
+                "IU6": []
+              },
+              {
+                "UId": "25a7ad25-d5bd-44dd-9aaf-854f321754b1",
+                "A2": "ARVData",
+                "IU1": "$.data",
+                "IU2": "Object",
+                "IU3": true,
+                "IU8": "item",
+                "IU4": 1,
+                "IU5": {
+                  "IV1": "null"
+                },
+                "IU6": [
+                  {
+                    "UId": "e3b76060-0638-4577-90ba-726ba1b7661a",
+                    "A2": "ARVDCost",
+                    "IU1": "Cost",
+                    "IU2": "Integer",
+                    "IU8": "item",
+                    "IU4": 1,
+                    "IU5": {
+                      "IV1": "null"
+                    },
+                    "IU6": []
+                  },
+                  {
+                    "UId": "6ee99c9e-7bcf-4cc5-ab97-da00fbd09dae",
+                    "A2": "ARVDACost",
+                    "IU1": "AssessedCost",
+                    "IU2": "Integer",
+                    "IU8": "item",
+                    "IU4": 1,
+                    "IU5": {
+                      "IV1": "null"
+                    },
+                    "IU6": []
+                  }
+                ]
+              },
+              {
+                "UId": "9a6b4638-9ad5-4535-bad6-629ae49848f2",
+                "A2": "ARVErrors",
+                "IU1": "$.errors",
+                "IU2": "Text",
+                "IU3": true,
+                "IU8": "item",
+                "IU4": 1,
+                "IU5": {
+                  "IV1": "null"
+                },
+                "IU6": []
+              },
+              {
+                "UId": "e294fe15-1b52-4d5a-9924-a1e749f20ec2",
+                "A2": "ARVWarnings",
+                "IU1": "$.warnings",
+                "IU2": "Text",
+                "IU3": true,
+                "IU8": "item",
+                "IU4": 1,
+                "IU5": {
+                  "IV1": "null"
+                },
+                "IU6": []
+              },
+              {
+                "UId": "bea62a48-b513-4840-999d-a4f73e2f234b",
+                "A2": "ARVInfo",
+                "IU1": "$.info",
+                "IU2": "Text",
+                "IU3": true,
+                "IU8": "item",
+                "IU4": 1,
+                "IU5": {
+                  "IV1": "null"
+                },
+                "IU6": []
+              },
+              {
+                "UId": "b6667863-51d8-4031-b17e-74d5f32f8cbb",
+                "A2": "ARVMCodes",
+                "IU1": "$.messageCodes",
+                "IU2": "Text",
+                "IU3": true,
+                "IU8": "item",
+                "IU4": 1,
+                "IU5": {
+                  "IV1": "null"
+                },
+                "IU6": []
+              },
+              {
+                "UId": "51e90fc1-77d3-47b4-b238-b5aa04e3a2b2",
+                "A2": "ARVECodes",
+                "IU1": "$.errorCodes",
+                "IU2": "Text",
+                "IU3": true,
+                "IU8": "item",
+                "IU4": 1,
+                "IU5": {
+                  "IV1": "null"
+                },
+                "IU6": []
+              },
+              {
+                "UId": "c1cadf53-9022-47d1-bb4e-a88ec0ade2be",
+                "A2": "ARVWCodes",
+                "IU1": "$.warningCodes",
+                "IU2": "Text",
+                "IU3": true,
+                "IU8": "item",
+                "IU4": 1,
+                "IU5": {
+                  "IV1": "null"
+                },
+                "IU6": []
+              },
+              {
+                "UId": "83904f38-3707-4ad4-87dc-12d00d642fd5",
+                "A2": "ARVICodes",
+                "IU1": "$.infoCodes",
+                "IU2": "Text",
+                "IU3": true,
+                "IU8": "item",
+                "IU4": 1,
+                "IU5": {
+                  "IV1": "null"
+                },
+                "IU6": []
+              }
+            ]
+          }
+        },
+        {
           "UId": "d119394a-29f9-40d5-b3a6-115b655e33a1",
           "A2": "ARVUsrMethod1",
           "A3": "e843afd9-4581-4401-aa19-a555a1d791e2",
@@ -1027,6 +1343,618 @@
                   "IV1": "null"
                 },
                 "IU6": []
+              }
+            ],
+            "IT2": 2,
+            "IT1": "/v2.0/json/"
+          },
+          "IR2": {
+            "IW2": 1,
+            "IW1": [
+              {
+                "UId": "ba71897e-87fe-440b-92be-0dee08bc7fa5",
+                "A2": "ARVUsrSuccess",
+                "IU1": "$.success",
+                "IU2": "Boolean",
+                "IU8": "item",
+                "IU4": 1,
+                "IU5": {
+                  "IV1": "null"
+                },
+                "IU6": []
+              },
+              {
+                "UId": "23504bf3-2a71-4dbe-a128-723ba8e6a6ec",
+                "A2": "ARVUsrData",
+                "IU1": "$.data",
+                "IU2": "Object",
+                "IU3": true,
+                "IU8": "item",
+                "IU4": 1,
+                "IU5": {
+                  "IV1": "null"
+                },
+                "IU6": [
+                  {
+                    "UId": "8cb33ac8-a954-45ce-8e32-75389dce5b6a",
+                    "A2": "ARVUsrDRef",
+                    "IU1": "Ref",
+                    "IU2": "Text",
+                    "IU8": "item",
+                    "IU4": 1,
+                    "IU5": {
+                      "IV1": "null"
+                    },
+                    "IU6": []
+                  },
+                  {
+                    "UId": "41dc829a-e0f6-461e-b5a9-97a79b6be151",
+                    "A2": "ARVUsrDCOSite",
+                    "IU1": "CostOnSite",
+                    "IU2": "Integer",
+                    "IU8": "item",
+                    "IU4": 1,
+                    "IU5": {
+                      "IV1": "null"
+                    },
+                    "IU6": []
+                  },
+                  {
+                    "UId": "b745983a-1d3f-493a-90d7-dd51771ae4ca",
+                    "A2": "ARVUsrDEDDate",
+                    "IU1": "EstimatedDeliveryDate",
+                    "IU2": "Text",
+                    "IU8": "item",
+                    "IU4": 1,
+                    "IU5": {
+                      "IV1": "null"
+                    },
+                    "IU6": []
+                  },
+                  {
+                    "UId": "6f200b8a-8a8e-4bf5-8a2e-a6dc0c862d63",
+                    "A2": "ARVUsrDIDNumber",
+                    "IU1": "IntDocNumber",
+                    "IU2": "Text",
+                    "IU8": "item",
+                    "IU4": 1,
+                    "IU5": {
+                      "IV1": "null"
+                    },
+                    "IU6": []
+                  },
+                  {
+                    "UId": "9cf9e564-388d-43df-91db-cbeae5324060",
+                    "A2": "ARVUsrDTDocument",
+                    "IU1": "TypeDocument",
+                    "IU2": "Text",
+                    "IU8": "item",
+                    "IU4": 1,
+                    "IU5": {
+                      "IV1": "null"
+                    },
+                    "IU6": []
+                  }
+                ]
+              },
+              {
+                "UId": "70aea798-8fbb-47e8-ba22-d6586abf89fc",
+                "A2": "ARVUsrErrors",
+                "IU1": "$.errors",
+                "IU2": "Text",
+                "IU3": true,
+                "IU8": "item",
+                "IU4": 1,
+                "IU5": {
+                  "IV1": "null"
+                },
+                "IU6": []
+              },
+              {
+                "UId": "d660625e-3375-4d02-b4b5-406886a7e3f7",
+                "A2": "ARVUsrWarnings",
+                "IU1": "$.warnings",
+                "IU2": "Text",
+                "IU3": true,
+                "IU8": "item",
+                "IU4": 1,
+                "IU5": {
+                  "IV1": "null"
+                },
+                "IU6": []
+              },
+              {
+                "UId": "45608380-5be6-4504-8bf2-2554a04067e9",
+                "A2": "ARVUsrInfo",
+                "IU1": "$.info",
+                "IU2": "Text",
+                "IU3": true,
+                "IU8": "item",
+                "IU4": 1,
+                "IU5": {
+                  "IV1": "null"
+                },
+                "IU6": []
+              },
+              {
+                "UId": "00917b5f-5325-4697-a20d-4156ee749dda",
+                "A2": "ARVUsrMCodes",
+                "IU1": "$.messageCodes",
+                "IU2": "Text",
+                "IU3": true,
+                "IU8": "item",
+                "IU4": 1,
+                "IU5": {
+                  "IV1": "null"
+                },
+                "IU6": []
+              },
+              {
+                "UId": "28603dd9-cbbe-410a-9033-cac40e1b019c",
+                "A2": "ARVUsrECodes",
+                "IU1": "$.errorCodes",
+                "IU2": "Text",
+                "IU3": true,
+                "IU8": "item",
+                "IU4": 1,
+                "IU5": {
+                  "IV1": "null"
+                },
+                "IU6": []
+              },
+              {
+                "UId": "6e9b4ed7-05d2-4844-9cbd-7f1e7a13b860",
+                "A2": "ARVUsrWCodes",
+                "IU1": "$.warningCodes",
+                "IU2": "Text",
+                "IU3": true,
+                "IU8": "item",
+                "IU4": 1,
+                "IU5": {
+                  "IV1": "null"
+                },
+                "IU6": []
+              },
+              {
+                "UId": "da2b6803-16b6-4532-b246-3fc8e422d4cf",
+                "A2": "ARVUsrICodes",
+                "IU1": "$.infoCodes",
+                "IU2": "Text",
+                "IU3": true,
+                "IU8": "item",
+                "IU4": 1,
+                "IU5": {
+                  "IV1": "null"
+                },
+                "IU6": []
+              }
+            ]
+          }
+        },
+        {
+          "UId": "ba93d520-c2e2-496c-b36e-3a3210cd3459",
+          "A2": "ARVMethod2",
+          "A3": "e843afd9-4581-4401-aa19-a555a1d791e2",
+          "A4": "e843afd9-4581-4401-aa19-a555a1d791e2",
+          "IR3": 5000,
+          "IR5": "null",
+          "IR1": {
+            "IW2": 1,
+            "IW1": [
+              {
+                "UId": "eac2bebe-df3e-456d-aa4c-484cfddc0c52",
+                "A2": "ARVUsrAKey",
+                "IU1": "$.apiKey",
+                "IU2": "Text",
+                "IU8": "item",
+                "IU4": 1,
+                "IU5": {
+                  "IV1": "1e34a629cda2aa3c43e174bbaca950c6",
+                  "IV2": 1
+                },
+                "IU6": []
+              },
+              {
+                "UId": "2f73fcbe-3a48-4a3f-a6fc-ce50be72c6c0",
+                "A2": "ARVUsrMName",
+                "IU1": "$.modelName",
+                "IU2": "Text",
+                "IU8": "item",
+                "IU4": 1,
+                "IU5": {
+                  "IV1": "InternetDocument",
+                  "IV2": 1
+                },
+                "IU6": []
+              },
+              {
+                "UId": "ff38c01e-c107-4e26-97e9-2254d23b1d05",
+                "A2": "ARVUsrCMethod",
+                "IU1": "$.calledMethod",
+                "IU2": "Text",
+                "IU8": "item",
+                "IU4": 1,
+                "IU5": {
+                  "IV1": "save",
+                  "IV2": 1
+                },
+                "IU6": []
+              },
+              {
+                "UId": "8bb4d552-79ba-4bce-a7ec-5edcfd5f7db2",
+                "A2": "ARVUsrMPPType",
+                "IU1": "$.methodProperties.PayerType",
+                "IU2": "Text",
+                "IU8": "item",
+                "IU4": 1,
+                "IU5": {
+                  "IV1": "null"
+                },
+                "IU6": []
+              },
+              {
+                "UId": "f37a29c0-39c2-4508-b24b-b197a2b316ce",
+                "A2": "ARVUsrMPPMethod",
+                "IU1": "$.methodProperties.PaymentMethod",
+                "IU2": "Text",
+                "IU8": "item",
+                "IU4": 1,
+                "IU5": {
+                  "IV1": "null"
+                },
+                "IU6": []
+              },
+              {
+                "UId": "aab257d8-1472-4605-8017-5ade1c5766cc",
+                "A2": "ARVUsrMPDTime",
+                "IU1": "$.methodProperties.DateTime",
+                "IU2": "Text",
+                "IU8": "item",
+                "IU4": 1,
+                "IU5": {
+                  "IV1": "null"
+                },
+                "IU6": []
+              },
+              {
+                "UId": "ecad6395-07a3-4796-b9c4-8b07ad22dafd",
+                "A2": "ARVUsrMPCType",
+                "IU1": "$.methodProperties.CargoType",
+                "IU2": "Text",
+                "IU8": "item",
+                "IU4": 1,
+                "IU5": {
+                  "IV1": "null"
+                },
+                "IU6": []
+              },
+              {
+                "UId": "9f26304f-7d4d-466b-8180-94372c9234a2",
+                "A2": "ARVUsrMPWeight",
+                "IU1": "$.methodProperties.Weight",
+                "IU2": "Text",
+                "IU8": "item",
+                "IU4": 1,
+                "IU5": {
+                  "IV1": "null"
+                },
+                "IU6": []
+              },
+              {
+                "UId": "aef52f18-08b0-47eb-8f26-559177040518",
+                "A2": "ARVUsrMPSType",
+                "IU1": "$.methodProperties.ServiceType",
+                "IU2": "Text",
+                "IU8": "item",
+                "IU4": 1,
+                "IU5": {
+                  "IV1": "null"
+                },
+                "IU6": []
+              },
+              {
+                "UId": "7d73baa6-d68b-4055-8e70-264e081d263e",
+                "A2": "ARVUsrMPSAmount",
+                "IU1": "$.methodProperties.SeatsAmount",
+                "IU2": "Text",
+                "IU8": "item",
+                "IU4": 1,
+                "IU5": {
+                  "IV1": "null"
+                },
+                "IU6": []
+              },
+              {
+                "UId": "a3bf8502-7727-469b-9da9-f48bd61ec882",
+                "A2": "ARVUsrMPDescription",
+                "IU1": "$.methodProperties.Description",
+                "IU2": "Text",
+                "IU8": "item",
+                "IU4": 1,
+                "IU5": {
+                  "IV1": "null"
+                },
+                "IU6": []
+              },
+              {
+                "UId": "c6a7a281-f92c-4922-8470-31f4b7f29789",
+                "A2": "ARVUsrMPCost",
+                "IU1": "$.methodProperties.Cost",
+                "IU2": "Text",
+                "IU8": "item",
+                "IU4": 1,
+                "IU5": {
+                  "IV1": "null"
+                },
+                "IU6": []
+              },
+              {
+                "UId": "bd2d925c-1c78-44db-ad7a-37b8a4ef841e",
+                "A2": "ARVUsrMPCSender",
+                "IU1": "$.methodProperties.CitySender",
+                "IU2": "Text",
+                "IU8": "item",
+                "IU4": 1,
+                "IU5": {
+                  "IV1": "null"
+                },
+                "IU6": []
+              },
+              {
+                "UId": "726852c8-ec7c-4e58-8ccf-7544635e7309",
+                "A2": "ARVUsrMPSender",
+                "IU1": "$.methodProperties.Sender",
+                "IU2": "Text",
+                "IU8": "item",
+                "IU4": 1,
+                "IU5": {
+                  "IV1": "null"
+                },
+                "IU6": []
+              },
+              {
+                "UId": "edc5076c-56af-428f-b249-b815e3d6b6a7",
+                "A2": "ARVUsrMPSAddress",
+                "IU1": "$.methodProperties.SenderAddress",
+                "IU2": "Text",
+                "IU8": "item",
+                "IU4": 1,
+                "IU5": {
+                  "IV1": "null"
+                },
+                "IU6": []
+              },
+              {
+                "UId": "aa3949d7-7836-426e-8cb1-38267998ef3d",
+                "A2": "ARVUsrMPCSender1",
+                "IU1": "$.methodProperties.ContactSender",
+                "IU2": "Text",
+                "IU8": "item",
+                "IU4": 1,
+                "IU5": {
+                  "IV1": "null"
+                },
+                "IU6": []
+              },
+              {
+                "UId": "55d8a248-558e-4645-9778-407631fda476",
+                "A2": "ARVUsrMPSPhone",
+                "IU1": "$.methodProperties.SendersPhone",
+                "IU2": "Text",
+                "IU8": "item",
+                "IU4": 1,
+                "IU5": {
+                  "IV1": "null"
+                },
+                "IU6": []
+              },
+              {
+                "UId": "844c4092-13cc-46a6-93ba-8c7141023729",
+                "A2": "ARVUsrMPRPhone",
+                "IU1": "$.methodProperties.RecipientsPhone",
+                "IU2": "Text",
+                "IU8": "item",
+                "IU4": 1,
+                "IU5": {
+                  "IV1": "null"
+                },
+                "IU6": []
+              },
+              {
+                "UId": "6fde3d60-5764-43bc-903b-70feaf0d4157",
+                "A2": "ARVUsrMPNAddress",
+                "IU1": "$.methodProperties.NewAddress",
+                "IU2": "Text",
+                "IU8": "item",
+                "IU4": 1,
+                "IU5": {
+                  "IV1": "1",
+                  "IV2": 1
+                },
+                "IU6": []
+              },
+              {
+                "UId": "89e76935-37fe-4318-9285-4d975ef086e3",
+                "A2": "ARVUsrMPRCName",
+                "IU1": "$.methodProperties.RecipientCityName",
+                "IU2": "Text",
+                "IU8": "item",
+                "IU4": 1,
+                "IU5": {
+                  "IV1": "null"
+                },
+                "IU6": []
+              },
+              {
+                "UId": "5ef52380-fda3-4026-9c4e-41fedf6a6347",
+                "A2": "ARVUsrMPRArea",
+                "IU1": "$.methodProperties.RecipientArea",
+                "IU2": "Text",
+                "IU8": "item",
+                "IU4": 1,
+                "IU5": {
+                  "IV1": "null"
+                },
+                "IU6": []
+              },
+              {
+                "UId": "71660966-db05-48ab-b910-d4a116bbd15a",
+                "A2": "ARVUsrMPRARegions",
+                "IU1": "$.methodProperties.RecipientAreaRegions",
+                "IU2": "Text",
+                "IU8": "item",
+                "IU4": 1,
+                "IU5": {
+                  "IV1": "null"
+                },
+                "IU6": []
+              },
+              {
+                "UId": "4ae08f32-86a3-429c-b6c7-7e95ad3499a2",
+                "A2": "ARVUsrMPRAName",
+                "IU1": "$.methodProperties.RecipientAddressName",
+                "IU2": "Text",
+                "IU8": "item",
+                "IU4": 1,
+                "IU5": {
+                  "IV1": "null"
+                },
+                "IU6": []
+              },
+              {
+                "UId": "160369f0-54a8-4e09-9c78-b4375a300218",
+                "A2": "ARVUsrMPRHouse",
+                "IU1": "$.methodProperties.RecipientHouse",
+                "IU2": "Text",
+                "IU8": "item",
+                "IU4": 1,
+                "IU5": {
+                  "IV1": "null"
+                },
+                "IU6": []
+              },
+              {
+                "UId": "fdfe8c61-c04b-4836-bb12-2581e8ece0ef",
+                "A2": "ARVUsrMPRFlat",
+                "IU1": "$.methodProperties.RecipientFlat",
+                "IU2": "Text",
+                "IU8": "item",
+                "IU4": 1,
+                "IU5": {
+                  "IV1": "null"
+                },
+                "IU6": []
+              },
+              {
+                "UId": "b5015a4b-7801-4dfe-9776-620af2a8ad4c",
+                "A2": "ARVUsrMPRName",
+                "IU1": "$.methodProperties.RecipientName",
+                "IU2": "Text",
+                "IU8": "item",
+                "IU4": 1,
+                "IU5": {
+                  "IV1": "null"
+                },
+                "IU6": []
+              },
+              {
+                "UId": "054d4f07-708d-4067-81f0-6cd4ea2fd812",
+                "A2": "ARVUsrMPRType",
+                "IU1": "$.methodProperties.RecipientType",
+                "IU2": "Text",
+                "IU8": "item",
+                "IU4": 1,
+                "IU5": {
+                  "IV1": "null"
+                },
+                "IU6": []
+              },
+              {
+                "UId": "6aab97f5-5993-4530-b6ad-a448346717b2",
+                "A2": "ARVUsrMPSType1",
+                "IU1": "$.methodProperties.SettlementType",
+                "IU2": "Text",
+                "IU8": "item",
+                "IU4": 1,
+                "IU5": {
+                  "IV1": "null"
+                },
+                "IU6": []
+              },
+              {
+                "UId": "ab9cd6ba-7bf4-4160-8a6c-1dcbeb093f24",
+                "A2": "ARVUsrMProperties",
+                "IU1": "$.methodProperties.EDRPOU",
+                "IU2": "Text",
+                "IU8": "item",
+                "IU4": 1,
+                "IU5": {
+                  "IV1": "null"
+                },
+                "IU6": []
+              },
+              {
+                "UId": "2e1d2a23-62a1-4d23-80c2-f629c9dc5ae5",
+                "A2": "ARVMPVGeneral",
+                "IU1": "$.methodProperties.VolumeGeneral",
+                "IU2": "Text",
+                "IU8": "item",
+                "IU4": 1,
+                "IU5": {
+                  "IV1": "null"
+                },
+                "IU6": []
+              },
+              {
+                "UId": "4b06f75c-270d-4e72-925e-c78522eaabe2",
+                "A2": "ARVMPBDData",
+                "IU1": "$.methodProperties.BackwardDeliveryData",
+                "IU2": "Object",
+                "IU3": true,
+                "IU8": "item",
+                "IU4": 1,
+                "IU5": {
+                  "IV1": "null"
+                },
+                "IU6": [
+                  {
+                    "UId": "3cefe698-08d1-4453-b050-f1bb81479e4b",
+                    "A2": "ARVBDDPType",
+                    "IU1": "PayerType",
+                    "IU2": "Text",
+                    "IU8": "item",
+                    "IU4": 1,
+                    "IU5": {
+                      "IV1": "null"
+                    },
+                    "IU6": []
+                  },
+                  {
+                    "UId": "3fcc359a-489f-4e44-8f7e-249cd610a0ec",
+                    "A2": "ARVBDDCType",
+                    "IU1": "CargoType",
+                    "IU2": "Text",
+                    "IU8": "item",
+                    "IU4": 1,
+                    "IU5": {
+                      "IV1": "Money",
+                      "IV2": 1
+                    },
+                    "IU6": []
+                  },
+                  {
+                    "UId": "22aba412-6d7c-4892-a6a0-49e4626a6b9c",
+                    "A2": "ARVBDDRString",
+                    "IU1": "RedeliveryString",
+                    "IU2": "Text",
+                    "IU8": "item",
+                    "IU4": 1,
+                    "IU5": {
+                      "IV1": "null"
+                    },
+                    "IU6": []
+                  }
+                ]
               }
             ],
             "IT2": 2,
@@ -4247,618 +5175,6 @@
               {
                 "UId": "624b39de-6eec-46a0-83cc-6b31e623c827",
                 "A2": "ARVICodes",
-                "IU1": "$.infoCodes",
-                "IU2": "Text",
-                "IU3": true,
-                "IU8": "item",
-                "IU4": 1,
-                "IU5": {
-                  "IV1": "null"
-                },
-                "IU6": []
-              }
-            ]
-          }
-        },
-        {
-          "UId": "ba93d520-c2e2-496c-b36e-3a3210cd3459",
-          "A2": "ARVMethod2",
-          "A3": "e843afd9-4581-4401-aa19-a555a1d791e2",
-          "A4": "e843afd9-4581-4401-aa19-a555a1d791e2",
-          "IR3": 5000,
-          "IR5": "null",
-          "IR1": {
-            "IW2": 1,
-            "IW1": [
-              {
-                "UId": "eac2bebe-df3e-456d-aa4c-484cfddc0c52",
-                "A2": "ARVUsrAKey",
-                "IU1": "$.apiKey",
-                "IU2": "Text",
-                "IU8": "item",
-                "IU4": 1,
-                "IU5": {
-                  "IV1": "1e34a629cda2aa3c43e174bbaca950c6",
-                  "IV2": 1
-                },
-                "IU6": []
-              },
-              {
-                "UId": "2f73fcbe-3a48-4a3f-a6fc-ce50be72c6c0",
-                "A2": "ARVUsrMName",
-                "IU1": "$.modelName",
-                "IU2": "Text",
-                "IU8": "item",
-                "IU4": 1,
-                "IU5": {
-                  "IV1": "InternetDocument",
-                  "IV2": 1
-                },
-                "IU6": []
-              },
-              {
-                "UId": "ff38c01e-c107-4e26-97e9-2254d23b1d05",
-                "A2": "ARVUsrCMethod",
-                "IU1": "$.calledMethod",
-                "IU2": "Text",
-                "IU8": "item",
-                "IU4": 1,
-                "IU5": {
-                  "IV1": "save",
-                  "IV2": 1
-                },
-                "IU6": []
-              },
-              {
-                "UId": "8bb4d552-79ba-4bce-a7ec-5edcfd5f7db2",
-                "A2": "ARVUsrMPPType",
-                "IU1": "$.methodProperties.PayerType",
-                "IU2": "Text",
-                "IU8": "item",
-                "IU4": 1,
-                "IU5": {
-                  "IV1": "null"
-                },
-                "IU6": []
-              },
-              {
-                "UId": "f37a29c0-39c2-4508-b24b-b197a2b316ce",
-                "A2": "ARVUsrMPPMethod",
-                "IU1": "$.methodProperties.PaymentMethod",
-                "IU2": "Text",
-                "IU8": "item",
-                "IU4": 1,
-                "IU5": {
-                  "IV1": "null"
-                },
-                "IU6": []
-              },
-              {
-                "UId": "aab257d8-1472-4605-8017-5ade1c5766cc",
-                "A2": "ARVUsrMPDTime",
-                "IU1": "$.methodProperties.DateTime",
-                "IU2": "Text",
-                "IU8": "item",
-                "IU4": 1,
-                "IU5": {
-                  "IV1": "null"
-                },
-                "IU6": []
-              },
-              {
-                "UId": "ecad6395-07a3-4796-b9c4-8b07ad22dafd",
-                "A2": "ARVUsrMPCType",
-                "IU1": "$.methodProperties.CargoType",
-                "IU2": "Text",
-                "IU8": "item",
-                "IU4": 1,
-                "IU5": {
-                  "IV1": "null"
-                },
-                "IU6": []
-              },
-              {
-                "UId": "9f26304f-7d4d-466b-8180-94372c9234a2",
-                "A2": "ARVUsrMPWeight",
-                "IU1": "$.methodProperties.Weight",
-                "IU2": "Text",
-                "IU8": "item",
-                "IU4": 1,
-                "IU5": {
-                  "IV1": "null"
-                },
-                "IU6": []
-              },
-              {
-                "UId": "aef52f18-08b0-47eb-8f26-559177040518",
-                "A2": "ARVUsrMPSType",
-                "IU1": "$.methodProperties.ServiceType",
-                "IU2": "Text",
-                "IU8": "item",
-                "IU4": 1,
-                "IU5": {
-                  "IV1": "null"
-                },
-                "IU6": []
-              },
-              {
-                "UId": "7d73baa6-d68b-4055-8e70-264e081d263e",
-                "A2": "ARVUsrMPSAmount",
-                "IU1": "$.methodProperties.SeatsAmount",
-                "IU2": "Text",
-                "IU8": "item",
-                "IU4": 1,
-                "IU5": {
-                  "IV1": "null"
-                },
-                "IU6": []
-              },
-              {
-                "UId": "a3bf8502-7727-469b-9da9-f48bd61ec882",
-                "A2": "ARVUsrMPDescription",
-                "IU1": "$.methodProperties.Description",
-                "IU2": "Text",
-                "IU8": "item",
-                "IU4": 1,
-                "IU5": {
-                  "IV1": "null"
-                },
-                "IU6": []
-              },
-              {
-                "UId": "c6a7a281-f92c-4922-8470-31f4b7f29789",
-                "A2": "ARVUsrMPCost",
-                "IU1": "$.methodProperties.Cost",
-                "IU2": "Text",
-                "IU8": "item",
-                "IU4": 1,
-                "IU5": {
-                  "IV1": "null"
-                },
-                "IU6": []
-              },
-              {
-                "UId": "bd2d925c-1c78-44db-ad7a-37b8a4ef841e",
-                "A2": "ARVUsrMPCSender",
-                "IU1": "$.methodProperties.CitySender",
-                "IU2": "Text",
-                "IU8": "item",
-                "IU4": 1,
-                "IU5": {
-                  "IV1": "null"
-                },
-                "IU6": []
-              },
-              {
-                "UId": "726852c8-ec7c-4e58-8ccf-7544635e7309",
-                "A2": "ARVUsrMPSender",
-                "IU1": "$.methodProperties.Sender",
-                "IU2": "Text",
-                "IU8": "item",
-                "IU4": 1,
-                "IU5": {
-                  "IV1": "null"
-                },
-                "IU6": []
-              },
-              {
-                "UId": "edc5076c-56af-428f-b249-b815e3d6b6a7",
-                "A2": "ARVUsrMPSAddress",
-                "IU1": "$.methodProperties.SenderAddress",
-                "IU2": "Text",
-                "IU8": "item",
-                "IU4": 1,
-                "IU5": {
-                  "IV1": "null"
-                },
-                "IU6": []
-              },
-              {
-                "UId": "aa3949d7-7836-426e-8cb1-38267998ef3d",
-                "A2": "ARVUsrMPCSender1",
-                "IU1": "$.methodProperties.ContactSender",
-                "IU2": "Text",
-                "IU8": "item",
-                "IU4": 1,
-                "IU5": {
-                  "IV1": "null"
-                },
-                "IU6": []
-              },
-              {
-                "UId": "55d8a248-558e-4645-9778-407631fda476",
-                "A2": "ARVUsrMPSPhone",
-                "IU1": "$.methodProperties.SendersPhone",
-                "IU2": "Text",
-                "IU8": "item",
-                "IU4": 1,
-                "IU5": {
-                  "IV1": "null"
-                },
-                "IU6": []
-              },
-              {
-                "UId": "844c4092-13cc-46a6-93ba-8c7141023729",
-                "A2": "ARVUsrMPRPhone",
-                "IU1": "$.methodProperties.RecipientsPhone",
-                "IU2": "Text",
-                "IU8": "item",
-                "IU4": 1,
-                "IU5": {
-                  "IV1": "null"
-                },
-                "IU6": []
-              },
-              {
-                "UId": "6fde3d60-5764-43bc-903b-70feaf0d4157",
-                "A2": "ARVUsrMPNAddress",
-                "IU1": "$.methodProperties.NewAddress",
-                "IU2": "Text",
-                "IU8": "item",
-                "IU4": 1,
-                "IU5": {
-                  "IV1": "1",
-                  "IV2": 1
-                },
-                "IU6": []
-              },
-              {
-                "UId": "89e76935-37fe-4318-9285-4d975ef086e3",
-                "A2": "ARVUsrMPRCName",
-                "IU1": "$.methodProperties.RecipientCityName",
-                "IU2": "Text",
-                "IU8": "item",
-                "IU4": 1,
-                "IU5": {
-                  "IV1": "null"
-                },
-                "IU6": []
-              },
-              {
-                "UId": "5ef52380-fda3-4026-9c4e-41fedf6a6347",
-                "A2": "ARVUsrMPRArea",
-                "IU1": "$.methodProperties.RecipientArea",
-                "IU2": "Text",
-                "IU8": "item",
-                "IU4": 1,
-                "IU5": {
-                  "IV1": "null"
-                },
-                "IU6": []
-              },
-              {
-                "UId": "71660966-db05-48ab-b910-d4a116bbd15a",
-                "A2": "ARVUsrMPRARegions",
-                "IU1": "$.methodProperties.RecipientAreaRegions",
-                "IU2": "Text",
-                "IU8": "item",
-                "IU4": 1,
-                "IU5": {
-                  "IV1": "null"
-                },
-                "IU6": []
-              },
-              {
-                "UId": "4ae08f32-86a3-429c-b6c7-7e95ad3499a2",
-                "A2": "ARVUsrMPRAName",
-                "IU1": "$.methodProperties.RecipientAddressName",
-                "IU2": "Text",
-                "IU8": "item",
-                "IU4": 1,
-                "IU5": {
-                  "IV1": "null"
-                },
-                "IU6": []
-              },
-              {
-                "UId": "160369f0-54a8-4e09-9c78-b4375a300218",
-                "A2": "ARVUsrMPRHouse",
-                "IU1": "$.methodProperties.RecipientHouse",
-                "IU2": "Text",
-                "IU8": "item",
-                "IU4": 1,
-                "IU5": {
-                  "IV1": "null"
-                },
-                "IU6": []
-              },
-              {
-                "UId": "fdfe8c61-c04b-4836-bb12-2581e8ece0ef",
-                "A2": "ARVUsrMPRFlat",
-                "IU1": "$.methodProperties.RecipientFlat",
-                "IU2": "Text",
-                "IU8": "item",
-                "IU4": 1,
-                "IU5": {
-                  "IV1": "null"
-                },
-                "IU6": []
-              },
-              {
-                "UId": "b5015a4b-7801-4dfe-9776-620af2a8ad4c",
-                "A2": "ARVUsrMPRName",
-                "IU1": "$.methodProperties.RecipientName",
-                "IU2": "Text",
-                "IU8": "item",
-                "IU4": 1,
-                "IU5": {
-                  "IV1": "null"
-                },
-                "IU6": []
-              },
-              {
-                "UId": "054d4f07-708d-4067-81f0-6cd4ea2fd812",
-                "A2": "ARVUsrMPRType",
-                "IU1": "$.methodProperties.RecipientType",
-                "IU2": "Text",
-                "IU8": "item",
-                "IU4": 1,
-                "IU5": {
-                  "IV1": "null"
-                },
-                "IU6": []
-              },
-              {
-                "UId": "6aab97f5-5993-4530-b6ad-a448346717b2",
-                "A2": "ARVUsrMPSType1",
-                "IU1": "$.methodProperties.SettlementType",
-                "IU2": "Text",
-                "IU8": "item",
-                "IU4": 1,
-                "IU5": {
-                  "IV1": "null"
-                },
-                "IU6": []
-              },
-              {
-                "UId": "ab9cd6ba-7bf4-4160-8a6c-1dcbeb093f24",
-                "A2": "ARVUsrMProperties",
-                "IU1": "$.methodProperties.EDRPOU",
-                "IU2": "Text",
-                "IU8": "item",
-                "IU4": 1,
-                "IU5": {
-                  "IV1": "null"
-                },
-                "IU6": []
-              },
-              {
-                "UId": "2e1d2a23-62a1-4d23-80c2-f629c9dc5ae5",
-                "A2": "ARVMPVGeneral",
-                "IU1": "$.methodProperties.VolumeGeneral",
-                "IU2": "Text",
-                "IU8": "item",
-                "IU4": 1,
-                "IU5": {
-                  "IV1": "null"
-                },
-                "IU6": []
-              },
-              {
-                "UId": "4b06f75c-270d-4e72-925e-c78522eaabe2",
-                "A2": "ARVMPBDData",
-                "IU1": "$.methodProperties.BackwardDeliveryData",
-                "IU2": "Object",
-                "IU3": true,
-                "IU8": "item",
-                "IU4": 1,
-                "IU5": {
-                  "IV1": "null"
-                },
-                "IU6": [
-                  {
-                    "UId": "3cefe698-08d1-4453-b050-f1bb81479e4b",
-                    "A2": "ARVBDDPType",
-                    "IU1": "PayerType",
-                    "IU2": "Text",
-                    "IU8": "item",
-                    "IU4": 1,
-                    "IU5": {
-                      "IV1": "null"
-                    },
-                    "IU6": []
-                  },
-                  {
-                    "UId": "3fcc359a-489f-4e44-8f7e-249cd610a0ec",
-                    "A2": "ARVBDDCType",
-                    "IU1": "CargoType",
-                    "IU2": "Text",
-                    "IU8": "item",
-                    "IU4": 1,
-                    "IU5": {
-                      "IV1": "Money",
-                      "IV2": 1
-                    },
-                    "IU6": []
-                  },
-                  {
-                    "UId": "22aba412-6d7c-4892-a6a0-49e4626a6b9c",
-                    "A2": "ARVBDDRString",
-                    "IU1": "RedeliveryString",
-                    "IU2": "Text",
-                    "IU8": "item",
-                    "IU4": 1,
-                    "IU5": {
-                      "IV1": "null"
-                    },
-                    "IU6": []
-                  }
-                ]
-              }
-            ],
-            "IT2": 2,
-            "IT1": "/v2.0/json/"
-          },
-          "IR2": {
-            "IW2": 1,
-            "IW1": [
-              {
-                "UId": "ba71897e-87fe-440b-92be-0dee08bc7fa5",
-                "A2": "ARVUsrSuccess",
-                "IU1": "$.success",
-                "IU2": "Boolean",
-                "IU8": "item",
-                "IU4": 1,
-                "IU5": {
-                  "IV1": "null"
-                },
-                "IU6": []
-              },
-              {
-                "UId": "23504bf3-2a71-4dbe-a128-723ba8e6a6ec",
-                "A2": "ARVUsrData",
-                "IU1": "$.data",
-                "IU2": "Object",
-                "IU3": true,
-                "IU8": "item",
-                "IU4": 1,
-                "IU5": {
-                  "IV1": "null"
-                },
-                "IU6": [
-                  {
-                    "UId": "8cb33ac8-a954-45ce-8e32-75389dce5b6a",
-                    "A2": "ARVUsrDRef",
-                    "IU1": "Ref",
-                    "IU2": "Text",
-                    "IU8": "item",
-                    "IU4": 1,
-                    "IU5": {
-                      "IV1": "null"
-                    },
-                    "IU6": []
-                  },
-                  {
-                    "UId": "41dc829a-e0f6-461e-b5a9-97a79b6be151",
-                    "A2": "ARVUsrDCOSite",
-                    "IU1": "CostOnSite",
-                    "IU2": "Integer",
-                    "IU8": "item",
-                    "IU4": 1,
-                    "IU5": {
-                      "IV1": "null"
-                    },
-                    "IU6": []
-                  },
-                  {
-                    "UId": "b745983a-1d3f-493a-90d7-dd51771ae4ca",
-                    "A2": "ARVUsrDEDDate",
-                    "IU1": "EstimatedDeliveryDate",
-                    "IU2": "Text",
-                    "IU8": "item",
-                    "IU4": 1,
-                    "IU5": {
-                      "IV1": "null"
-                    },
-                    "IU6": []
-                  },
-                  {
-                    "UId": "6f200b8a-8a8e-4bf5-8a2e-a6dc0c862d63",
-                    "A2": "ARVUsrDIDNumber",
-                    "IU1": "IntDocNumber",
-                    "IU2": "Text",
-                    "IU8": "item",
-                    "IU4": 1,
-                    "IU5": {
-                      "IV1": "null"
-                    },
-                    "IU6": []
-                  },
-                  {
-                    "UId": "9cf9e564-388d-43df-91db-cbeae5324060",
-                    "A2": "ARVUsrDTDocument",
-                    "IU1": "TypeDocument",
-                    "IU2": "Text",
-                    "IU8": "item",
-                    "IU4": 1,
-                    "IU5": {
-                      "IV1": "null"
-                    },
-                    "IU6": []
-                  }
-                ]
-              },
-              {
-                "UId": "70aea798-8fbb-47e8-ba22-d6586abf89fc",
-                "A2": "ARVUsrErrors",
-                "IU1": "$.errors",
-                "IU2": "Text",
-                "IU3": true,
-                "IU8": "item",
-                "IU4": 1,
-                "IU5": {
-                  "IV1": "null"
-                },
-                "IU6": []
-              },
-              {
-                "UId": "d660625e-3375-4d02-b4b5-406886a7e3f7",
-                "A2": "ARVUsrWarnings",
-                "IU1": "$.warnings",
-                "IU2": "Text",
-                "IU3": true,
-                "IU8": "item",
-                "IU4": 1,
-                "IU5": {
-                  "IV1": "null"
-                },
-                "IU6": []
-              },
-              {
-                "UId": "45608380-5be6-4504-8bf2-2554a04067e9",
-                "A2": "ARVUsrInfo",
-                "IU1": "$.info",
-                "IU2": "Text",
-                "IU3": true,
-                "IU8": "item",
-                "IU4": 1,
-                "IU5": {
-                  "IV1": "null"
-                },
-                "IU6": []
-              },
-              {
-                "UId": "00917b5f-5325-4697-a20d-4156ee749dda",
-                "A2": "ARVUsrMCodes",
-                "IU1": "$.messageCodes",
-                "IU2": "Text",
-                "IU3": true,
-                "IU8": "item",
-                "IU4": 1,
-                "IU5": {
-                  "IV1": "null"
-                },
-                "IU6": []
-              },
-              {
-                "UId": "28603dd9-cbbe-410a-9033-cac40e1b019c",
-                "A2": "ARVUsrECodes",
-                "IU1": "$.errorCodes",
-                "IU2": "Text",
-                "IU3": true,
-                "IU8": "item",
-                "IU4": 1,
-                "IU5": {
-                  "IV1": "null"
-                },
-                "IU6": []
-              },
-              {
-                "UId": "6e9b4ed7-05d2-4844-9cbd-7f1e7a13b860",
-                "A2": "ARVUsrWCodes",
-                "IU1": "$.warningCodes",
-                "IU2": "Text",
-                "IU3": true,
-                "IU8": "item",
-                "IU4": 1,
-                "IU5": {
-                  "IV1": "null"
-                },
-                "IU6": []
-              },
-              {
-                "UId": "da2b6803-16b6-4532-b246-3fc8e422d4cf",
-                "A2": "ARVUsrICodes",
                 "IU1": "$.infoCodes",
                 "IU2": "Text",
                 "IU3": true,

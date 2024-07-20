@@ -2,6 +2,7 @@
 <Resources Culture="en-US">
 	<Group Type="String">
 		<Items>
+			<Item Name="BaseElements.ChangeDataUserTask1.Caption" Value="Заполнить представление адреса корагента" />
 			<Item Name="BaseElements.ChangeDataUserTask1.Parameters.ConsiderTimeInFilter.Caption" Value="Consider time in the filter" />
 			<Item Name="BaseElements.ChangeDataUserTask1.Parameters.ConsiderTimeInFilter.DisplayValue" Value="true" />
 			<Item Name="BaseElements.ChangeDataUserTask1.Parameters.DataSourceFilters.Caption" Value="Data source filters" />
@@ -72,6 +73,7 @@
 			<Item Name="BaseElements.ReadDataUserTask3.Parameters.ResultIntegerFunction.Caption" Value="Function result (Integer)" />
 			<Item Name="BaseElements.ReadDataUserTask3.Parameters.ResultRowsCount.Caption" Value="Number of records read" />
 			<Item Name="BaseElements.ReadDataUserTask3.Parameters.ResultType.Caption" Value="Type of result" />
+			<Item Name="BaseElements.StartSignal1.Caption" Value="Добавление записи" />
 			<Item Name="BaseElements.StartSignal1.Parameters.RecordId.Caption" Value="Уникальный идентификатор записи" />
 			<Item Name="BaseElements.StartSignal2.Caption" Value="Изменение записи" />
 			<Item Name="BaseElements.StartSignal2.Parameters.RecordId.Caption" Value="Уникальный идентификатор записи" />

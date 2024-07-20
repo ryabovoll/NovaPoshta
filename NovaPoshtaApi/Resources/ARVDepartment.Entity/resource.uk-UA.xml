@@ -2,7 +2,7 @@
 <Resources Culture="uk-UA">
 	<Group Type="String">
 		<Items>
-			<Item Name="Caption" Value="Department" />
+			<Item Name="Caption" Value="Departure" />
 		</Items>
 	</Group>
 </Resources>

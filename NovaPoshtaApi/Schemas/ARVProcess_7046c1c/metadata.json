@@ -921,6 +921,7 @@
           "A5": "857cd037-28c5-a912-cc15-7c71ec1dd6ee",
           "BL7": "11a47caf-a0d5-41fa-a274-a0b11f77447a",
           "BL8": "c3823a9f-8aeb-4641-aadf-f8b374afa0b0",
+          "BM1": 0,
           "BM4": [
             {
               "BL1": "Terrasoft.Core.Process.ProcessSchemaLane",
@@ -1825,7 +1826,8 @@
                 "GS1": 1,
                 "GS2": "6edddd5a-1fef-48e4-83fc-9a0c59b39548",
                 "GS5": "c3823a9f-8aeb-4641-aadf-f8b374afa0b0"
-              }
+              },
+              "L9": "6c7394db-06ff-4050-91ef-8278e21dce15"
             },
             {
               "BL1": "Terrasoft.Core.Process.ProcessSchemaParameter",

@@ -44,6 +44,7 @@
 			<Item Name="BaseElements.ReadDataUserTask3.Parameters.ResultIntegerFunction.Caption" Value="Function result (Integer)" />
 			<Item Name="BaseElements.ReadDataUserTask3.Parameters.ResultRowsCount.Caption" Value="Number of records read" />
 			<Item Name="BaseElements.ReadDataUserTask3.Parameters.ResultType.Caption" Value="Type of result" />
+			<Item Name="BaseElements.SubProcess1.Caption" Value="Трекинг изменить запись отправления 1" />
 			<Item Name="BaseElements.SubProcess1.Parameters.CompletedIterationsCount.Caption" Value="Число выполненных экземпляров" />
 			<Item Name="BaseElements.SubProcess1.Parameters.InputRecordCollection.Caption" Value="Входящая коллекция записей" />
 			<Item Name="BaseElements.SubProcess1.Parameters.InputRecordCollection.DisplayValue" Value="[#ApiNovaPoshta 1.Data#]" />
@@ -59,6 +60,7 @@
 			<Item Name="BaseElements.SubProcess1.Parameters.OutputRecordCollection.StatusDocumentsDescriptionString.Caption" Value="StatusDocumentsDescriptionString" />
 			<Item Name="BaseElements.SubProcess1.Parameters.TerminatedIterationsCount.Caption" Value="Число прерванных экземпляров" />
 			<Item Name="BaseElements.SubProcess1.Parameters.TotalIterationsCount.Caption" Value="Общее число экземпляров" />
+			<Item Name="BaseElements.WebService1.Caption" Value="ApiNovaPoshta 1" />
 			<Item Name="BaseElements.WebService1.Parameters.ARVUsrAKey_In.Caption" Value="ApiKey" />
 			<Item Name="BaseElements.WebService1.Parameters.ARVUsrAKey_In.DisplayValue" Value="[#читаем ApiKey отправителя.Первый элемент результирующей коллекции.Api ключ#]" />
 			<Item Name="BaseElements.WebService1.Parameters.ARVUsrCMethod_In.Caption" Value="CalledMethod" />

@@ -2226,6 +2226,51 @@ define("ARVNovaPoshtaDeparture1Page", [], function() {
 					}
 			},
 			
+			CheckPrice: function() {
+				var contactParameter = this.get("Id");
+				const runProcessRequest = Ext.create("Terrasoft.RunProcessRequest", {
+					"schemaName": "ARVProcess_f75bdbb_c36000d",
+					"schemaUId": "ae83e7e5-809c-487c-a71a-8e7c50db43ba",
+					"parameterValues": {
+						"ProcessSchemaParameter1": contactParameter
+					},
+					"resultParameterNames": [
+						"Cost",
+						"Success"
+					]
+				});
+
+				runProcessRequest.execute(function(response) {
+					if (response.isSuccess()) {
+						var DocNumber = response.resultParameterValues["Cost"];
+						var jsonObjectDocNumber;
+						try {
+							jsonObjectDocNumber = JSON.parse(DocNumber);
+						} catch (e) {
+							Terrasoft.showInformation("Помилка розбору JSON: " + e.message);
+							return;
+						}
+
+						var success = jsonObjectDocNumber.success === true;
+						if (success) {
+							var data = jsonObjectDocNumber.data;
+							if (data && data.length > 0) {
+								var intDocNumber = data[0].Cost;
+								Terrasoft.showInformation("Вартість складатиме: " + intDocNumber);
+								this.reloadEntity();
+							} else {
+								Terrasoft.showInformation("Помилка: " + jsonObjectDocNumber.errors[0]);
+							}
+						} else {
+							Terrasoft.showInformation("Помилка: " + jsonObjectDocNumber.errors[0]);
+						}
+					} else {
+						Terrasoft.showInformation("Помилка у запиті. Response: " + JSON.stringify(response));
+						this.reloadEntity();
+					}
+				}, this);
+			},
+			
 			onMyButtonClickStartProces: function() {
 				var contactParameter = this.get("Id");
 				this.set("ARVStart", false);
@@ -2261,11 +2306,15 @@ define("ARVNovaPoshtaDeparture1Page", [], function() {
 								this.reloadEntity();
 							} else {
 								Terrasoft.showInformation("Ошибка: " + jsonObjectDocNumber.errors[0]);
-								this.set("ARVStart", true);
+								this.set("ARVStart", false);
+								this.set("ARVSettlement", null);
+								this.set("ARVDepartment", null);
 							}
 						} else {
 							Terrasoft.showInformation("Ошибка: " + jsonObjectDocNumber.errors[0]);
-							this.set("ARVStart", true);
+							this.set("ARVStart", false);
+							this.set("ARVSettlement", null);
+							this.set("ARVDepartment", null);
 						}
 					} else {
 						Terrasoft.showInformation("Произошла ошибка в запросе. Response: " + JSON.stringify(response));
@@ -2913,7 +2962,9 @@ define("ARVNovaPoshtaDeparture1Page", [], function() {
 						"row": 8,
 						"layoutName": "Tabe407c41eTabLabelGridLayout7d13c93e"
 					},
-					"bindTo": "ARVSettlement"
+					"bindTo": "ARVSettlement",
+					"enabled": true,
+					"contentType": 3
 				},
 				"parentName": "Tabe407c41eTabLabelGridLayout7d13c93e",
 				"propertyName": "items",
@@ -2930,7 +2981,9 @@ define("ARVNovaPoshtaDeparture1Page", [], function() {
 						"row": 8,
 						"layoutName": "Tabe407c41eTabLabelGridLayout7d13c93e"
 					},
-					"bindTo": "ARVDepartment"
+					"bindTo": "ARVDepartment",
+					"enabled": true,
+					"contentType": 3
 				},
 				"parentName": "Tabe407c41eTabLabelGridLayout7d13c93e",
 				"propertyName": "items",
@@ -2958,6 +3011,33 @@ define("ARVNovaPoshtaDeparture1Page", [], function() {
 			},
 			{
 				"operation": "insert",
+				"name": "CheckPrice",
+				"values": {
+					"itemType": 5,
+					"caption": {
+						"bindTo": "Resources.Strings.CheckPrice"
+					},
+					"click": {
+						"bindTo": "CheckPrice"
+					},
+					"enabled": {
+						"bindTo": "getStartProces"
+					},
+					"style": "GREEN",
+					"layout": {
+						"colSpan": 11,
+						"rowSpan": 1,
+						"column": 13,
+						"row": 10
+					},
+					"visible": true
+				},
+				"parentName": "Tabe407c41eTabLabelGridLayout7d13c93e",
+				"propertyName": "items",
+				"index": 11
+			},
+			{
+				"operation": "insert",
 				"name": "INTEGERe852532a-64a6-4a79-9902-7e10037fc5dc",
 				"values": {
 					"layout": {
@@ -2972,7 +3052,7 @@ define("ARVNovaPoshtaDeparture1Page", [], function() {
 				},
 				"parentName": "Tabe407c41eTabLabelGridLayout7d13c93e",
 				"propertyName": "items",
-				"index": 11
+				"index": 12
 			},
 			{
 				"operation": "insert",
@@ -2990,7 +3070,7 @@ define("ARVNovaPoshtaDeparture1Page", [], function() {
 				},
 				"parentName": "Tabe407c41eTabLabelGridLayout7d13c93e",
 				"propertyName": "items",
-				"index": 12
+				"index": 13
 			},
 			{
 				"operation": "insert",
@@ -3008,7 +3088,7 @@ define("ARVNovaPoshtaDeparture1Page", [], function() {
 				},
 				"parentName": "Tabe407c41eTabLabelGridLayout7d13c93e",
 				"propertyName": "items",
-				"index": 13
+				"index": 14
 			},
 			{
 				"operation": "insert",
@@ -3026,7 +3106,7 @@ define("ARVNovaPoshtaDeparture1Page", [], function() {
 				},
 				"parentName": "Tabe407c41eTabLabelGridLayout7d13c93e",
 				"propertyName": "items",
-				"index": 14
+				"index": 15
 			},
 			{
 				"operation": "insert",
@@ -3046,7 +3126,7 @@ define("ARVNovaPoshtaDeparture1Page", [], function() {
 				},
 				"parentName": "Tabe407c41eTabLabelGridLayout7d13c93e",
 				"propertyName": "items",
-				"index": 15
+				"index": 16
 			},
 			{
 				"operation": "insert",
@@ -3069,7 +3149,7 @@ define("ARVNovaPoshtaDeparture1Page", [], function() {
 				},
 				"parentName": "Tabe407c41eTabLabelGridLayout7d13c93e",
 				"propertyName": "items",
-				"index": 16
+				"index": 17
 			},
 			{
 				"operation": "insert",
@@ -3180,7 +3260,7 @@ define("ARVNovaPoshtaDeparture1Page", [], function() {
 			},
 			{
 				"operation": "insert",
-				"name": "LOOKUPb8aa2f85-8976-4896-bd26-87defdee3922",
+				"name": "STRING3e64e26f-c8a8-4d46-afd8-ac3aa5c2af16",
 				"values": {
 					"layout": {
 						"colSpan": 12,
@@ -3189,32 +3269,13 @@ define("ARVNovaPoshtaDeparture1Page", [], function() {
 						"row": 3,
 						"layoutName": "Tabe407c41eTabLabelGridLayoute2db29d4"
 					},
-					"bindTo": "ARVStatusDocuments",
-					"enabled": true,
-					"contentType": 5
-				},
-				"parentName": "Tabe407c41eTabLabelGridLayoute2db29d4",
-				"propertyName": "items",
-				"index": 4
-			},
-			{
-				"operation": "insert",
-				"name": "STRING3e64e26f-c8a8-4d46-afd8-ac3aa5c2af16",
-				"values": {
-					"layout": {
-						"colSpan": 12,
-						"rowSpan": 1,
-						"column": 0,
-						"row": 4,
-						"layoutName": "Tabe407c41eTabLabelGridLayoute2db29d4"
-					},
 					"bindTo": "ARVStatusDocumentsDescriptionString",
 					"enabled": false,
 					"contentType": 0
 				},
 				"parentName": "Tabe407c41eTabLabelGridLayoute2db29d4",
 				"propertyName": "items",
-				"index": 5
+				"index": 4
 			},
 			{
 				"operation": "insert",
@@ -3234,7 +3295,7 @@ define("ARVNovaPoshtaDeparture1Page", [], function() {
 				},
 				"parentName": "Tabe407c41eTabLabelGridLayoute2db29d4",
 				"propertyName": "items",
-				"index": 6
+				"index": 5
 			},
 			{
 				"operation": "insert",

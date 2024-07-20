@@ -2,7 +2,7 @@
 <Resources Culture="en-US">
 	<Group Type="String">
 		<Items>
-			<Item Name="Caption" Value="Department" />
+			<Item Name="Caption" Value="Departure" />
 			<Item Name="Columns.ARVBeaconCode.Caption" Value="BeaconCode" />
 			<Item Name="Columns.ARVBicycleParking.Caption" Value="BicycleParking" />
 			<Item Name="Columns.ARVCanGetMoneyTransfer.Caption" Value="CanGetMoneyTransfer" />

@@ -133,7 +133,6 @@
           "GT5": "b2d86ea3-4654-4df9-9a0e-cb5f2845e904",
           "GT4": "019c4ccc-f7f1-45f4-aec1-d4a1b3513329",
           "GT1": {
-            "GS2": "",
             "GS5": "019c4ccc-f7f1-45f4-aec1-d4a1b3513329"
           }
         },
@@ -162,7 +161,6 @@
           "GT5": "12877ede-1e7d-400c-bc7d-fed68315143d",
           "GT4": "019c4ccc-f7f1-45f4-aec1-d4a1b3513329",
           "GT1": {
-            "GS2": "",
             "GS5": "019c4ccc-f7f1-45f4-aec1-d4a1b3513329"
           }
         }
@@ -669,6 +667,39 @@
           "BP2": [
             {
               "BL1": "Terrasoft.Core.Process.ProcessSchemaParameter",
+              "UId": "fb62f2d0-c3d3-4e0a-a242-81b912ff6997",
+              "A2": "CompletedIterationsCount",
+              "A3": "738faf67-c2d4-4c36-a53c-1278d227053e",
+              "A4": "738faf67-c2d4-4c36-a53c-1278d227053e",
+              "IL2": "07b99158-be21-48cc-898d-9d8caccab641",
+              "L1": "6b6b74e2-820d-490e-a017-2b73d4ccf2b0",
+              "L8": {},
+              "L12": 1
+            },
+            {
+              "BL1": "Terrasoft.Core.Process.ProcessSchemaParameter",
+              "UId": "78b4d54b-b627-466d-8de8-23c7fed0b52b",
+              "A2": "TerminatedIterationsCount",
+              "A3": "738faf67-c2d4-4c36-a53c-1278d227053e",
+              "A4": "738faf67-c2d4-4c36-a53c-1278d227053e",
+              "IL2": "07b99158-be21-48cc-898d-9d8caccab641",
+              "L1": "6b6b74e2-820d-490e-a017-2b73d4ccf2b0",
+              "L8": {},
+              "L12": 1
+            },
+            {
+              "BL1": "Terrasoft.Core.Process.ProcessSchemaParameter",
+              "UId": "c951261a-2280-4c9a-a1b2-00cbc490ee00",
+              "A2": "TotalIterationsCount",
+              "A3": "738faf67-c2d4-4c36-a53c-1278d227053e",
+              "A4": "738faf67-c2d4-4c36-a53c-1278d227053e",
+              "IL2": "07b99158-be21-48cc-898d-9d8caccab641",
+              "L1": "6b6b74e2-820d-490e-a017-2b73d4ccf2b0",
+              "L8": {},
+              "L12": 1
+            },
+            {
+              "BL1": "Terrasoft.Core.Process.ProcessSchemaParameter",
               "UId": "73ada217-8728-4969-8842-a22eda233ede",
               "A2": "InputRecordCollection",
               "A3": "738faf67-c2d4-4c36-a53c-1278d227053e",
@@ -760,7 +791,7 @@
                   "IL2": "07b99158-be21-48cc-898d-9d8caccab641",
                   "L1": "5ca35f10-a101-4c67-a96a-383da6afacfc",
                   "L8": {
-                    "GS5": "019c4ccc-f7f1-45f4-aec1-d4a1b3513329"
+                    "GS5": "738faf67-c2d4-4c36-a53c-1278d227053e"
                   }
                 },
                 {
@@ -800,39 +831,6 @@
                   }
                 }
               ]
-            },
-            {
-              "BL1": "Terrasoft.Core.Process.ProcessSchemaParameter",
-              "UId": "fb62f2d0-c3d3-4e0a-a242-81b912ff6997",
-              "A2": "CompletedIterationsCount",
-              "A3": "738faf67-c2d4-4c36-a53c-1278d227053e",
-              "A4": "738faf67-c2d4-4c36-a53c-1278d227053e",
-              "IL2": "07b99158-be21-48cc-898d-9d8caccab641",
-              "L1": "6b6b74e2-820d-490e-a017-2b73d4ccf2b0",
-              "L8": {},
-              "L12": 1
-            },
-            {
-              "BL1": "Terrasoft.Core.Process.ProcessSchemaParameter",
-              "UId": "78b4d54b-b627-466d-8de8-23c7fed0b52b",
-              "A2": "TerminatedIterationsCount",
-              "A3": "738faf67-c2d4-4c36-a53c-1278d227053e",
-              "A4": "738faf67-c2d4-4c36-a53c-1278d227053e",
-              "IL2": "07b99158-be21-48cc-898d-9d8caccab641",
-              "L1": "6b6b74e2-820d-490e-a017-2b73d4ccf2b0",
-              "L8": {},
-              "L12": 1
-            },
-            {
-              "BL1": "Terrasoft.Core.Process.ProcessSchemaParameter",
-              "UId": "c951261a-2280-4c9a-a1b2-00cbc490ee00",
-              "A2": "TotalIterationsCount",
-              "A3": "738faf67-c2d4-4c36-a53c-1278d227053e",
-              "A4": "738faf67-c2d4-4c36-a53c-1278d227053e",
-              "IL2": "07b99158-be21-48cc-898d-9d8caccab641",
-              "L1": "6b6b74e2-820d-490e-a017-2b73d4ccf2b0",
-              "L8": {},
-              "L12": 1
             }
           ],
           "CK4": "019c4ccc-f7f1-45f4-aec1-d4a1b3513329",

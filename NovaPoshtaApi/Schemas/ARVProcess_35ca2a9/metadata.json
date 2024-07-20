@@ -315,6 +315,7 @@
           "A5": "857cd037-28c5-a912-cc15-7c71ec1dd6ee",
           "BL7": "11a47caf-a0d5-41fa-a274-a0b11f77447a",
           "BL8": "8960425a-b8a4-46c9-abc8-c5e161fc759b",
+          "BM1": 0,
           "BM4": [
             {
               "BL1": "Terrasoft.Core.Process.ProcessSchemaLane",
@@ -349,7 +350,8 @@
           "BL8": "8960425a-b8a4-46c9-abc8-c5e161fc759b",
           "BN2": "31;31",
           "BO3": true,
-          "FC1": []
+          "FC1": [],
+          "ED1": false
         },
         {
           "BL1": "Terrasoft.Core.Process.ProcessSchemaStartTimerEvent",
@@ -660,6 +662,39 @@
           "BP2": [
             {
               "BL1": "Terrasoft.Core.Process.ProcessSchemaParameter",
+              "UId": "ed5234c9-678c-426a-bb8d-ade8245b981e",
+              "A2": "CompletedIterationsCount",
+              "A3": "8960425a-b8a4-46c9-abc8-c5e161fc759b",
+              "A4": "8960425a-b8a4-46c9-abc8-c5e161fc759b",
+              "IL2": "816fa261-1fe3-4543-a8e3-b35ce8ec2679",
+              "L1": "6b6b74e2-820d-490e-a017-2b73d4ccf2b0",
+              "L8": {},
+              "L12": 1
+            },
+            {
+              "BL1": "Terrasoft.Core.Process.ProcessSchemaParameter",
+              "UId": "5247ab13-a13b-4606-bf13-eacc315d6177",
+              "A2": "TerminatedIterationsCount",
+              "A3": "8960425a-b8a4-46c9-abc8-c5e161fc759b",
+              "A4": "8960425a-b8a4-46c9-abc8-c5e161fc759b",
+              "IL2": "816fa261-1fe3-4543-a8e3-b35ce8ec2679",
+              "L1": "6b6b74e2-820d-490e-a017-2b73d4ccf2b0",
+              "L8": {},
+              "L12": 1
+            },
+            {
+              "BL1": "Terrasoft.Core.Process.ProcessSchemaParameter",
+              "UId": "210f9699-cc58-45b1-8dad-bde7d02b9965",
+              "A2": "TotalIterationsCount",
+              "A3": "8960425a-b8a4-46c9-abc8-c5e161fc759b",
+              "A4": "8960425a-b8a4-46c9-abc8-c5e161fc759b",
+              "IL2": "816fa261-1fe3-4543-a8e3-b35ce8ec2679",
+              "L1": "6b6b74e2-820d-490e-a017-2b73d4ccf2b0",
+              "L8": {},
+              "L12": 1
+            },
+            {
+              "BL1": "Terrasoft.Core.Process.ProcessSchemaParameter",
               "UId": "bc8408f9-fa5a-48a8-b724-e164210a0482",
               "A2": "InputRecordCollection",
               "A3": "8960425a-b8a4-46c9-abc8-c5e161fc759b",
@@ -713,39 +748,6 @@
                   }
                 }
               ]
-            },
-            {
-              "BL1": "Terrasoft.Core.Process.ProcessSchemaParameter",
-              "UId": "ed5234c9-678c-426a-bb8d-ade8245b981e",
-              "A2": "CompletedIterationsCount",
-              "A3": "8960425a-b8a4-46c9-abc8-c5e161fc759b",
-              "A4": "8960425a-b8a4-46c9-abc8-c5e161fc759b",
-              "IL2": "816fa261-1fe3-4543-a8e3-b35ce8ec2679",
-              "L1": "6b6b74e2-820d-490e-a017-2b73d4ccf2b0",
-              "L8": {},
-              "L12": 1
-            },
-            {
-              "BL1": "Terrasoft.Core.Process.ProcessSchemaParameter",
-              "UId": "5247ab13-a13b-4606-bf13-eacc315d6177",
-              "A2": "TerminatedIterationsCount",
-              "A3": "8960425a-b8a4-46c9-abc8-c5e161fc759b",
-              "A4": "8960425a-b8a4-46c9-abc8-c5e161fc759b",
-              "IL2": "816fa261-1fe3-4543-a8e3-b35ce8ec2679",
-              "L1": "6b6b74e2-820d-490e-a017-2b73d4ccf2b0",
-              "L8": {},
-              "L12": 1
-            },
-            {
-              "BL1": "Terrasoft.Core.Process.ProcessSchemaParameter",
-              "UId": "210f9699-cc58-45b1-8dad-bde7d02b9965",
-              "A2": "TotalIterationsCount",
-              "A3": "8960425a-b8a4-46c9-abc8-c5e161fc759b",
-              "A4": "8960425a-b8a4-46c9-abc8-c5e161fc759b",
-              "IL2": "816fa261-1fe3-4543-a8e3-b35ce8ec2679",
-              "L1": "6b6b74e2-820d-490e-a017-2b73d4ccf2b0",
-              "L8": {},
-              "L12": 1
             }
           ],
           "CK4": "1ae35298-23df-461d-a665-833fd5a8bd85",

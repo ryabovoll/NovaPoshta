@@ -2,6 +2,7 @@
 <Resources Culture="en-US">
 	<Group Type="String">
 		<Items>
+			<Item Name="BaseElements.ReadDataUserTask1.Caption" Value="Коллекция" />
 			<Item Name="BaseElements.ReadDataUserTask1.Parameters.AggregationColumnName.Caption" Value="Name of aggregate function column" />
 			<Item Name="BaseElements.ReadDataUserTask1.Parameters.CanReadUncommitedData.Caption" Value="Read uncommitted data" />
 			<Item Name="BaseElements.ReadDataUserTask1.Parameters.ConsiderTimeInFilter.Caption" Value="Consider time in the filter" />
@@ -23,6 +24,7 @@
 			<Item Name="BaseElements.ReadDataUserTask1.Parameters.ResultIntegerFunction.Caption" Value="Function result (Integer)" />
 			<Item Name="BaseElements.ReadDataUserTask1.Parameters.ResultRowsCount.Caption" Value="Number of records read" />
 			<Item Name="BaseElements.ReadDataUserTask1.Parameters.ResultType.Caption" Value="Type of result" />
+			<Item Name="BaseElements.SubProcess1.Caption" Value="Трекинг получить данные по 1 накладной 1" />
 			<Item Name="BaseElements.SubProcess1.Parameters.CompletedIterationsCount.Caption" Value="Число выполненных экземпляров" />
 			<Item Name="BaseElements.SubProcess1.Parameters.InputRecordCollection.Caption" Value="Входящая коллекция записей" />
 			<Item Name="BaseElements.SubProcess1.Parameters.InputRecordCollection.DisplayValue" Value="[#Коллекция.Коллекция записей#]" />

@@ -2,7 +2,7 @@
   "Descriptor": {
     "UId": "5b2c4223-de6f-4225-9af3-05254f92aa12",
     "Name": "ARVProcess_f7c4054",
-    "ModifiedOnUtc": "\/Date(1710172247000)\/",
+    "ModifiedOnUtc": "\/Date(1721380046000)\/",
     "ManagerName": "ProcessSchemaManager",
     "Caption": "Наполнить справочник \"Відділення\" Новой Почты",
     "DependsOn": []

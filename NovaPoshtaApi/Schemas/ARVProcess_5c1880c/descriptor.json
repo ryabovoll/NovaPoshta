@@ -2,7 +2,7 @@
   "Descriptor": {
     "UId": "019c4ccc-f7f1-45f4-aec1-d4a1b3513329",
     "Name": "ARVProcess_5c1880c",
-    "ModifiedOnUtc": "\/Date(1710405570000)\/",
+    "ModifiedOnUtc": "\/Date(1721379947000)\/",
     "ManagerName": "ProcessSchemaManager",
     "Caption": "Заполнить REF по контрагенту и контакту ПОДПРОЦЕСС",
     "DependsOn": []

@@ -2,6 +2,11 @@
 <Resources Culture="en-US">
 	<Group Type="String">
 		<Items>
+			<Item Name="BaseElements.ConditionalSequenceFlow1.Caption" Value="Условный поток 1" />
+			<Item Name="BaseElements.IntermediateCatchTimer4.Parameters.StartOffset.Caption" Value="Стартовать через (сек.)" />
+			<Item Name="BaseElements.IntermediateCatchTimer4.Parameters.StartOffset.DisplayValue" Value="[#Минут#] * 60" />
+			<Item Name="BaseElements.StartSignal1.Parameters.RecordId.Caption" Value="Уникальный идентификатор записи" />
+			<Item Name="BaseElements.SubProcess1.Caption" Value="Додати в довідник областей один запис 1" />
 			<Item Name="BaseElements.SubProcess1.Parameters.CompletedIterationsCount.Caption" Value="Число выполненных экземпляров" />
 			<Item Name="BaseElements.SubProcess1.Parameters.InputRecordCollection.Caption" Value="Входящая коллекция записей" />
 			<Item Name="BaseElements.SubProcess1.Parameters.InputRecordCollection.DisplayValue" Value="[#ApiNovaPoshta 1.Data#]" />
@@ -57,6 +62,7 @@
 			<Item Name="LaneSets.LaneSet1.Lanes.Lane1.Caption" Value="Lane 1" />
 			<Item Name="NotificationCaption.Caption" Value="Заголовок экземпляра процесса" />
 			<Item Name="NotificationCaption.DisplayValue" Value="[#Название процесса#]" />
+			<Item Name="Parameters.ProcessSchemaParameter2.Caption" Value="Минут" />
 		</Items>
 	</Group>
 </Resources>
