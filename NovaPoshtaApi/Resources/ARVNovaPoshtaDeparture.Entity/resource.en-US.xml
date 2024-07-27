@@ -3,6 +3,7 @@
 	<Group Type="String">
 		<Items>
 			<Item Name="Caption" Value="Departure N.P." />
+			<Item Name="Columns.ARVaddressBool.Caption" Value="Адреса" />
 			<Item Name="Columns.ARVAddressCounterparty.Caption" Value="Address" />
 			<Item Name="Columns.ARVBack.Caption" Value="back" />
 			<Item Name="Columns.ARVCargoTypeNP.Caption" Value="CargoType" />
@@ -20,6 +21,7 @@
 			<Item Name="Columns.ARVFloatVolumeWeight.Caption" Value="volume weight" />
 			<Item Name="Columns.ARVForTheRuleALLTrue.Caption" Value="For the rule - ALL &quot;True&quot;" />
 			<Item Name="Columns.ARVForTheRuleFalse.Caption" Value="For the rule - ALL &quot;False&quot;" />
+			<Item Name="Columns.ARVHouse.Caption" Value="House" />
 			<Item Name="Columns.ARVIntDefault.Caption" Value="IntDefault" />
 			<Item Name="Columns.ARVIntHeight.Caption" Value="Height cm" />
 			<Item Name="Columns.ARVIntLength.Caption" Value="Length cm" />
@@ -35,6 +37,7 @@
 			<Item Name="Columns.ARVPaymentMethodNP.Caption" Value="PaymentMethod" />
 			<Item Name="Columns.ARVPostomat.Caption" Value="Postomat" />
 			<Item Name="Columns.ARVRecipient.Caption" Value="Recipient" />
+			<Item Name="Columns.ARVRecipientAddressNote.Caption" Value="Comment to the address (optional)" />
 			<Item Name="Columns.ARVRecipientBack.Caption" Value="Recipient" />
 			<Item Name="Columns.ARVRecipientCityName.Caption" Value="RecipientCityName" />
 			<Item Name="Columns.ARVRecipientContact.Caption" Value="Recipient" />
@@ -57,6 +60,9 @@
 			<Item Name="Columns.ARVStart.Caption" Value="Start" />
 			<Item Name="Columns.ARVStatusDocuments.Caption" Value="Status" />
 			<Item Name="Columns.ARVStatusDocumentsDescriptionString.Caption" Value="Status Description" />
+			<Item Name="Columns.ARVStreet.Caption" Value="Address" />
+			<Item Name="Columns.ARVStreetDefault.Caption" Value="Street (Default)" />
+			<Item Name="Columns.ARVString1.Caption" Value="Apartment" />
 			<Item Name="Columns.ARVSumBack.Caption" Value="Sum" />
 			<Item Name="Columns.ARVTypeDocument.Caption" Value="Type Document" />
 			<Item Name="Columns.ARVWeight.Caption" Value="Weight" />

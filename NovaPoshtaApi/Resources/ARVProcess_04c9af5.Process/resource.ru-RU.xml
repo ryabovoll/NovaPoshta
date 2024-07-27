@@ -3,8 +3,9 @@
 	<Group Type="String">
 		<Items>
 			<Item Name="BaseElements.ConditionalSequenceFlow1.Caption" Value="Минут &gt; 0" />
-			<Item Name="BaseElements.ConditionalSequenceFlow2.Caption" Value="StartCheckingLists != Guid.Empty" />
+			<Item Name="BaseElements.ConditionalSequenceFlow2.Caption" Value="StartCheckingLists != String.Empty" />
 			<Item Name="BaseElements.DefaultSequenceFlow2.Caption" Value="Время с 21:00 до 00:00" />
+			<Item Name="BaseElements.FormulaTask1.Caption" Value="StartCheckingLists" />
 			<Item Name="BaseElements.IntermediateCatchTimer4.Caption" Value="Ждем до 21:00" />
 			<Item Name="BaseElements.IntermediateCatchTimer4.Parameters.StartOffset.Caption" Value="Стартовать через (сек.)" />
 			<Item Name="BaseElements.IntermediateCatchTimer4.Parameters.StartOffset.DisplayValue" Value="[#Минут#] * 60" />

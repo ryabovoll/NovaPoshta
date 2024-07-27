@@ -2,7 +2,7 @@
   "Descriptor": {
     "UId": "d6e1b9da-bc37-4f66-80f9-9855a3d3db5b",
     "Name": "ARVProcess_522afd8",
-    "ModifiedOnUtc": "\/Date(1721402338000)\/",
+    "ModifiedOnUtc": "\/Date(1721825001000)\/",
     "ManagerName": "ProcessSchemaManager",
     "Caption": "Наполнить справочник Населенных пунктов Новой Почты",
     "DependsOn": []

@@ -14,6 +14,7 @@
 			<Item Name="Columns.ARVDocuments.Caption" Value="Документи" />
 			<Item Name="Columns.ARVEstimatedDeliveryDate.Caption" Value="Передбачувана дата поставки" />
 			<Item Name="Columns.ARVFloatVolumeWeight.Caption" Value="об'ємна вага" />
+			<Item Name="Columns.ARVHouse.Caption" Value="Будинок" />
 			<Item Name="Columns.ARVIntHeight.Caption" Value="Висота см" />
 			<Item Name="Columns.ARVIntLength.Caption" Value="Довжина см" />
 			<Item Name="Columns.ARVIntWeight.Caption" Value="Вага" />
@@ -24,6 +25,7 @@
 			<Item Name="Columns.ARVParcel.Caption" Value="Посилка" />
 			<Item Name="Columns.ARVPostomat.Caption" Value="Поштомат" />
 			<Item Name="Columns.ARVRecipient.Caption" Value="Отримувач" />
+			<Item Name="Columns.ARVRecipientAddressNote.Caption" Value="Коментар до адреси (не обов'язково)" />
 			<Item Name="Columns.ARVRecipientBack.Caption" Value="Одержувач" />
 			<Item Name="Columns.ARVRecipientContact.Caption" Value="Одержувач" />
 			<Item Name="Columns.ARVRecipientsPhoneNP.Caption" Value="Телефон одержувача" />
@@ -37,6 +39,8 @@
 			<Item Name="Columns.ARVSettlement.Caption" Value="Населений пункт" />
 			<Item Name="Columns.ARVStatusDocuments.Caption" Value="Статус" />
 			<Item Name="Columns.ARVStatusDocumentsDescriptionString.Caption" Value="Опис статусу" />
+			<Item Name="Columns.ARVStreet.Caption" Value="Адреса" />
+			<Item Name="Columns.ARVString1.Caption" Value="Квартира" />
 			<Item Name="Columns.ARVSumBack.Caption" Value="Сума" />
 			<Item Name="Columns.ARVTypeDocument.Caption" Value="Тип документа" />
 			<Item Name="Columns.ARVWeight.Caption" Value="Вага" />

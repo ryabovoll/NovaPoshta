@@ -3,6 +3,7 @@
 	<Group Type="String">
 		<Items>
 			<Item Name="Caption" Value="Отправление Н.П." />
+			<Item Name="Columns.ARVaddressBool.Caption" Value="Адреса Bool" />
 			<Item Name="Columns.ARVAddressCounterparty.Caption" Value="Адрес" />
 			<Item Name="Columns.ARVBack.Caption" Value="back" />
 			<Item Name="Columns.ARVCargoTypeNP.Caption" Value="CargoType" />
@@ -12,7 +13,7 @@
 			<Item Name="Columns.ARVDateTime.Caption" Value="Дата отправки" />
 			<Item Name="Columns.ARVDefault.Caption" Value="Default" />
 			<Item Name="Columns.ARVDepartment.Caption" Value="Отделение" />
-			<Item Name="Columns.ARVDepartmentBool.Caption" Value="Отделение" />
+			<Item Name="Columns.ARVDepartmentBool.Caption" Value="Отделение Bool" />
 			<Item Name="Columns.ARVDepartmentDefault.Caption" Value="Department (Default)" />
 			<Item Name="Columns.ARVDescriptionNP.Caption" Value="Описание" />
 			<Item Name="Columns.ARVDocuments.Caption" Value="Документы" />
@@ -20,6 +21,7 @@
 			<Item Name="Columns.ARVFloatVolumeWeight.Caption" Value="объемный вес" />
 			<Item Name="Columns.ARVForTheRuleALLTrue.Caption" Value="For the rule - ALL &quot;True&quot;" />
 			<Item Name="Columns.ARVForTheRuleFalse.Caption" Value="For the rule - ALL &quot;False&quot;" />
+			<Item Name="Columns.ARVHouse.Caption" Value="Дом" />
 			<Item Name="Columns.ARVIntDefault.Caption" Value="IntDefault" />
 			<Item Name="Columns.ARVIntHeight.Caption" Value="Высота см" />
 			<Item Name="Columns.ARVIntLength.Caption" Value="Длина см" />
@@ -33,8 +35,9 @@
 			<Item Name="Columns.ARVPayerTypeBackNP.Caption" Value="PayerTypeBack" />
 			<Item Name="Columns.ARVPayerTypeNP.Caption" Value="PayerType" />
 			<Item Name="Columns.ARVPaymentMethodNP.Caption" Value="PaymentMethod" />
-			<Item Name="Columns.ARVPostomat.Caption" Value="Почтомат" />
+			<Item Name="Columns.ARVPostomat.Caption" Value="Почтомат Bool" />
 			<Item Name="Columns.ARVRecipient.Caption" Value="Получатель" />
+			<Item Name="Columns.ARVRecipientAddressNote.Caption" Value="Комментарий к адресу (не обязательно)" />
 			<Item Name="Columns.ARVRecipientBack.Caption" Value="Получатель" />
 			<Item Name="Columns.ARVRecipientCityName.Caption" Value="ХХХХХХ" />
 			<Item Name="Columns.ARVRecipientContact.Caption" Value="Получатель" />
@@ -57,6 +60,9 @@
 			<Item Name="Columns.ARVStart.Caption" Value="Start" />
 			<Item Name="Columns.ARVStatusDocuments.Caption" Value="Статус" />
 			<Item Name="Columns.ARVStatusDocumentsDescriptionString.Caption" Value="Статус Описание" />
+			<Item Name="Columns.ARVStreet.Caption" Value="Адрес123" />
+			<Item Name="Columns.ARVStreetDefault.Caption" Value="Street (Default)" />
+			<Item Name="Columns.ARVString1.Caption" Value="Квартира" />
 			<Item Name="Columns.ARVSumBack.Caption" Value="Сума" />
 			<Item Name="Columns.ARVTypeDocument.Caption" Value="Тип документа" />
 			<Item Name="Columns.ARVWeight.Caption" Value="Вес" />

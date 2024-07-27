@@ -23,6 +23,7 @@
 			<Item Name="ServiceMethods.ARVMethod2.Request.Parameters.ARVMPBDData.ItemProperties.ARVBDDCType.Caption" Value="CargoType" />
 			<Item Name="ServiceMethods.ARVMethod2.Request.Parameters.ARVMPBDData.ItemProperties.ARVBDDPType.Caption" Value="PayerType" />
 			<Item Name="ServiceMethods.ARVMethod2.Request.Parameters.ARVMPBDData.ItemProperties.ARVBDDRString.Caption" Value="RedeliveryString" />
+			<Item Name="ServiceMethods.ARVMethod2.Request.Parameters.ARVMPRANote.Caption" Value="MethodProperties RecipientAddressNote" />
 			<Item Name="ServiceMethods.ARVMethod2.Request.Parameters.ARVMPVGeneral.Caption" Value="MethodProperties VolumeGeneral" />
 			<Item Name="ServiceMethods.ARVMethod2.Request.Parameters.ARVUsrAKey.Caption" Value="ApiKey" />
 			<Item Name="ServiceMethods.ARVMethod2.Request.Parameters.ARVUsrCMethod.Caption" Value="CalledMethod" />
@@ -91,6 +92,26 @@
 			<Item Name="ServiceMethods.ARVMethod3.Response.Parameters.ARVSuccess.Caption" Value="Success" />
 			<Item Name="ServiceMethods.ARVMethod3.Response.Parameters.ARVWarnings.Caption" Value="Warnings" />
 			<Item Name="ServiceMethods.ARVMethod3.Response.Parameters.ARVWCodes.Caption" Value="WarningCodes" />
+			<Item Name="ServiceMethods.ARVMethod4.Caption" Value="Наполнение улиц" />
+			<Item Name="ServiceMethods.ARVMethod4.Request.Parameters.ARVAKey.Caption" Value="ApiKey" />
+			<Item Name="ServiceMethods.ARVMethod4.Request.Parameters.ARVCMethod.Caption" Value="CalledMethod" />
+			<Item Name="ServiceMethods.ARVMethod4.Request.Parameters.ARVMName.Caption" Value="ModelName" />
+			<Item Name="ServiceMethods.ARVMethod4.Request.Parameters.ARVMPCRef.Caption" Value="MethodProperties CityRef" />
+			<Item Name="ServiceMethods.ARVMethod4.Request.Parameters.ARVMPLimit.Caption" Value="MethodProperties Limit" />
+			<Item Name="ServiceMethods.ARVMethod4.Request.Parameters.ARVMPPage.Caption" Value="MethodProperties Page" />
+			<Item Name="ServiceMethods.ARVMethod4.Response.Parameters.ARVData.Caption" Value="Data" />
+			<Item Name="ServiceMethods.ARVMethod4.Response.Parameters.ARVData.ItemProperties.ARVDDescription.Caption" Value="Description" />
+			<Item Name="ServiceMethods.ARVMethod4.Response.Parameters.ARVData.ItemProperties.ARVDRef.Caption" Value="Ref" />
+			<Item Name="ServiceMethods.ARVMethod4.Response.Parameters.ARVData.ItemProperties.ARVDSTRef.Caption" Value="StreetsTypeRef" />
+			<Item Name="ServiceMethods.ARVMethod4.Response.Parameters.ARVData.ItemProperties.ARVDSType.Caption" Value="StreetsType" />
+			<Item Name="ServiceMethods.ARVMethod4.Response.Parameters.ARVECodes.Caption" Value="ErrorCodes" />
+			<Item Name="ServiceMethods.ARVMethod4.Response.Parameters.ARVErrors.Caption" Value="Errors" />
+			<Item Name="ServiceMethods.ARVMethod4.Response.Parameters.ARVICodes.Caption" Value="InfoCodes" />
+			<Item Name="ServiceMethods.ARVMethod4.Response.Parameters.ARVITCount.Caption" Value="Info TotalCount" />
+			<Item Name="ServiceMethods.ARVMethod4.Response.Parameters.ARVMCodes.Caption" Value="MessageCodes" />
+			<Item Name="ServiceMethods.ARVMethod4.Response.Parameters.ARVSuccess.Caption" Value="Success" />
+			<Item Name="ServiceMethods.ARVMethod4.Response.Parameters.ARVWarnings.Caption" Value="Warnings" />
+			<Item Name="ServiceMethods.ARVMethod4.Response.Parameters.ARVWCodes.Caption" Value="WarningCodes" />
 			<Item Name="ServiceMethods.ARVUsrGetSettlementAreas.Caption" Value="Список областей України" />
 			<Item Name="ServiceMethods.ARVUsrGetSettlementAreas.Request.Parameters.ARVUsrAKey.Caption" Value="ApiKey" />
 			<Item Name="ServiceMethods.ARVUsrGetSettlementAreas.Request.Parameters.ARVUsrCMethod.Caption" Value="CalledMethod" />
@@ -245,6 +266,7 @@
 			<Item Name="ServiceMethods.ARVUsrGetWarehouses.Response.Parameters.ARVUsrWarnings.Caption" Value="Warnings" />
 			<Item Name="ServiceMethods.ARVUsrGetWarehouses.Response.Parameters.ARVUsrWCodes.Caption" Value="WarningCodes" />
 			<Item Name="ServiceMethods.ARVUsrMethod1.Caption" Value="Создать накладную без обратной доставки" />
+			<Item Name="ServiceMethods.ARVUsrMethod1.Request.Parameters.ARVMPRANote.Caption" Value="MethodProperties RecipientAddressNote" />
 			<Item Name="ServiceMethods.ARVUsrMethod1.Request.Parameters.ARVMPVGeneral.Caption" Value="MethodProperties VolumeGeneral" />
 			<Item Name="ServiceMethods.ARVUsrMethod1.Request.Parameters.ARVUsrAKey.Caption" Value="ApiKey" />
 			<Item Name="ServiceMethods.ARVUsrMethod1.Request.Parameters.ARVUsrCMethod.Caption" Value="CalledMethod" />

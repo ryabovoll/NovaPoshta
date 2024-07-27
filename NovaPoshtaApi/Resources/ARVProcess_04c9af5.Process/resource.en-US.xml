@@ -4,11 +4,15 @@
 		<Items>
 			<Item Name="BaseElements.ConditionalSequenceFlow1.Caption" Value="Условный поток 1" />
 			<Item Name="BaseElements.ConditionalSequenceFlow2.Caption" Value="StartCheckingLists != Guid.Empty" />
+			<Item Name="BaseElements.DefaultSequenceFlow2.Caption" Value="Время с 21:00 до 00:00" />
+			<Item Name="BaseElements.FormulaTask1.Caption" Value="StartCheckingLists" />
+			<Item Name="BaseElements.IntermediateCatchTimer4.Caption" Value="Ждем до 21:00" />
 			<Item Name="BaseElements.IntermediateCatchTimer4.Parameters.StartOffset.Caption" Value="Стартовать через (сек.)" />
 			<Item Name="BaseElements.IntermediateCatchTimer4.Parameters.StartOffset.DisplayValue" Value="[#Минут#] * 60" />
 			<Item Name="BaseElements.IntermediateThrowSignal4.Caption" Value="StartCheckingLists" />
 			<Item Name="BaseElements.StartSignal1.Caption" Value="Добавление записи контрагента" />
 			<Item Name="BaseElements.StartSignal1.Parameters.RecordId.Caption" Value="Уникальный идентификатор записи" />
+			<Item Name="BaseElements.StartSignal2.Caption" Value="StartCheckingLists" />
 			<Item Name="BaseElements.StartSignal2.Parameters.RecordId.Caption" Value="Уникальный идентификатор записи" />
 			<Item Name="BaseElements.StartTimerEvent1.Caption" Value="1 раз в месяц в первую субботу" />
 			<Item Name="BaseElements.SubProcess1.Caption" Value="Додати в довідник областей один запис 1" />
@@ -68,6 +72,7 @@
 			<Item Name="NotificationCaption.Caption" Value="Заголовок экземпляра процесса" />
 			<Item Name="NotificationCaption.DisplayValue" Value="[#Название процесса#]" />
 			<Item Name="Parameters.ProcessSchemaParameter2.Caption" Value="Минут" />
+			<Item Name="Parameters.ProcessSchemaParameter2.DisplayValue" Value="(int)Округлить((([#Системная переменная.Текущее значение даты#] + [#Значение времени.21:00#]) - [#Системная переменная.Текущее значение времени#]).TotalMinutes)" />
 			<Item Name="Parameters.StartCheckingLists.Caption" Value="StartCheckingLists" />
 		</Items>
 	</Group>

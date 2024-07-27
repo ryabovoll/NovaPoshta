@@ -870,6 +870,17 @@
           "L8": {
             "GS5": "5b2c4223-de6f-4225-9af3-05254f92aa12"
           }
+        },
+        {
+          "BL1": "Terrasoft.Core.Process.ProcessSchemaParameter",
+          "UId": "9aa3a9be-04eb-4372-a389-f681b345088d",
+          "A2": "ProcessSchemaParameter79",
+          "A3": "5b2c4223-de6f-4225-9af3-05254f92aa12",
+          "A4": "5b2c4223-de6f-4225-9af3-05254f92aa12",
+          "L1": "6b6b74e2-820d-490e-a017-2b73d4ccf2b0",
+          "L8": {
+            "GS5": "5b2c4223-de6f-4225-9af3-05254f92aa12"
+          }
         }
       ],
       "IJ1": true,

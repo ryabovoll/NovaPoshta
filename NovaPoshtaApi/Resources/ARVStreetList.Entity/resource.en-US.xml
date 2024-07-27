@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Resources Culture="en-US">
+	<Group Type="String">
+		<Items>
+			<Item Name="Caption" Value="Street" />
+			<Item Name="Columns.ARVDescription.Caption" Value="Description" />
+			<Item Name="Columns.ARVRef.Caption" Value="Ref" />
+			<Item Name="Columns.ARVSettlementRef.Caption" Value="SettlementRef" />
+			<Item Name="Columns.ARVStreetsType.Caption" Value="StreetsType" />
+			<Item Name="Columns.ARVStreetsTypeRef.Caption" Value="StreetsTypeRef" />
+		</Items>
+	</Group>
+</Resources>

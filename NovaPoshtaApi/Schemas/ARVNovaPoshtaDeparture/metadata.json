@@ -60,7 +60,6 @@
   "A5": "16448947-c03c-4882-b485-49277eec56d3",
   "S2": "b295071f-7ea9-4e62-8d1a-919bf3732ff2",
   "S4": "4aa3a7c2-67fe-4f3d-8898-4ffce40e02e0",
-  "E2": 1,
   "E6": true,
   "E20": true,
   "E17": "ARVDepartmentId",
@@ -591,7 +590,11 @@
   "A4": "861de5e6-1eab-443f-834f-9d35e8304885",
   "A5": "16448947-c03c-4882-b485-49277eec56d3",
   "S2": "90b65bf8-0ffc-4141-8779-2420877af907",
-  "E5": false
+  "E5": false,
+  "E12": {
+    "FB1": 1,
+    "FB2": "True"
+  }
 }
 + MetaData.Schema.D2 {
   "UId": "42a4ce4f-8e4d-4411-aa84-69e90cbcf52c",
@@ -618,9 +621,70 @@
   "A4": "861de5e6-1eab-443f-834f-9d35e8304885",
   "A5": "16448947-c03c-4882-b485-49277eec56d3",
   "S2": "ddb3a1ee-07e8-4d62-b7a9-d0e618b00fbd",
-  "E5": false
+  "E5": false,
+  "E12": {
+    "FB1": 1,
+    "FB2": "Recipient"
+  }
 }
-~ MetaData.Schema.D2 ["ae0e45ca-c495-4fe7-a39d-3ab7278e1617","e80190a5-03b2-4095-90f7-a193a960adee","ebf6bb93-8aa6-4a01-900d-c6ea67affe21","9928edec-4272-425a-93bb-48743fee4b04","3015559e-cbc6-406a-88af-07f7930be832","3fabd836-6a53-4d8d-9069-6df88d9dae1e","50e6cfde-6886-41c9-a1c8-7bdcc40ed806","b03b0241-9f63-450e-a1c0-f9fa697c07cb","28d3fac5-811a-48f8-a9ed-74093e5793d9","ba5949b5-112c-4bfc-814b-636a03b03e10","3c6bfa01-d86d-4ddb-9c20-8cffb05f2817","5a262e2d-fff0-4032-a7d7-dc8990686cf1","ecd62b28-8832-4e46-86d5-99dce1101b27","52a33052-6d34-4459-b374-b508cea90398","e5eac1cb-26ac-4731-bb95-f79ef7bb6f84","66f4449c-a17e-409b-8020-9bbfb3377b40","e65480b5-0d3e-4a0c-8370-b45708b88cb0","34172f93-d2d9-4343-82df-cdbe3063393c","b84a49c7-22aa-4d4d-843a-3d3966b08104","b0cbbc32-7961-4f5d-95e8-4b14e2d1170b","579e303c-e398-4bde-8dcf-2edd671ab0e3","9c2e7d07-ed75-41d6-a394-2cea334eaef5","bcdeb8ba-86a9-4f69-ade9-0035e18d956d","950a8a12-adf8-4798-849b-2864b410ca15","86ae1e18-cc7d-49dc-8cf7-f0d67a4cbda9","d7ac9e9e-b66b-4b26-94fd-3fa2a71040b7","73523f22-37cd-49be-93e6-82126076930a","b502f08e-d538-4b0b-84c1-c2a830e86949","57f9b8f1-98ae-49e2-8eb9-d7af352d85d4","018b87a2-2efd-422c-8b9b-cb421b97a0de","65a9e998-6946-4b5d-bd47-e11c48b2a863","549bf6fa-31aa-45a6-98d5-5cf37540313e","79b8a884-5fda-4415-b505-ee2cd5da5bab","a3cf15f8-d7ed-42a4-bc03-e128bea2b2b1","4fea7118-1f78-492d-b2d5-1f20dcab6a5c","a8a845e6-f6e8-4bd8-9734-52f6097181a8","12b4a6f2-cf85-43a3-ae2f-006e6ba72c10","702d5b4a-44ef-415c-95ec-1c13c930d1bd","e470d786-bba7-4587-943c-85c8a2fd2ede","a36ac7ad-0c00-425a-b07f-85b5f0244f05","23df7325-964a-41d4-b85f-68aad9863510","6318a386-2eea-491a-be3a-a59805964216","97a7492c-6be0-4dfc-8827-4d8d4c72874a","130f3c26-1d71-4afd-b46d-33a333abdf6f","63fd819e-22d5-4e5d-b9e4-2aba867ab355","06520387-a1aa-4351-8801-653ea0955a69","f9f1d981-914c-4e35-acd1-7a604316ed6a","6f53cf7e-f335-4db5-9996-1e4cce4d11e1","13041fdf-7d3b-4e75-a141-287ed487bb64","4ce317e0-3ed7-4490-9236-bfbc03665cb7","81fee8bd-7c24-4178-bc9f-b4866bafc5de","2dc55849-f86a-4b63-848b-ce87c7e6375e","b05e54c5-df2e-46a8-99a6-aa1a78d9db69","46f73aed-e1a5-47c1-894a-12e822bbed3c","fc7a6728-a476-44e1-b5f0-056a6d16c90e","f1e7beb6-4d26-44a5-bf18-8efa2451377f","82bc3047-ee01-4939-8683-1d41bc5ed9b4","cb318c71-4228-4f97-86e1-77dc84282c91","1eff46c9-aff3-4741-a2e5-f5a88fb38f8e","d12e3947-76cf-417b-977b-bde7cf634c5d","42a4ce4f-8e4d-4411-aa84-69e90cbcf52c","faf566d5-8a4b-4977-bae8-3186a181a7db","74b0267c-8c1e-48cb-8f39-081442b00cef"]
++ MetaData.Schema.D2 {
+  "UId": "c5189190-e4ae-45df-b8c8-ea05e70c27bb",
+  "A2": "ARVStreet",
+  "A3": "861de5e6-1eab-443f-834f-9d35e8304885",
+  "A4": "861de5e6-1eab-443f-834f-9d35e8304885",
+  "A5": "16448947-c03c-4882-b485-49277eec56d3",
+  "S2": "b295071f-7ea9-4e62-8d1a-919bf3732ff2",
+  "S4": "b52fa119-86d4-4030-b9dc-12f72b2d23c7",
+  "E6": true,
+  "E20": true,
+  "E17": "ARVStreetId",
+  "E18": "ARVStreetName"
+}
++ MetaData.Schema.D2 {
+  "UId": "a2b5f88f-9311-419b-aaf1-3341d63b61ca",
+  "A2": "ARVaddressBool",
+  "A3": "861de5e6-1eab-443f-834f-9d35e8304885",
+  "A4": "861de5e6-1eab-443f-834f-9d35e8304885",
+  "A5": "16448947-c03c-4882-b485-49277eec56d3",
+  "S2": "90b65bf8-0ffc-4141-8779-2420877af907"
+}
++ MetaData.Schema.D2 {
+  "UId": "76c0668d-fa61-4cac-b458-b32e831ffe1b",
+  "A2": "ARVHouse",
+  "A3": "861de5e6-1eab-443f-834f-9d35e8304885",
+  "A4": "861de5e6-1eab-443f-834f-9d35e8304885",
+  "A5": "16448947-c03c-4882-b485-49277eec56d3",
+  "S2": "325a73b8-0f47-44a0-8412-7606f78003ac"
+}
++ MetaData.Schema.D2 {
+  "UId": "50d029e5-96a6-41f1-a221-7f72dd092f34",
+  "A2": "ARVString1",
+  "A3": "861de5e6-1eab-443f-834f-9d35e8304885",
+  "A4": "861de5e6-1eab-443f-834f-9d35e8304885",
+  "A5": "16448947-c03c-4882-b485-49277eec56d3",
+  "S2": "325a73b8-0f47-44a0-8412-7606f78003ac"
+}
++ MetaData.Schema.D2 {
+  "UId": "34b94867-7628-48ef-b910-f8c1ffad8fa6",
+  "A2": "ARVStreetDefault",
+  "A3": "861de5e6-1eab-443f-834f-9d35e8304885",
+  "A4": "861de5e6-1eab-443f-834f-9d35e8304885",
+  "A5": "16448947-c03c-4882-b485-49277eec56d3",
+  "S2": "b295071f-7ea9-4e62-8d1a-919bf3732ff2",
+  "S4": "b52fa119-86d4-4030-b9dc-12f72b2d23c7",
+  "E6": true,
+  "E17": "ARVStreetDefaultId",
+  "E18": "ARVStreetDefaultName"
+}
++ MetaData.Schema.D2 {
+  "UId": "bb18e1d2-facf-4943-a3f5-50c202cd1c29",
+  "A2": "ARVRecipientAddressNote",
+  "A3": "861de5e6-1eab-443f-834f-9d35e8304885",
+  "A4": "861de5e6-1eab-443f-834f-9d35e8304885",
+  "A5": "16448947-c03c-4882-b485-49277eec56d3",
+  "S2": "5ca35f10-a101-4c67-a96a-383da6afacfc"
+}
+~ MetaData.Schema.D2 ["ae0e45ca-c495-4fe7-a39d-3ab7278e1617","e80190a5-03b2-4095-90f7-a193a960adee","ebf6bb93-8aa6-4a01-900d-c6ea67affe21","9928edec-4272-425a-93bb-48743fee4b04","3015559e-cbc6-406a-88af-07f7930be832","3fabd836-6a53-4d8d-9069-6df88d9dae1e","50e6cfde-6886-41c9-a1c8-7bdcc40ed806","b03b0241-9f63-450e-a1c0-f9fa697c07cb","28d3fac5-811a-48f8-a9ed-74093e5793d9","ba5949b5-112c-4bfc-814b-636a03b03e10","3c6bfa01-d86d-4ddb-9c20-8cffb05f2817","5a262e2d-fff0-4032-a7d7-dc8990686cf1","ecd62b28-8832-4e46-86d5-99dce1101b27","52a33052-6d34-4459-b374-b508cea90398","e5eac1cb-26ac-4731-bb95-f79ef7bb6f84","66f4449c-a17e-409b-8020-9bbfb3377b40","e65480b5-0d3e-4a0c-8370-b45708b88cb0","34172f93-d2d9-4343-82df-cdbe3063393c","b84a49c7-22aa-4d4d-843a-3d3966b08104","b0cbbc32-7961-4f5d-95e8-4b14e2d1170b","579e303c-e398-4bde-8dcf-2edd671ab0e3","9c2e7d07-ed75-41d6-a394-2cea334eaef5","bcdeb8ba-86a9-4f69-ade9-0035e18d956d","950a8a12-adf8-4798-849b-2864b410ca15","86ae1e18-cc7d-49dc-8cf7-f0d67a4cbda9","d7ac9e9e-b66b-4b26-94fd-3fa2a71040b7","73523f22-37cd-49be-93e6-82126076930a","b502f08e-d538-4b0b-84c1-c2a830e86949","57f9b8f1-98ae-49e2-8eb9-d7af352d85d4","018b87a2-2efd-422c-8b9b-cb421b97a0de","65a9e998-6946-4b5d-bd47-e11c48b2a863","549bf6fa-31aa-45a6-98d5-5cf37540313e","79b8a884-5fda-4415-b505-ee2cd5da5bab","a3cf15f8-d7ed-42a4-bc03-e128bea2b2b1","4fea7118-1f78-492d-b2d5-1f20dcab6a5c","a8a845e6-f6e8-4bd8-9734-52f6097181a8","12b4a6f2-cf85-43a3-ae2f-006e6ba72c10","702d5b4a-44ef-415c-95ec-1c13c930d1bd","e470d786-bba7-4587-943c-85c8a2fd2ede","a36ac7ad-0c00-425a-b07f-85b5f0244f05","23df7325-964a-41d4-b85f-68aad9863510","6318a386-2eea-491a-be3a-a59805964216","97a7492c-6be0-4dfc-8827-4d8d4c72874a","130f3c26-1d71-4afd-b46d-33a333abdf6f","63fd819e-22d5-4e5d-b9e4-2aba867ab355","06520387-a1aa-4351-8801-653ea0955a69","f9f1d981-914c-4e35-acd1-7a604316ed6a","6f53cf7e-f335-4db5-9996-1e4cce4d11e1","13041fdf-7d3b-4e75-a141-287ed487bb64","4ce317e0-3ed7-4490-9236-bfbc03665cb7","81fee8bd-7c24-4178-bc9f-b4866bafc5de","2dc55849-f86a-4b63-848b-ce87c7e6375e","b05e54c5-df2e-46a8-99a6-aa1a78d9db69","46f73aed-e1a5-47c1-894a-12e822bbed3c","fc7a6728-a476-44e1-b5f0-056a6d16c90e","f1e7beb6-4d26-44a5-bf18-8efa2451377f","82bc3047-ee01-4939-8683-1d41bc5ed9b4","cb318c71-4228-4f97-86e1-77dc84282c91","1eff46c9-aff3-4741-a2e5-f5a88fb38f8e","d12e3947-76cf-417b-977b-bde7cf634c5d","42a4ce4f-8e4d-4411-aa84-69e90cbcf52c","faf566d5-8a4b-4977-bae8-3186a181a7db","74b0267c-8c1e-48cb-8f39-081442b00cef","c5189190-e4ae-45df-b8c8-ea05e70c27bb","a2b5f88f-9311-419b-aaf1-3341d63b61ca","76c0668d-fa61-4cac-b458-b32e831ffe1b","50d029e5-96a6-41f1-a221-7f72dd092f34","34b94867-7628-48ef-b910-f8c1ffad8fa6","bb18e1d2-facf-4943-a3f5-50c202cd1c29"]
 = MetaData.Schema.D20.A2 "ARVNovaPoshtaDepartureEvents"
 = MetaData.Schema.D36.A3 "861de5e6-1eab-443f-834f-9d35e8304885"
 = MetaData.Schema.D36.BS1 false

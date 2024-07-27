@@ -117,6 +117,7 @@
 			<Item Name="Parameters.ProcessSchemaParameter76.Caption" Value="WarehouseStatus" />
 			<Item Name="Parameters.ProcessSchemaParameter77.Caption" Value="WarehouseStatusDate" />
 			<Item Name="Parameters.ProcessSchemaParameter78.Caption" Value="WorkInMobileAwis" />
+			<Item Name="Parameters.ProcessSchemaParameter79.Caption" Value="Повторений" />
 			<Item Name="Parameters.ProcessSchemaParameter8.Caption" Value="Ddepartment" />
 			<Item Name="Parameters.ProcessSchemaParameter9.Caption" Value="Delivery Friday" />
 		</Items>
