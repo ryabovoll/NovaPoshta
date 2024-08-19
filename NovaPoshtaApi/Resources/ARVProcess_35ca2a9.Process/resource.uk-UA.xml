@@ -22,7 +22,14 @@
 			<Item Name="BaseElements.ReadDataUserTask1.Parameters.ResultIntegerFunction.Caption" Value="Результат функції (Ціле)" />
 			<Item Name="BaseElements.ReadDataUserTask1.Parameters.ResultRowsCount.Caption" Value="Кількість прочитаних записів" />
 			<Item Name="BaseElements.ReadDataUserTask1.Parameters.ResultType.Caption" Value="Тип результату" />
-			<Item Name="Caption" Value="Трекинг колекция" />
+			<Item Name="BaseElements.SubProcess1.Parameters.CompletedIterationsCount.Caption" Value="Число виконаних екземплярів" />
+			<Item Name="BaseElements.SubProcess1.Parameters.InputRecordCollection.Caption" Value="Вхідна колекція записів" />
+			<Item Name="BaseElements.SubProcess1.Parameters.InputRecordCollection.ProcessSchemaParameter1.Caption" Value="ID" />
+			<Item Name="BaseElements.SubProcess1.Parameters.OutputRecordCollection.Caption" Value="Вихідна колекція записів" />
+			<Item Name="BaseElements.SubProcess1.Parameters.OutputRecordCollection.ProcessSchemaParameter1.Caption" Value="ID" />
+			<Item Name="BaseElements.SubProcess1.Parameters.TerminatedIterationsCount.Caption" Value="Число переваних екземплярів" />
+			<Item Name="BaseElements.SubProcess1.Parameters.TotalIterationsCount.Caption" Value="Загальна кількість екземплярів" />
+			<Item Name="Caption" Value="Tracking collection" />
 		</Items>
 	</Group>
 </Resources>

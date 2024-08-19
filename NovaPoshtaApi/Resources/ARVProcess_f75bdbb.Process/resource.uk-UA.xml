@@ -173,7 +173,240 @@
 			<Item Name="BaseElements.ReadDataUserTask9.Parameters.ResultIntegerFunction.Caption" Value="Результат функції (Ціле)" />
 			<Item Name="BaseElements.ReadDataUserTask9.Parameters.ResultRowsCount.Caption" Value="Кількість прочитаних записів" />
 			<Item Name="BaseElements.ReadDataUserTask9.Parameters.ResultType.Caption" Value="Тип результату" />
-			<Item Name="Caption" Value="Создать накладную" />
+			<Item Name="BaseElements.SubProcess1.Parameters.CompletedIterationsCount.Caption" Value="Число виконаних екземплярів" />
+			<Item Name="BaseElements.SubProcess1.Parameters.InputRecordCollection.Caption" Value="Вхідна колекція записів" />
+			<Item Name="BaseElements.SubProcess1.Parameters.InputRecordCollection.ProcessSchemaParameter1.Caption" Value="iD Відправлення" />
+			<Item Name="BaseElements.SubProcess1.Parameters.InputRecordCollection.ProcessSchemaParameter2.Caption" Value="Ref" />
+			<Item Name="BaseElements.SubProcess1.Parameters.InputRecordCollection.ProcessSchemaParameter3.Caption" Value="CostOnSite" />
+			<Item Name="BaseElements.SubProcess1.Parameters.InputRecordCollection.ProcessSchemaParameter4.Caption" Value="EstimatedDeliveryDate" />
+			<Item Name="BaseElements.SubProcess1.Parameters.InputRecordCollection.ProcessSchemaParameter5.Caption" Value="IntDocNumber" />
+			<Item Name="BaseElements.SubProcess1.Parameters.InputRecordCollection.ProcessSchemaParameter6.Caption" Value="TypeDocument" />
+			<Item Name="BaseElements.SubProcess1.Parameters.OutputRecordCollection.Caption" Value="Вихідна колекція записів" />
+			<Item Name="BaseElements.SubProcess1.Parameters.OutputRecordCollection.ProcessSchemaParameter1.Caption" Value="iD Відправлення" />
+			<Item Name="BaseElements.SubProcess1.Parameters.OutputRecordCollection.ProcessSchemaParameter2.Caption" Value="Ref" />
+			<Item Name="BaseElements.SubProcess1.Parameters.OutputRecordCollection.ProcessSchemaParameter3.Caption" Value="CostOnSite" />
+			<Item Name="BaseElements.SubProcess1.Parameters.OutputRecordCollection.ProcessSchemaParameter4.Caption" Value="EstimatedDeliveryDate" />
+			<Item Name="BaseElements.SubProcess1.Parameters.OutputRecordCollection.ProcessSchemaParameter5.Caption" Value="IntDocNumber" />
+			<Item Name="BaseElements.SubProcess1.Parameters.OutputRecordCollection.ProcessSchemaParameter6.Caption" Value="TypeDocument" />
+			<Item Name="BaseElements.SubProcess1.Parameters.TerminatedIterationsCount.Caption" Value="Число переваних екземплярів" />
+			<Item Name="BaseElements.SubProcess1.Parameters.TotalIterationsCount.Caption" Value="Загальна кількість екземплярів" />
+			<Item Name="BaseElements.SubProcess2.Parameters.CompletedIterationsCount.Caption" Value="Число виконаних екземплярів" />
+			<Item Name="BaseElements.SubProcess2.Parameters.InputRecordCollection.Caption" Value="Вхідна колекція записів" />
+			<Item Name="BaseElements.SubProcess2.Parameters.InputRecordCollection.ProcessSchemaParameter1.Caption" Value="iD Відправлення" />
+			<Item Name="BaseElements.SubProcess2.Parameters.InputRecordCollection.ProcessSchemaParameter2.Caption" Value="Ref" />
+			<Item Name="BaseElements.SubProcess2.Parameters.InputRecordCollection.ProcessSchemaParameter3.Caption" Value="CostOnSite" />
+			<Item Name="BaseElements.SubProcess2.Parameters.InputRecordCollection.ProcessSchemaParameter4.Caption" Value="EstimatedDeliveryDate" />
+			<Item Name="BaseElements.SubProcess2.Parameters.InputRecordCollection.ProcessSchemaParameter5.Caption" Value="IntDocNumber" />
+			<Item Name="BaseElements.SubProcess2.Parameters.InputRecordCollection.ProcessSchemaParameter6.Caption" Value="TypeDocument" />
+			<Item Name="BaseElements.SubProcess2.Parameters.OutputRecordCollection.Caption" Value="Вихідна колекція записів" />
+			<Item Name="BaseElements.SubProcess2.Parameters.OutputRecordCollection.ProcessSchemaParameter1.Caption" Value="iD Відправлення" />
+			<Item Name="BaseElements.SubProcess2.Parameters.OutputRecordCollection.ProcessSchemaParameter2.Caption" Value="Ref" />
+			<Item Name="BaseElements.SubProcess2.Parameters.OutputRecordCollection.ProcessSchemaParameter3.Caption" Value="CostOnSite" />
+			<Item Name="BaseElements.SubProcess2.Parameters.OutputRecordCollection.ProcessSchemaParameter4.Caption" Value="EstimatedDeliveryDate" />
+			<Item Name="BaseElements.SubProcess2.Parameters.OutputRecordCollection.ProcessSchemaParameter5.Caption" Value="IntDocNumber" />
+			<Item Name="BaseElements.SubProcess2.Parameters.OutputRecordCollection.ProcessSchemaParameter6.Caption" Value="TypeDocument" />
+			<Item Name="BaseElements.SubProcess2.Parameters.TerminatedIterationsCount.Caption" Value="Число переваних екземплярів" />
+			<Item Name="BaseElements.SubProcess2.Parameters.TotalIterationsCount.Caption" Value="Загальна кількість екземплярів" />
+			<Item Name="BaseElements.SubProcess4.Parameters.CompletedIterationsCount.Caption" Value="Число виконаних екземплярів" />
+			<Item Name="BaseElements.SubProcess4.Parameters.InputRecordCollection.Caption" Value="Вхідна колекція записів" />
+			<Item Name="BaseElements.SubProcess4.Parameters.InputRecordCollection.ProcessSchemaParameter1.Caption" Value="iD Відправлення" />
+			<Item Name="BaseElements.SubProcess4.Parameters.InputRecordCollection.ProcessSchemaParameter2.Caption" Value="Ref" />
+			<Item Name="BaseElements.SubProcess4.Parameters.InputRecordCollection.ProcessSchemaParameter3.Caption" Value="CostOnSite" />
+			<Item Name="BaseElements.SubProcess4.Parameters.InputRecordCollection.ProcessSchemaParameter4.Caption" Value="EstimatedDeliveryDate" />
+			<Item Name="BaseElements.SubProcess4.Parameters.InputRecordCollection.ProcessSchemaParameter5.Caption" Value="IntDocNumber" />
+			<Item Name="BaseElements.SubProcess4.Parameters.InputRecordCollection.ProcessSchemaParameter6.Caption" Value="TypeDocument" />
+			<Item Name="BaseElements.SubProcess4.Parameters.OutputRecordCollection.Caption" Value="Вихідна колекція записів" />
+			<Item Name="BaseElements.SubProcess4.Parameters.OutputRecordCollection.ProcessSchemaParameter1.Caption" Value="iD Відправлення" />
+			<Item Name="BaseElements.SubProcess4.Parameters.OutputRecordCollection.ProcessSchemaParameter2.Caption" Value="Ref" />
+			<Item Name="BaseElements.SubProcess4.Parameters.OutputRecordCollection.ProcessSchemaParameter3.Caption" Value="CostOnSite" />
+			<Item Name="BaseElements.SubProcess4.Parameters.OutputRecordCollection.ProcessSchemaParameter4.Caption" Value="EstimatedDeliveryDate" />
+			<Item Name="BaseElements.SubProcess4.Parameters.OutputRecordCollection.ProcessSchemaParameter5.Caption" Value="IntDocNumber" />
+			<Item Name="BaseElements.SubProcess4.Parameters.OutputRecordCollection.ProcessSchemaParameter6.Caption" Value="TypeDocument" />
+			<Item Name="BaseElements.SubProcess4.Parameters.TerminatedIterationsCount.Caption" Value="Число переваних екземплярів" />
+			<Item Name="BaseElements.SubProcess4.Parameters.TotalIterationsCount.Caption" Value="Загальна кількість екземплярів" />
+			<Item Name="BaseElements.SubProcess5.Parameters.CompletedIterationsCount.Caption" Value="Число виконаних екземплярів" />
+			<Item Name="BaseElements.SubProcess5.Parameters.InputRecordCollection.Caption" Value="Вхідна колекція записів" />
+			<Item Name="BaseElements.SubProcess5.Parameters.InputRecordCollection.ProcessSchemaParameter1.Caption" Value="iD Відправлення" />
+			<Item Name="BaseElements.SubProcess5.Parameters.InputRecordCollection.ProcessSchemaParameter2.Caption" Value="Ref" />
+			<Item Name="BaseElements.SubProcess5.Parameters.InputRecordCollection.ProcessSchemaParameter3.Caption" Value="CostOnSite" />
+			<Item Name="BaseElements.SubProcess5.Parameters.InputRecordCollection.ProcessSchemaParameter4.Caption" Value="EstimatedDeliveryDate" />
+			<Item Name="BaseElements.SubProcess5.Parameters.InputRecordCollection.ProcessSchemaParameter5.Caption" Value="IntDocNumber" />
+			<Item Name="BaseElements.SubProcess5.Parameters.InputRecordCollection.ProcessSchemaParameter6.Caption" Value="TypeDocument" />
+			<Item Name="BaseElements.SubProcess5.Parameters.OutputRecordCollection.Caption" Value="Вихідна колекція записів" />
+			<Item Name="BaseElements.SubProcess5.Parameters.OutputRecordCollection.ProcessSchemaParameter1.Caption" Value="iD Відправлення" />
+			<Item Name="BaseElements.SubProcess5.Parameters.OutputRecordCollection.ProcessSchemaParameter2.Caption" Value="Ref" />
+			<Item Name="BaseElements.SubProcess5.Parameters.OutputRecordCollection.ProcessSchemaParameter3.Caption" Value="CostOnSite" />
+			<Item Name="BaseElements.SubProcess5.Parameters.OutputRecordCollection.ProcessSchemaParameter4.Caption" Value="EstimatedDeliveryDate" />
+			<Item Name="BaseElements.SubProcess5.Parameters.OutputRecordCollection.ProcessSchemaParameter5.Caption" Value="IntDocNumber" />
+			<Item Name="BaseElements.SubProcess5.Parameters.OutputRecordCollection.ProcessSchemaParameter6.Caption" Value="TypeDocument" />
+			<Item Name="BaseElements.SubProcess5.Parameters.TerminatedIterationsCount.Caption" Value="Число переваних екземплярів" />
+			<Item Name="BaseElements.SubProcess5.Parameters.TotalIterationsCount.Caption" Value="Загальна кількість екземплярів" />
+			<Item Name="BaseElements.WebService1.Parameters.ARVMPRANote_In.Caption" Value="MethodProperties RecipientAddressNote" />
+			<Item Name="BaseElements.WebService1.Parameters.ARVMPVGeneral_In.Caption" Value="MethodProperties VolumeGeneral" />
+			<Item Name="BaseElements.WebService1.Parameters.ARVUsrAKey_In.Caption" Value="ApiKey" />
+			<Item Name="BaseElements.WebService1.Parameters.ARVUsrCMethod_In.Caption" Value="CalledMethod" />
+			<Item Name="BaseElements.WebService1.Parameters.ARVUsrData_Out.Caption" Value="Data" />
+			<Item Name="BaseElements.WebService1.Parameters.ARVUsrECodes_Out.Caption" Value="ErrorCodes" />
+			<Item Name="BaseElements.WebService1.Parameters.ARVUsrErrors_Out.Caption" Value="Errors" />
+			<Item Name="BaseElements.WebService1.Parameters.ARVUsrICodes_Out.Caption" Value="InfoCodes" />
+			<Item Name="BaseElements.WebService1.Parameters.ARVUsrInfo_Out.Caption" Value="Info" />
+			<Item Name="BaseElements.WebService1.Parameters.ARVUsrMCodes_Out.Caption" Value="MessageCodes" />
+			<Item Name="BaseElements.WebService1.Parameters.ARVUsrMName_In.Caption" Value="ModelName" />
+			<Item Name="BaseElements.WebService1.Parameters.ARVUsrMPCost_In.Caption" Value="MethodProperties Cost" />
+			<Item Name="BaseElements.WebService1.Parameters.ARVUsrMPCSender_In.Caption" Value="MethodProperties CitySender" />
+			<Item Name="BaseElements.WebService1.Parameters.ARVUsrMPCSender1_In.Caption" Value="MethodProperties ContactSender" />
+			<Item Name="BaseElements.WebService1.Parameters.ARVUsrMPCType_In.Caption" Value="MethodProperties CargoType" />
+			<Item Name="BaseElements.WebService1.Parameters.ARVUsrMPDescription_In.Caption" Value="MethodProperties Description" />
+			<Item Name="BaseElements.WebService1.Parameters.ARVUsrMPDTime_In.Caption" Value="MethodProperties DateTime" />
+			<Item Name="BaseElements.WebService1.Parameters.ARVUsrMPNAddress_In.Caption" Value="MethodProperties NewAddress" />
+			<Item Name="BaseElements.WebService1.Parameters.ARVUsrMPPMethod_In.Caption" Value="MethodProperties PaymentMethod" />
+			<Item Name="BaseElements.WebService1.Parameters.ARVUsrMPPType_In.Caption" Value="MethodProperties PayerType" />
+			<Item Name="BaseElements.WebService1.Parameters.ARVUsrMPRAName_In.Caption" Value="MethodProperties RecipientAddressName" />
+			<Item Name="BaseElements.WebService1.Parameters.ARVUsrMPRArea_In.Caption" Value="MethodProperties RecipientArea" />
+			<Item Name="BaseElements.WebService1.Parameters.ARVUsrMPRARegions_In.Caption" Value="MethodProperties RecipientAreaRegions" />
+			<Item Name="BaseElements.WebService1.Parameters.ARVUsrMPRCName_In.Caption" Value="MethodProperties RecipientCityName" />
+			<Item Name="BaseElements.WebService1.Parameters.ARVUsrMPRFlat_In.Caption" Value="MethodProperties RecipientFlat" />
+			<Item Name="BaseElements.WebService1.Parameters.ARVUsrMPRHouse_In.Caption" Value="MethodProperties RecipientHouse" />
+			<Item Name="BaseElements.WebService1.Parameters.ARVUsrMPRName_In.Caption" Value="MethodProperties RecipientName" />
+			<Item Name="BaseElements.WebService1.Parameters.ARVUsrMProperties_In.Caption" Value="MethodProperties EDRPOU" />
+			<Item Name="BaseElements.WebService1.Parameters.ARVUsrMPRPhone_In.Caption" Value="MethodProperties RecipientsPhone" />
+			<Item Name="BaseElements.WebService1.Parameters.ARVUsrMPRType_In.Caption" Value="MethodProperties RecipientType" />
+			<Item Name="BaseElements.WebService1.Parameters.ARVUsrMPSAddress_In.Caption" Value="MethodProperties SenderAddress" />
+			<Item Name="BaseElements.WebService1.Parameters.ARVUsrMPSAmount_In.Caption" Value="MethodProperties SeatsAmount" />
+			<Item Name="BaseElements.WebService1.Parameters.ARVUsrMPSender_In.Caption" Value="MethodProperties Sender" />
+			<Item Name="BaseElements.WebService1.Parameters.ARVUsrMPSPhone_In.Caption" Value="MethodProperties SendersPhone" />
+			<Item Name="BaseElements.WebService1.Parameters.ARVUsrMPSType_In.Caption" Value="MethodProperties ServiceType" />
+			<Item Name="BaseElements.WebService1.Parameters.ARVUsrMPSType1_In.Caption" Value="MethodProperties SettlementType" />
+			<Item Name="BaseElements.WebService1.Parameters.ARVUsrMPWeight_In.Caption" Value="MethodProperties Weight" />
+			<Item Name="BaseElements.WebService1.Parameters.ARVUsrSuccess_Out.Caption" Value="Success" />
+			<Item Name="BaseElements.WebService1.Parameters.ARVUsrWarnings_Out.Caption" Value="Warnings" />
+			<Item Name="BaseElements.WebService1.Parameters.ARVUsrWCodes_Out.Caption" Value="WarningCodes" />
+			<Item Name="BaseElements.WebService2.Parameters.ARVMPBDData_In.Caption" Value="MethodProperties BackwardDeliveryData" />
+			<Item Name="BaseElements.WebService2.Parameters.ARVMPRANote_In.Caption" Value="MethodProperties RecipientAddressNote" />
+			<Item Name="BaseElements.WebService2.Parameters.ARVMPVGeneral_In.Caption" Value="MethodProperties VolumeGeneral" />
+			<Item Name="BaseElements.WebService2.Parameters.ARVUsrAKey_In.Caption" Value="ApiKey" />
+			<Item Name="BaseElements.WebService2.Parameters.ARVUsrCMethod_In.Caption" Value="CalledMethod" />
+			<Item Name="BaseElements.WebService2.Parameters.ARVUsrData_Out.Caption" Value="Data" />
+			<Item Name="BaseElements.WebService2.Parameters.ARVUsrECodes_Out.Caption" Value="ErrorCodes" />
+			<Item Name="BaseElements.WebService2.Parameters.ARVUsrErrors_Out.Caption" Value="Errors" />
+			<Item Name="BaseElements.WebService2.Parameters.ARVUsrICodes_Out.Caption" Value="InfoCodes" />
+			<Item Name="BaseElements.WebService2.Parameters.ARVUsrInfo_Out.Caption" Value="Info" />
+			<Item Name="BaseElements.WebService2.Parameters.ARVUsrMCodes_Out.Caption" Value="MessageCodes" />
+			<Item Name="BaseElements.WebService2.Parameters.ARVUsrMName_In.Caption" Value="ModelName" />
+			<Item Name="BaseElements.WebService2.Parameters.ARVUsrMPCost_In.Caption" Value="MethodProperties Cost" />
+			<Item Name="BaseElements.WebService2.Parameters.ARVUsrMPCSender_In.Caption" Value="MethodProperties CitySender" />
+			<Item Name="BaseElements.WebService2.Parameters.ARVUsrMPCSender1_In.Caption" Value="MethodProperties ContactSender" />
+			<Item Name="BaseElements.WebService2.Parameters.ARVUsrMPCType_In.Caption" Value="MethodProperties CargoType" />
+			<Item Name="BaseElements.WebService2.Parameters.ARVUsrMPDescription_In.Caption" Value="MethodProperties Description" />
+			<Item Name="BaseElements.WebService2.Parameters.ARVUsrMPDTime_In.Caption" Value="MethodProperties DateTime" />
+			<Item Name="BaseElements.WebService2.Parameters.ARVUsrMPNAddress_In.Caption" Value="MethodProperties NewAddress" />
+			<Item Name="BaseElements.WebService2.Parameters.ARVUsrMPPMethod_In.Caption" Value="MethodProperties PaymentMethod" />
+			<Item Name="BaseElements.WebService2.Parameters.ARVUsrMPPType_In.Caption" Value="MethodProperties PayerType" />
+			<Item Name="BaseElements.WebService2.Parameters.ARVUsrMPRAName_In.Caption" Value="MethodProperties RecipientAddressName" />
+			<Item Name="BaseElements.WebService2.Parameters.ARVUsrMPRArea_In.Caption" Value="MethodProperties RecipientArea" />
+			<Item Name="BaseElements.WebService2.Parameters.ARVUsrMPRARegions_In.Caption" Value="MethodProperties RecipientAreaRegions" />
+			<Item Name="BaseElements.WebService2.Parameters.ARVUsrMPRCName_In.Caption" Value="MethodProperties RecipientCityName" />
+			<Item Name="BaseElements.WebService2.Parameters.ARVUsrMPRFlat_In.Caption" Value="MethodProperties RecipientFlat" />
+			<Item Name="BaseElements.WebService2.Parameters.ARVUsrMPRHouse_In.Caption" Value="MethodProperties RecipientHouse" />
+			<Item Name="BaseElements.WebService2.Parameters.ARVUsrMPRName_In.Caption" Value="MethodProperties RecipientName" />
+			<Item Name="BaseElements.WebService2.Parameters.ARVUsrMProperties_In.Caption" Value="MethodProperties EDRPOU" />
+			<Item Name="BaseElements.WebService2.Parameters.ARVUsrMPRPhone_In.Caption" Value="MethodProperties RecipientsPhone" />
+			<Item Name="BaseElements.WebService2.Parameters.ARVUsrMPRType_In.Caption" Value="MethodProperties RecipientType" />
+			<Item Name="BaseElements.WebService2.Parameters.ARVUsrMPSAddress_In.Caption" Value="MethodProperties SenderAddress" />
+			<Item Name="BaseElements.WebService2.Parameters.ARVUsrMPSAmount_In.Caption" Value="MethodProperties SeatsAmount" />
+			<Item Name="BaseElements.WebService2.Parameters.ARVUsrMPSender_In.Caption" Value="MethodProperties Sender" />
+			<Item Name="BaseElements.WebService2.Parameters.ARVUsrMPSPhone_In.Caption" Value="MethodProperties SendersPhone" />
+			<Item Name="BaseElements.WebService2.Parameters.ARVUsrMPSType_In.Caption" Value="MethodProperties ServiceType" />
+			<Item Name="BaseElements.WebService2.Parameters.ARVUsrMPSType1_In.Caption" Value="MethodProperties SettlementType" />
+			<Item Name="BaseElements.WebService2.Parameters.ARVUsrMPWeight_In.Caption" Value="MethodProperties Weight" />
+			<Item Name="BaseElements.WebService2.Parameters.ARVUsrSuccess_Out.Caption" Value="Success" />
+			<Item Name="BaseElements.WebService2.Parameters.ARVUsrWarnings_Out.Caption" Value="Warnings" />
+			<Item Name="BaseElements.WebService2.Parameters.ARVUsrWCodes_Out.Caption" Value="WarningCodes" />
+			<Item Name="BaseElements.WebService3.Parameters.ARVMPBDData_In.Caption" Value="MethodProperties BackwardDeliveryData" />
+			<Item Name="BaseElements.WebService3.Parameters.ARVMPRANote_In.Caption" Value="MethodProperties RecipientAddressNote" />
+			<Item Name="BaseElements.WebService3.Parameters.ARVMPVGeneral_In.Caption" Value="MethodProperties VolumeGeneral" />
+			<Item Name="BaseElements.WebService3.Parameters.ARVUsrAKey_In.Caption" Value="ApiKey" />
+			<Item Name="BaseElements.WebService3.Parameters.ARVUsrCMethod_In.Caption" Value="CalledMethod" />
+			<Item Name="BaseElements.WebService3.Parameters.ARVUsrData_Out.Caption" Value="Data" />
+			<Item Name="BaseElements.WebService3.Parameters.ARVUsrECodes_Out.Caption" Value="ErrorCodes" />
+			<Item Name="BaseElements.WebService3.Parameters.ARVUsrErrors_Out.Caption" Value="Errors" />
+			<Item Name="BaseElements.WebService3.Parameters.ARVUsrICodes_Out.Caption" Value="InfoCodes" />
+			<Item Name="BaseElements.WebService3.Parameters.ARVUsrInfo_Out.Caption" Value="Info" />
+			<Item Name="BaseElements.WebService3.Parameters.ARVUsrMCodes_Out.Caption" Value="MessageCodes" />
+			<Item Name="BaseElements.WebService3.Parameters.ARVUsrMName_In.Caption" Value="ModelName" />
+			<Item Name="BaseElements.WebService3.Parameters.ARVUsrMPCost_In.Caption" Value="MethodProperties Cost" />
+			<Item Name="BaseElements.WebService3.Parameters.ARVUsrMPCSender_In.Caption" Value="MethodProperties CitySender" />
+			<Item Name="BaseElements.WebService3.Parameters.ARVUsrMPCSender1_In.Caption" Value="MethodProperties ContactSender" />
+			<Item Name="BaseElements.WebService3.Parameters.ARVUsrMPCType_In.Caption" Value="MethodProperties CargoType" />
+			<Item Name="BaseElements.WebService3.Parameters.ARVUsrMPDescription_In.Caption" Value="MethodProperties Description" />
+			<Item Name="BaseElements.WebService3.Parameters.ARVUsrMPDTime_In.Caption" Value="MethodProperties DateTime" />
+			<Item Name="BaseElements.WebService3.Parameters.ARVUsrMPNAddress_In.Caption" Value="MethodProperties NewAddress" />
+			<Item Name="BaseElements.WebService3.Parameters.ARVUsrMPPMethod_In.Caption" Value="MethodProperties PaymentMethod" />
+			<Item Name="BaseElements.WebService3.Parameters.ARVUsrMPPType_In.Caption" Value="MethodProperties PayerType" />
+			<Item Name="BaseElements.WebService3.Parameters.ARVUsrMPRAName_In.Caption" Value="MethodProperties RecipientAddressName" />
+			<Item Name="BaseElements.WebService3.Parameters.ARVUsrMPRArea_In.Caption" Value="MethodProperties RecipientArea" />
+			<Item Name="BaseElements.WebService3.Parameters.ARVUsrMPRARegions_In.Caption" Value="MethodProperties RecipientAreaRegions" />
+			<Item Name="BaseElements.WebService3.Parameters.ARVUsrMPRCName_In.Caption" Value="MethodProperties RecipientCityName" />
+			<Item Name="BaseElements.WebService3.Parameters.ARVUsrMPRFlat_In.Caption" Value="MethodProperties RecipientFlat" />
+			<Item Name="BaseElements.WebService3.Parameters.ARVUsrMPRHouse_In.Caption" Value="MethodProperties RecipientHouse" />
+			<Item Name="BaseElements.WebService3.Parameters.ARVUsrMPRName_In.Caption" Value="MethodProperties RecipientName" />
+			<Item Name="BaseElements.WebService3.Parameters.ARVUsrMProperties_In.Caption" Value="MethodProperties EDRPOU" />
+			<Item Name="BaseElements.WebService3.Parameters.ARVUsrMPRPhone_In.Caption" Value="MethodProperties RecipientsPhone" />
+			<Item Name="BaseElements.WebService3.Parameters.ARVUsrMPRType_In.Caption" Value="MethodProperties RecipientType" />
+			<Item Name="BaseElements.WebService3.Parameters.ARVUsrMPSAddress_In.Caption" Value="MethodProperties SenderAddress" />
+			<Item Name="BaseElements.WebService3.Parameters.ARVUsrMPSAmount_In.Caption" Value="MethodProperties SeatsAmount" />
+			<Item Name="BaseElements.WebService3.Parameters.ARVUsrMPSender_In.Caption" Value="MethodProperties Sender" />
+			<Item Name="BaseElements.WebService3.Parameters.ARVUsrMPSPhone_In.Caption" Value="MethodProperties SendersPhone" />
+			<Item Name="BaseElements.WebService3.Parameters.ARVUsrMPSType_In.Caption" Value="MethodProperties ServiceType" />
+			<Item Name="BaseElements.WebService3.Parameters.ARVUsrMPSType1_In.Caption" Value="MethodProperties SettlementType" />
+			<Item Name="BaseElements.WebService3.Parameters.ARVUsrMPWeight_In.Caption" Value="MethodProperties Weight" />
+			<Item Name="BaseElements.WebService3.Parameters.ARVUsrSuccess_Out.Caption" Value="Success" />
+			<Item Name="BaseElements.WebService3.Parameters.ARVUsrWarnings_Out.Caption" Value="Warnings" />
+			<Item Name="BaseElements.WebService3.Parameters.ARVUsrWCodes_Out.Caption" Value="WarningCodes" />
+			<Item Name="BaseElements.WebService4.Parameters.ARVMPRANote_In.Caption" Value="MethodProperties RecipientAddressNote" />
+			<Item Name="BaseElements.WebService4.Parameters.ARVMPVGeneral_In.Caption" Value="MethodProperties VolumeGeneral" />
+			<Item Name="BaseElements.WebService4.Parameters.ARVUsrAKey_In.Caption" Value="ApiKey" />
+			<Item Name="BaseElements.WebService4.Parameters.ARVUsrCMethod_In.Caption" Value="CalledMethod" />
+			<Item Name="BaseElements.WebService4.Parameters.ARVUsrData_Out.Caption" Value="Data" />
+			<Item Name="BaseElements.WebService4.Parameters.ARVUsrECodes_Out.Caption" Value="ErrorCodes" />
+			<Item Name="BaseElements.WebService4.Parameters.ARVUsrErrors_Out.Caption" Value="Errors" />
+			<Item Name="BaseElements.WebService4.Parameters.ARVUsrICodes_Out.Caption" Value="InfoCodes" />
+			<Item Name="BaseElements.WebService4.Parameters.ARVUsrInfo_Out.Caption" Value="Info" />
+			<Item Name="BaseElements.WebService4.Parameters.ARVUsrMCodes_Out.Caption" Value="MessageCodes" />
+			<Item Name="BaseElements.WebService4.Parameters.ARVUsrMName_In.Caption" Value="ModelName" />
+			<Item Name="BaseElements.WebService4.Parameters.ARVUsrMPCost_In.Caption" Value="MethodProperties Cost" />
+			<Item Name="BaseElements.WebService4.Parameters.ARVUsrMPCSender_In.Caption" Value="MethodProperties CitySender" />
+			<Item Name="BaseElements.WebService4.Parameters.ARVUsrMPCSender1_In.Caption" Value="MethodProperties ContactSender" />
+			<Item Name="BaseElements.WebService4.Parameters.ARVUsrMPCType_In.Caption" Value="MethodProperties CargoType" />
+			<Item Name="BaseElements.WebService4.Parameters.ARVUsrMPDescription_In.Caption" Value="MethodProperties Description" />
+			<Item Name="BaseElements.WebService4.Parameters.ARVUsrMPDTime_In.Caption" Value="MethodProperties DateTime" />
+			<Item Name="BaseElements.WebService4.Parameters.ARVUsrMPNAddress_In.Caption" Value="MethodProperties NewAddress" />
+			<Item Name="BaseElements.WebService4.Parameters.ARVUsrMPPMethod_In.Caption" Value="MethodProperties PaymentMethod" />
+			<Item Name="BaseElements.WebService4.Parameters.ARVUsrMPPType_In.Caption" Value="MethodProperties PayerType" />
+			<Item Name="BaseElements.WebService4.Parameters.ARVUsrMPRAName_In.Caption" Value="MethodProperties RecipientAddressName" />
+			<Item Name="BaseElements.WebService4.Parameters.ARVUsrMPRArea_In.Caption" Value="MethodProperties RecipientArea" />
+			<Item Name="BaseElements.WebService4.Parameters.ARVUsrMPRARegions_In.Caption" Value="MethodProperties RecipientAreaRegions" />
+			<Item Name="BaseElements.WebService4.Parameters.ARVUsrMPRCName_In.Caption" Value="MethodProperties RecipientCityName" />
+			<Item Name="BaseElements.WebService4.Parameters.ARVUsrMPRFlat_In.Caption" Value="MethodProperties RecipientFlat" />
+			<Item Name="BaseElements.WebService4.Parameters.ARVUsrMPRHouse_In.Caption" Value="MethodProperties RecipientHouse" />
+			<Item Name="BaseElements.WebService4.Parameters.ARVUsrMPRName_In.Caption" Value="MethodProperties RecipientName" />
+			<Item Name="BaseElements.WebService4.Parameters.ARVUsrMProperties_In.Caption" Value="MethodProperties EDRPOU" />
+			<Item Name="BaseElements.WebService4.Parameters.ARVUsrMPRPhone_In.Caption" Value="MethodProperties RecipientsPhone" />
+			<Item Name="BaseElements.WebService4.Parameters.ARVUsrMPRType_In.Caption" Value="MethodProperties RecipientType" />
+			<Item Name="BaseElements.WebService4.Parameters.ARVUsrMPSAddress_In.Caption" Value="MethodProperties SenderAddress" />
+			<Item Name="BaseElements.WebService4.Parameters.ARVUsrMPSAmount_In.Caption" Value="MethodProperties SeatsAmount" />
+			<Item Name="BaseElements.WebService4.Parameters.ARVUsrMPSender_In.Caption" Value="MethodProperties Sender" />
+			<Item Name="BaseElements.WebService4.Parameters.ARVUsrMPSPhone_In.Caption" Value="MethodProperties SendersPhone" />
+			<Item Name="BaseElements.WebService4.Parameters.ARVUsrMPSType_In.Caption" Value="MethodProperties ServiceType" />
+			<Item Name="BaseElements.WebService4.Parameters.ARVUsrMPSType1_In.Caption" Value="MethodProperties SettlementType" />
+			<Item Name="BaseElements.WebService4.Parameters.ARVUsrMPWeight_In.Caption" Value="MethodProperties Weight" />
+			<Item Name="BaseElements.WebService4.Parameters.ARVUsrSuccess_Out.Caption" Value="Success" />
+			<Item Name="BaseElements.WebService4.Parameters.ARVUsrWarnings_Out.Caption" Value="Warnings" />
+			<Item Name="BaseElements.WebService4.Parameters.ARVUsrWCodes_Out.Caption" Value="WarningCodes" />
+			<Item Name="Caption" Value="Create an invoice" />
+			<Item Name="Parameters.DocNumber.Caption" Value="DocNumber" />
+			<Item Name="Parameters.ProcessSchemaParameter1.Caption" Value="iD" />
+			<Item Name="Parameters.Success.Caption" Value="Success " />
 		</Items>
 	</Group>
 </Resources>

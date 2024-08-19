@@ -40,7 +40,20 @@
 			<Item Name="BaseElements.ReadDataUserTask2.Parameters.ResultIntegerFunction.Caption" Value="Результат функції (Ціле)" />
 			<Item Name="BaseElements.ReadDataUserTask2.Parameters.ResultRowsCount.Caption" Value="Кількість прочитаних записів" />
 			<Item Name="BaseElements.ReadDataUserTask2.Parameters.ResultType.Caption" Value="Тип результату" />
-			<Item Name="Caption" Value="Удалить накладную" />
+			<Item Name="BaseElements.WebService1.Parameters.ARVAKey_In.Caption" Value="ApiKey" />
+			<Item Name="BaseElements.WebService1.Parameters.ARVCMethod_In.Caption" Value="CalledMethod" />
+			<Item Name="BaseElements.WebService1.Parameters.ARVData_Out.Caption" Value="Data" />
+			<Item Name="BaseElements.WebService1.Parameters.ARVECodes_Out.Caption" Value="ErrorCodes" />
+			<Item Name="BaseElements.WebService1.Parameters.ARVErrors_Out.Caption" Value="Errors" />
+			<Item Name="BaseElements.WebService1.Parameters.ARVICodes_Out.Caption" Value="InfoCodes" />
+			<Item Name="BaseElements.WebService1.Parameters.ARVInfo_Out.Caption" Value="Info" />
+			<Item Name="BaseElements.WebService1.Parameters.ARVMCodes_Out.Caption" Value="MessageCodes" />
+			<Item Name="BaseElements.WebService1.Parameters.ARVMName_In.Caption" Value="ModelName" />
+			<Item Name="BaseElements.WebService1.Parameters.ARVMPDRefs_In.Caption" Value="MethodProperties DocumentRefs" />
+			<Item Name="BaseElements.WebService1.Parameters.ARVSuccess_Out.Caption" Value="Success" />
+			<Item Name="BaseElements.WebService1.Parameters.ARVWarnings_Out.Caption" Value="Warnings" />
+			<Item Name="BaseElements.WebService1.Parameters.ARVWCodes_Out.Caption" Value="WarningCodes" />
+			<Item Name="Caption" Value="Delete invoice" />
 		</Items>
 	</Group>
 </Resources>

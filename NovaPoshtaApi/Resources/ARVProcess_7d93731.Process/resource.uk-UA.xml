@@ -40,7 +40,10 @@
 			<Item Name="BaseElements.ReadDataUserTask3.Parameters.ResultIntegerFunction.Caption" Value="Результат функції (Ціле)" />
 			<Item Name="BaseElements.ReadDataUserTask3.Parameters.ResultRowsCount.Caption" Value="Кількість прочитаних записів" />
 			<Item Name="BaseElements.ReadDataUserTask3.Parameters.ResultType.Caption" Value="Тип результату" />
-			<Item Name="Caption" Value="Читаем IntDocNumber" />
+			<Item Name="Caption" Value="Reading IntDocNumber" />
+			<Item Name="Parameters.apiKey.Caption" Value="apiKey" />
+			<Item Name="Parameters.apiKey.DisplayValue" Value="[#apiKey.Перший елемент результуючої колекції.Api ключ#]" />
+			<Item Name="Parameters.ProcessSchemaParameter1.Caption" Value="iD" />
 		</Items>
 	</Group>
 </Resources>

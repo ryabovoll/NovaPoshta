@@ -25,7 +25,7 @@
 			<Item Name="Columns.ARVIntDefault.Caption" Value="IntDefault" />
 			<Item Name="Columns.ARVIntHeight.Caption" Value="Высота см" />
 			<Item Name="Columns.ARVIntLength.Caption" Value="Длина см" />
-			<Item Name="Columns.ARVIntWeight.Caption" Value="Масса" />
+			<Item Name="Columns.ARVIntWeight.Caption" Value="Масса посилки" />
 			<Item Name="Columns.ARVIntWidth.Caption" Value="Ширина см" />
 			<Item Name="Columns.ARVName.Caption" Value="Номер документа" />
 			<Item Name="Columns.ARVNext.Caption" Value="Next" />
@@ -40,7 +40,7 @@
 			<Item Name="Columns.ARVRecipientAddressNote.Caption" Value="Комментарий к адресу (не обязательно)" />
 			<Item Name="Columns.ARVRecipientBack.Caption" Value="Получатель" />
 			<Item Name="Columns.ARVRecipientCityName.Caption" Value="ХХХХХХ" />
-			<Item Name="Columns.ARVRecipientContact.Caption" Value="Получатель" />
+			<Item Name="Columns.ARVRecipientContact.Caption" Value="Получатель посылки" />
 			<Item Name="Columns.ARVRecipientFlat.Caption" Value="RecipientFlat" />
 			<Item Name="Columns.ARVRecipientHouse.Caption" Value="RecipientHouse" />
 			<Item Name="Columns.ARVRecipientsPhoneNP.Caption" Value="Телефон получателя" />

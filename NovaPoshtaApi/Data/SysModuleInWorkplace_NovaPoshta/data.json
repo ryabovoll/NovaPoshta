@@ -5,12 +5,12 @@
         {
           "SchemaColumnUId": "0e3d3857-2203-40e4-b1ec-8e972007650e",
           "Value": "5f541d8b-15f7-4612-b06e-950ca7ff3133",
-          "DisplayValue": "Нова Пошта"
+          "DisplayValue": "Nova Poshta"
         },
         {
           "SchemaColumnUId": "991cf5ef-ffb8-49a5-add3-074a595f6c43",
           "Value": "777b7b97-176e-4d81-a499-da77668fb5a1",
-          "DisplayValue": "Контрагент Н/П"
+          "DisplayValue": "Counterparty"
         },
         {
           "SchemaColumnUId": "9928edec-4272-425a-93bb-48743fee4b04",
@@ -35,12 +35,12 @@
         {
           "SchemaColumnUId": "0e3d3857-2203-40e4-b1ec-8e972007650e",
           "Value": "5f541d8b-15f7-4612-b06e-950ca7ff3133",
-          "DisplayValue": "Нова Пошта"
+          "DisplayValue": "Nova Poshta"
         },
         {
           "SchemaColumnUId": "991cf5ef-ffb8-49a5-add3-074a595f6c43",
           "Value": "cdfb96f4-255b-474d-a4fc-6234d5cf15da",
-          "DisplayValue": "Отправление Н.П."
+          "DisplayValue": "NovaPoshtaDeparture"
         },
         {
           "SchemaColumnUId": "9928edec-4272-425a-93bb-48743fee4b04",

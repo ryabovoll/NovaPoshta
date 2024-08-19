@@ -17,7 +17,7 @@
 			<Item Name="Columns.ARVHouse.Caption" Value="Будинок" />
 			<Item Name="Columns.ARVIntHeight.Caption" Value="Висота см" />
 			<Item Name="Columns.ARVIntLength.Caption" Value="Довжина см" />
-			<Item Name="Columns.ARVIntWeight.Caption" Value="Вага" />
+			<Item Name="Columns.ARVIntWeight.Caption" Value="Вага посилки" />
 			<Item Name="Columns.ARVIntWidth.Caption" Value="Ширина см" />
 			<Item Name="Columns.ARVName.Caption" Value="Номер документа" />
 			<Item Name="Columns.ARVNoCash.Caption" Value="Безготівка" />
@@ -27,7 +27,7 @@
 			<Item Name="Columns.ARVRecipient.Caption" Value="Отримувач" />
 			<Item Name="Columns.ARVRecipientAddressNote.Caption" Value="Коментар до адреси (не обов'язково)" />
 			<Item Name="Columns.ARVRecipientBack.Caption" Value="Одержувач" />
-			<Item Name="Columns.ARVRecipientContact.Caption" Value="Одержувач" />
+			<Item Name="Columns.ARVRecipientContact.Caption" Value="Одержувач посилки" />
 			<Item Name="Columns.ARVRecipientsPhoneNP.Caption" Value="Телефон одержувача" />
 			<Item Name="Columns.ARVRef.Caption" Value="Ref" />
 			<Item Name="Columns.ARVRefundForGoods.Caption" Value="Повернення коштів" />

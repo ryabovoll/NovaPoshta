@@ -135,7 +135,75 @@
 			<Item Name="BaseElements.ReadDataUserTask7.Parameters.ResultIntegerFunction.Caption" Value="Результат функції (Ціле)" />
 			<Item Name="BaseElements.ReadDataUserTask7.Parameters.ResultRowsCount.Caption" Value="Кількість прочитаних записів" />
 			<Item Name="BaseElements.ReadDataUserTask7.Parameters.ResultType.Caption" Value="Тип результату" />
-			<Item Name="Caption" Value="Создать накладную" />
+			<Item Name="BaseElements.WebService1.Parameters.ARVAKey_In.Caption" Value="ApiKey" />
+			<Item Name="BaseElements.WebService1.Parameters.ARVCMethod_In.Caption" Value="CalledMethod" />
+			<Item Name="BaseElements.WebService1.Parameters.ARVData_Out.Caption" Value="Data" />
+			<Item Name="BaseElements.WebService1.Parameters.ARVECodes_Out.Caption" Value="ErrorCodes" />
+			<Item Name="BaseElements.WebService1.Parameters.ARVErrors_Out.Caption" Value="Errors" />
+			<Item Name="BaseElements.WebService1.Parameters.ARVICodes_Out.Caption" Value="InfoCodes" />
+			<Item Name="BaseElements.WebService1.Parameters.ARVInfo_Out.Caption" Value="Info" />
+			<Item Name="BaseElements.WebService1.Parameters.ARVMCodes_Out.Caption" Value="MessageCodes" />
+			<Item Name="BaseElements.WebService1.Parameters.ARVMName_In.Caption" Value="ModelName" />
+			<Item Name="BaseElements.WebService1.Parameters.ARVMPCost_In.Caption" Value="MethodProperties Cost" />
+			<Item Name="BaseElements.WebService1.Parameters.ARVMPCRecipient_In.Caption" Value="MethodProperties CityRecipient" />
+			<Item Name="BaseElements.WebService1.Parameters.ARVMPCSender_In.Caption" Value="MethodProperties CitySender" />
+			<Item Name="BaseElements.WebService1.Parameters.ARVMPCType_In.Caption" Value="MethodProperties CargoType" />
+			<Item Name="BaseElements.WebService1.Parameters.ARVMPDTime_In.Caption" Value="MethodProperties DateTime" />
+			<Item Name="BaseElements.WebService1.Parameters.ARVMPSAmount_In.Caption" Value="MethodProperties SeatsAmount" />
+			<Item Name="BaseElements.WebService1.Parameters.ARVMPSType_In.Caption" Value="MethodProperties ServiceType" />
+			<Item Name="BaseElements.WebService1.Parameters.ARVMPVGeneral_In.Caption" Value="MethodProperties VolumeGeneral" />
+			<Item Name="BaseElements.WebService1.Parameters.ARVMPWeight_In.Caption" Value="MethodProperties Weight" />
+			<Item Name="BaseElements.WebService1.Parameters.ARVSuccess_Out.Caption" Value="Success" />
+			<Item Name="BaseElements.WebService1.Parameters.ARVWarnings_Out.Caption" Value="Warnings" />
+			<Item Name="BaseElements.WebService1.Parameters.ARVWCodes_Out.Caption" Value="WarningCodes" />
+			<Item Name="BaseElements.WebService2.Caption" Value="ApiNovaPoshta 1" />
+			<Item Name="BaseElements.WebService2.Parameters.ARVAKey_In.Caption" Value="ApiKey" />
+			<Item Name="BaseElements.WebService2.Parameters.ARVAKey_In.DisplayValue" Value="[#Контрагент Нова Пошта.Перший елемент результуючої колекції.Api ключ#]" />
+			<Item Name="BaseElements.WebService2.Parameters.ARVCMethod_In.Caption" Value="CalledMethod" />
+			<Item Name="BaseElements.WebService2.Parameters.ARVData_Out.ARVDACost_Out.Caption" Value="AssessedCost" />
+			<Item Name="BaseElements.WebService2.Parameters.ARVData_Out.ARVDCost_Out.Caption" Value="Cost" />
+			<Item Name="BaseElements.WebService2.Parameters.ARVData_Out.Caption" Value="Data" />
+			<Item Name="BaseElements.WebService2.Parameters.ARVECodes_Out.ARVECodesItemValue_Out.Caption" Value="Значення елемента" />
+			<Item Name="BaseElements.WebService2.Parameters.ARVECodes_Out.Caption" Value="ErrorCodes" />
+			<Item Name="BaseElements.WebService2.Parameters.ARVErrors_Out.ARVErrorsItemValue_Out.Caption" Value="Значення елемента" />
+			<Item Name="BaseElements.WebService2.Parameters.ARVErrors_Out.Caption" Value="Errors" />
+			<Item Name="BaseElements.WebService2.Parameters.ARVICodes_Out.ARVICodesItemValue_Out.Caption" Value="Значення елемента" />
+			<Item Name="BaseElements.WebService2.Parameters.ARVICodes_Out.Caption" Value="InfoCodes" />
+			<Item Name="BaseElements.WebService2.Parameters.ARVInfo_Out.ARVInfoItemValue_Out.Caption" Value="Значення елемента" />
+			<Item Name="BaseElements.WebService2.Parameters.ARVInfo_Out.Caption" Value="Info" />
+			<Item Name="BaseElements.WebService2.Parameters.ARVMCodes_Out.ARVMCodesItemValue_Out.Caption" Value="Значення елемента" />
+			<Item Name="BaseElements.WebService2.Parameters.ARVMCodes_Out.Caption" Value="MessageCodes" />
+			<Item Name="BaseElements.WebService2.Parameters.ARVMName_In.Caption" Value="ModelName" />
+			<Item Name="BaseElements.WebService2.Parameters.ARVMPCost_In.Caption" Value="MethodProperties Cost" />
+			<Item Name="BaseElements.WebService2.Parameters.ARVMPCost_In.DisplayValue" Value="Convert.ToString([#Відправлення.Перший елемент результуючої колекції.Сума#])" />
+			<Item Name="BaseElements.WebService2.Parameters.ARVMPCRecipient_In.Caption" Value="MethodProperties CityRecipient" />
+			<Item Name="BaseElements.WebService2.Parameters.ARVMPCRecipient_In.DisplayValue" Value="[#Departure.Перший елемент результуючої колекції.CityRef#]" />
+			<Item Name="BaseElements.WebService2.Parameters.ARVMPCSender_In.Caption" Value="MethodProperties CitySender" />
+			<Item Name="BaseElements.WebService2.Parameters.ARVMPCSender_In.DisplayValue" Value="[#Відділення ОТПРАВИТЕЛЯ.Перший елемент результуючої колекції.SettlementRef#]" />
+			<Item Name="BaseElements.WebService2.Parameters.ARVMPCType_In.Caption" Value="MethodProperties CargoType" />
+			<Item Name="BaseElements.WebService2.Parameters.ARVMPCType_In.DisplayValue" Value="[#Відправлення.Перший елемент результуючої колекції.CargoType#]" />
+			<Item Name="BaseElements.WebService2.Parameters.ARVMPDTime_In.Caption" Value="MethodProperties DateTime" />
+			<Item Name="BaseElements.WebService2.Parameters.ARVMPDTime_In.DisplayValue" Value="Convert.ToString([#Відправлення.Перший елемент результуючої колекції.Дата відправки#]).Remove(10)" />
+			<Item Name="BaseElements.WebService2.Parameters.ARVMPSAmount_In.Caption" Value="MethodProperties SeatsAmount" />
+			<Item Name="BaseElements.WebService2.Parameters.ARVMPSAmount_In.DisplayValue" Value="[#Відправлення.Перший елемент результуючої колекції.SeatsAmount#]" />
+			<Item Name="BaseElements.WebService2.Parameters.ARVMPSType_In.Caption" Value="MethodProperties ServiceType" />
+			<Item Name="BaseElements.WebService2.Parameters.ARVMPSType_In.DisplayValue" Value="[#Відправлення.Перший елемент результуючої колекції.ServiceType#]" />
+			<Item Name="BaseElements.WebService2.Parameters.ARVMPVGeneral_In.Caption" Value="MethodProperties VolumeGeneral" />
+			<Item Name="BaseElements.WebService2.Parameters.ARVMPVGeneral_In.DisplayValue" Value="Convert.ToString([#Відправлення.Перший елемент результуючої колекції.об'ємна вага#] / 100)" />
+			<Item Name="BaseElements.WebService2.Parameters.ARVMPWeight_In.Caption" Value="MethodProperties Weight" />
+			<Item Name="BaseElements.WebService2.Parameters.ARVMPWeight_In.DisplayValue" Value="Convert.ToString([#Відправлення.Перший елемент результуючої колекції.Вага#])" />
+			<Item Name="BaseElements.WebService2.Parameters.ARVSuccess_Out.Caption" Value="Success" />
+			<Item Name="BaseElements.WebService2.Parameters.ARVWarnings_Out.ARVWarningsItemValue_Out.Caption" Value="Значення елемента" />
+			<Item Name="BaseElements.WebService2.Parameters.ARVWarnings_Out.Caption" Value="Warnings" />
+			<Item Name="BaseElements.WebService2.Parameters.ARVWCodes_Out.ARVWCodesItemValue_Out.Caption" Value="Значення елемента" />
+			<Item Name="BaseElements.WebService2.Parameters.ARVWCodes_Out.Caption" Value="WarningCodes" />
+			<Item Name="BaseElements.WebService2.Parameters.Response.Caption" Value="Тело ответа сервиса" />
+			<Item Name="BaseElements.WebService2.Parameters.StatusCode.Caption" Value="Http код состояния" />
+			<Item Name="BaseElements.WebService2.Parameters.Success.Caption" Value="Успешно выполнен" />
+			<Item Name="Caption" Value="Calculate shipping costs" />
+			<Item Name="Parameters.Cost.Caption" Value="Cost" />
+			<Item Name="Parameters.ProcessSchemaParameter1.Caption" Value="iD" />
+			<Item Name="Parameters.Success.Caption" Value="Success " />
 		</Items>
 	</Group>
 </Resources>

@@ -2,12 +2,12 @@
   "Descriptor": {
     "UId": "d0341d85-9348-485d-a4f0-10f40232b33c",
     "Name": "ARVCounterpartyNP14efca0eSection",
-    "ModifiedOnUtc": "\/Date(1717597443000)\/",
+    "ModifiedOnUtc": "\/Date(1723804406000)\/",
     "Parent": {
       "UId": "7912fb69-4fee-429f-8b23-93943c35d66d",
       "Name": "BaseSectionV2"
     },
     "ManagerName": "ClientUnitSchemaManager",
-    "Caption": "Схема раздела: \"Контрагент Н/П\""
+    "Caption": "Схема розділу: \"Контрагент Н.П.\""
   }
 }

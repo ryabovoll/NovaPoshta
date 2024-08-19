@@ -28,7 +28,12 @@
 			<Item Name="BaseElements.ReadDataUserTask1.Parameters.ResultIntegerFunction.Caption" Value="Результат функції (Ціле)" />
 			<Item Name="BaseElements.ReadDataUserTask1.Parameters.ResultRowsCount.Caption" Value="Кількість прочитаних записів" />
 			<Item Name="BaseElements.ReadDataUserTask1.Parameters.ResultType.Caption" Value="Тип результату" />
-			<Item Name="Caption" Value="Наполнить справочник Улиц населенных пунктов Новой Почты" />
+			<Item Name="Caption" Value="Fill the directory of Streets of New Mail settlements" />
+			<Item Name="Parameters.Description.Caption" Value="Description" />
+			<Item Name="Parameters.Ref.Caption" Value="Ref" />
+			<Item Name="Parameters.SettlementRef.Caption" Value="SettlementRef" />
+			<Item Name="Parameters.StreetsType.Caption" Value="StreetsType" />
+			<Item Name="Parameters.StreetsTypeRef.Caption" Value="StreetsTypeRef" />
 		</Items>
 	</Group>
 </Resources>

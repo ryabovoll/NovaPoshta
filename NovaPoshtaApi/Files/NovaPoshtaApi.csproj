@@ -549,8 +549,8 @@
 	</ItemGroup>
 	<ItemGroup Label="Standalone package external assembly references" />
 	<ItemGroup Label="Entity Files">
-		<Compile Remove="$(RelativePkgFolderPath)/NovaPoshtaApi/Schemas/ARVCounterpartyNP/ARVCounterpartyNP.cs" Condition="Exists('$(RelativePkgFolderPath)/NovaPoshtaApi/Schemas/ARVCounterpartyNP/ARVCounterpartyNP.cs')" />
 		<Compile Remove="$(RelativePkgFolderPath)/NovaPoshtaApi/Schemas/ARVStreetList/ARVStreetList.cs" Condition="Exists('$(RelativePkgFolderPath)/NovaPoshtaApi/Schemas/ARVStreetList/ARVStreetList.cs')" />
+		<Compile Remove="$(RelativePkgFolderPath)/NovaPoshtaApi/Schemas/ARVCounterpartyNP/ARVCounterpartyNP.cs" Condition="Exists('$(RelativePkgFolderPath)/NovaPoshtaApi/Schemas/ARVCounterpartyNP/ARVCounterpartyNP.cs')" />
 		<Compile Remove="$(RelativePkgFolderPath)/NovaPoshtaApi/Schemas/ARVCounterpartyNPInFolder/ARVCounterpartyNPInFolder.cs" Condition="Exists('$(RelativePkgFolderPath)/NovaPoshtaApi/Schemas/ARVCounterpartyNPInFolder/ARVCounterpartyNPInFolder.cs')" />
 		<Compile Remove="$(RelativePkgFolderPath)/NovaPoshtaApi/Schemas/ARVCounterpartyNPTag/ARVCounterpartyNPTag.cs" Condition="Exists('$(RelativePkgFolderPath)/NovaPoshtaApi/Schemas/ARVCounterpartyNPTag/ARVCounterpartyNPTag.cs')" />
 		<Compile Remove="$(RelativePkgFolderPath)/NovaPoshtaApi/Schemas/ARVDepartment/ARVDepartment.cs" Condition="Exists('$(RelativePkgFolderPath)/NovaPoshtaApi/Schemas/ARVDepartment/ARVDepartment.cs')" />

@@ -1,7 +1,7 @@
 <Project>
 	<ItemGroup Label="Entity Files" Condition="'$(PkgPath)' != ''">
-		<Compile Include="$(PkgPath)/NovaPoshtaApi/Schemas/ARVCounterpartyNP/ARVCounterpartyNP.cs" Condition="Exists('$(PkgPath)/NovaPoshtaApi/Schemas/ARVCounterpartyNP/ARVCounterpartyNP.cs')" />
 		<Compile Include="$(PkgPath)/NovaPoshtaApi/Schemas/ARVStreetList/ARVStreetList.cs" Condition="Exists('$(PkgPath)/NovaPoshtaApi/Schemas/ARVStreetList/ARVStreetList.cs')" />
+		<Compile Include="$(PkgPath)/NovaPoshtaApi/Schemas/ARVCounterpartyNP/ARVCounterpartyNP.cs" Condition="Exists('$(PkgPath)/NovaPoshtaApi/Schemas/ARVCounterpartyNP/ARVCounterpartyNP.cs')" />
 		<Compile Include="$(PkgPath)/NovaPoshtaApi/Schemas/ARVCounterpartyNPInFolder/ARVCounterpartyNPInFolder.cs" Condition="Exists('$(PkgPath)/NovaPoshtaApi/Schemas/ARVCounterpartyNPInFolder/ARVCounterpartyNPInFolder.cs')" />
 		<Compile Include="$(PkgPath)/NovaPoshtaApi/Schemas/ARVCounterpartyNPTag/ARVCounterpartyNPTag.cs" Condition="Exists('$(PkgPath)/NovaPoshtaApi/Schemas/ARVCounterpartyNPTag/ARVCounterpartyNPTag.cs')" />
 		<Compile Include="$(PkgPath)/NovaPoshtaApi/Schemas/ARVDepartment/ARVDepartment.cs" Condition="Exists('$(PkgPath)/NovaPoshtaApi/Schemas/ARVDepartment/ARVDepartment.cs')" />

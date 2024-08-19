@@ -1,8 +1,8 @@
 ﻿{
   "Descriptor": {
     "UId": "5f541d8b-15f7-4612-b06e-950ca7ff3133",
-    "Name": "SysWorkplace_5f541d8b15f74612b06e950ca7ff3133",
-    "ModifiedOnUtc": "\/Date(1721489875000)\/",
+    "Name": "SysWorkplace_NovaPoshta",
+    "ModifiedOnUtc": "\/Date(1723805180000)\/",
     "InstallType": 0,
     "Schema": {
       "UId": "f54121e1-d75d-42e0-b790-bc8aa0bb216c",
@@ -15,6 +15,13 @@
         "IsKey": true,
         "ColumnName": "Id",
         "DataTypeValueUId": "23018567-a13c-4320-8687-fd6f9e3699bd"
+      },
+      {
+        "ColumnUId": "13abfaf9-679b-7bc5-fa9a-fc593be03f90",
+        "IsForceUpdate": false,
+        "IsKey": false,
+        "ColumnName": "UseOnlyShell",
+        "DataTypeValueUId": "90b65bf8-0ffc-4141-8779-2420877af907"
       },
       {
         "ColumnUId": "e80190a5-03b2-4095-90f7-a193a960adee",
@@ -78,13 +85,6 @@
         "IsKey": false,
         "ColumnName": "HomePageUId",
         "DataTypeValueUId": "23018567-a13c-4320-8687-fd6f9e3699bd"
-      },
-      {
-        "ColumnUId": "13abfaf9-679b-7bc5-fa9a-fc593be03f90",
-        "IsForceUpdate": false,
-        "IsKey": false,
-        "ColumnName": "UseOnlyShell",
-        "DataTypeValueUId": "90b65bf8-0ffc-4141-8779-2420877af907"
       }
     ]
   }

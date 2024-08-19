@@ -45,7 +45,7 @@
 			<Item Name="BaseElements.ReadDataUserTask2.Parameters.ResultIntegerFunction.Caption" Value="Результат функції (Ціле)" />
 			<Item Name="BaseElements.ReadDataUserTask2.Parameters.ResultRowsCount.Caption" Value="Кількість прочитаних записів" />
 			<Item Name="BaseElements.ReadDataUserTask2.Parameters.ResultType.Caption" Value="Тип результату" />
-			<Item Name="Caption" Value="Заполнить представление корагента" />
+			<Item Name="Caption" Value="Fill out the counterparty submission" />
 		</Items>
 	</Group>
 </Resources>

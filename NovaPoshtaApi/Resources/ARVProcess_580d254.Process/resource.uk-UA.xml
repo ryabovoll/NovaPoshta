@@ -21,7 +21,37 @@
 			<Item Name="BaseElements.ReadDataUserTask1.Parameters.ResultIntegerFunction.Caption" Value="Результат функції (Ціле)" />
 			<Item Name="BaseElements.ReadDataUserTask1.Parameters.ResultRowsCount.Caption" Value="Кількість прочитаних записів" />
 			<Item Name="BaseElements.ReadDataUserTask1.Parameters.ResultType.Caption" Value="Тип результату" />
-			<Item Name="Caption" Value="Заполнить REF по контрагенту" />
+			<Item Name="BaseElements.SubProcess1.Parameters.CompletedIterationsCount.Caption" Value="Число виконаних екземплярів" />
+			<Item Name="BaseElements.SubProcess1.Parameters.InputRecordCollection.Caption" Value="Вхідна колекція записів" />
+			<Item Name="BaseElements.SubProcess1.Parameters.InputRecordCollection.ProcessSchemaParameter1.Caption" Value="ApiKey" />
+			<Item Name="BaseElements.SubProcess1.Parameters.InputRecordCollection.ProcessSchemaParameter2.Caption" Value="Counterparty Ref" />
+			<Item Name="BaseElements.SubProcess1.Parameters.InputRecordCollection.ProcessSchemaParameter3.Caption" Value="ID CounterpartyNP" />
+			<Item Name="BaseElements.SubProcess1.Parameters.InputRecordCollection.ProcessSchemaParameter4.Caption" Value="EDRPOU" />
+			<Item Name="BaseElements.SubProcess1.Parameters.OutputRecordCollection.Caption" Value="Вихідна колекція записів" />
+			<Item Name="BaseElements.SubProcess1.Parameters.OutputRecordCollection.ProcessSchemaParameter1.Caption" Value="ApiKey" />
+			<Item Name="BaseElements.SubProcess1.Parameters.OutputRecordCollection.ProcessSchemaParameter2.Caption" Value="Counterparty Ref" />
+			<Item Name="BaseElements.SubProcess1.Parameters.OutputRecordCollection.ProcessSchemaParameter3.Caption" Value="ID CounterpartyNP" />
+			<Item Name="BaseElements.SubProcess1.Parameters.OutputRecordCollection.ProcessSchemaParameter4.Caption" Value="EDRPOU" />
+			<Item Name="BaseElements.SubProcess1.Parameters.TerminatedIterationsCount.Caption" Value="Число переваних екземплярів" />
+			<Item Name="BaseElements.SubProcess1.Parameters.TotalIterationsCount.Caption" Value="Загальна кількість екземплярів" />
+			<Item Name="BaseElements.WebService1.Parameters.ARVUsrAKey_In.Caption" Value="ApiKey" />
+			<Item Name="BaseElements.WebService1.Parameters.ARVUsrCMethod_In.Caption" Value="CalledMethod" />
+			<Item Name="BaseElements.WebService1.Parameters.ARVUsrData_Out.Caption" Value="Data" />
+			<Item Name="BaseElements.WebService1.Parameters.ARVUsrECodes_Out.Caption" Value="ErrorCodes" />
+			<Item Name="BaseElements.WebService1.Parameters.ARVUsrErrors_Out.Caption" Value="Errors" />
+			<Item Name="BaseElements.WebService1.Parameters.ARVUsrICodes_Out.Caption" Value="InfoCodes" />
+			<Item Name="BaseElements.WebService1.Parameters.ARVUsrITCount_Out.Caption" Value="Info TotalCount" />
+			<Item Name="BaseElements.WebService1.Parameters.ARVUsrMCodes_Out.Caption" Value="MessageCodes" />
+			<Item Name="BaseElements.WebService1.Parameters.ARVUsrMName_In.Caption" Value="ModelName" />
+			<Item Name="BaseElements.WebService1.Parameters.ARVUsrMPCProperty_In.Caption" Value="MethodProperties CounterpartyProperty" />
+			<Item Name="BaseElements.WebService1.Parameters.ARVUsrSuccess_Out.Caption" Value="Success" />
+			<Item Name="BaseElements.WebService1.Parameters.ARVUsrWarnings_Out.Caption" Value="Warnings" />
+			<Item Name="BaseElements.WebService1.Parameters.ARVUsrWCodes_Out.Caption" Value="WarningCodes" />
+			<Item Name="Caption" Value="Fill in the REF for the counterparty" />
+			<Item Name="Parameters.Answer.Caption" Value="ответ" />
+			<Item Name="Parameters.Answer.DisplayValue" Value="[#ApiNovaPoshta 1.Тело ответа сервиса#]" />
+			<Item Name="Parameters.ProcessSchemaParameter1.Caption" Value="ID CounterpartyNP" />
+			<Item Name="Parameters.Success.Caption" Value="Success" />
 		</Items>
 	</Group>
 </Resources>

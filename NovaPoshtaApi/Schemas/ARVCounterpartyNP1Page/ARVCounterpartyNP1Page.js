@@ -179,7 +179,8 @@ define("ARVCounterpartyNP1Page", [], function() {
 						"row": 2,
 						"layoutName": "ProfileContainer"
 					},
-					"bindTo": "ARVRef"
+					"bindTo": "ARVRef",
+					"enabled": false
 				},
 				"parentName": "ProfileContainer",
 				"propertyName": "items",
@@ -196,7 +197,8 @@ define("ARVCounterpartyNP1Page", [], function() {
 						"row": 3,
 						"layoutName": "ProfileContainer"
 					},
-					"bindTo": "ARVContactSenderRef"
+					"bindTo": "ARVContactSenderRef",
+					"enabled": false
 				},
 				"parentName": "ProfileContainer",
 				"propertyName": "items",
@@ -213,7 +215,8 @@ define("ARVCounterpartyNP1Page", [], function() {
 						"row": 4,
 						"layoutName": "ProfileContainer"
 					},
-					"bindTo": "ARVEDRPOU"
+					"bindTo": "ARVEDRPOU",
+					"enabled": false
 				},
 				"parentName": "ProfileContainer",
 				"propertyName": "items",
