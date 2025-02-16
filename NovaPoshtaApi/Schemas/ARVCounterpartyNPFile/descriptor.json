@@ -1,0 +1,14 @@
+﻿{
+  "Descriptor": {
+    "UId": "40343d49-257f-4e5d-9944-591abdb7be9d",
+    "Name": "ARVCounterpartyNPFile",
+    "ModifiedOnUtc": "\/Date(1710097081000)\/",
+    "Parent": {
+      "UId": "556c5867-60a7-4456-aae1-a57a122bef70",
+      "Name": "File"
+    },
+    "ManagerName": "EntitySchemaManager",
+    "Caption": "Файл и ссылка объекта Counterparty",
+    "DependsOn": []
+  }
+}

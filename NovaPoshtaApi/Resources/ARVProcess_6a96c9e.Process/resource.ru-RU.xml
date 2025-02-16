@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Resources Culture="ru-RU">
+	<Group Type="String">
+		<Items>
+			<Item Name="BaseElements.AddDataUserTask1.Parameters.ConsiderTimeInFilter.Caption" Value="Учитывать время в фильтре" />
+			<Item Name="BaseElements.AddDataUserTask1.Parameters.ConsiderTimeInFilter.DisplayValue" Value="true" />
+			<Item Name="BaseElements.AddDataUserTask1.Parameters.DataSourceFilters.Caption" Value="Фильтры источника данных" />
+			<Item Name="BaseElements.AddDataUserTask1.Parameters.EntitySchemaId.Caption" Value="Объект" />
+			<Item Name="BaseElements.AddDataUserTask1.Parameters.FilterEntitySchemaId.Caption" Value="Объект выборки" />
+			<Item Name="BaseElements.AddDataUserTask1.Parameters.RecordAddMode.Caption" Value="Режим добавления записей" />
+			<Item Name="BaseElements.AddDataUserTask1.Parameters.RecordDefValues.Caption" Value="Значения полей" />
+			<Item Name="BaseElements.AddDataUserTask1.Parameters.RecordDefValues.Value.01a65b3a-3504-4a0e-9f64-819f1d34ffea.displayValue" Value="WarehouseWarehouse" />
+			<Item Name="BaseElements.AddDataUserTask1.Parameters.RecordDefValues.Value.01a65b3a-3504-4a0e-9f64-819f1d34ffea.value" Value="WarehouseWarehouse" />
+			<Item Name="BaseElements.AddDataUserTask1.Parameters.RecordDefValues.Value.14471ff7-e02d-4f85-8591-80d66f20d611.displayValue" Value="Cash" />
+			<Item Name="BaseElements.AddDataUserTask1.Parameters.RecordDefValues.Value.14471ff7-e02d-4f85-8591-80d66f20d611.value" Value="Cash" />
+			<Item Name="BaseElements.AddDataUserTask1.Parameters.RecordDefValues.Value.57f4a9b5-1ebc-4301-ad58-822a0f742112.displayValue" Value="Cargo" />
+			<Item Name="BaseElements.AddDataUserTask1.Parameters.RecordDefValues.Value.57f4a9b5-1ebc-4301-ad58-822a0f742112.value" Value="Cargo" />
+			<Item Name="BaseElements.AddDataUserTask1.Parameters.RecordDefValues.Value.861ae397-89b0-4343-9708-300f7dabbc5b.displayValue" Value="Recipient" />
+			<Item Name="BaseElements.AddDataUserTask1.Parameters.RecordDefValues.Value.861ae397-89b0-4343-9708-300f7dabbc5b.value" Value="Recipient" />
+			<Item Name="BaseElements.AddDataUserTask1.Parameters.RecordDefValues.Value.a92eda7e-f90a-465a-9aa8-99950fdbbe93.displayValue" Value="Recipient" />
+			<Item Name="BaseElements.AddDataUserTask1.Parameters.RecordDefValues.Value.a92eda7e-f90a-465a-9aa8-99950fdbbe93.value" Value="Recipient" />
+			<Item Name="BaseElements.AddDataUserTask1.Parameters.RecordId.Caption" Value="Id созданной записи" />
+			<Item Name="Caption" Value="Создать запись накладной" />
+			<Item Name="LaneSets.LaneSet1.Caption" Value="LaneSet 1" />
+			<Item Name="LaneSets.LaneSet1.Lanes.Lane1.Caption" Value="Lane 1" />
+			<Item Name="NotificationCaption.Caption" Value="Заголовок экземпляра процесса" />
+			<Item Name="NotificationCaption.DisplayValue" Value="[#Название процесса#]" />
+			<Item Name="Parameters.ID.Caption" Value="ID" />
+			<Item Name="Parameters.ID.DisplayValue" Value="[#AddDataUserTask1.Id созданной записи#]" />
+		</Items>
+	</Group>
+</Resources>

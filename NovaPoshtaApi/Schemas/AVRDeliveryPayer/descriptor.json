@@ -1,0 +1,14 @@
+﻿{
+  "Descriptor": {
+    "UId": "31444b30-4e69-46a6-8d7e-7d5e7d84dec9",
+    "Name": "AVRDeliveryPayer",
+    "ModifiedOnUtc": "\/Date(1730727215000)\/",
+    "Parent": {
+      "UId": "11ab4bcb-9b23-4b6d-9c86-520fae925d75",
+      "Name": "BaseLookup"
+    },
+    "ManagerName": "EntitySchemaManager",
+    "Caption": "Плательщик за доставку",
+    "DependsOn": []
+  }
+}

@@ -1,0 +1,10 @@
+﻿{
+  "Descriptor": {
+    "UId": "14a737f3-afda-4b09-a7da-ccb344959d9d",
+    "Name": "ARVAddressCounterpartyBranchBusinessRule",
+    "ModifiedOnUtc": "\/Date(1730544858000)\/",
+    "ManagerName": "AddonSchemaManager",
+    "Caption": "Адрес отделения (Бизнес правила)",
+    "DependsOn": []
+  }
+}

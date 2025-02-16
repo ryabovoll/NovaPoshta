@@ -1,0 +1,14 @@
+﻿{
+  "Descriptor": {
+    "UId": "226345bc-4af2-4d1e-aafb-63fd9fbfac18",
+    "Name": "ARVCounterpartyNPInFolder",
+    "ModifiedOnUtc": "\/Date(1710097104000)\/",
+    "Parent": {
+      "UId": "4f63bafb-e9e7-4082-b92e-66b97c14017c",
+      "Name": "BaseItemInFolder"
+    },
+    "ManagerName": "EntitySchemaManager",
+    "Caption": "Counterparty в группе",
+    "DependsOn": []
+  }
+}

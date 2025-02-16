@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Resources Culture="ru-RU">
+	<Group Type="String">
+		<Items>
+			<Item Name="Caption" Value="Отправление Н.П." />
+			<Item Name="Columns.ARVaddressBool.Caption" Value="На адрес" />
+			<Item Name="Columns.ARVAddressCounterparty.Caption" Value="Адрес отправителя" />
+			<Item Name="Columns.ARVBack.Caption" Value="back" />
+			<Item Name="Columns.ARVCargoTypeNP.Caption" Value="CargoType" />
+			<Item Name="Columns.ARVCash.Caption" Value="Оплата за доставку &quot;Наличные&quot;" />
+			<Item Name="Columns.ARVCost.Caption" Value="Объявленная стоимость" />
+			<Item Name="Columns.ARVCostOnSite.Caption" Value="Цена за доставку" />
+			<Item Name="Columns.ARVDateTime.Caption" Value="Дата отправки" />
+			<Item Name="Columns.ARVDefault.Caption" Value="Default" />
+			<Item Name="Columns.ARVDepartment.Caption" Value="Отделение" />
+			<Item Name="Columns.ARVDepartmentBool.Caption" Value="На отделение" />
+			<Item Name="Columns.ARVDepartmentDefault.Caption" Value="Department (Default)" />
+			<Item Name="Columns.ARVDescriptionNP.Caption" Value="Описание" />
+			<Item Name="Columns.ARVDocuments.Caption" Value="Документы" />
+			<Item Name="Columns.ARVEstimatedDeliveryDate.Caption" Value="Предполагаемая дата поставки" />
+			<Item Name="Columns.ARVFloatVolumeWeight.Caption" Value="объемный вес" />
+			<Item Name="Columns.ARVForTheRuleALLTrue.Caption" Value="For the rule - ALL &quot;True&quot;" />
+			<Item Name="Columns.ARVForTheRuleFalse.Caption" Value="For the rule - ALL &quot;False&quot;" />
+			<Item Name="Columns.ARVHouse.Caption" Value="Дом" />
+			<Item Name="Columns.ARVIntDefault.Caption" Value="IntDefault" />
+			<Item Name="Columns.ARVIntHeight.Caption" Value="Высота см" />
+			<Item Name="Columns.ARVIntLength.Caption" Value="Длина см" />
+			<Item Name="Columns.ARVIntWeight.Caption" Value="Масса посилки" />
+			<Item Name="Columns.ARVIntWidth.Caption" Value="Ширина см" />
+			<Item Name="Columns.ARVName.Caption" Value="Номер документа" />
+			<Item Name="Columns.ARVNext.Caption" Value="Next" />
+			<Item Name="Columns.ARVNoCash.Caption" Value="Оплата за доставку &quot;Безналичные&quot;" />
+			<Item Name="Columns.ARVNotes.Caption" Value="Заметки" />
+			<Item Name="Columns.ARVParcel.Caption" Value="Посылка" />
+			<Item Name="Columns.ARVPayerTypeBackNP.Caption" Value="PayerTypeBack" />
+			<Item Name="Columns.ARVPayerTypeNP.Caption" Value="PayerType" />
+			<Item Name="Columns.ARVPaymentMethodNP.Caption" Value="PaymentMethod" />
+			<Item Name="Columns.ARVPostomat.Caption" Value="На почтомат" />
+			<Item Name="Columns.ARVRecipient.Caption" Value="Плательщик за доставку &quot;Получатель&quot;" />
+			<Item Name="Columns.ARVRecipientAddressNote.Caption" Value="Комментарий к адресу (не обязательно)" />
+			<Item Name="Columns.ARVRecipientBack.Caption" Value="Получатель" />
+			<Item Name="Columns.ARVRecipientCityName.Caption" Value="ХХХХХХ" />
+			<Item Name="Columns.ARVRecipientContact.Caption" Value="Получатель посылки" />
+			<Item Name="Columns.ARVRecipientFlat.Caption" Value="RecipientFlat" />
+			<Item Name="Columns.ARVRecipientHouse.Caption" Value="RecipientHouse" />
+			<Item Name="Columns.ARVRecipientsPhoneNP.Caption" Value="Телефон получателя" />
+			<Item Name="Columns.ARVRecipientType.Caption" Value="RecipientType" />
+			<Item Name="Columns.ARVRef.Caption" Value="Ref" />
+			<Item Name="Columns.ARVRefundForGoods.Caption" Value="Возврат средств" />
+			<Item Name="Columns.ARVRegion.Caption" Value="Region" />
+			<Item Name="Columns.ARVSeatsAmount.Caption" Value="Количество мест" />
+			<Item Name="Columns.ARVSeatsAmountNP.Caption" Value="SeatsAmount" />
+			<Item Name="Columns.ARVSender.Caption" Value="Плательщик за доставку &quot;Отправитель&quot;" />
+			<Item Name="Columns.ARVSenderBack.Caption" Value="Отправитель" />
+			<Item Name="Columns.ARVSenderCounterparty.Caption" Value="ХХХХХХ" />
+			<Item Name="Columns.ARVSenderCounterpartyNP.Caption" Value="Контакт отправителя" />
+			<Item Name="Columns.ARVServiceType.Caption" Value="ServiceType" />
+			<Item Name="Columns.ARVSettlement.Caption" Value="Населенный пункт" />
+			<Item Name="Columns.ARVSettlementDefault.Caption" Value="Settlement (Default)" />
+			<Item Name="Columns.ARVStart.Caption" Value="Start" />
+			<Item Name="Columns.ARVStatusDocuments.Caption" Value="Статус" />
+			<Item Name="Columns.ARVStatusDocumentsDescriptionString.Caption" Value="Статус Описание" />
+			<Item Name="Columns.ARVStreet.Caption" Value="Улица" />
+			<Item Name="Columns.ARVStreetDefault.Caption" Value="Street (Default)" />
+			<Item Name="Columns.ARVString1.Caption" Value="Квартира" />
+			<Item Name="Columns.ARVSumBack.Caption" Value="Сума возврата" />
+			<Item Name="Columns.ARVTypeDocument.Caption" Value="Тип документа" />
+			<Item Name="Columns.ARVWeight.Caption" Value="Вес" />
+			<Item Name="Columns.AVRParcelType.Caption" Value="Тип посылки УДАЛИТЬ" />
+			<Item Name="Columns.AVRPayerForReturn.Caption" Value="Плательщик за возврат" />
+			<Item Name="Columns.Column65.Caption" Value="Плательщик за доставку УДАЛИТЬ" />
+			<Item Name="Columns.Column66.Caption" Value="Форма оплаты за доставку УДАЛИТЬ" />
+			<Item Name="Columns.Column67.Caption" Value="Логическое 1" />
+			<Item Name="Columns.Column68.Caption" Value="Получение посылки в удалить" />
+		</Items>
+	</Group>
+</Resources>

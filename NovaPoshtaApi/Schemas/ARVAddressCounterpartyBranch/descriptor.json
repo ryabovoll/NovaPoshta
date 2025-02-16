@@ -1,0 +1,14 @@
+﻿{
+  "Descriptor": {
+    "UId": "6edddd5a-1fef-48e4-83fc-9a0c59b39548",
+    "Name": "ARVAddressCounterpartyBranch",
+    "ModifiedOnUtc": "\/Date(1730544846000)\/",
+    "Parent": {
+      "UId": "1bab9dcf-17d5-49f8-9536-8e0064f1dce0",
+      "Name": "BaseEntity"
+    },
+    "ManagerName": "EntitySchemaManager",
+    "Caption": "Branch address",
+    "DependsOn": []
+  }
+}

@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Resources Culture="en-US">
+	<Group Type="String">
+		<Items>
+			<Item Name="Caption" Value="Новая модальная страница" />
+			<Item Name="LocalizableStrings.addRecord_9s5hhbl_caption.Value" Value="Добавить" />
+			<Item Name="LocalizableStrings.addRecord_m2uih6m_caption.Value" Value="Добавить" />
+		</Items>
+	</Group>
+</Resources>

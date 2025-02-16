@@ -1,0 +1,14 @@
+﻿{
+  "Descriptor": {
+    "UId": "1fe5e99d-af4e-40be-a829-7dc2ba85027f",
+    "Name": "App_pkvt7d3_Detail",
+    "ModifiedOnUtc": "\/Date(1730631267000)\/",
+    "Parent": {
+      "UId": "01eb38ee-668a-42f0-999d-c2534f979089",
+      "Name": "BaseGridDetailV2"
+    },
+    "ManagerName": "ClientUnitSchemaManager",
+    "Caption": "Отправление Н.П. detail",
+    "DependsOn": []
+  }
+}

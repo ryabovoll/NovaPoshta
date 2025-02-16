@@ -1,5 +1,11 @@
 <Project>
 	<ItemGroup Label="Entity Files" Condition="'$(PkgPath)' != ''">
+		<Compile Include="$(PkgPath)/NovaPoshtaApi/Schemas/AVRCargoType/AVRCargoType.cs" Condition="Exists('$(PkgPath)/NovaPoshtaApi/Schemas/AVRCargoType/AVRCargoType.cs')" />
+		<Compile Include="$(PkgPath)/NovaPoshtaApi/Schemas/AVRDeliveryPayer/AVRDeliveryPayer.cs" Condition="Exists('$(PkgPath)/NovaPoshtaApi/Schemas/AVRDeliveryPayer/AVRDeliveryPayer.cs')" />
+		<Compile Include="$(PkgPath)/NovaPoshtaApi/Schemas/AVRReceivingAParcelOn/AVRReceivingAParcelOn.cs" Condition="Exists('$(PkgPath)/NovaPoshtaApi/Schemas/AVRReceivingAParcelOn/AVRReceivingAParcelOn.cs')" />
+		<Compile Include="$(PkgPath)/NovaPoshtaApi/Schemas/AVRPayerForReturn/AVRPayerForReturn.cs" Condition="Exists('$(PkgPath)/NovaPoshtaApi/Schemas/AVRPayerForReturn/AVRPayerForReturn.cs')" />
+		<Compile Include="$(PkgPath)/NovaPoshtaApi/Schemas/AVRPaymentMethodForDelivery/AVRPaymentMethodForDelivery.cs" Condition="Exists('$(PkgPath)/NovaPoshtaApi/Schemas/AVRPaymentMethodForDelivery/AVRPaymentMethodForDelivery.cs')" />
+		<Compile Include="$(PkgPath)/NovaPoshtaApi/Schemas/ARVStreetList/ARVStreetList.cs" Condition="Exists('$(PkgPath)/NovaPoshtaApi/Schemas/ARVStreetList/ARVStreetList.cs')" />
 		<Compile Include="$(PkgPath)/NovaPoshtaApi/Schemas/ARVNovaPoshtaDeparture/ARVNovaPoshtaDeparture.cs" Condition="Exists('$(PkgPath)/NovaPoshtaApi/Schemas/ARVNovaPoshtaDeparture/ARVNovaPoshtaDeparture.cs')" />
 		<Compile Include="$(PkgPath)/NovaPoshtaApi/Schemas/ARVSettlement/ARVSettlement.cs" Condition="Exists('$(PkgPath)/NovaPoshtaApi/Schemas/ARVSettlement/ARVSettlement.cs')" />
 		<Compile Include="$(PkgPath)/NovaPoshtaApi/Schemas/ARVDefaultLics/ARVDefaultLics.cs" Condition="Exists('$(PkgPath)/NovaPoshtaApi/Schemas/ARVDefaultLics/ARVDefaultLics.cs')" />
@@ -13,13 +19,12 @@
 		<Compile Include="$(PkgPath)/NovaPoshtaApi/Schemas/ARVCounterpartyNPFolder/ARVCounterpartyNPFolder.cs" Condition="Exists('$(PkgPath)/NovaPoshtaApi/Schemas/ARVCounterpartyNPFolder/ARVCounterpartyNPFolder.cs')" />
 		<Compile Include="$(PkgPath)/NovaPoshtaApi/Schemas/ARVCounterpartyNPFile/ARVCounterpartyNPFile.cs" Condition="Exists('$(PkgPath)/NovaPoshtaApi/Schemas/ARVCounterpartyNPFile/ARVCounterpartyNPFile.cs')" />
 		<Compile Include="$(PkgPath)/NovaPoshtaApi/Schemas/ARVCounterpartyNP/ARVCounterpartyNP.cs" Condition="Exists('$(PkgPath)/NovaPoshtaApi/Schemas/ARVCounterpartyNP/ARVCounterpartyNP.cs')" />
-		<Compile Include="$(PkgPath)/NovaPoshtaApi/Schemas/ARVStreetList/ARVStreetList.cs" Condition="Exists('$(PkgPath)/NovaPoshtaApi/Schemas/ARVStreetList/ARVStreetList.cs')" />
 		<Compile Include="$(PkgPath)/NovaPoshtaApi/Schemas/ARVSeatsAmount/ARVSeatsAmount.cs" Condition="Exists('$(PkgPath)/NovaPoshtaApi/Schemas/ARVSeatsAmount/ARVSeatsAmount.cs')" />
-		<Compile Include="$(PkgPath)/NovaPoshtaApi/Schemas/ARVAddressCounterpartyBranch/ARVAddressCounterpartyBranch.cs" Condition="Exists('$(PkgPath)/NovaPoshtaApi/Schemas/ARVAddressCounterpartyBranch/ARVAddressCounterpartyBranch.cs')" />
 		<Compile Include="$(PkgPath)/NovaPoshtaApi/Schemas/ARVStatusDocuments/ARVStatusDocuments.cs" Condition="Exists('$(PkgPath)/NovaPoshtaApi/Schemas/ARVStatusDocuments/ARVStatusDocuments.cs')" />
 		<Compile Include="$(PkgPath)/NovaPoshtaApi/Schemas/ARVRegion/ARVRegion.cs" Condition="Exists('$(PkgPath)/NovaPoshtaApi/Schemas/ARVRegion/ARVRegion.cs')" />
 		<Compile Include="$(PkgPath)/NovaPoshtaApi/Schemas/ARVCounterpartyNPInFolder/ARVCounterpartyNPInFolder.cs" Condition="Exists('$(PkgPath)/NovaPoshtaApi/Schemas/ARVCounterpartyNPInFolder/ARVCounterpartyNPInFolder.cs')" />
 		<Compile Include="$(PkgPath)/NovaPoshtaApi/Schemas/ARVCounterpartyNPTag/ARVCounterpartyNPTag.cs" Condition="Exists('$(PkgPath)/NovaPoshtaApi/Schemas/ARVCounterpartyNPTag/ARVCounterpartyNPTag.cs')" />
 		<Compile Include="$(PkgPath)/NovaPoshtaApi/Schemas/ARVNovaPoshtaDepartureFile/ARVNovaPoshtaDepartureFile.cs" Condition="Exists('$(PkgPath)/NovaPoshtaApi/Schemas/ARVNovaPoshtaDepartureFile/ARVNovaPoshtaDepartureFile.cs')" />
+		<Compile Include="$(PkgPath)/NovaPoshtaApi/Schemas/ARVAddressCounterpartyBranch/ARVAddressCounterpartyBranch.cs" Condition="Exists('$(PkgPath)/NovaPoshtaApi/Schemas/ARVAddressCounterpartyBranch/ARVAddressCounterpartyBranch.cs')" />
 	</ItemGroup>
 </Project>

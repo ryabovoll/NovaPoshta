@@ -1,0 +1,14 @@
+﻿{
+  "Descriptor": {
+    "UId": "ef309398-e30a-4b74-877b-9f2f9668191b",
+    "Name": "AVRCargoType",
+    "ModifiedOnUtc": "\/Date(1730727194000)\/",
+    "Parent": {
+      "UId": "11ab4bcb-9b23-4b6d-9c86-520fae925d75",
+      "Name": "BaseLookup"
+    },
+    "ManagerName": "EntitySchemaManager",
+    "Caption": "Тип посылки",
+    "DependsOn": []
+  }
+}

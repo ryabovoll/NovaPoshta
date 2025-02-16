@@ -1,0 +1,14 @@
+﻿{
+  "Descriptor": {
+    "UId": "38136792-b544-4ae4-8562-0dd2ed4260df",
+    "Name": "Page_wxakm9h",
+    "ModifiedOnUtc": "\/Date(1730541983000)\/",
+    "Parent": {
+      "UId": "97e48060-149c-408f-9f17-8ba82c400249",
+      "Name": "PageWithAreaFreedomTemplate"
+    },
+    "ManagerName": "ClientUnitSchemaManager",
+    "Caption": "Страница записи Адрес отделения",
+    "DependsOn": []
+  }
+}

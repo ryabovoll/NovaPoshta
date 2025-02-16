@@ -1,0 +1,14 @@
+﻿{
+  "Descriptor": {
+    "UId": "92041880-3d40-4047-b533-9f703c0d8a62",
+    "Name": "CounterpartyFreedomUI_ListPage",
+    "ModifiedOnUtc": "\/Date(1736434238000)\/",
+    "Parent": {
+      "UId": "3f1f3f38-a0a4-4549-b895-249fb08f554a",
+      "Name": "ListFreedomTemplate"
+    },
+    "ManagerName": "ClientUnitSchemaManager",
+    "Caption": "Контрагент Н/П Freedom UI list page",
+    "DependsOn": []
+  }
+}

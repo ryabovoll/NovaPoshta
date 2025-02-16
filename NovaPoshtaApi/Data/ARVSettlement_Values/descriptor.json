@@ -1,0 +1,259 @@
+﻿{
+  "Descriptor": {
+    "UId": "58debe39-af9e-4d75-bf92-7ecf3ad6a55c",
+    "Name": "ARVSettlement_Values",
+    "ModifiedOnUtc": "\/Date(1710261308000)\/",
+    "InstallType": 0,
+    "Schema": {
+      "UId": "58debe39-af9e-4d75-bf92-7ecf3ad6a55c",
+      "Name": "ARVSettlement"
+    },
+    "Columns": [
+      {
+        "ColumnUId": "ae0e45ca-c495-4fe7-a39d-3ab7278e1617",
+        "IsForceUpdate": false,
+        "IsKey": true,
+        "ColumnName": "Id",
+        "DataTypeValueUId": "23018567-a13c-4320-8687-fd6f9e3699bd"
+      },
+      {
+        "ColumnUId": "e80190a5-03b2-4095-90f7-a193a960adee",
+        "IsForceUpdate": false,
+        "IsKey": false,
+        "ColumnName": "CreatedOn",
+        "DataTypeValueUId": "d21e9ef4-c064-4012-b286-fa1a8171da44"
+      },
+      {
+        "ColumnUId": "9928edec-4272-425a-93bb-48743fee4b04",
+        "IsForceUpdate": false,
+        "IsKey": false,
+        "ColumnName": "ModifiedOn",
+        "DataTypeValueUId": "d21e9ef4-c064-4012-b286-fa1a8171da44"
+      },
+      {
+        "ColumnUId": "736c30a7-c0ec-4fa9-b034-2552b319b633",
+        "IsForceUpdate": false,
+        "IsKey": false,
+        "ColumnName": "Name",
+        "DataTypeValueUId": "ddb3a1ee-07e8-4d62-b7a9-d0e618b00fbd"
+      },
+      {
+        "ColumnUId": "9e53fd7c-dde4-4502-a64c-b9e34148108b",
+        "IsForceUpdate": false,
+        "IsKey": false,
+        "ColumnName": "Description",
+        "DataTypeValueUId": "ddb3a1ee-07e8-4d62-b7a9-d0e618b00fbd"
+      },
+      {
+        "ColumnUId": "27111874-e763-b371-5733-16e7247103d9",
+        "IsForceUpdate": false,
+        "IsKey": false,
+        "ColumnName": "ARVWarehouse",
+        "DataTypeValueUId": "ddb3a1ee-07e8-4d62-b7a9-d0e618b00fbd"
+      },
+      {
+        "ColumnUId": "200c1896-bd13-e7de-7877-2dd533cbf16f",
+        "IsForceUpdate": false,
+        "IsKey": false,
+        "ColumnName": "ARVSpecialCashCheck",
+        "DataTypeValueUId": "6b6b74e2-820d-490e-a017-2b73d4ccf2b0"
+      },
+      {
+        "ColumnUId": "bcb99164-9abb-87a4-2f39-26fc223c5f07",
+        "IsForceUpdate": false,
+        "IsKey": false,
+        "ColumnName": "ARVSettlementTypeDescriptionTranslit",
+        "DataTypeValueUId": "ddb3a1ee-07e8-4d62-b7a9-d0e618b00fbd"
+      },
+      {
+        "ColumnUId": "7940ffed-f0fc-4d23-6ee2-2952e4008ad0",
+        "IsForceUpdate": false,
+        "IsKey": false,
+        "ColumnName": "ARVSettlementTypeDescriptionRu",
+        "DataTypeValueUId": "ddb3a1ee-07e8-4d62-b7a9-d0e618b00fbd"
+      },
+      {
+        "ColumnUId": "a7a2539f-62ba-3cb4-3317-30568a198570",
+        "IsForceUpdate": false,
+        "IsKey": false,
+        "ColumnName": "ARVSettlementTypeDescription",
+        "DataTypeValueUId": "ddb3a1ee-07e8-4d62-b7a9-d0e618b00fbd"
+      },
+      {
+        "ColumnUId": "e459d1f5-abb6-304b-9560-4bc6fe66e957",
+        "IsForceUpdate": false,
+        "IsKey": false,
+        "ColumnName": "ARVSettlementType",
+        "DataTypeValueUId": "ddb3a1ee-07e8-4d62-b7a9-d0e618b00fbd"
+      },
+      {
+        "ColumnUId": "c667efca-cfb4-2dd7-3bd5-98535df7ebba",
+        "IsForceUpdate": false,
+        "IsKey": false,
+        "ColumnName": "ARVRegionsDescriptionTranslit",
+        "DataTypeValueUId": "ddb3a1ee-07e8-4d62-b7a9-d0e618b00fbd"
+      },
+      {
+        "ColumnUId": "646ba5ba-c263-e9eb-b248-aa4030317990",
+        "IsForceUpdate": false,
+        "IsKey": false,
+        "ColumnName": "ARVRegionsDescriptionRu",
+        "DataTypeValueUId": "ddb3a1ee-07e8-4d62-b7a9-d0e618b00fbd"
+      },
+      {
+        "ColumnUId": "aff2e023-2d9f-9f9b-14d4-d4bc0b92faf1",
+        "IsForceUpdate": false,
+        "IsKey": false,
+        "ColumnName": "ARVRegionsDescription",
+        "DataTypeValueUId": "ddb3a1ee-07e8-4d62-b7a9-d0e618b00fbd"
+      },
+      {
+        "ColumnUId": "2328fdfc-dc09-b839-c9ba-d52b49f8737a",
+        "IsForceUpdate": false,
+        "IsKey": false,
+        "ColumnName": "ARVRegion",
+        "DataTypeValueUId": "ddb3a1ee-07e8-4d62-b7a9-d0e618b00fbd"
+      },
+      {
+        "ColumnUId": "a392e3b8-1197-1b5a-5775-04659ec854a5",
+        "IsForceUpdate": false,
+        "IsKey": false,
+        "ColumnName": "ARVRef",
+        "DataTypeValueUId": "ddb3a1ee-07e8-4d62-b7a9-d0e618b00fbd"
+      },
+      {
+        "ColumnUId": "5bb71945-8763-1430-373d-3e4a62c72da7",
+        "IsForceUpdate": false,
+        "IsKey": false,
+        "ColumnName": "ARVLongitude",
+        "DataTypeValueUId": "ddb3a1ee-07e8-4d62-b7a9-d0e618b00fbd"
+      },
+      {
+        "ColumnUId": "db0f8719-6d7d-3cfb-c4cd-859abe7978f4",
+        "IsForceUpdate": false,
+        "IsKey": false,
+        "ColumnName": "ARVLatitude",
+        "DataTypeValueUId": "ddb3a1ee-07e8-4d62-b7a9-d0e618b00fbd"
+      },
+      {
+        "ColumnUId": "e57db0ad-2ad9-9cbc-0c49-cdede187b84d",
+        "IsForceUpdate": false,
+        "IsKey": false,
+        "ColumnName": "ARVIndexCOATSU1",
+        "DataTypeValueUId": "ddb3a1ee-07e8-4d62-b7a9-d0e618b00fbd"
+      },
+      {
+        "ColumnUId": "f6d22346-8a8f-02e8-ef03-95b783889448",
+        "IsForceUpdate": false,
+        "IsKey": false,
+        "ColumnName": "ARVIndex2",
+        "DataTypeValueUId": "ddb3a1ee-07e8-4d62-b7a9-d0e618b00fbd"
+      },
+      {
+        "ColumnUId": "177b3866-b167-420c-95d9-04b3881065c0",
+        "IsForceUpdate": false,
+        "IsKey": false,
+        "ColumnName": "ARVIndex1",
+        "DataTypeValueUId": "ddb3a1ee-07e8-4d62-b7a9-d0e618b00fbd"
+      },
+      {
+        "ColumnUId": "55845fc8-7e34-e1b6-670a-5256e9500f68",
+        "IsForceUpdate": false,
+        "IsKey": false,
+        "ColumnName": "ARVDescriptionTranslit",
+        "DataTypeValueUId": "ddb3a1ee-07e8-4d62-b7a9-d0e618b00fbd"
+      },
+      {
+        "ColumnUId": "bb836256-5bc1-351c-0df7-e865ea22d6ff",
+        "IsForceUpdate": false,
+        "IsKey": false,
+        "ColumnName": "ARVDescriptionRu",
+        "DataTypeValueUId": "ddb3a1ee-07e8-4d62-b7a9-d0e618b00fbd"
+      },
+      {
+        "ColumnUId": "0dc41dbe-522f-1c07-c46f-245c5d94d603",
+        "IsForceUpdate": false,
+        "IsKey": false,
+        "ColumnName": "ARVDescription",
+        "DataTypeValueUId": "ddb3a1ee-07e8-4d62-b7a9-d0e618b00fbd"
+      },
+      {
+        "ColumnUId": "fc3da814-3778-c4d4-028e-d9d9b2753866",
+        "IsForceUpdate": false,
+        "IsKey": false,
+        "ColumnName": "ARVDelivery7",
+        "DataTypeValueUId": "ddb3a1ee-07e8-4d62-b7a9-d0e618b00fbd"
+      },
+      {
+        "ColumnUId": "76de468c-a862-a8c9-0452-708d3ac85bde",
+        "IsForceUpdate": false,
+        "IsKey": false,
+        "ColumnName": "ARVDelivery6",
+        "DataTypeValueUId": "ddb3a1ee-07e8-4d62-b7a9-d0e618b00fbd"
+      },
+      {
+        "ColumnUId": "4dd80b23-5b54-3c96-7e37-7604c40b986c",
+        "IsForceUpdate": false,
+        "IsKey": false,
+        "ColumnName": "ARVDelivery5",
+        "DataTypeValueUId": "ddb3a1ee-07e8-4d62-b7a9-d0e618b00fbd"
+      },
+      {
+        "ColumnUId": "f7091796-3aa5-3de1-3180-7033b81abed7",
+        "IsForceUpdate": false,
+        "IsKey": false,
+        "ColumnName": "ARVDelivery4",
+        "DataTypeValueUId": "ddb3a1ee-07e8-4d62-b7a9-d0e618b00fbd"
+      },
+      {
+        "ColumnUId": "85d22aa2-448f-8990-6121-9120084774d8",
+        "IsForceUpdate": false,
+        "IsKey": false,
+        "ColumnName": "ARVDelivery3",
+        "DataTypeValueUId": "ddb3a1ee-07e8-4d62-b7a9-d0e618b00fbd"
+      },
+      {
+        "ColumnUId": "687e51c6-d486-adc1-74e7-e43861147bd5",
+        "IsForceUpdate": false,
+        "IsKey": false,
+        "ColumnName": "ARVDelivery2",
+        "DataTypeValueUId": "ddb3a1ee-07e8-4d62-b7a9-d0e618b00fbd"
+      },
+      {
+        "ColumnUId": "65329e48-f57c-8da3-668d-0ed41f9e2fae",
+        "IsForceUpdate": false,
+        "IsKey": false,
+        "ColumnName": "ARVDelivery1",
+        "DataTypeValueUId": "ddb3a1ee-07e8-4d62-b7a9-d0e618b00fbd"
+      },
+      {
+        "ColumnUId": "497dbfde-6644-6c58-f9c6-22c39d4cc167",
+        "IsForceUpdate": false,
+        "IsKey": false,
+        "ColumnName": "ARVAreaDescriptionTranslit",
+        "DataTypeValueUId": "ddb3a1ee-07e8-4d62-b7a9-d0e618b00fbd"
+      },
+      {
+        "ColumnUId": "5745116c-d924-bdad-9fc6-0d1728f06247",
+        "IsForceUpdate": false,
+        "IsKey": false,
+        "ColumnName": "ARVAreaDescriptionRu",
+        "DataTypeValueUId": "ddb3a1ee-07e8-4d62-b7a9-d0e618b00fbd"
+      },
+      {
+        "ColumnUId": "4d2eb8f2-c8c9-f1b3-2872-64a51c38bb80",
+        "IsForceUpdate": false,
+        "IsKey": false,
+        "ColumnName": "ARVAreaDescription",
+        "DataTypeValueUId": "ddb3a1ee-07e8-4d62-b7a9-d0e618b00fbd"
+      },
+      {
+        "ColumnUId": "2f2a360e-d4bc-ad6c-d198-1cbd555014e3",
+        "IsForceUpdate": false,
+        "IsKey": false,
+        "ColumnName": "ARVArea",
+        "DataTypeValueUId": "ddb3a1ee-07e8-4d62-b7a9-d0e618b00fbd"
+      }
+    ]
+  }
+}

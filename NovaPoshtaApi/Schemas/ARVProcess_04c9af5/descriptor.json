@@ -1,0 +1,10 @@
+﻿{
+  "Descriptor": {
+    "UId": "13519970-f0c7-4541-94d0-794dd22a9ef5",
+    "Name": "ARVProcess_04c9af5",
+    "ModifiedOnUtc": "\/Date(1739716420000)\/",
+    "ManagerName": "ProcessSchemaManager",
+    "Caption": "Бизнес-процесс 1",
+    "DependsOn": []
+  }
+}

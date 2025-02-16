@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Resources Culture="uk-UA">
+	<Group Type="String">
+		<Items>
+			<Item Name="Caption" Value="Страница редактирования: &quot;Counterparty&quot;" />
+			<Item Name="LocalizableStrings.ARVSchemadb769e14Detail880d21deDetailCaptionOnPage.Value" Value="Адреса відділення" />
+			<Item Name="LocalizableStrings.ButtonREF.Value" Value="Завантажити Ref з Н.П." />
+			<Item Name="LocalizableStrings.Tab6b550b43TabLabelTabCaption.Value" Value="Адреси відправника" />
+		</Items>
+	</Group>
+</Resources>

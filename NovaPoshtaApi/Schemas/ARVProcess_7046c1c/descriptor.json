@@ -1,0 +1,10 @@
+﻿{
+  "Descriptor": {
+    "UId": "c3823a9f-8aeb-4641-aadf-f8b374afa0b0",
+    "Name": "ARVProcess_7046c1c",
+    "ModifiedOnUtc": "\/Date(1723808695000)\/",
+    "ManagerName": "ProcessSchemaManager",
+    "Caption": "Заполнить представление адреса корагента",
+    "DependsOn": []
+  }
+}

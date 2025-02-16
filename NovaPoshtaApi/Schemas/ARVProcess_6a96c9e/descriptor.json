@@ -1,0 +1,10 @@
+﻿{
+  "Descriptor": {
+    "UId": "f0322556-e00c-43d4-831c-aabbf1daa9db",
+    "Name": "ARVProcess_6a96c9e",
+    "ModifiedOnUtc": "\/Date(1738267298000)\/",
+    "ManagerName": "ProcessSchemaManager",
+    "Caption": "Переход на страницу 2",
+    "DependsOn": []
+  }
+}

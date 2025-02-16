@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Resources Culture="uk-UA">
+	<Group Type="String">
+		<Items>
+			<Item Name="Caption" Value="Отправление Н.П. form page" />
+			<Item Name="LocalizableStrings.Button_e7ib8yk_caption.Value" Value="Завантажити накладну" />
+			<Item Name="LocalizableStrings.Button_ebye6vd_caption.Value" Value="Створити накладну" />
+			<Item Name="LocalizableStrings.Button_i0izv2z_caption.Value" Value="Додаткові послуги" />
+			<Item Name="LocalizableStrings.Button_oaadn0f_caption.Value" Value="Параметри відправлення" />
+			<Item Name="LocalizableStrings.Button_r4qcl0c_caption.Value" Value="Продовжити" />
+			<Item Name="LocalizableStrings.Button_sh7cha8_caption.Value" Value="Відправник" />
+			<Item Name="LocalizableStrings.Button_svmshac_caption.Value" Value="Форма оплати за доставку" />
+			<Item Name="LocalizableStrings.Button_wtrwnga_caption.Value" Value="Платник за доставку" />
+			<Item Name="LocalizableStrings.Button_zp6ug00_caption.Value" Value="Одержувач" />
+			<Item Name="LocalizableStrings.Checkbox_rac70yx_tooltip.Value" Value="Безготівковий розрахунок для відправника або отримувача доступний лише за умови підписання договору." />
+			<Item Name="LocalizableStrings.DateTimePicker_6629ini_tooltip.Value" Value="Фактична дата створення надсилання встановлюється за замовчуванням. Якщо надсилання буде здійснюватись пізніше дати створення ЕН, вкажіть фактичну дату відправлення" />
+			<Item Name="LocalizableStrings.ExpansionPanel_5u3suxv_title.Value" Value="Додаткові послуги" />
+			<Item Name="LocalizableStrings.ExpansionPanel_73rqk4e_title.Value" Value="Параметри відправлення" />
+			<Item Name="LocalizableStrings.ExpansionPanel_7ibxrqh_title.Value" Value="Накладна" />
+			<Item Name="LocalizableStrings.ExpansionPanel_sp16ot6_title.Value" Value="Адреса одержувача" />
+			<Item Name="LocalizableStrings.ExpansionPanel_ymx8lau_title.Value" Value="Платник/форма оплати" />
+			<Item Name="LocalizableStrings.GeneralInfoTab_caption.Value" Value="Дані відправки" />
+			<Item Name="LocalizableStrings.Input_ox85wpb_label.Value" Value="Телефон одержувача" />
+			<Item Name="LocalizableStrings.MyButtonBack_caption.Value" Value="Назад" />
+			<Item Name="LocalizableStrings.MyButtonNext_caption.Value" Value="Продовжити" />
+			<Item Name="LocalizableStrings.NumberInput_1rjs7uw_tooltip.Value" Value="Об'ємна вага розраховується за формулою (Довжина × Ширина × Висота, см)/4000 і порівнюється з фактичною вагою. Найбільший показник використовується у розрахунках вартості перевезення." />
+		</Items>
+	</Group>
+</Resources>

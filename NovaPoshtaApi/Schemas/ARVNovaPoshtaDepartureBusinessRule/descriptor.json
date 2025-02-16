@@ -1,0 +1,10 @@
+﻿{
+  "Descriptor": {
+    "UId": "111d078e-63bb-4838-ba11-a4aa723676e4",
+    "Name": "ARVNovaPoshtaDepartureBusinessRule",
+    "ModifiedOnUtc": "\/Date(1737637586000)\/",
+    "ManagerName": "AddonSchemaManager",
+    "Caption": "Отправление Н.П. (Бизнес правила)",
+    "DependsOn": []
+  }
+}

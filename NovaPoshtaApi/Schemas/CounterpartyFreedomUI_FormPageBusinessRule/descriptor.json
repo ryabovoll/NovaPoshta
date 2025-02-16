@@ -1,0 +1,10 @@
+﻿{
+  "Descriptor": {
+    "UId": "c12c10c2-4f7a-44cc-94c1-35c5ade1a2eb",
+    "Name": "CounterpartyFreedomUI_FormPageBusinessRule",
+    "ModifiedOnUtc": "\/Date(1730629241000)\/",
+    "ManagerName": "AddonSchemaManager",
+    "Caption": "Страница записи Контрагент Н/П Freedom UI (Бизнес правила)",
+    "DependsOn": []
+  }
+}

@@ -1,0 +1,10 @@
+﻿{
+  "Descriptor": {
+    "UId": "cf937aee-e846-471b-9d16-d988999ae811",
+    "Name": "ARVAddressCounterpartyBranchRelatedPage",
+    "ModifiedOnUtc": "\/Date(1730544519000)\/",
+    "ManagerName": "AddonSchemaManager",
+    "Caption": "Адрес отделения (Настройка страницы)",
+    "DependsOn": []
+  }
+}

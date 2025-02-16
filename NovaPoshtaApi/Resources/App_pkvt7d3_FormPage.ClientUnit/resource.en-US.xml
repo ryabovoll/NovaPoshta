@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Resources Culture="en-US">
+	<Group Type="String">
+		<Items>
+			<Item Name="Caption" Value="Отправление Н.П. form page" />
+			<Item Name="LocalizableStrings.addRecord_05xv6o0_caption.Value" Value="Добавить" />
+			<Item Name="LocalizableStrings.addRecord_08fdnpc_caption.Value" Value="Добавить" />
+			<Item Name="LocalizableStrings.addRecord_6bjut4b_caption.Value" Value="Добавить" />
+			<Item Name="LocalizableStrings.addRecord_6kc35b8_caption.Value" Value="Добавить" />
+			<Item Name="LocalizableStrings.addRecord_6qi9va3_caption.Value" Value="Добавить" />
+			<Item Name="LocalizableStrings.addRecord_78hb302_caption.Value" Value="Добавить" />
+			<Item Name="LocalizableStrings.addRecord_89qd4m5_caption.Value" Value="Добавить" />
+			<Item Name="LocalizableStrings.addRecord_8jq33sv_caption.Value" Value="Добавить" />
+			<Item Name="LocalizableStrings.addRecord_a0i1esl_caption.Value" Value="Добавить" />
+			<Item Name="LocalizableStrings.addRecord_acldtaq_caption.Value" Value="Добавить" />
+			<Item Name="LocalizableStrings.addRecord_adj3119_caption.Value" Value="Добавить" />
+			<Item Name="LocalizableStrings.addRecord_b2p7qb2_caption.Value" Value="Добавить" />
+			<Item Name="LocalizableStrings.addRecord_c50jbj1_caption.Value" Value="Добавить" />
+			<Item Name="LocalizableStrings.addRecord_ci7rfi3_caption.Value" Value="Добавить" />
+			<Item Name="LocalizableStrings.addRecord_f3nklex_caption.Value" Value="Добавить" />
+			<Item Name="LocalizableStrings.addRecord_fx28md0_caption.Value" Value="Добавить" />
+			<Item Name="LocalizableStrings.addRecord_g4gjr39_caption.Value" Value="Добавить" />
+			<Item Name="LocalizableStrings.addRecord_g4or3bt_caption.Value" Value="Добавить" />
+			<Item Name="LocalizableStrings.addRecord_gswlec3_caption.Value" Value="Добавить" />
+			<Item Name="LocalizableStrings.addRecord_h3wyqe9_caption.Value" Value="Добавить" />
+			<Item Name="LocalizableStrings.addRecord_j36llun_caption.Value" Value="Добавить" />
+			<Item Name="LocalizableStrings.addRecord_kilhgly_caption.Value" Value="Добавить" />
+			<Item Name="LocalizableStrings.addRecord_npkvfhc_caption.Value" Value="Добавить" />
+			<Item Name="LocalizableStrings.addRecord_p5itweu_caption.Value" Value="Добавить" />
+			<Item Name="LocalizableStrings.addRecord_p5jjbsm_caption.Value" Value="Добавить" />
+			<Item Name="LocalizableStrings.addRecord_pmdesp4_caption.Value" Value="Добавить" />
+			<Item Name="LocalizableStrings.addRecord_q2ko99l_caption.Value" Value="Добавить" />
+			<Item Name="LocalizableStrings.addRecord_tlk1pqr_caption.Value" Value="Добавить" />
+			<Item Name="LocalizableStrings.addRecord_u3h78ul_caption.Value" Value="Добавить" />
+			<Item Name="LocalizableStrings.addRecord_z6wtg31_caption.Value" Value="Добавить" />
+			<Item Name="LocalizableStrings.addRecord_zex68dw_caption.Value" Value="Добавить" />
+			<Item Name="LocalizableStrings.Button_9xgh6ty_caption.Value" Value="Кнопка" />
+			<Item Name="LocalizableStrings.Button_e7ib8yk_caption.Value" Value="Download the invoice" />
+			<Item Name="LocalizableStrings.Button_ebye6vd_caption.Value" Value="Create an invoice" />
+			<Item Name="LocalizableStrings.Button_i0izv2z_caption.Value" Value="Additional Services" />
+			<Item Name="LocalizableStrings.Button_oaadn0f_caption.Value" Value="Shipping options" />
+			<Item Name="LocalizableStrings.Button_pjc6ywd_caption.Value" Value="Кнопка" />
+			<Item Name="LocalizableStrings.Button_r4qcl0c_caption.Value" Value="Next" />
+			<Item Name="LocalizableStrings.Button_sh7cha8_caption.Value" Value="Sender" />
+			<Item Name="LocalizableStrings.Button_svmshac_caption.Value" Value="Delivery payment form" />
+			<Item Name="LocalizableStrings.Button_wtrwnga_caption.Value" Value="Payer for delivery" />
+			<Item Name="LocalizableStrings.Button_zp6ug00_caption.Value" Value="Recipient" />
+			<Item Name="LocalizableStrings.Checkbox_rac70yx_tooltip.Value" Value="Cashless settlement for the sender or receiver is available only if the contract is signed." />
+			<Item Name="LocalizableStrings.ComboboxSearchTextAction_jzbqklt_caption.Value" Value="Добавить" />
+			<Item Name="LocalizableStrings.DateTimePicker_6629ini_tooltip.Value" Value="The actual date of sending creation is set by default. If sending will be carried out later than the date of creation of the EN, specify the actual date of sending" />
+			<Item Name="LocalizableStrings.ExpansionPanel_5u3suxv_title.Value" Value="Additional services" />
+			<Item Name="LocalizableStrings.ExpansionPanel_64ec4gg_title.Value" Value="Группа" />
+			<Item Name="LocalizableStrings.ExpansionPanel_73rqk4e_title.Value" Value="Sending options" />
+			<Item Name="LocalizableStrings.ExpansionPanel_7ibxrqh_title.Value" Value="Consignment note" />
+			<Item Name="LocalizableStrings.ExpansionPanel_sp16ot6_title.Value" Value="Recipient's address" />
+			<Item Name="LocalizableStrings.ExpansionPanel_ymx8lau_title.Value" Value="Payer/Form of payment" />
+			<Item Name="LocalizableStrings.GeneralInfoTab_caption.Value" Value="Sending data" />
+			<Item Name="LocalizableStrings.Input_ox85wpb_label.Value" Value="Recipients Phone" />
+			<Item Name="LocalizableStrings.MyButtonBack_caption.Value" Value="Back" />
+			<Item Name="LocalizableStrings.MyButtonNext_caption.Value" Value="Next" />
+			<Item Name="LocalizableStrings.NumberInput_1rjs7uw_tooltip.Value" Value="Volumetric weight is calculated using the formula (Length × Width × Height, cm) / 4000 and compared with the actual weight. The higher figure is used in calculating the cost of transportation." />
+			<Item Name="LocalizableStrings.TabContainer_549njae_caption.Value" Value="Новая вкладка" />
+			<Item Name="LocalizableStrings.TabContainer_73ls9zv_caption.Value" Value="Вкладка 2" />
+			<Item Name="LocalizableStrings.TabContainer_o4wptcm_caption.Value" Value="Вкладка 1" />
+			<Item Name="LocalizableStrings.TabContainer_pi4z0rx_caption.Value" Value="Новая вкладка" />
+		</Items>
+	</Group>
+</Resources>

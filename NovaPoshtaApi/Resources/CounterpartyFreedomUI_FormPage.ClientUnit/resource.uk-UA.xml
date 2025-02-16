@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Resources Culture="uk-UA">
+	<Group Type="String">
+		<Items>
+			<Item Name="Caption" Value="Контрагент Н/П Freedom UI form page" />
+			<Item Name="LocalizableStrings.Button_2mh01tl_caption.Value" Value="Додати" />
+			<Item Name="LocalizableStrings.Button_f7n7ih0_caption.Value" Value="Завантажити Ref з Н.П." />
+			<Item Name="LocalizableStrings.GeneralInfoTab_caption.Value" Value="Адреси відправника" />
+		</Items>
+	</Group>
+</Resources>

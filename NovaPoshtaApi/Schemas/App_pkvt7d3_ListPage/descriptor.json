@@ -1,0 +1,14 @@
+﻿{
+  "Descriptor": {
+    "UId": "7db49e85-df40-4e44-85fc-be0eb9563cdf",
+    "Name": "App_pkvt7d3_ListPage",
+    "ModifiedOnUtc": "\/Date(1738267238000)\/",
+    "Parent": {
+      "UId": "3f1f3f38-a0a4-4549-b895-249fb08f554a",
+      "Name": "ListFreedomTemplate"
+    },
+    "ManagerName": "ClientUnitSchemaManager",
+    "Caption": "Отправление Н.П. list page",
+    "DependsOn": []
+  }
+}

@@ -1,0 +1,14 @@
+﻿{
+  "Descriptor": {
+    "UId": "ea05cec0-9162-45ff-b9f8-a7a12da1e6c1",
+    "Name": "ARVSchemacfbc23b1Page",
+    "ModifiedOnUtc": "\/Date(1720875484000)\/",
+    "Parent": {
+      "UId": "d3cc497c-f286-4f13-99c1-751c468733c0",
+      "Name": "BasePageV2"
+    },
+    "ManagerName": "ClientUnitSchemaManager",
+    "Caption": "Branch address",
+    "DependsOn": []
+  }
+}

@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Resources Culture="ru-RU">
+	<Group Type="String">
+		<Items>
+			<Item Name="AddonConfig.Rules.0a9ae0fd-35ae-8040-2209-556889d50738.Caption" Value="ChildRule-bd14da98-c353-da1b-c5d6-04a10fd10046-ClearValue" />
+			<Item Name="AddonConfig.Rules.18d0a752-8be6-b5ab-e321-b56a644cbf59.Caption" Value="Установить значения: Start" />
+			<Item Name="AddonConfig.Rules.4fec92d9-e66f-242f-16b5-0757cfa7745e.Caption" Value="ChildRule-8b1b95b4-0291-9f84-706a-849b5ce6e359-ClearValue" />
+			<Item Name="AddonConfig.Rules.5055c234-16a0-970c-a551-3137bf504316.Caption" Value="Установить значения: Start (4)" />
+			<Item Name="AddonConfig.Rules.6a05b6fc-2a76-6ecd-9787-2c47dcc39e9c.Caption" Value="ChildRule-bd14da98-c353-da1b-c5d6-04a10fd10046-PopulateValue" />
+			<Item Name="AddonConfig.Rules.8a39fefb-a7a4-a0e2-1a02-3e4277c68fd7.Caption" Value="Установить значения: Start (2)" />
+			<Item Name="AddonConfig.Rules.8ab858b4-f5b7-be54-8de6-20da8970e7ed.Caption" Value="ChildRule-b52ba8cc-d3be-4f63-62b9-d9e50724ba2c-ClearValue" />
+			<Item Name="AddonConfig.Rules.8b1b95b4-0291-9f84-706a-849b5ce6e359.Caption" Value="Применить фильтр: Отделение На отделение" />
+			<Item Name="AddonConfig.Rules.95c0382f-80b6-1055-a4db-86c01ccb9075.Caption" Value="Установить значения: Start (3)" />
+			<Item Name="AddonConfig.Rules.b52ba8cc-d3be-4f63-62b9-d9e50724ba2c.Caption" Value="Применить фильтр: Отделение На почтомат" />
+			<Item Name="AddonConfig.Rules.b996aaec-d76b-8221-5bcf-4f1cf1734bc9.Caption" Value="ChildRule-8b1b95b4-0291-9f84-706a-849b5ce6e359-PopulateValue" />
+			<Item Name="AddonConfig.Rules.bd14da98-c353-da1b-c5d6-04a10fd10046.Caption" Value="Применить фильтр: Адрес отправителя" />
+			<Item Name="AddonConfig.Rules.c4935668-bf69-a063-90fb-f99c74ac8377.Caption" Value="Отделение undefined" />
+			<Item Name="AddonConfig.Rules.da33dcf0-16f0-683c-ed1a-fa431006c58a.Caption" Value="Применить фильтр: Улица На адрес" />
+			<Item Name="AddonConfig.Rules.de0e0cf0-75e1-9baf-b4c8-f95f0b877898.Caption" Value="ChildRule-b52ba8cc-d3be-4f63-62b9-d9e50724ba2c-PopulateValue" />
+			<Item Name="AddonConfig.Rules.de8896d7-b029-8d78-b260-f978dac36fb1.Caption" Value="ChildRule-da33dcf0-16f0-683c-ed1a-fa431006c58a-ClearValue" />
+			<Item Name="AddonConfig.Rules.e4f1d9ab-cdef-9ee0-0933-a73629d7410e.Caption" Value="ChildRule-da33dcf0-16f0-683c-ed1a-fa431006c58a-PopulateValue" />
+			<Item Name="Caption" Value="Отправление Н.П. (Бизнес правила)" />
+		</Items>
+	</Group>
+</Resources>

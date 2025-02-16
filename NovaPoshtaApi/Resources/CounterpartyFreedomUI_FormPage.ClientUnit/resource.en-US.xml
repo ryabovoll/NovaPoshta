@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Resources Culture="en-US">
+	<Group Type="String">
+		<Items>
+			<Item Name="Caption" Value="Контрагент Н/П Freedom UI form page" />
+			<Item Name="LocalizableStrings.addRecord_ri3z37c_caption.Value" Value="Добавить" />
+			<Item Name="LocalizableStrings.Button_2mh01tl_caption.Value" Value="Add" />
+			<Item Name="LocalizableStrings.Button_f7n7ih0_caption.Value" Value="Download Ref from N.P." />
+			<Item Name="LocalizableStrings.ExpansionPanel_h4lv13w_title.Value" Value="Адрес отделения" />
+			<Item Name="LocalizableStrings.GeneralInfoTab_caption.Value" Value="AddressesSender" />
+			<Item Name="LocalizableStrings.GridDetailAddBtn_y6pw9nm_caption.Value" Value="Добавить" />
+			<Item Name="LocalizableStrings.GridDetailExportDataBtn_7yko0jv_caption.Value" Value="Экспорт в Excel" />
+			<Item Name="LocalizableStrings.GridDetailImportDataBtn_agbdz6o_caption.Value" Value="Импорт данных" />
+			<Item Name="LocalizableStrings.GridDetailRefreshBtn_0g3o1to_caption.Value" Value="Обновить" />
+			<Item Name="LocalizableStrings.GridDetailSearchFilter_6wywmj9_placeholder.Value" Value="Поиск" />
+			<Item Name="LocalizableStrings.GridDetailSettingsBtn_lymbz1g_caption.Value" Value="Действия" />
+			<Item Name="LocalizableStrings.MenuItem_cohk8vk_caption.Value" Value="Пункт меню" />
+		</Items>
+	</Group>
+</Resources>

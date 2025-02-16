@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Resources Culture="en-US">
+	<Group Type="String">
+		<Items>
+			<Item Name="Caption" Value="Departure N.P." />
+			<Item Name="Columns.ARVaddressBool.Caption" Value="To address" />
+			<Item Name="Columns.ARVAddressCounterparty.Caption" Value="Sender's address" />
+			<Item Name="Columns.ARVBack.Caption" Value="back" />
+			<Item Name="Columns.ARVCargoTypeNP.Caption" Value="CargoType" />
+			<Item Name="Columns.ARVCash.Caption" Value="Payment for delivery &quot;Cash&quot;" />
+			<Item Name="Columns.ARVCost.Caption" Value="Announced price" />
+			<Item Name="Columns.ARVCostOnSite.Caption" Value="Delivery price" />
+			<Item Name="Columns.ARVDateTime.Caption" Value="Date of dispatch" />
+			<Item Name="Columns.ARVDefault.Caption" Value="Default" />
+			<Item Name="Columns.ARVDepartment.Caption" Value="Department" />
+			<Item Name="Columns.ARVDepartmentBool.Caption" Value="To department" />
+			<Item Name="Columns.ARVDepartmentDefault.Caption" Value="Відділення (Default)" />
+			<Item Name="Columns.ARVDescriptionNP.Caption" Value="Description" />
+			<Item Name="Columns.ARVDocuments.Caption" Value="Documents" />
+			<Item Name="Columns.ARVEstimatedDeliveryDate.Caption" Value="Estimated Delivery Date" />
+			<Item Name="Columns.ARVFloatVolumeWeight.Caption" Value="volume weight" />
+			<Item Name="Columns.ARVForTheRuleALLTrue.Caption" Value="For the rule - ALL &quot;True&quot;" />
+			<Item Name="Columns.ARVForTheRuleFalse.Caption" Value="For the rule - ALL &quot;False&quot;" />
+			<Item Name="Columns.ARVHouse.Caption" Value="House" />
+			<Item Name="Columns.ARVIntDefault.Caption" Value="IntDefault" />
+			<Item Name="Columns.ARVIntHeight.Caption" Value="Height cm" />
+			<Item Name="Columns.ARVIntLength.Caption" Value="Length cm" />
+			<Item Name="Columns.ARVIntWeight.Caption" Value="Weight parcels" />
+			<Item Name="Columns.ARVIntWidth.Caption" Value="Width cm" />
+			<Item Name="Columns.ARVName.Caption" Value="Doc Number" />
+			<Item Name="Columns.ARVNext.Caption" Value="Next" />
+			<Item Name="Columns.ARVNoCash.Caption" Value="Payment for delivery &quot;No cash&quot;" />
+			<Item Name="Columns.ARVNotes.Caption" Value="Notes" />
+			<Item Name="Columns.ARVParcel.Caption" Value="Parcel" />
+			<Item Name="Columns.ARVPayerTypeBackNP.Caption" Value="PayerTypeBack" />
+			<Item Name="Columns.ARVPayerTypeNP.Caption" Value="PayerType" />
+			<Item Name="Columns.ARVPaymentMethodNP.Caption" Value="PaymentMethod" />
+			<Item Name="Columns.ARVPostomat.Caption" Value="To postomat" />
+			<Item Name="Columns.ARVRecipient.Caption" Value="Payer for delivery &quot;Recipient&quot;" />
+			<Item Name="Columns.ARVRecipientAddressNote.Caption" Value="Comment to the address (optional)" />
+			<Item Name="Columns.ARVRecipientBack.Caption" Value="Recipient" />
+			<Item Name="Columns.ARVRecipientCityName.Caption" Value="RecipientCityName" />
+			<Item Name="Columns.ARVRecipientContact.Caption" Value="Recipient of the parcel" />
+			<Item Name="Columns.ARVRecipientFlat.Caption" Value="RecipientFlat" />
+			<Item Name="Columns.ARVRecipientHouse.Caption" Value="RecipientHouse" />
+			<Item Name="Columns.ARVRecipientsPhoneNP.Caption" Value="Recipients Phone" />
+			<Item Name="Columns.ARVRecipientType.Caption" Value="RecipientType" />
+			<Item Name="Columns.ARVRef.Caption" Value="Ref" />
+			<Item Name="Columns.ARVRefundForGoods.Caption" Value="Refund" />
+			<Item Name="Columns.ARVRegion.Caption" Value="Region" />
+			<Item Name="Columns.ARVSeatsAmount.Caption" Value="Seats Amount" />
+			<Item Name="Columns.ARVSeatsAmountNP.Caption" Value="SeatsAmount" />
+			<Item Name="Columns.ARVSender.Caption" Value="Payer for delivery &quot;Sender&quot;" />
+			<Item Name="Columns.ARVSenderBack.Caption" Value="Sender" />
+			<Item Name="Columns.ARVSenderCounterparty.Caption" Value="Contact" />
+			<Item Name="Columns.ARVSenderCounterpartyNP.Caption" Value="Sender's contact" />
+			<Item Name="Columns.ARVServiceType.Caption" Value="ServiceType" />
+			<Item Name="Columns.ARVSettlement.Caption" Value="Settlement" />
+			<Item Name="Columns.ARVSettlementDefault.Caption" Value="Settlement (Default)" />
+			<Item Name="Columns.ARVStart.Caption" Value="Start" />
+			<Item Name="Columns.ARVStatusDocuments.Caption" Value="Status" />
+			<Item Name="Columns.ARVStatusDocumentsDescriptionString.Caption" Value="Status Description" />
+			<Item Name="Columns.ARVStreet.Caption" Value="Street" />
+			<Item Name="Columns.ARVStreetDefault.Caption" Value="Street (Default)" />
+			<Item Name="Columns.ARVString1.Caption" Value="Apartment" />
+			<Item Name="Columns.ARVSumBack.Caption" Value="Refund amount" />
+			<Item Name="Columns.ARVTypeDocument.Caption" Value="Type Document" />
+			<Item Name="Columns.ARVWeight.Caption" Value="Weight" />
+			<Item Name="Columns.AVRParcelType.Caption" Value="Parcel type" />
+			<Item Name="Columns.AVRPayerForReturn.Caption" Value="Payer for return" />
+			<Item Name="Columns.Column65.Caption" Value="Payer for delivery" />
+			<Item Name="Columns.Column66.Caption" Value="Payment form for delivery" />
+			<Item Name="Columns.Column67.Caption" Value="Логическое 1" />
+			<Item Name="Columns.Column68.Caption" Value="Receiving a parcel in" />
+		</Items>
+	</Group>
+</Resources>

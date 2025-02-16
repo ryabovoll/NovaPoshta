@@ -1,0 +1,10 @@
+﻿{
+  "Descriptor": {
+    "UId": "be46bd67-782c-47ee-ae4c-22a1c32844bb",
+    "Name": "ARVCounterpartyNPRelatedPage",
+    "ModifiedOnUtc": "\/Date(1736433405000)\/",
+    "ManagerName": "AddonSchemaManager",
+    "Caption": "Контрагент Н.П. (Настройка страницы)",
+    "DependsOn": []
+  }
+}

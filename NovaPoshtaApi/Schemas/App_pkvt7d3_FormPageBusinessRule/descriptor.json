@@ -1,0 +1,10 @@
+﻿{
+  "Descriptor": {
+    "UId": "f9ece89d-ec47-44ab-b06f-8084a0ebc0e4",
+    "Name": "App_pkvt7d3_FormPageBusinessRule",
+    "ModifiedOnUtc": "\/Date(1736943899000)\/",
+    "ManagerName": "AddonSchemaManager",
+    "Caption": "Страница записи Отправление Н.П. (Бизнес правила)",
+    "DependsOn": []
+  }
+}

@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Resources Culture="uk-UA">
+	<Group Type="String">
+		<Items>
+			<Item Name="Caption" Value="Відправлення Н.П." />
+			<Item Name="Columns.ARVaddressBool.Caption" Value="На адресу" />
+			<Item Name="Columns.ARVAddressCounterparty.Caption" Value="Адреса відправника" />
+			<Item Name="Columns.ARVCash.Caption" Value="Оплата за доставку &quot;Готівка&quot;" />
+			<Item Name="Columns.ARVCost.Caption" Value="Оголошена вартість" />
+			<Item Name="Columns.ARVCostOnSite.Caption" Value="Ціна за доставку" />
+			<Item Name="Columns.ARVDateTime.Caption" Value="Дата відправки" />
+			<Item Name="Columns.ARVDepartment.Caption" Value="Відділення" />
+			<Item Name="Columns.ARVDepartmentBool.Caption" Value="У відділення" />
+			<Item Name="Columns.ARVDescriptionNP.Caption" Value="Опис" />
+			<Item Name="Columns.ARVDocuments.Caption" Value="Документи" />
+			<Item Name="Columns.ARVEstimatedDeliveryDate.Caption" Value="Передбачувана дата поставки" />
+			<Item Name="Columns.ARVFloatVolumeWeight.Caption" Value="об'ємна вага" />
+			<Item Name="Columns.ARVHouse.Caption" Value="Будинок" />
+			<Item Name="Columns.ARVIntHeight.Caption" Value="Висота см" />
+			<Item Name="Columns.ARVIntLength.Caption" Value="Довжина см" />
+			<Item Name="Columns.ARVIntWeight.Caption" Value="Вага посилки" />
+			<Item Name="Columns.ARVIntWidth.Caption" Value="Ширина см" />
+			<Item Name="Columns.ARVName.Caption" Value="Номер документа" />
+			<Item Name="Columns.ARVNoCash.Caption" Value="Оплата за доставку &quot;Безготівка&quot;" />
+			<Item Name="Columns.ARVNotes.Caption" Value="Примітки" />
+			<Item Name="Columns.ARVParcel.Caption" Value="Посилка" />
+			<Item Name="Columns.ARVPostomat.Caption" Value="У поштомат" />
+			<Item Name="Columns.ARVRecipient.Caption" Value="Платник за доставку &quot;Отримувач&quot;" />
+			<Item Name="Columns.ARVRecipientAddressNote.Caption" Value="Коментар до адреси (не обов'язково)" />
+			<Item Name="Columns.ARVRecipientBack.Caption" Value="Одержувач" />
+			<Item Name="Columns.ARVRecipientContact.Caption" Value="Одержувач посилки" />
+			<Item Name="Columns.ARVRecipientsPhoneNP.Caption" Value="Телефон одержувача" />
+			<Item Name="Columns.ARVRef.Caption" Value="Ref" />
+			<Item Name="Columns.ARVRefundForGoods.Caption" Value="Повернення коштів" />
+			<Item Name="Columns.ARVSeatsAmount.Caption" Value="Кількість місць" />
+			<Item Name="Columns.ARVSender.Caption" Value="Платник за доставку &quot;Відправник&quot;" />
+			<Item Name="Columns.ARVSenderBack.Caption" Value="Відправник" />
+			<Item Name="Columns.ARVSenderCounterparty.Caption" Value="Контакт" />
+			<Item Name="Columns.ARVSenderCounterpartyNP.Caption" Value="Контакт відправника" />
+			<Item Name="Columns.ARVSettlement.Caption" Value="Населений пункт" />
+			<Item Name="Columns.ARVStatusDocuments.Caption" Value="Статус" />
+			<Item Name="Columns.ARVStatusDocumentsDescriptionString.Caption" Value="Опис статусу" />
+			<Item Name="Columns.ARVStreet.Caption" Value="Вулиця" />
+			<Item Name="Columns.ARVString1.Caption" Value="Квартира" />
+			<Item Name="Columns.ARVSumBack.Caption" Value="Сума повернення" />
+			<Item Name="Columns.ARVTypeDocument.Caption" Value="Тип документа" />
+			<Item Name="Columns.ARVWeight.Caption" Value="Вага" />
+			<Item Name="Columns.AVRParcelType.Caption" Value="Тип посилки" />
+			<Item Name="Columns.AVRPayerForReturn.Caption" Value="Платник за повернення" />
+			<Item Name="Columns.Column65.Caption" Value="Платник за доставку" />
+			<Item Name="Columns.Column66.Caption" Value="Форма оплати за доставку" />
+			<Item Name="Columns.Column68.Caption" Value="Отримання посилки у" />
+		</Items>
+	</Group>
+</Resources>

@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Resources Culture="ru-RU">
+	<Group Type="String">
+		<Items>
+			<Item Name="AddonConfig.Rules.488d0880-7ff1-67d7-f3c6-3afd9ed16265.Caption" Value="ChildRule-9fa85c47-7325-053f-973e-73519894da1d-ClearValue" />
+			<Item Name="AddonConfig.Rules.9fa85c47-7325-053f-973e-73519894da1d.Caption" Value="Бизнес правило" />
+			<Item Name="AddonConfig.Rules.d1d6e5ab-6730-2a91-9ff1-1ca2b35a9cdc.Caption" Value="ChildRule-9fa85c47-7325-053f-973e-73519894da1d-PopulateValue" />
+			<Item Name="Caption" Value="Адрес отделения (Бизнес правила)" />
+		</Items>
+	</Group>
+</Resources>

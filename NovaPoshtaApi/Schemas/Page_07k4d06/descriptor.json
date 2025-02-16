@@ -1,0 +1,14 @@
+﻿{
+  "Descriptor": {
+    "UId": "8b827453-6b79-4edd-b0d4-10ffb1621371",
+    "Name": "Page_07k4d06",
+    "ModifiedOnUtc": "\/Date(1728049992000)\/",
+    "Parent": {
+      "UId": "ecdcc8ff-272c-4957-9381-7d74ce17e140",
+      "Name": "BaseMiniPageTemplate"
+    },
+    "ManagerName": "ClientUnitSchemaManager",
+    "Caption": "Новая модальная страница",
+    "DependsOn": []
+  }
+}

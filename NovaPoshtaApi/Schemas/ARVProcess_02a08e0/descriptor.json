@@ -1,0 +1,10 @@
+﻿{
+  "Descriptor": {
+    "UId": "f0924ccb-b580-4350-a0d0-c4e3518b364f",
+    "Name": "ARVProcess_02a08e0",
+    "ModifiedOnUtc": "\/Date(1723808482000)\/",
+    "ManagerName": "ProcessSchemaManager",
+    "Caption": "Удалить накладную",
+    "DependsOn": []
+  }
+}

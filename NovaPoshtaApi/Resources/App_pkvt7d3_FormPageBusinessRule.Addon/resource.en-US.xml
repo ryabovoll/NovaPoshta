@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Resources Culture="en-US">
+	<Group Type="String">
+		<Items>
+			<Item Name="AddonConfig.Rules.0635d259-e9da-8bcb-ec18-44b7852caee1.Caption" Value="Сделать элементы только для чтения: Назад" />
+			<Item Name="AddonConfig.Rules.4e776f55-ebce-d119-c823-e235abb571ed.Caption" Value="Сделать элементы редактируемыми: Кнопка" />
+			<Item Name="AddonConfig.Rules.63b06f84-c4f3-647f-95d6-475679126013.Caption" Value="страница 3" />
+			<Item Name="AddonConfig.Rules.8af1961e-c6c7-db3f-f186-5aad5b6f6b96.Caption" Value="к редактированию Start" />
+			<Item Name="AddonConfig.Rules.e42387b9-5ca5-e84c-0527-7f62379cb672.Caption" Value="страница 2" />
+			<Item Name="AddonConfig.Rules.e6a0d4e7-6b92-31a6-e0c0-dc81e69d8f0a.Caption" Value="страница 1" />
+			<Item Name="Caption" Value="Страница записи Отправление Н.П. (Бизнес правила)" />
+		</Items>
+	</Group>
+</Resources>

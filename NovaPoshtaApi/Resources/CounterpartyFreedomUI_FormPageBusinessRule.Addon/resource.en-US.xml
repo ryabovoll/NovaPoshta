@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Resources Culture="en-US">
+	<Group Type="String">
+		<Items>
+			<Item Name="AddonConfig.Rules.b21f3a2b-1336-b7da-63c4-0351f33dac5f.Caption" Value="Показать элементы: Загрузить Ref из Н.П." />
+			<Item Name="AddonConfig.Rules.c9fda0ab-6862-0bc9-dc04-578885bdad82.Caption" Value="Сделать элементы только для чтения: Api ключ" />
+			<Item Name="Caption" Value="Страница записи Контрагент Н/П Freedom UI (Бизнес правила)" />
+		</Items>
+	</Group>
+</Resources>

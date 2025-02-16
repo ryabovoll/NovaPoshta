@@ -1,0 +1,10 @@
+﻿{
+  "Descriptor": {
+    "UId": "d1aefcea-237b-4840-a99f-ed13e1f9dc46",
+    "Name": "ARVNovaPoshtaDepartureRelatedPage",
+    "ModifiedOnUtc": "\/Date(1736433873000)\/",
+    "ManagerName": "AddonSchemaManager",
+    "Caption": "Отправление Н.П. (Настройка страницы)",
+    "DependsOn": []
+  }
+}

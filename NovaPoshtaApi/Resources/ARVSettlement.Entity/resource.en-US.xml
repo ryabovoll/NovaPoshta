@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Resources Culture="en-US">
+	<Group Type="String">
+		<Items>
+			<Item Name="Caption" Value="Settlement" />
+			<Item Name="Columns.ARVArea.Caption" Value="Area" />
+			<Item Name="Columns.ARVAreaDescription.Caption" Value="AreaDescription" />
+			<Item Name="Columns.ARVAreaDescriptionRu.Caption" Value="AreaDescriptionRu" />
+			<Item Name="Columns.ARVAreaDescriptionTranslit.Caption" Value="AreaDescriptionTranslit" />
+			<Item Name="Columns.ARVDelivery1.Caption" Value="Delivery1" />
+			<Item Name="Columns.ARVDelivery2.Caption" Value="Delivery2" />
+			<Item Name="Columns.ARVDelivery3.Caption" Value="Delivery3" />
+			<Item Name="Columns.ARVDelivery4.Caption" Value="Delivery4" />
+			<Item Name="Columns.ARVDelivery5.Caption" Value="Delivery5" />
+			<Item Name="Columns.ARVDelivery6.Caption" Value="Delivery6" />
+			<Item Name="Columns.ARVDelivery7.Caption" Value="Delivery7" />
+			<Item Name="Columns.ARVDescription.Caption" Value="Description" />
+			<Item Name="Columns.ARVDescriptionRu.Caption" Value="DescriptionRu" />
+			<Item Name="Columns.ARVDescriptionTranslit.Caption" Value="DescriptionTranslit" />
+			<Item Name="Columns.ARVIndex1.Caption" Value="Index1" />
+			<Item Name="Columns.ARVIndex2.Caption" Value="Index2" />
+			<Item Name="Columns.ARVIndexCOATSU1.Caption" Value="IndexCOATSU1" />
+			<Item Name="Columns.ARVLatitude.Caption" Value="Latitude" />
+			<Item Name="Columns.ARVLongitude.Caption" Value="Longitude" />
+			<Item Name="Columns.ARVRef.Caption" Value="Ref" />
+			<Item Name="Columns.ARVRegion.Caption" Value="Region" />
+			<Item Name="Columns.ARVRegionsDescription.Caption" Value="RegionsDescription" />
+			<Item Name="Columns.ARVRegionsDescriptionRu.Caption" Value="RegionsDescriptionRu" />
+			<Item Name="Columns.ARVRegionsDescriptionTranslit.Caption" Value="RegionsDescriptionTranslit" />
+			<Item Name="Columns.ARVSettlementType.Caption" Value="SettlementType" />
+			<Item Name="Columns.ARVSettlementTypeDescription.Caption" Value="SettlementTypeDescription" />
+			<Item Name="Columns.ARVSettlementTypeDescriptionRu.Caption" Value="SettlementTypeDescriptionRu" />
+			<Item Name="Columns.ARVSettlementTypeDescriptionTranslit.Caption" Value="SettlementTypeDescriptionTranslit" />
+			<Item Name="Columns.ARVSpecialCashCheck.Caption" Value="SpecialCashCheck" />
+			<Item Name="Columns.ARVWarehouse.Caption" Value="Warehouse" />
+		</Items>
+	</Group>
+</Resources>

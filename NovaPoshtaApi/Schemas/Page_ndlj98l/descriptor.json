@@ -1,0 +1,14 @@
+﻿{
+  "Descriptor": {
+    "UId": "74f36388-6ce7-4c91-b149-450918398229",
+    "Name": "Page_ndlj98l",
+    "ModifiedOnUtc": "\/Date(1732013391000)\/",
+    "Parent": {
+      "UId": "ecdcc8ff-272c-4957-9381-7d74ce17e140",
+      "Name": "BaseMiniPageTemplate"
+    },
+    "ManagerName": "ClientUnitSchemaManager",
+    "Caption": "Модальная страница записи Адрес отделения",
+    "DependsOn": []
+  }
+}

@@ -1,0 +1,14 @@
+﻿{
+  "Descriptor": {
+    "UId": "6bb93f54-3131-4255-bdd0-c384021e0004",
+    "Name": "ARVSchemadb769e14Detail",
+    "ModifiedOnUtc": "\/Date(1710143720000)\/",
+    "Parent": {
+      "UId": "01eb38ee-668a-42f0-999d-c2534f979089",
+      "Name": "BaseGridDetailV2"
+    },
+    "ManagerName": "ClientUnitSchemaManager",
+    "Caption": "Branch address",
+    "DependsOn": []
+  }
+}
